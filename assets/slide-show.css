@@ -1,3 +1,6 @@
+.text-white{
+    color: #fff !important;
+}
 .slide-show .slick-dots{
     position: absolute;
     bottom: 0;
@@ -48,7 +51,9 @@
     font-size: 16px;
     color: #000;
 }
-
+.text-white .text-slider .description-slide{
+    color: #FFF !important;
+}
 .slide-btn{
     display: inline-block;
     font-family: var(--g-font-2);
@@ -209,8 +214,9 @@ h2.title-slide {
     left: 60%;
 }
 a.link-base.link-left {
-    left: 60%;
-    top: 63%;
+    left: 0; 
+    top: 2%;
+    position: relative;
 }
 
 /* HOME 3 */
@@ -240,9 +246,10 @@ a.link-base.link-left:hover {
 /* HOME 4 */
 .slide-image_child {
     position: absolute;
-    left: 47%;
-    transform: translateX(-50%);
-    width: 15.6%;
+    right: 0%;
+    /* transform: translateX(-50%); */
+    width: 41%;
+    top: 5%;
 }
 @media(max-width: 576px){
     h4.sub-title-slide {
