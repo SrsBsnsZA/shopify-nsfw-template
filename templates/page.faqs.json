@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "page-faqs": {
+      "type": "page-faqs",
+      "blocks": {
+        "fa21d058-943c-40ea-bd52-0c40dd0e744d": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "title": "General Information",
+            "des": ""
+          }
+        },
+        "904687cd-80f4-4389-9e2d-1e2b88374ce7": {
+          "type": "faq",
+          "settings": {
+            "title": "Are these socks for everyone?",
+            "answer": "If by ‘everyone’ you mean those with an insatiable zest for pushing boundaries, then yes. If you blush easily, sit this one out. Also, our socks are not for anyone under 18."
+          }
+        },
+        "3ea4ee54-cfdf-4074-b2b9-eb293189786a": {
+          "type": "faq",
+          "settings": {
+            "title": "How long will my Rude Socks take to come?",
+            "answer": "Look, patience is a virtue—even in the bedroom. Average delivery time is between 2 to 5 working days. Once we’ve given your package a proper send-off, you’ll get all the tantalising tracking details via email."
+          }
+        },
+        "4bd17bba-94ac-4f40-80bc-c10373ae3d3a": {
+          "type": "faq",
+          "settings": {
+            "title": "Do you ship internationally, or is this a South African-only affair?",
+            "answer": "Darling, make us an offer we can’t refuse, and we might cross borders for you. Wink wink."
+          }
+        },
+        "cbdb713b-c423-4d3f-8997-058459cb4d8c": {
+          "type": "faq",
+          "settings": {
+            "title": "Is delivery free, or are there strings attached?",
+            "answer": "Oh, you’ll love this—orders over R1000 get free delivery. No strings, no cuffs—maybe whips and chains—but it’s all on the house. This delightful indulgence will be applied automatically at checkout."
+          }
+        },
+        "2cf50ec5-8220-4d97-8ee2-dcab9bfbf304": {
+          "type": "faq",
+          "settings": {
+            "title": "How can I become a ‘Cockist’ of your scandalous socks?",
+            "answer": "Own a store? Feeling a little empty inside? Let’s fill that void. If you’ve got the space, we’ve got the spice. Have Rude Socks strut their saucy stuff on your shelves and watch the temperature rise. Are you daring enough to have us inside you?"
+          }
+        },
+        "f192b09c-21bb-4a72-8805-a4289f03ef3c": {
+          "type": "faq",
+          "settings": {
+            "title": "Custom socks? Do tell!",
+            "answer": "Feeling kink-spired? We create custom socks for events, teams, schools, dungeons and even red rooms! Head to our\n    ‘Custom Socks’ page and fill out the form or shoot us an email at <span><a href=\"mailto:willy@rudesocks.co.za\">willy@rudesocks.co.za.<\/a><\/span> Plus, not every sock needs a dick on it."
+          }
+        },
+        "f807e2be-4345-4ed7-9cd4-998fa007abca": {
+          "type": "faq",
+          "settings": {
+            "title": "Are Rude Socks tested on animals?",
+            "answer": "The only animal we tested these socks on is your mom, and she loved them!"
+          }
+        },
+        "a89c6525-cefc-4c0f-b90e-7f3c2bfc5272": {
+          "type": "faq",
+          "settings": {
+            "title": "How do I break up with you—err, unsubscribe?",
+            "answer": "Thinking of ghosting us? Fine! Hit the unsubscribe button at the bottom of the email. It’s not you; it’s us. Actually…, it’s definitely you."
+          }
+        },
+        "48e8d95f-6f36-4cb1-94d4-f53d7708f76c": {
+          "type": "html",
+          "settings": {
+            "title": "",
+            "des": "<p>----<\/p>\n\n<p>And about those returns...<\/p>"
+          }
+        },
+        "a26a79e7-bf63-46b2-9ad6-5c47f2975455": {
+          "type": "faq",
+          "settings": {
+            "title": "General Return Policy:",
+            "answer": "<p>Do you have cold feet? Fine! You can return your socks within 14 days of receiving them—just make sure they’re as\n    untouched as a virgin. <\/p>\n<ul>\n    <li>All returned socks must be unwashed, unworn, unused, and come with all original sinful packaging. No crusty\n        socks will be accepted.<\/li>\n    <li>If you’re swapping sizes, styles, or colours, you must cover the shipping costs yourself.<\/li>\n    <li>Have you already got your order? You’ll cover the shipping costs for online credit or refund.<\/li>\n<\/ul>\n\n<h2>Defective Socks:<\/h2>\n<p>Well, hell, sometimes we’re not perfect. Contact us within 7 days of wearing them, and we’ll sort you out.<\/p>\n\n<h2>Steps for Returning an Item:<\/h2>\n<ol>\n    <li>Slide into our ‘Contact Us’ page.<\/li>\n    <li>Spill all your dirty secrets in the form.<\/li>\n    <li>Tell us why you’re not satisfied. Whip us into shape? Is it the size? Too big? The style? Performance issues?\n    <\/li>\n    <li>Hit that submit button like you mean it.<\/li>\n<li>We’ll get back to you ASAP—because nobody likes to be left hanging.<\/li>\n<\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "fa21d058-943c-40ea-bd52-0c40dd0e744d",
+        "904687cd-80f4-4389-9e2d-1e2b88374ce7",
+        "3ea4ee54-cfdf-4074-b2b9-eb293189786a",
+        "4bd17bba-94ac-4f40-80bc-c10373ae3d3a",
+        "cbdb713b-c423-4d3f-8997-058459cb4d8c",
+        "2cf50ec5-8220-4d97-8ee2-dcab9bfbf304",
+        "f192b09c-21bb-4a72-8805-a4289f03ef3c",
+        "f807e2be-4345-4ed7-9cd4-998fa007abca",
+        "a89c6525-cefc-4c0f-b90e-7f3c2bfc5272",
+        "48e8d95f-6f36-4cb1-94d4-f53d7708f76c",
+        "a26a79e7-bf63-46b2-9ad6-5c47f2975455"
+      ],
+      "settings": {
+        "heading": "Frequently Asked & Entirely Inappropriate Questions (FAEIQs)",
+        "subheading": "Let’s answer your burning questions. You may need ointment for that.",
+        "faqs_form_enable": false,
+        "heading_faqs": "",
+        "faqs_form_pos": "right",
+        "layout": "layout-1",
+        "cl_mix_1": "#d9175f",
+        "cl_mix_2": "#ffffff"
+      }
+    },
+    "fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "General Return Policy:",
+            "heading_size": "h1"
+          }
+        },
+        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-heading-1",
+        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-text-1",
+        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page-faqs",
+    "fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2"
+  ]
+}

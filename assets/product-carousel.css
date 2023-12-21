@@ -1,0 +1,25 @@
+.product-carousel{
+    width: 100%;
+}
+.items-product{
+    padding: 0 1.5rem;
+}
+.product-carousel .product-items{
+    margin: 0 1rem;
+}
+.product-carousel .row {
+    margin: 0 -15px;
+}
+.product-carousel .container {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+.product-carousel-slick {
+    margin-bottom: 30px;
+}
+@media (min-width: 991px) {
+    .product-carousel-slick {
+        margin-bottom: 0;
+    }
+}

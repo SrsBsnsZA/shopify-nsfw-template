@@ -1,0 +1,170 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share:",
+            "share_facebook": true,
+            "share_twitter": true,
+            "share_instagram": true,
+            "share_pinterest": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "031e70a1-00a7-4dd2-9034-ecac48f91a4d": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "ba9d02ac-858b-4a26-9a82-ee37a9958f5a": {
+          "type": "low_stock",
+          "settings": {
+            "low_stock_title": "Hurrify, only a few left:"
+          }
+        },
+        "65ce2043-846b-4744-83c8-fb5a407cf75f": {
+          "type": "product_countdown",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "c1102de5-ab4a-4a76-a6b4-ffaa7d489efc": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "8aef8e72-5c2f-4745-9c87-6a84067ec861": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "e8ecaeae-95c2-4218-a258-0132df2380b4": {
+          "type": "fake_viewer",
+          "settings": {
+            "fake_view_text_suffix": "Currently there are %c% peoples are currently looking at this product",
+            "fake_view_min": "10",
+            "fake_view_max": "25",
+            "fake_view_duration": "1500"
+          }
+        },
+        "2bef7c12-0481-424f-b6d4-ecf5cf448d05": {
+          "type": "free_shipping",
+          "settings": {
+          }
+        },
+        "9df41162-ee14-4b1a-961c-8a7155ea44ef": {
+          "type": "wishlist_compare",
+          "settings": {
+            "enable_wishlist": true,
+            "enable_compare": true,
+            "enable_guide": false,
+            "sizeguide_collection_1": "",
+            "sizeguide_collection_2": "",
+            "sizeguide_collection_3": "",
+            "sizeguide_collection_4": "",
+            "sizeguide_collection_5": "",
+            "sizeguide_collection_6": "",
+            "sizeguide_collection_7": "",
+            "sizeguide_collection_8": "",
+            "sizeguide_collection_9": "",
+            "sizeguide_collection_10": ""
+          }
+        },
+        "d004d14a-625e-4bd6-894a-b5f1d17285ca": {
+          "type": "tags",
+          "settings": {
+            "tags_label": "Tags:"
+          }
+        },
+        "3dd9be9d-1f1b-445c-8a94-217dd49caf1c": {
+          "type": "group_product",
+          "settings": {
+            "group_product_enable": true,
+            "group_product_title": "group product"
+          }
+        },
+        "1f38c27f-8d69-4c99-aaf8-76b33882eac3": {
+          "type": "tab_description",
+          "settings": {
+            "tab_position_display": "bottom",
+            "tab_type": "tab",
+            "tab_title_align": "justify",
+            "show_product_description": true,
+            "show_product_review": true,
+            "show_specific_tab": true,
+            "specific_tab_title1": "Tab 1",
+            "specific_tab_title2": "Tab 2",
+            "specific_tab_title3": "Tab 3",
+            "specific_tab_title4": "Tab 4"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "share",
+        "price",
+        "031e70a1-00a7-4dd2-9034-ecac48f91a4d",
+        "ba9d02ac-858b-4a26-9a82-ee37a9958f5a",
+        "65ce2043-846b-4744-83c8-fb5a407cf75f",
+        "variant_picker",
+        "c1102de5-ab4a-4a76-a6b4-ffaa7d489efc",
+        "8aef8e72-5c2f-4745-9c87-6a84067ec861",
+        "e8ecaeae-95c2-4218-a258-0132df2380b4",
+        "2bef7c12-0481-424f-b6d4-ecf5cf448d05",
+        "9df41162-ee14-4b1a-961c-8a7155ea44ef",
+        "d004d14a-625e-4bd6-894a-b5f1d17285ca",
+        "3dd9be9d-1f1b-445c-8a94-217dd49caf1c",
+        "1f38c27f-8d69-4c99-aaf8-76b33882eac3"
+      ],
+      "settings": {
+        "gallery_product_image": "classic",
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "enable_sticky_cart_computer": true,
+        "affiliate_product": true,
+        "enable_sticky_cart_mobile": true,
+        "enable_share_product": true,
+        "policy_items": true,
+        "cross_selling": true,
+        "upsell": true,
+        "upsell_delay": 5000,
+        "upsell_header": "Buy <b>Eius potenti ultrices delectus quidem<\/b> to get <b> Fusce laborum molestias officiis<\/b> free. Automatically apply at checkout page."
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

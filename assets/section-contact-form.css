@@ -1,0 +1,147 @@
+.contact img {
+  max-width: 100%;
+}
+
+.contact .form__message {
+  align-items: flex-start;
+}
+
+.contact .icon-success {
+  margin-top: 0.2rem;
+}
+
+.contact .field {
+  margin-bottom: 1.5rem;
+}
+.wp_infoShop {
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding:0 15px;
+}
+.contact-rich {
+  color: #878787;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  word-wrap: break-word;
+}
+.contact-rich .block {
+  height: auto;
+  overflow: hidden;
+}
+.contact-rich .block .icon {
+  float: left;
+  width: 3.5rem;
+}
+.contact-rich .block .data {
+  color: #414141;
+  font-size: 13px;
+  width: auto;
+  overflow: hidden;
+  line-height: 1.2;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.contact-rich h4 {
+  text-transform: uppercase;
+  color: #414141;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-family: 'Moderat Extended';
+}
+i.fas.fa-map-marker-alt:before {
+  content: "\f3c5";
+}
+i.fas.fa-envelope::before {
+  content: "\f0e0";
+}
+i.fas.fa-map-marker-alt,
+i.fas.fa-envelope {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+}
+h2.title {
+  text-transform: uppercase;
+  color: #414141;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Moderat Extended';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+button.button {
+  background-color: #13755c;
+}
+
+/* CSS */
+
+h2.my-3.mb-lg-4 {
+  font-size: 3rem;
+  font-family: 'Moderat Extended';
+}
+
+.contact-page__des .mb-3 {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+.contact-page__des h5.mb-1 {
+  font-size: 3rem;
+}
+
+.contact-page__info li {
+  font-size: 1.4rem;
+}
+
+.media-body_text {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.contact_container {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  h2.my-3.mb-lg-4 {
+    font-size: 3.2rem;
+  }
+  .contact-page__des h5.mb-1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .contact .field {
+    margin-bottom: 2rem;
+  }
+}
+
+.contact__button {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .contact__button {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .contact__fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+  }
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}

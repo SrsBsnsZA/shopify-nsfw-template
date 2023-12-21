@@ -1,0 +1,209 @@
+<!-- footer-1.liquid -->
+
+{{ 'footer-1.css' | asset_url | stylesheet_tag }}
+
+<footer class="footer-1 footer-{%- if section.settings.style_footer == 'style_footer-1' -%}white{%- else -%}black{%- endif -%}">
+    <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+        <div class="top-footer d-flex justify-content-between align-items-center">
+            {%- if section.settings.show_logo -%}
+                {% render 'logo_footer' %}
+            {%- endif -%}
+
+            {%- if section.settings.show_social -%}
+            <div class="icon-top">
+                {% render 'social_footer' %}
+            </div>
+            {%- endif -%}
+        </div>
+        
+        
+        <div class="footer-blog">
+            {%- for block in section.blocks -%}
+            {%- case block.type -%}
+
+                {%- when 'newlester' -%}
+                <div class="newlester-footer">
+                    <h2 class="footer-block__heading">{{ block.settings.newsletter_heading | escape }}</h2>
+                    <p class="footer-block__description">{{ block.settings.newsletter_description }}</p>
+                    {%- if block.settings.newsletter_enable -%}
+                        {% render 'newlester' %}
+                    {%- endif -%}
+                </div>
+
+                {%- when 'text-content' -%}
+                <div class="text-content">
+                    <h2 class="title-footer-content">{{ block.settings.header_content_footer }}</h2>
+                    <ul class="list-content-footer">
+                        {{ block.settings.text_content_footer }}
+                    </ul>
+                </div>
+
+                {%- when 'menu' -%}
+                <div class="menu-footer">
+                    <h2 class="title-footer">{{ block.settings.title_menu }}
+                        <span class="drawer__nav-toggle--open">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </h2>
+                    
+                    {%- render 'vertical-menu-footer', block:block -%}
+                </div>
+            {%- endcase -%}
+            {%- endfor -%}
+        </div>
+        
+        <div class="bottom-footer">
+            <div class="row">
+                {%- if section.settings.show_copyright -%}
+                    <div class="col-md-6">
+                        {% render 'footer-copyright' %}
+                    </div>
+                {%- endif -%}
+
+                {%- if section.settings.icon_card_footer -%}
+                    <div class="col-md-6">
+                        {% render 'icon-card-footer' %}
+                    </div>
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</footer>
+{% schema %}
+{
+    "name": "t:sections.footer-1.name",
+    "class": "section-footer",
+    "tag": "section",
+    "settings": [
+        {
+        "type": "checkbox",
+        "id": "fullwidth",
+        "label": "t:sections.footer-1.settings.fullwidth.label",
+        "default": false
+        },
+        {
+        "id": "style_footer",
+        "type": "select",
+        "options": [
+            {
+            "value": "style_footer-1",
+            "label": "t:sections.footer-1.settings.style_footer.options__1.label"
+            },
+            {
+            "value": "style_footer-2",
+            "label": "t:sections.footer-1.settings.style_footer.options__2.label"
+            }
+        ],
+            "default": "style_footer-1",
+            "label": "t:sections.footer-1.settings.style_footer.label"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_logo",
+            "label": "t:sections.footer-1.settings.show_logo.label",
+            "default": true
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.footer-1.settings.image.label"
+        },
+        {
+            "type": "checkbox",
+            "id": "show_social",
+            "label": "t:sections.footer-1.settings.show_social.label",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_copyright",
+            "label": "t:sections.footer-1.settings.show_copyright.label",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "icon_card_footer",
+            "label": "t:sections.footer-1.settings.icon_card_footer.label",
+            "default": true
+        }
+    ],
+    "blocks": [
+    {
+      "type": "newlester",
+      "name": "t:sections.footer-1.blocks.newlester.name",
+      "settings": [
+        {
+            "id": "newsletter_heading",
+            "type": "text",
+            "default": "Sign up to our emails",
+            "label": "t:sections.footer-1.blocks.newlester.settings.newsletter_heading.label"
+        },
+        {
+            "id": "newsletter_description",
+            "type": "text",
+            "default": "Be the first to know about our new arrivals and exclusive offers.",
+            "label": "t:sections.footer-1.blocks.newlester.settings.newsletter_description.label"
+        },
+        {
+            "id": "newsletter_enable",
+            "type": "checkbox",
+            "default": true,
+            "label": "t:sections.footer-1.blocks.newlester.settings.newsletter_enable.label"
+        }
+      ]
+    },
+    {
+        "type": "text-content",
+        "name": "t:sections.footer-1.blocks.text-content.name",
+        "settings": [
+        {
+            "type": "text",
+            "id": "header_content_footer",
+            "label": "t:sections.footer-1.blocks.text-content.settings.header_content_footer.label",
+            "default": "title content"
+        },
+        {
+            "type": "liquid",
+            "id": "text_content_footer",
+            "label": "t:sections.footer-1.blocks.text-content.settings.text_content_footer.label",
+            "default": "<li>Monday Closed</li><li>Tuesday - Friday 10 - 18</li><li>Saturday 10 - 16</li>"
+        }
+        ]
+      },
+      {
+        "type": "menu",
+        "name": "t:sections.footer-1.blocks.menu.name",
+        "settings": [
+        {
+            "type": "text",
+            "id": "title_menu",
+            "label": "t:sections.footer-1.blocks.menu.settings.title_menu.label",
+            "default": "title menu"
+        },
+        {
+            "type": "link_list",
+            "id": "menu",
+            "label": "t:sections.footer-1.blocks.menu.settings.menu.label",
+            "default": "main-menu"
+          }
+        ]
+      }
+    ],
+    "default": {
+        "blocks": [
+          {
+            "type": "newlester"
+          },
+          {
+            "type": "text-content"
+          },
+          {
+            "type": "menu"
+          },
+          {
+            "type": "menu"
+          }
+        ]
+      }
+  }
+{% endschema %}

@@ -1,0 +1,169 @@
+.service-content{
+    display: flex;
+    justify-content: center;
+}
+.service-content.icon-top{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.service-content.icon-left{
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.list-icon{
+    /* padding: 4rem 2rem; */
+}
+
+.service-icon{
+    width: 100%;
+    max-width: 90px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.service-icon i{
+    font-size: 4.8rem;
+    color: #333;
+    display: block;
+    text-align: center;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+}
+.service-content.icon-top .service-icon i{
+    margin-bottom: 3.5rem;
+}
+.service-icon .leofal{
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.service-icon .leofa-user-shield:before {
+    content: "\f505";
+}
+.service-icon .leofa-shipping-timed:before {
+    content: "\f48c";
+}
+.service-icon .leofa-map-marked-alt:before {
+    content: "\f5a0";
+}
+.service-icon .leofa-person-carry:before {
+    content: "\f4cf";
+}
+.service-icon svg{
+    color: #333;
+    width: 100%;
+    height: 100%;
+}
+
+.service-content .service-title{
+    color: #000;
+    margin-top: 35px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Moderat Extended";
+    line-height: 1.1;
+}
+.service-content .service-text{
+    color: #888;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.service-decoration{
+    padding-left: 10px;   
+}
+/* HOME 4 */
+.service-content.icon-top {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+body.index .service h2.section-header {
+    display: none;
+}
+/* SERVICE ABOUT */
+/* SERVICE 1 */
+ body.page-about main > section:nth-child(3) h3.service-title {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 0;
+    line-height: 20px;
+    font-family: 'Moderat Extended';
+}
+ body.page-about main > section:nth-child(3) p.service-text {
+    display: block; 
+    margin-top: 35px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #888;
+}
+ body.page-about main > section:nth-child(3) {
+    padding: 0;
+}
+/* SERVICE 2 */
+body.page-about main > section:nth-child(5)  .wp_service {
+    padding: 30px 0;
+    background-color: #f4f4f4;
+}
+body.page-about main > section:nth-child(5) .service-content.icon-top {
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+body.page-about main > section:nth-child(5) h3.service-title {
+    color: #000;
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Moderat Extended';
+}
+body.page-about main > section:nth-child(5) p.service-text {
+    color: #888;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-family: 'Moderat Extended';
+}
+@media (max-width: 1199px) {
+    .service {
+        padding: 30px 15px;
+    }
+    body.page-about main > section:nth-child(5) {
+        padding: 0;
+    }
+}
+@media (min-width: 992px) {
+    body.page-about main > section:nth-child(5)  .wp_service,
+     body.page-about main > section:nth-child(3) .wp_service {
+        padding: 100px 0;
+    }
+    body.index .service {
+        padding-bottom: 100px;
+    }
+}
+@media(max-width: 767px){
+    .service-content.icon-top{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .service-icon{
+        margin: 0 auto;
+    }
+    .list-icon.list-icon {
+        padding: 1.5rem 0rem;
+    }
+}
+@media (min-width: 768px) {
+    body.index .service {
+        padding-top: 40px;
+    }
+}

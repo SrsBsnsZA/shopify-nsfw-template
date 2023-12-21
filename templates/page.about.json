@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "164195826489d26508": {
+      "type": "section-sp",
+      "blocks": {
+        "16419582644486e57e-0": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "image": "shopify:\/\/shop_images\/35.jpg",
+            "image_child1": "shopify:\/\/shop_images\/pattern02.png",
+            "image_child2": "shopify:\/\/shop_images\/pattern03.png",
+            "effects_image": false
+          }
+        },
+        "16419582644486e57e-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
+            "header_top": "",
+            "text__content": "Socks designed by artists from various universes: graphic designers, street artists, designers and illustrators with overflowing imagination.",
+            "big_text": "",
+            "btn_text": "Get a Quote",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16419582644486e57e-0",
+        "16419582644486e57e-1"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "background-color": "#f4f4f4",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": ""
+      }
+    },
+    "services": {
+      "type": "service",
+      "blocks": {
+        "cbe7e571-5b2f-440d-b524-9a41309dae3e": {
+          "type": "service",
+          "settings": {
+            "icon": "",
+            "header_service": "400 +",
+            "text_service": "Sale on first month"
+          }
+        },
+        "bc848845-3f90-4355-b8a1-e9e8b09216d7": {
+          "type": "service",
+          "settings": {
+            "icon": "",
+            "header_service": "1000000 +",
+            "text_service": "Web Pages Created by Users"
+          }
+        },
+        "bdb469a1-52c7-4b6b-81d4-a8bf56fd45fa": {
+          "type": "service",
+          "settings": {
+            "icon": "",
+            "header_service": "500000 +",
+            "text_service": "Customers Served Around The World"
+          }
+        }
+      },
+      "block_order": [
+        "cbe7e571-5b2f-440d-b524-9a41309dae3e",
+        "bc848845-3f90-4355-b8a1-e9e8b09216d7",
+        "bdb469a1-52c7-4b6b-81d4-a8bf56fd45fa"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "background-color": "#ffffff",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": "",
+        "icon-align": "top"
+      }
+    },
+    "16419584729dca0081": {
+      "type": "a-intro-about",
+      "blocks": {
+        "1641958472f1bc4bcf-0": {
+          "type": "image",
+          "settings": {
+            "width": "100%",
+            "image": "shopify:\/\/shop_images\/AB02.jpg",
+            "effects_image": false
+          }
+        },
+        "1641958472f1bc4bcf-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "“<strong>Socks<\/strong> tends to consume everything else, it has become one's <strong>entire life<\/strong>.”",
+            "text__content": "FELIX DESIGNER",
+            "btn_text": "",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        },
+        "1f199ec9-5db3-4f92-b5d4-aa592fcf668d": {
+          "type": "image",
+          "settings": {
+            "width": "100%",
+            "image": "shopify:\/\/shop_images\/AB01.jpg",
+            "effects_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1641958472f1bc4bcf-0",
+        "1641958472f1bc4bcf-1",
+        "1f199ec9-5db3-4f92-b5d4-aa592fcf668d"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "color_scheme": "background-1",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": ""
+      }
+    },
+    "164195829130918a09": {
+      "type": "service",
+      "blocks": {
+        "1641958291959f6b6d-0": {
+          "type": "service",
+          "settings": {
+            "icon": "<img src=\"https:\/\/demo73leotheme.b-cdn.net\/prestashop\/leo_funisox_demo\/themes\/leo_funisox\/assets\/img\/modules\/appagebuilder\/images\/support.png\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "header_service": "47,000+ Happy Customer",
+            "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "1641958291959f6b6d-1": {
+          "type": "service",
+          "settings": {
+            "icon": "<img src=\"https:\/\/demo73leotheme.b-cdn.net\/prestashop\/leo_funisox_demo\/themes\/leo_funisox\/assets\/img\/modules\/appagebuilder\/images\/trophy.png\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "header_service": "20 Awards Won",
+            "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "1641958291959f6b6d-2": {
+          "type": "service",
+          "settings": {
+            "icon": "<img src=\"https:\/\/demo73leotheme.b-cdn.net\/prestashop\/leo_funisox_demo\/themes\/leo_funisox\/assets\/img\/modules\/appagebuilder\/images\/certificate.png\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "header_service": "24 Years of Experiences",
+            "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        }
+      },
+      "block_order": [
+        "1641958291959f6b6d-0",
+        "1641958291959f6b6d-1",
+        "1641958291959f6b6d-2"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "background-color": "",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": "",
+        "icon-align": "top"
+      }
+    },
+    "team-work": {
+      "type": "team-work",
+      "disabled": true,
+      "blocks": {
+        "db4c37ca-dae1-4ddc-92f1-215f14d672f7": {
+          "type": "teamwork",
+          "settings": {
+            "title_person": "Emma Watson",
+            "subtitle_person": "CEO\/FOUNDER",
+            "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+          }
+        },
+        "0f528c61-b98a-4a4b-a598-662f44cfdfec": {
+          "type": "teamwork",
+          "settings": {
+            "title_person": "Emma Watson",
+            "subtitle_person": "CEO\/FOUNDER",
+            "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+          }
+        },
+        "d96fc377-275a-4264-a700-3202520a3c47": {
+          "type": "teamwork",
+          "settings": {
+            "title_person": "Emma Watson",
+            "subtitle_person": "CEO\/FOUNDER",
+            "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+          }
+        },
+        "0d1eb48d-5f9f-4d77-a581-9f88f00384a5": {
+          "type": "teamwork",
+          "settings": {
+            "title_person": "Emma Watson",
+            "subtitle_person": "CEO\/FOUNDER",
+            "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+          }
+        }
+      },
+      "block_order": [
+        "db4c37ca-dae1-4ddc-92f1-215f14d672f7",
+        "0f528c61-b98a-4a4b-a598-662f44cfdfec",
+        "d96fc377-275a-4264-a700-3202520a3c47",
+        "0d1eb48d-5f9f-4d77-a581-9f88f00384a5"
+      ],
+      "settings": {
+        "team_title": "Meet our people",
+        "team_fb": "#",
+        "team_tw": "#",
+        "team_tiktok": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164195826489d26508",
+    "services",
+    "16419584729dca0081",
+    "164195829130918a09",
+    "team-work"
+  ]
+}

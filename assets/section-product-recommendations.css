@@ -1,0 +1,37 @@
+.product-recommendations {
+  display: block;
+  padding: 0;
+}
+
+.product-recommendations  .row {
+  margin: 0 -15px;
+}
+
+.product-recommendations__heading {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin: 10px 0rem 40px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  line-height: 60px;
+  border-bottom: 1px solid #eaeaea;
+  font-family: "Moderat Extended";
+  font-weight: 700;
+  color: #347758;
+}
+.product-recommendations .grid__item {
+  padding: 0 15px;
+}
+
+.product_recommendations {
+  padding: 30px;
+}
+.product-recommendations .card__media-full-spacer {
+  padding: 0; 
+}
+@media (max-width: 767px) {
+  .product_recommendations {
+    padding: 0px;
+  }
+}

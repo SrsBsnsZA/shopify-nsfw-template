@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16382448507ea81c45": {
+      "type": "advanced-content",
+      "blocks": {
+        "163824485060abaf1e-0": {
+          "type": "image",
+          "settings": {
+            "width": "100%",
+            "image": "shopify:\/\/shop_images\/57417843-user-interface-delivery-cart-steps-for-buy-online_1_850x_ad23c7b7-dc01-4872-843b-af94fc733701.jpg",
+            "effects_image": false
+          }
+        }
+      },
+      "block_order": [
+        "163824485060abaf1e-0"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "background-color": "",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16382448507ea81c45"
+  ]
+}

@@ -1,0 +1,29 @@
+.product-grid-2 .card__badge span{
+    margin: 0;
+}
+
+.servicer-product.servicer-product-grid-2 .btn-product{
+    padding: 1rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card-wrapper .servicer-product-grid-2 .button{
+    border-radius: 50%;
+}
+
+.servicer-product.servicer-product-grid-2{
+    top: unset;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.card-wrapper .servicer-product-grid-2 .button:hover, .card-wrapper .servicer-product-grid-2 .btn-product:hover{
+    transform: translateY(-0.5rem);
+}
+
+.card-wrapper .servicer-product-grid-2 .button .name-btn-product, .servicer-product-grid-2 .btn-product .name-btn-product{
+    transform: translateX(-50%);
+    bottom: 110%;
+}

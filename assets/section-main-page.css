@@ -1,0 +1,35 @@
+.page-title {
+  margin-top: 0;
+}
+
+.main-page-title {
+  margin-bottom: 3rem;
+}
+
+h1.main-page-title.page-title.h0 {
+  font-size: 2em;
+  margin: 40px 0 55px 0;
+  font-family: "Moderat Extended";
+  font-weight: 700;
+  line-height: 1.1;
+  color: #347758;
+}
+
+.page-width--narrow {
+  padding: 0!important;
+}
+@media screen and (min-width: 750px) {
+  .main-page-title {
+    margin-bottom: 4rem;
+  }
+}
+
+.page-placeholder-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page-placeholder {
+  width: 52.5rem;
+  height: 52.5rem;
+}

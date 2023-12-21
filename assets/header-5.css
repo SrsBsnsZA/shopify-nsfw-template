@@ -1,0 +1,50 @@
+.header-5 .currence{
+    text-align: right;
+}
+
+.header-5 .header-logo, .header-5 .header-categories{
+    align-self: center;
+}
+
+.header-5 .header-categories{
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+
+.header-5-announcement-bar{
+    background-color: #000;
+    color: white;
+    padding: 0 15px;
+}
+
+.header-5-announcement-bar-left{
+    align-self: center;
+}
+
+.header-5-announcement-bar-left p{
+    margin: 0;
+}
+
+@media(max-width: 991px){
+    .header-5 .header-logo{
+        text-align: center;
+    }
+    
+    .header-5 .icon-menu-mobile{
+        text-align: left;
+    }
+
+    .header-5 .container{
+        padding: 0;
+    }
+}
+
+@media(min-width: 992px){
+    .header-5{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+}

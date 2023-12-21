@@ -1,0 +1,144 @@
+<!-- header-5.liquid -->
+{{ 'header-5.css' | asset_url | stylesheet_tag }}
+{% render 'section-style' %}
+
+<header class="header-5">
+  {%- if section.settings.header_announcement_bar -%}
+  <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+    <div class="header-5-announcement-bar">
+      <div class="row d-flex justify-content-between">
+        <div class="col-6 header-5-announcement-bar-left">
+            <p>{{ section.settings.text_announcement_bar }}</p>
+        </div>
+        <div class="col-6 currence">
+            {%- if section.settings.currencies -%}
+                {%- render 'block-currencies' -%}
+            {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- endif -%}
+  <div class="header-5-center">
+    <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+      <div class="header-categories color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
+        <div class="row">
+            <div class="col-lg-3 header-logo">
+                {%- render 'header-logo' -%}
+            </div>
+
+            <div class="col-6">
+                {%- render 'icon-megamenu-mobile' -%}
+                {%- render 'block-menu' -%}
+            </div>
+
+            <div class="col-6 col-lg-3 d-flex header-categories">
+                {%- if section.settings.header_seach -%}
+                    {%- render 'seach-header' -%}
+                {%- endif -%}
+                {%- if section.settings.header_wishlist -%}
+                {%- render 'wishlist-header' -%}
+                {%- endif -%}
+                {%- if section.settings.header_sign -%}
+                {%- render 'header-sign' -%}
+                {%- endif -%}
+                {%- if section.settings.header_card -%}
+                {%- render 'header-cart' -%}
+                {%- endif -%}
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "t:sections.header-5.name",
+  "class": "spaced-header",
+  "tag": "section",
+  "settings": [
+      {
+        "type": "checkbox",
+        "id": "fullwidth",
+        "label": "t:sections.header-5.settings.fullwidth.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "header_announcement_bar",
+        "label": "t:sections.header-5.settings.header_announcement_bar.label",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text_announcement_bar",
+        "label": "t:sections.header-5.settings.text_announcement_bar.label",
+        "default": "Welcome to our store"
+      },
+      {
+        "id": "color_scheme",
+        "type": "select",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.header-5.settings.color_scheme.options__1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.header-5.settings.color_scheme.options__2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.header-5.settings.color_scheme.options__3.label"
+          },
+          {
+            "value": "accent-1",
+            "label": "t:sections.header-5.settings.color_scheme.options__4.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.header-5.settings.color_scheme.options__5.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.header-5.settings.color_scheme.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:sections.header-5.settings.logo.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_seach",
+        "label": "t:sections.header-5.settings.header_seach.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_sign",
+        "label": "t:sections.header-5.settings.header_sign.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_wishlist",
+        "label": "t:sections.header-5.settings.header_wishlist.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "currencies",
+        "label": "t:sections.header-5.settings.currencies.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_card",
+        "label": "t:sections.header-5.settings.header_card.label",
+        "default": true
+      }
+      ]
+}
+{% endschema %}

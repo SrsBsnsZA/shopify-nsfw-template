@@ -1,0 +1,28 @@
+.color-transparent{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 99999;
+}
+.logo-align-left{
+    order: 0;
+}
+.logo-align-center{
+    order: 1;
+}
+.header-3 .header-icon{
+    order: 2;
+}
+.header-align-center{
+    order: 1;
+}
+.header-align-left{
+    order: 0;
+}
+.head-logo{
+    align-self: center;
+}
+.header-menubar{
+    align-self: center;
+}

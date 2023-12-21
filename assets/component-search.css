@@ -1,0 +1,28 @@
+.search__input.field__input {
+  padding-right: 5rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.search__button .icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+/* Remove extra spacing for search inputs in Safari */
+input::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+#searchresults input {
+  width: 50%;
+  padding: 10px 10px;
+}
+
+#searchresults p {
+  clear: both;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 30px 0;
+}

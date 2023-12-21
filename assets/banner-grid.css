@@ -1,0 +1,93 @@
+.banner-grid{
+    width: 100%;
+}
+
+.banner-grid .button-content{
+    text-align: unset;
+    width: unset;
+}
+.advanced-image-blog{
+    position: relative;
+}
+.banner-image{
+    position: relative;
+}
+
+.banner-grid-style-1{
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 1.5rem;
+    left: 1.5rem;
+    bottom: 0;
+    padding: 3rem;
+}
+
+.banner-grid-style-2{
+    padding: 3rem;
+}
+
+.title-section em{
+    color: red;
+}
+
+.banner-content{
+    align-items: center;
+}
+
+.banner-image-hover{
+    
+    overflow: hidden;
+}
+
+.banner-image-hover:before, .banner-image-hover:after{
+    content: '';
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 99;
+}
+.banner-image-hover:before{
+    border-top: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+    transform: scale(0,1);
+}
+.banner-image-hover:after{
+    transform: scale(1,0);
+    border-left: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
+}
+.banner-image-hover:hover:before, .banner-image-hover:hover:after{
+    transform: scale(1);
+    opacity: 1;
+}
+.banner-image-hover img{
+    transition: all 0.5s ease-in-out;
+}
+.banner-image-hover:hover img{
+    transform: scale(1.1);
+}
+
+.banner-grid-content.image-banner-grid__media--placeholder.placeholder{
+    background: transparent;
+}
+
+.image-banner-grid__media--placeholder .placeholder-svg {
+    height: 100%;
+    width: 100%;
+  }
+.banner-content{
+    margin: 0 -7.5px;
+}
+.banner-content .banner-image{
+    margin: 7.5px;
+}
+@media(max-width: 767px){
+    .banner-grid-content.image-banner-grid__media--placeholder.placeholder{
+        margin-bottom: 15px;
+    }
+}

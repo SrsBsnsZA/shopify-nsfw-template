@@ -1,0 +1,138 @@
+.product-grid-3 .card__badge span{
+    margin: 0;
+}
+
+.servicer-product.servicer-product-grid-3 .btn-product{
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card-wrapper .servicer-product-grid-3 .button{
+    border-radius: 50%;
+}
+
+.product-grid-3 .product-card__overlay{
+    flex-direction: column;
+}
+
+.product-grid-3 .product-form__buttons{
+    width: 4rem;
+    height: 4rem;
+  }
+
+.product-grid-3  button{
+    min-width: unset;
+}
+
+.servicer-product.servicer-product-grid-3{
+    right: 15px;
+    left: unset;
+    transform: translate(0, 0);
+}
+
+.product-grid-3 .btn-product:hover .name-btn-product, .card-wrapper.product-grid-3 .button:hover .name-btn-product{
+    transform: translate(0,50%);
+}
+
+.servicer-product.servicer-product-grid-3{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: unset;
+    transform: translateX(48px);
+    transition: all .5s ease;
+}
+
+
+
+product-grid-3 .servicer-product .btn-product{
+    margin: 0 0.2rem 1rem;
+    right: 110%;
+    bottom: 50%;
+    transform: translate(0, 50%);
+    left: unset;
+    top: unset;
+    margin: 0;
+}
+
+.product-grid-3 .btn-product .name-btn-product:before, .card-wrapper.product-grid-3 .button .name-btn-product:before{
+    top: 50%;
+    margin-left: 0;
+    left: 100%;
+    transform: rotate(-90deg) translate(50%, 0);
+}
+
+.product-grid-3 button.product-form__submit.button.button--full-width{
+    position: relative;
+}
+
+.card-wrapper .servicer-product-grid-3 .button:hover, .card-wrapper .servicer-product-grid-3 .btn-product:hover{
+    box-shadow: none;
+    background-color: #13755c;
+    color: #fff;
+
+}
+
+.card-wrapper .servicer-product-grid-3 .button .name-btn-product, .servicer-product-grid-3 .btn-product .name-btn-product{
+    right: 110%;
+    bottom: 50%;
+    transform: translate(0, 50%);
+    left: unset;
+    top: unset;
+    margin: 0;
+    display: none;
+}
+
+.card-wrapper.product-grid-3:hover .servicer-product{
+    transform: translateX(-25px);
+    left: unset;
+}
+
+.wp-card_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-information .caption-with-letter-spacing.light {
+    line-height: 43.625px;
+}
+.caption-with-letter-spacing.light {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #999;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+span.card-information__text.h5 {
+    font-family: "Moderat Extended";
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0;
+}
+
+.card-wrapper.product-grid-3 button.product-form__submit.button.button--full-width ,
+.servicer-product.servicer-product-grid-3 .btn-product {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0;
+    line-height: 48px;
+    margin-bottom: 5px;
+}
+.card-wrapper.product-grid-3 .button:hover {
+    box-shadow: none;
+    background-color: #13755c;
+    color: white;
+}

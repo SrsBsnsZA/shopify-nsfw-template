@@ -1,0 +1,176 @@
+<!-- service.liquid -->
+
+{{ 'service.css' | asset_url | stylesheet_tag }}
+{% render 'section-style' %}
+
+<div class="wp_service">
+  <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+    <h2 class="section-header">{{ section.settings.heading | escape }}</h2>
+    <p class="section-text">{{ section.settings.text_decoration }}</p>
+  
+    <div class="row">
+      {%- for block in section.blocks -%}
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 list-icon">
+        <div class="service-content icon-{%- if section.settings.icon-align == 'top' -%}top{% else %}left{% endif %}">
+          {%- if block.settings.icon != blank -%}
+          <div class="service-icon">
+            <div class="service-icon-svg">
+              {{ block.settings.icon }}
+            </div>
+          </div>
+          {% endif %}
+          {%- if block.settings.icon_image != blank -%}
+          <div class="service-icon">
+            <img class="image-sevice"
+                srcset="{%- if block.settings.icon_image.width >= 165 -%}{{ block.settings.icon_image | img_url: '165x' }} 165w,{%- endif -%}
+                  {%- if block.settings.icon_image.width >= 360 -%}{{ block.settings.icon_image | img_url: '360x' }} 360w,{%- endif -%}
+                  {%- if block.settings.icon_image.width >= 535 -%}{{ block.settings.icon_image | img_url: '535x' }} 535w,{%- endif -%}
+                  {%- if block.settings.icon_image.width >= 750 -%}{{ block.settings.icon_image | img_url: '750x' }} 750w,{%- endif -%}
+                  {%- if block.settings.icon_image.width >= 1070 -%}{{ block.settings.icon_image | img_url: '1070x' }} 1070w,{%- endif -%}
+                  {%- if block.settings.icon_image.width >= 1500 -%}{{ block.settings.icon_image | img_url: '1500x' }} 1500w,{%- endif -%}"
+                src="{{ block.settings.icon_image | img_url: 'master' }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                alt="{{ block.settings.icon_image.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.icon_image.width }}"
+                height="{{ block.settings.icon_image.height }}"
+              >
+          </div>
+          {% endif %}
+          <div class="service-decoration">
+              <h3 class="service-title">
+                  {{ block.settings.header_service | escape }}
+              </h3>
+              <p class="service-text">
+                  {{ block.settings.text_service }}
+              </p>
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.services.name",
+  "tag": "section",
+  "class": "service",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "fullwidth",
+      "label": "t:sections.services.settings.fullwidth.label",
+      "default": false
+    },
+    {
+      "id": "background-color",
+      "type": "color",
+      "label": "t:sections.services.settings.background-color.label"
+    },
+    {
+      "type": "text",
+      "id": "margin_desktop",
+      "label": "t:sections.services.settings.margin_desktop.label",
+      "info": "t:sections.services.settings.margin_desktop.info"
+    },
+    {
+      "type": "text",
+      "id": "padding_desktop",
+      "label": "t:sections.services.settings.padding_desktop.label",
+      "info": "t:sections.services.settings.padding_desktop.info"
+    },
+    {
+      "type": "text",
+      "id": "margin_mobile",
+      "label": "t:sections.services.settings.margin_mobile.label",
+      "info": "t:sections.services.settings.margin_mobile.info"
+    },
+    {
+      "type": "text",
+      "id": "padding_mobile",
+      "label": "t:sections.services.settings.padding_mobile.label",
+      "info": "t:sections.services.settings.padding_mobile.info"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.services.settings.heading.label",
+      "default": "Multimedia service"
+    },
+    {
+      "type": "text",
+      "id": "text_decoration",
+      "label": "t:sections.services.settings.text_decoration.label",
+      "default": "Multimedia service"
+    },
+    {
+      "id": "icon-align",
+      "type": "select",
+      "options": [
+        {
+          "value": "top",
+          "label": "t:sections.services.settings.icon-align.options__1.label"
+        },
+        {
+          "value": "left",
+          "label": "t:sections.services.settings.icon-align.options__2.label"
+        }
+      ],
+      "default": "top",
+      "label": "t:sections.services.settings.icon-align.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "t:sections.services.blocks.service.name",
+      "settings": [
+       {
+          "type": "liquid",
+          "id": "icon",
+          "label": "t:sections.services.blocks.service.settings.icon.label",
+          "default": "[Icon]",
+          "info": "t:sections.services.blocks.service.settings.icon.info"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "t:sections.services.blocks.service.settings.icon_image.label",
+          "info": "t:sections.services.blocks.service.settings.icon_image.info"
+        },
+        {
+          "id": "header_service",
+          "type": "text",
+          "label": "t:sections.services.blocks.service.settings.header_service.label",
+          "default": "Secure payments"
+        },
+         {
+          "type": "liquid",
+          "id": "text_service",
+          "label": "t:sections.services.blocks.service.settings.text_service.label",
+          "default": "See below for information about the delivery & returns options in your country."
+       }
+      ]
+    }
+  ],
+  "max_blocks": 20,
+  "presets": [
+    {
+      "name": "t:sections.services.presets.name",
+      "blocks": [
+        {
+          "type": "service"
+        },
+        {
+          "type": "service"
+        },
+        {
+          "type": "service"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

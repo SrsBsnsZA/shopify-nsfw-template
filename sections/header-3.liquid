@@ -1,0 +1,146 @@
+<!-- header-3.liquid -->
+{{ 'header-3.css' | asset_url | stylesheet_tag }}
+{% render 'section-style' %}
+
+<header class="header-3 color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
+    <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+        <div class="row">
+            <div class="col-4 col-lg-3 head-logo logo-align-{% if section.settings.logo_align_2 == 'left' %}left{% else %}center{% endif %}">
+                {% render 'header-logo' %}
+            </div>
+            <div class="col-4 col-lg-6 header-menubar header-align-{% if section.settings.logo_align_2 == 'left' %}center{% else %}left{% endif %}">
+              {%- render 'icon-megamenu-mobile' -%}
+              {%- render 'block-menu' -%}
+            </div>
+            <div class="col-4 col-lg-3 header-icon">
+                {%- if section.settings.header_seach -%}
+                    {% render 'seach-header' %}
+                {%- endif -%}
+                
+                {%- if section.settings.header_wishlist -%}
+                    {% render 'wishlist-header' %}
+                {%- endif -%}
+
+                {%- if section.settings.header_sign -%}    
+                  {%- render 'header-sign' -%}
+                {%- endif -%}
+
+                {%- render 'block-currencies' -%}
+
+                {%- if section.settings.header_card -%}
+                    {%- render 'header-cart' -%}
+                {%- endif -%}
+
+                {%- if settings.main_menu == 'vertical-menu' -%}
+                  <div class="showmenu d-none d-lg-block">
+                    <i class="leofa-bars"></i>
+                  </div>
+                {%- endif -%}
+
+                <div class="showmenu d-none d-lg-block">
+                  <i class="leofa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% schema %}
+{
+  "name": "t:sections.header-3.name",
+  "class": "spaced-header",
+  "tag": "section",
+  "settings": [
+      {
+        "type": "checkbox",
+        "id": "fullwidth",
+        "label": "t:sections.header-3.settings.fullwidth.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_transparent",
+        "label": "t:sections.header-3.settings.enable_transparent.label"
+      },
+      {
+        "id": "color_scheme",
+        "type": "select",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.header-3.settings.color_scheme.options__1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.header-3.settings.color_scheme.options__2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.header-3.settings.color_scheme.options__3.label"
+          },
+          {
+            "value": "accent-1",
+            "label": "t:sections.header-3.settings.color_scheme.options__4.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.header-3.settings.color_scheme.options__5.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.header-3.settings.color_scheme.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:sections.header-3.settings.logo.label"
+      },
+      {
+        "id": "logo_align_2",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.header-3.settings.logo_align_2.options__1.label"
+          },
+          {
+            "value": "center",
+            "label": "t:sections.header-3.settings.logo_align_2.options__2.label"
+          }
+        ],
+        "default": "left",
+        "label": "t:sections.header-3.settings.logo_align_2.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_seach",
+        "label": "t:sections.header-3.settings.header_seach.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_sign",
+        "label": "t:sections.header-3.settings.header_sign.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_wishlist",
+        "label": "t:sections.header-3.settings.header_wishlist.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_card",
+        "label": "t:sections.header-3.settings.header_card.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_category",
+        "label": "t:sections.header-3.settings.header_category.label",
+        "default": true
+      }
+      ]
+}
+{% endschema %}

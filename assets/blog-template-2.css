@@ -1,0 +1,104 @@
+.blog-items.blog-layout-items-2{
+    margin: 0 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-post .blog-list{
+    margin: 0 -15px;
+}
+
+.blog-items.blog-layout-items-2 .blog-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 40px 55px;
+    background: transparent;
+    border: 1px solid #000;
+    display: flex;
+    
+}
+
+.blog-items.blog-layout-items-2 .blog-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.blog-items.blog-layout-items-2 .article-card__image{
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.6s;
+    transform: scale(2);
+}
+
+.blog-items.blog-layout-items-2:hover .article-card__image{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.blog-items.blog-layout-items-2 .media{
+    background: transparent;
+}
+
+.blog-items.blog-layout-items-2:hover .blog-link{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+}
+
+
+.blog-layout-items-2 .blog-author{
+    color: #999;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-bottom: 20px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.blog-layout-items-2 .blog-title{
+    color: #222;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    flex: 1;
+}
+
+.blog-layout-items-2 .blog-date{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    margin-bottom: 0;
+}
+
+.blog-items.blog-layout-items-2:hover .blog-author, .blog-items.blog-layout-items-2:hover .blog-title{
+    color: #fff;
+}
+
+.blog-items.blog-layout-items-2:hover .blog-date{
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+
+.blog-layout-items-2 .btn-view-blog{
+    text-align: center;
+      margin-top: 15px;
+}
+
+.blog-layout-items-2 .btn-view-blog .link-blog-all{
+    padding: 5px 40px;
+    background: #000;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+}

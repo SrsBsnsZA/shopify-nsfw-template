@@ -1,0 +1,362 @@
+.footer-2{
+  background-color: #D9195F;
+}
+
+.footer-2 .top-footer{
+  padding: 3rem 15px 0rem;
+}
+
+/* CSS  */
+
+.footer-2 .newlester-footer{
+  text-align: center;
+  max-width: 470px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.footer-2 .newlester-footer h2.footer-block__heading{
+  font-size: 55px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Moderat Extended';
+  margin: 0 0 35px 0;
+  border-bottom: 0;
+  display: block;
+  padding: 0;
+}
+
+p.footer-block__description {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.footer-2 .footer-block__newsletter {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-2 .newlester-footer form#ContactFooter{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #fff;
+}
+
+.footer-2 .newsletter-form__field-wrapper {
+  flex: 1;
+}
+
+input#NewsletterForm--footer-2 {
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  padding: 0 15px;
+}
+
+.footer-2 .field__input::placeholder {
+  display: block;
+  visibility:visible;
+  opacity: 1;
+  color: #7F8084;
+}
+
+.footer-2 .field__input ~ label {
+  display: none;
+}
+
+.footer-2 label.field__label {
+  bottom: 29%;
+  top: inherit;
+  color: #888;
+  left: 0;
+  font-size: 14px;
+}
+
+.footer-2 button.button.button--secondary.newsletter-form__button {
+  text-align: center;
+  padding: 0;
+  line-height: 55px;
+  text-transform: capitalize;
+  background: 0 0;
+  border-radius: 0;
+  border: none;
+  font-family: "Moderat Extended";
+  font-style: normal;
+  font-weight: 700; 
+  font-size: 18px;
+  color: #fff;
+  transition: all .3s ease;
+  box-shadow: none;
+  padding: 0 20px; 
+} 
+.footer-2 button.button.button--secondary.newsletter-form__button:hover {
+  color: #13755c;
+} 
+
+.logo-footer img {
+  margin-bottom: 40px;
+}
+
+.logo_text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #888;
+}
+
+.footer-2 .title-footer,
+.footer-2 .title-footer-content {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 35px 0;
+  border-bottom: 0;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+  font-family: 'Moderat Extended';
+}
+
+.list-verticalmenu li a {
+  color: #888;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 36px;
+  transition: .3s ease-in;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.list-verticalmenu li a:hover {
+  color: #13755c;
+}
+
+a.link--text.list-social__link {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 44px;
+  height: 44px;
+  line-height: 22px;
+  color: #fff;
+  background: 0 0;
+  border: 1px solid rgba(255,225,255,.1);
+  border-radius: 50%;
+  transition: .4s;
+}
+
+li.list-social__item:hover .link_Fa {
+  background: #3c5a98;
+} 
+li.list-social__item:hover .link_Twi {
+  background: #55acee;
+} 
+li.list-social__item:hover .link_You {
+  background: #e84542;
+} 
+li.list-social__item:hover .link_Insta {
+  background: #4c61b0;
+} 
+
+.footer-2 .list-social__item{
+  margin: 0 2px;
+}
+
+small.copyright__content {
+  font-size: 14px;
+  color: #888;
+}
+
+small.copyright__content a {
+  font-size: 14px;
+  color: #888;
+}
+
+.bottom-footer-coppy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-footer-coppy .icon_card-footer {
+  text-align: right;
+}
+
+.menu-footer {
+  margin-bottom: 30px;
+}
+
+.logo-footer {
+  margin-bottom: 30px;
+}
+
+.footer-2 button#Subscribe:hover {
+  color: #13755c;
+}
+
+/* end */
+
+.footer-2 .newlester-footer form#ContactFooter .newsletter-form__message.form__message{
+  position: absolute;
+  bottom: -30px;
+}
+
+.footer-2 .newlester-footer input#NewsletterForm--footer-2{
+  margin-bottom: 1px;
+  margin-right: 0px;
+}
+
+.footer-2 .icon-card-footer{
+  justify-content: flex-end;
+}
+
+.footer-2 .title-footer{
+  position: relative;
+}
+
+.footer-2 .drawer__nav-toggle--open{
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.footer-2 .fa{
+  font-size: 18px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+.footer-2 .footer__copyright{
+  font-size: 16px;
+}
+.footer-2 i.far.fa-arrow-up {
+  margin-left: 0;
+}
+.footer-2 .field__input {
+  font-size: 14px;
+}
+.footer__copyright .my_store a {
+  color: #fff;
+}
+
+.footer-2 .field__input {
+  height: 5.5rem;
+}
+
+@media (min-width: 992px) {
+  .col-xl-3.col-lg-3.col-md-6.col-sm-12.col-12.second:nth-child(2) {
+    order: 4;
+  }
+  .footer-2 .top-footer{
+    padding: 10rem 0 10rem;
+  }
+  .footer-2 .center-footer {
+    padding-bottom: 100px;
+  }
+  .footer-2 .newlester-footer {
+    margin-bottom: 0;
+  }
+  .menu-footer {
+    margin-bottom: 0px;
+  }
+  .logo-footer {
+    margin-bottom: 0px;
+  }
+}
+@media(max-width: 575px){
+  .footer-2 .footer-block__newsletter{
+    margin: 0 auto;
+  }
+
+  .footer-2 .newlester-footer{
+    flex-direction: column;
+  }
+
+  .footer-2 .newlester-footer form#ContactFooter {
+    display: block;
+  }
+}
+
+@media(max-width: 767px){
+  .footer-2 .text-content, .footer-2 .logo-footer, .footer-2 .menu-footer{
+    margin-bottom: 15px;
+  }
+
+  .bottom-footer-coppy{
+    text-align: center;
+  }
+
+  .footer-2 .icon-card-footer{
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .footer-2 .newlester-footer h2.footer-block__heading {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .footer-2 .drawer__nav-toggle--open{
+    display: block;
+  }
+
+  .menu-footer .footer-menu{
+    overflow: hidden;
+    display: none;
+    animation: all 0.5s ease-in;
+  }
+
+  .menu-footer.active .footer-menu{
+    display: block;
+  }
+  .hidden-sm-down {
+    display: none!important;
+  }
+  .footer-2 .footer__list-social {
+    justify-content: start;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  .footer-2 .title-footer {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .footer__copyright {
+    padding-bottom: 20px;
+  }
+  .bottom-footer-coppy .icon_card-footer {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-2 .center-footer {
+    margin-top: 35px;
+  }
+  .bottom-footer {
+    padding: 36px 0 60px;
+    border-top: 1px solid rgba(255,225,255,.1);
+  }
+}

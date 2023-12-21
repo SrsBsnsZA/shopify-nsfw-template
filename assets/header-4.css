@@ -1,0 +1,134 @@
+/* announcement-bar */
+.header-4-announcement-bar{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.color-transparent .header-4-announcement-bar{
+    background-color: transparent;
+}
+
+.header-4-announcement-bar p{
+    margin: 0;
+}
+
+.header-categories{
+    padding: 25px 15px;
+}
+
+.header-4 .search-media{
+    display: none;
+}
+
+.header-4 .form-search{
+    opacity: 1;
+    visibility: visible;
+    position: unset;
+}
+
+@media(max-width: 991px){
+    .header-4 .form-search{
+        display: none;
+    }
+
+    .header-4-center .head-logo{
+        order: 1;
+        text-align: center;
+    }
+
+    .header-4-center .header-mobi-mobile{
+        order: 0;
+    }
+
+    .header-4-center .header-icon{
+        order: 2;
+    }
+}
+
+.header-4 .icon-search .field__button{
+    border-radius: 30px;
+    background-color: transparent;
+    color: #000;
+    left: 0;
+    right: unset;
+}
+
+.header-4 .field__label{
+    left: 4.5rem;
+}
+
+.header-4 .icon-search .field__input:focus{
+    padding: 0 15px 0 45px;    
+}
+
+.header-4 .icon-search .field__input:not(:placeholder-shown){
+    padding: 0 15px 0 45px;
+}
+
+.header-bottom{
+    align-self: center;
+}
+.header-4 .header-vertical-menu{
+    position: relative;
+    margin: 10px 0;
+}
+
+.header-4 .icon-vertical-menu{
+    background: #ccc;
+    border-radius: 30px;
+}
+
+.header-4 .vertical-bars{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.header-4 .vertical-bars span{
+    padding-left: 10px;
+}
+
+.header-4-bottom{
+    background-color: #999;
+}
+
+.header-4-bottom .nav-vertical{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    bottom: unset;
+    right: unset;
+    display: none!important;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 75%);
+    background-color: #fff;
+}
+
+.header-4-bottom .nav-vertical::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    display: block;
+    top: -5px;
+    bottom: auto;
+    position: absolute;
+    left: 30px;
+}
+.header-4-bottom .nav-vertical.show{
+    display: block!important;
+}
+
+.header-4-bottom .vertical-bkg{
+    background-color: transparent;
+}
+
+.header-4-bottom .vertical-menu-close{
+    display: none;
+}

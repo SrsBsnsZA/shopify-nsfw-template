@@ -1,0 +1,124 @@
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+
+
+{%- paginate blog.articles by 6 -%}
+
+<div class="container">
+  <div class="row">
+    
+    <div class=" col-12 col-sm-12 col-md-8 col-lg-9 Ap_pd">
+      <div class="main-blog page-width">
+        <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    
+        <div class="blog-articles">
+          {%- for article in blog.articles -%}
+            <div class="blog-articles__article article">
+              {%- render 'article-card', article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
+            </div>
+          {%- endfor -%}
+        </div>
+    
+        {%- if paginate.pages > 1 -%}
+          {%- render 'pagination', paginate: paginate -%}
+        {%- endif -%}
+      </div>
+    </div>
+    <div class=" col-12 col-sm-12 col-md-4 col-lg-3 Ap_pd" id="right-column">          
+      <div class="blog-sidebar">  
+        <div class="block-sidebar-blog">
+          <h4 class="title_block">{{ 'blogs.article.title_blog' | t }}</h4>      
+          <ul class="list-block">
+            {% for article in blog.articles %}
+            <li>
+              <div class="blog-image">
+                {%- if article.image -%}
+                <div class="article-template__hero-container" {{ block.shopify_attributes }}>
+                  <div class="article-template__hero-{{ block.settings.image_height }} media"
+                    itemprop="image"
+                    {% if block.settings.image_height == 'adapt' and article.image %} style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"{% endif %}
+                  >
+                    <img
+                      srcset="{% if article.image.width >= 350 %}{{ article.image | img_url: '350x' }} 350w,{% endif %}
+                        {% if article.image.width >= 750 %}{{ article.image | img_url: '750x' }} 750w,{% endif %}
+                        {% if article.image.width >= 1100 %}{{ article.image | img_url: '1100x' }} 1100w,{% endif %}
+                        {% if article.image.width >= 1500 %}{{ article.image | img_url: '1500x' }} 1500w,{% endif %}
+                        {% if article.image.width >= 2200 %}{{ article.image | img_url: '2200x' }} 2200w,{% endif %}
+                        {% if article.image.width >= 3000 %}{{ article.image | img_url: '3000x' }} 3000w,{% endif %}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                      src="{{ article.image | img_url: '1100x' }}"
+                      loading="lazy"
+                      width="{{ article.image.width }}"
+                      height="{{ article.image.height }}"
+                      alt="{{ article.image.alt | escape }}">
+                  </div>
+                </div>
+              {%- endif -%}
+              </div>
+              <div class="blog-content">
+                {{- article.published_at | time_tag: format: 'abbreviated_date' -}}
+                <h3 class="post-name">
+                  <a href="{{ article.url }}">{{ article.title }}</a>
+                </h3>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div> 
+
+        <div id="categories-blog" class="block-sidebar-blog">
+          <h4 class="title_block">{{ 'blogs.article.tags_blog' | t }}</h4>      
+          <ul class="list-block">
+            {% for tag in blog.all_tags %}
+              <li>
+                <a href="{{ blog.url }}/tagged/{{ tag | handle }}">
+                  {{ tag }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>   
+      </div> 
+    </div>
+
+  </div>
+</div>
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "t:sections.main-blog.name",
+  "tag": "section",
+  "class": "spaced-section section_blog",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.main-blog.settings.header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_image.label",
+      "info": "t:sections.main-blog.settings.show_image.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "default": false,
+      "label": "t:sections.main-blog.settings.show_author.label"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-blog.settings.paragraph.content"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,449 @@
+{
+  "sections": {
+    "1636014571771b2284": {
+      "type": "slide-show",
+      "blocks": {
+        "1636014571771b2284-0": {
+          "type": "slide",
+          "settings": {
+            "image_slide": "shopify:\/\/shop_images\/Pink_blue_bg.jpg",
+            "image_slide_child": "shopify:\/\/shop_images\/WishYouWereGay_B-2.png",
+            "sub_title": "",
+            "title": "",
+            "content": "Picture this, you’re home alone, it’s a Friday night and you’re <br>feeling fine. Imagine sliding into something a little more <br>comfortable, some silky socks? We know we would. Browse our <br>selection and we promise you this “local is lekker” brand will knock <br>your socks off.",
+            "link": "Shop Socks",
+            "btn_link": "",
+            "text_align": "left",
+            "item_align": "center"
+          }
+        },
+        "1636014571771b2284-1": {
+          "type": "slide",
+          "settings": {
+            "sub_title": "Fashion design 2022",
+            "title": "Come &  See <br>  Our Fabulous <br>  Feet!",
+            "content": "",
+            "link": "Shop Socks",
+            "btn_link": "",
+            "text_align": "left",
+            "item_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1636014571771b2284-0",
+        "1636014571771b2284-1"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "enberslidesDelay": false,
+        "slidesDelay": 15,
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        "rows": 1,
+        "autoplay": false,
+        "autoplaySpeed": 5000,
+        "speed": 700,
+        "pauseOnHover": false,
+        "arrows": true,
+        "dots": true,
+        "draggable": true,
+        "infinite": true,
+        "slidesToShow_992": 1,
+        "slidesToScroll_992": 1,
+        "arrows_992": true,
+        "dots_992": true,
+        "slidesToShow_767": 1,
+        "slidesToScroll_767": 1,
+        "arrows_767": true,
+        "dots_767": true,
+        "slidesToShow_450": 1,
+        "slidesToScroll_450": 1,
+        "arrows_450": true,
+        "dots_450": true
+      }
+    },
+    "1636016178b8875f9b": {
+      "type": "advanced-content",
+      "blocks": {
+        "1636016178b8875f9b-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "Looksbook <br> Socks",
+            "header_top": "COLLECTION",
+            "text__content": "Making the world a more colourful place with our everyday essentials. Fun, Fresh & Eye Popping Designs.",
+            "big_text": "Sock",
+            "btn_text": "Shop Now",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        },
+        "1636016178b8875f9b-0": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "effects_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1636016178b8875f9b-1",
+        "1636016178b8875f9b-0"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "background-color": "rgba(0,0,0,0)",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": ""
+      }
+    },
+    "1636423293977393af": {
+      "type": "product-carousel",
+      "settings": {
+        "fullwidth": false,
+        "background-color": "#f4f4f4",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "Creative Socks",
+        "text_decoration": "Preorder now to receive exclusive deals & gifts",
+        "collection": "men",
+        "image_ratio": "adapt",
+        "slidesToShow": 3,
+        "slidesToScroll": 1,
+        "rows": 1,
+        "autoplay": false,
+        "autoplaySpeed": 2000,
+        "speed": 500,
+        "pauseOnHover": false,
+        "arrows": false,
+        "dots": false,
+        "draggable": true,
+        "infinite": true,
+        "slidesToShow_992": 3,
+        "slidesToScroll_992": 1,
+        "arrows_992": false,
+        "dots_992": false,
+        "slidesToShow_767": 2,
+        "slidesToScroll_767": 1,
+        "arrows_767": false,
+        "dots_767": false,
+        "slidesToShow_450": 1,
+        "slidesToScroll_450": 1,
+        "arrows_450": false,
+        "dots_450": false,
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true
+      }
+    },
+    "16418828319520d85f": {
+      "type": "collection-1",
+      "blocks": {
+        "1641882831f0dad944-0": {
+          "type": "collection",
+          "settings": {
+            "width": "50%",
+            "collection": "",
+            "title_collection1": "COLLECTION",
+            "title_collection1_center": "Kids Socks",
+            "btn_collection1": "",
+            "btn_link": ""
+          }
+        },
+        "1641882831f0dad944-1": {
+          "type": "collection",
+          "settings": {
+            "width": "50%",
+            "collection": "",
+            "title_collection1": "COLLECTION",
+            "title_collection1_center": "Solids Socks",
+            "btn_collection1": "",
+            "btn_link": ""
+          }
+        },
+        "1641882831f0dad944-2": {
+          "type": "collection",
+          "settings": {
+            "width": "50%",
+            "collection": "",
+            "title_collection1": "COLLECTION",
+            "title_collection1_center": "Corporate socks",
+            "btn_collection1": "",
+            "btn_link": ""
+          }
+        },
+        "0edfe020-a7aa-4144-824a-7a44236a35b8": {
+          "type": "collection",
+          "settings": {
+            "width": "50%",
+            "collection": "",
+            "title_collection1": "COLLECTION",
+            "title_collection1_center": "Food Socks",
+            "btn_collection1": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641882831f0dad944-0",
+        "1641882831f0dad944-1",
+        "1641882831f0dad944-2",
+        "0edfe020-a7aa-4144-824a-7a44236a35b8"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "background-color": "",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": "",
+        "effects_image": false
+      }
+    },
+    "1641889860fde5c8dd": {
+      "type": "product-carousel",
+      "settings": {
+        "fullwidth": false,
+        "background-color": "",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "Best Selling Socks",
+        "text_decoration": "Preorder now to receive exclusive deals & gifts",
+        "collection": "product-best-selling",
+        "image_ratio": "adapt",
+        "slidesToShow": 4,
+        "slidesToScroll": 1,
+        "rows": 1,
+        "autoplay": false,
+        "autoplaySpeed": 2000,
+        "speed": 500,
+        "pauseOnHover": false,
+        "arrows": false,
+        "dots": false,
+        "draggable": true,
+        "infinite": true,
+        "slidesToShow_992": 3,
+        "slidesToScroll_992": 1,
+        "arrows_992": false,
+        "dots_992": false,
+        "slidesToShow_767": 2,
+        "slidesToScroll_767": 1,
+        "arrows_767": false,
+        "dots_767": false,
+        "slidesToShow_450": 1,
+        "slidesToScroll_450": 1,
+        "arrows_450": false,
+        "dots_450": false,
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true
+      }
+    },
+    "164189257492617dfe": {
+      "type": "section-sp",
+      "blocks": {
+        "1641892574a9acddb1-0": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "effects_image": false
+          }
+        },
+        "1641892574a9acddb1-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
+            "header_top": "",
+            "text__content": "Socks designed by artists from various universes: graphic designers, street artists, designers and illustrators with overflowing imagination.",
+            "big_text": "",
+            "btn_text": "Get a Quote",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1641892574a9acddb1-0",
+        "1641892574a9acddb1-1"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "background-color": "#f4f4f4",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "Works of art\n<br>\nat the end of the feet",
+        "text_decoration": ""
+      }
+    },
+    "baebb1d5-0ce9-4133-8f03-e048e1423b21": {
+      "type": "section-sp",
+      "blocks": {
+        "d8597568-8d71-4db8-9d56-5df6aa2786a3": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "image": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
+            "image_child1": "shopify:\/\/shop_images\/Page_2.jpg",
+            "effects_image": true
+          }
+        },
+        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
+            "header_top": "",
+            "text__content": "Socks designed by artists from various universes: graphic designers, street artists, designers and illustrators with overflowing imagination.",
+            "big_text": "",
+            "btn_text": "Get a Quote",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        },
+        "3905aca7-434e-44f8-a762-5ad1f3259629": {
+          "type": "image",
+          "settings": {
+            "width": "100%",
+            "image": "shopify:\/\/shop_images\/Page_2.jpg",
+            "image_child1": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
+            "image_child2": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
+            "effects_image": false
+          }
+        }
+      },
+      "block_order": [
+        "d8597568-8d71-4db8-9d56-5df6aa2786a3",
+        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00",
+        "3905aca7-434e-44f8-a762-5ad1f3259629"
+      ],
+      "settings": {
+        "fullwidth": true,
+        "background-color": "#f4f4f4",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": ""
+      }
+    },
+    "1641893186a013e041": {
+      "type": "service",
+      "blocks": {
+        "1641893186f6b9cd07-0": {
+          "type": "service",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"62px\" height=\"42px\">\n<path fill-rule=\"evenodd\" fill=\"rgb(0, 0, 0)\" d=\"M59.211,35.898 L55.921,35.898 C55.381,39.357 52.454,42.011 48.924,42.011 C45.359,42.011 42.408,39.304 41.911,35.795 C41.772,35.859 41.619,35.898 41.456,35.898 L20.075,35.898 C19.535,39.357 16.608,42.011 13.078,42.011 C9.548,42.011 6.621,39.357 6.081,35.898 L1.129,35.898 C0.511,35.898 0.009,35.385 0.009,34.752 L0.009,3.594 C0.009,1.604 1.591,-0.014 3.536,-0.014 L33.075,-0.014 C35.020,-0.014 36.602,1.604 36.602,3.594 L36.602,6.099 L53.716,6.099 C54.764,6.099 55.712,6.691 56.191,7.645 L61.685,18.579 C61.886,18.979 61.993,19.429 61.993,19.880 L61.993,33.052 C61.993,34.621 60.745,35.898 59.211,35.898 ZM13.078,39.718 C15.754,39.718 17.932,37.490 17.932,34.752 C17.932,32.013 15.754,29.785 13.078,29.785 C10.402,29.785 8.224,32.013 8.224,34.752 C8.224,37.490 10.402,39.718 13.078,39.718 ZM34.362,29.785 L20.546,29.785 C19.927,29.785 19.426,29.272 19.426,28.639 C19.426,28.006 19.927,27.493 20.546,27.493 L34.362,27.493 L34.362,9.791 L34.362,7.245 L34.362,3.594 C34.362,2.868 33.785,2.278 33.075,2.278 L3.536,2.278 C2.826,2.278 2.250,2.868 2.250,3.594 L2.250,27.493 L4.117,27.493 C4.735,27.493 5.237,28.006 5.237,28.639 C5.237,29.272 4.735,29.785 4.117,29.785 L2.250,29.785 L2.250,33.606 L6.081,33.606 C6.621,30.147 9.548,27.493 13.078,27.493 C16.608,27.493 19.535,30.147 20.075,33.606 L34.362,33.606 L34.362,29.785 ZM48.924,39.718 C51.600,39.718 53.778,37.490 53.778,34.752 C53.778,32.013 51.600,29.785 48.924,29.785 C46.247,29.785 44.070,32.013 44.070,34.752 C44.070,37.490 46.247,39.718 48.924,39.718 ZM59.752,19.880 C59.752,19.792 59.732,19.705 59.693,19.628 L54.197,8.692 C54.104,8.506 53.920,8.391 53.716,8.391 L36.602,8.391 L36.602,9.791 L36.602,33.606 L41.456,33.606 C41.619,33.606 41.772,33.645 41.911,33.709 C42.408,30.200 45.359,27.493 48.924,27.493 C52.454,27.493 55.381,30.147 55.921,33.606 L59.211,33.606 C59.510,33.606 59.752,33.357 59.752,33.052 L59.752,19.880 ZM56.311,22.144 L41.456,22.144 C40.838,22.144 40.336,21.631 40.336,20.998 L40.336,11.829 C40.336,11.196 40.838,10.683 41.456,10.683 L51.862,10.683 C52.287,10.683 52.675,10.929 52.865,11.320 L57.315,20.489 C57.487,20.844 57.468,21.265 57.263,21.602 C57.059,21.939 56.699,22.144 56.311,22.144 ZM51.167,12.975 L42.576,12.975 L42.576,19.852 L54.504,19.852 L51.167,12.975 Z\"\/>\n<\/svg>",
+            "header_service": "Shipping Worldwide",
+            "text_service": "Special financing and earn rewards."
+          }
+        },
+        "1641893186f6b9cd07-1": {
+          "type": "service",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"56px\" height=\"46px\">\n<path fill-rule=\"evenodd\" fill=\"rgb(0, 0, 0)\" d=\"M8.446,36.501 L20.181,36.501 C20.789,36.501 21.282,36.991 21.282,37.596 C21.282,38.201 20.789,38.692 20.181,38.692 L8.446,38.692 C7.839,38.692 7.346,38.201 7.346,37.596 C7.346,36.991 7.839,36.501 8.446,36.501 ZM27.149,33.215 C27.149,33.820 26.656,34.311 26.049,34.311 L8.446,34.311 C7.839,34.311 7.346,33.820 7.346,33.215 C7.346,32.611 7.839,32.120 8.446,32.120 L26.049,32.120 C26.656,32.120 27.149,32.611 27.149,33.215 ZM9.913,28.469 C9.306,28.469 8.813,27.979 8.813,27.374 L8.813,22.716 L7.538,23.985 C7.108,24.413 6.412,24.413 5.982,23.985 C5.553,23.557 5.553,22.864 5.982,22.436 L9.135,19.298 C9.237,19.196 9.358,19.117 9.493,19.061 C9.617,19.010 9.749,18.987 9.881,18.983 C9.892,18.983 9.902,18.977 9.913,18.977 C9.923,18.977 9.932,18.982 9.942,18.983 C10.075,18.986 10.208,19.010 10.333,19.061 C10.468,19.117 10.590,19.196 10.691,19.297 C10.691,19.297 10.691,19.297 10.691,19.297 L13.844,22.436 C14.274,22.864 14.274,23.557 13.844,23.985 C13.629,24.199 13.348,24.306 13.066,24.306 C12.785,24.306 12.503,24.199 12.288,23.985 L11.013,22.716 L11.013,27.374 C11.013,27.979 10.521,28.469 9.913,28.469 ZM50.382,34.311 L49.519,34.311 L48.052,34.311 L43.285,34.311 L43.285,36.786 C43.285,37.498 42.884,38.129 42.239,38.437 C41.984,38.558 41.713,38.616 41.444,38.616 C41.034,38.616 40.628,38.478 40.293,38.207 L31.626,31.200 C30.685,30.440 30.145,29.311 30.145,28.104 C30.145,26.897 30.685,25.768 31.626,25.008 L40.292,18.003 C40.846,17.553 41.592,17.464 42.239,17.771 C42.884,18.078 43.285,18.710 43.285,19.422 L43.285,21.897 L46.952,21.897 L46.952,3.430 C46.952,2.742 46.390,2.182 45.700,2.182 L34.484,2.182 L34.484,16.380 C34.484,16.779 34.265,17.147 33.914,17.339 C33.563,17.530 33.133,17.519 32.795,17.305 L29.354,15.135 L25.911,17.305 C25.732,17.417 25.527,17.475 25.323,17.475 C25.118,17.475 24.914,17.417 24.735,17.305 L21.285,15.135 L17.836,17.305 C17.498,17.519 17.068,17.530 16.717,17.339 C16.366,17.147 16.147,16.779 16.147,16.380 L16.147,2.182 L3.465,2.182 C2.774,2.182 2.212,2.742 2.212,3.430 L2.212,42.555 C2.212,43.243 2.774,43.803 3.465,43.803 L45.700,43.803 C46.390,43.803 46.952,43.243 46.952,42.555 L46.952,37.596 C46.952,36.991 47.445,36.501 48.052,36.501 C48.660,36.501 49.153,36.991 49.153,37.596 L49.153,42.555 C49.153,44.451 47.603,45.994 45.700,45.994 L3.465,45.994 C1.561,45.994 0.012,44.451 0.012,42.555 L0.012,3.430 C0.012,1.535 1.561,-0.008 3.465,-0.008 L17.248,-0.008 L33.383,-0.008 L45.700,-0.008 C47.603,-0.008 49.153,1.535 49.153,3.430 L49.153,17.516 L50.382,17.516 C52.939,17.516 55.020,19.587 55.020,22.132 L55.020,29.694 C55.020,32.240 52.939,34.311 50.382,34.311 ZM32.283,2.182 L18.348,2.182 L18.348,14.392 L20.697,12.913 C20.877,12.800 21.081,12.743 21.285,12.743 C21.489,12.743 21.694,12.800 21.873,12.913 L25.322,15.083 L28.765,12.913 C29.125,12.687 29.584,12.687 29.943,12.913 L32.283,14.389 L32.283,2.182 ZM52.820,22.132 C52.820,20.795 51.726,19.707 50.382,19.707 L49.153,19.707 L49.153,22.992 C49.153,23.597 48.660,24.088 48.052,24.088 L42.185,24.088 C41.577,24.088 41.085,23.597 41.085,22.992 L41.085,20.183 L33.013,26.708 C32.589,27.052 32.346,27.559 32.346,28.104 C32.346,28.649 32.589,29.156 33.013,29.500 L41.085,36.025 L41.085,33.215 C41.085,32.611 41.577,32.120 42.185,32.120 L48.052,32.120 L49.519,32.120 L50.382,32.120 C51.726,32.120 52.820,31.032 52.820,29.694 L52.820,22.132 Z\"\/>\n<\/svg>",
+            "header_service": "14 Days Return",
+            "text_service": "14-days free return policy."
+          }
+        },
+        "1641893186f6b9cd07-2": {
+          "type": "service",
+          "settings": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" width=\"58px\" height=\"52px\">\n<path fill-rule=\"evenodd\" fill=\"rgb(0, 0, 0)\" d=\"M56.906,37.344 L34.876,37.344 C34.268,37.344 33.775,36.852 33.775,36.246 L33.775,12.806 C33.775,12.199 34.268,11.707 34.876,11.707 L38.181,11.707 L38.181,7.558 C38.181,3.384 41.585,-0.013 45.770,-0.013 L46.011,-0.013 C50.196,-0.013 53.601,3.384 53.601,7.558 L53.601,11.707 L56.906,11.707 C57.514,11.707 58.007,12.199 58.007,12.806 L58.007,36.246 C58.007,36.852 57.514,37.344 56.906,37.344 ZM51.398,7.558 C51.398,4.595 48.982,2.185 46.011,2.185 L45.770,2.185 C42.800,2.185 40.384,4.595 40.384,7.558 L40.384,11.707 L51.398,11.707 L51.398,7.558 ZM55.804,13.904 L52.500,13.904 L39.282,13.904 L35.978,13.904 L35.978,30.752 L55.804,30.752 L55.804,13.904 ZM55.804,32.949 L35.978,32.949 L35.978,35.146 L55.804,35.146 L55.804,32.949 ZM46.625,19.032 C47.233,19.032 47.727,19.524 47.727,20.131 L47.727,25.990 C47.727,26.597 47.233,27.089 46.625,27.089 C46.017,27.089 45.524,26.597 45.524,25.990 L45.524,20.131 C45.524,19.524 46.017,19.032 46.625,19.032 ZM30.470,44.669 L21.659,44.669 C21.051,44.669 20.557,44.177 20.557,43.570 C20.557,42.964 21.051,42.471 21.659,42.471 L30.470,42.471 C31.079,42.471 31.572,42.964 31.572,43.570 C31.572,44.177 31.079,44.669 30.470,44.669 ZM6.973,44.669 C6.364,44.669 5.871,44.177 5.871,43.570 C5.871,42.964 6.364,42.471 6.973,42.471 L15.784,42.471 C16.392,42.471 16.886,42.964 16.886,43.570 C16.886,44.177 16.392,44.669 15.784,44.669 L6.973,44.669 ZM29.002,32.217 C29.610,32.217 30.103,32.709 30.103,33.315 C30.103,33.922 29.610,34.414 29.002,34.414 L2.200,34.414 L2.200,47.345 C2.200,48.698 3.302,49.796 4.657,49.796 L46.004,49.796 C47.359,49.796 48.461,48.698 48.461,47.345 L48.461,42.105 C48.461,41.499 48.954,41.007 49.562,41.007 C50.171,41.007 50.664,41.499 50.664,42.105 L50.664,47.345 C50.664,49.908 48.574,51.994 46.004,51.994 L4.657,51.994 C2.087,51.994 -0.003,49.908 -0.003,47.345 L-0.003,33.315 L-0.003,25.990 L-0.003,20.750 C-0.003,18.187 2.087,16.102 4.657,16.102 L29.002,16.102 C29.610,16.102 30.103,16.594 30.103,17.201 C30.103,17.807 29.610,18.299 29.002,18.299 L4.657,18.299 C3.302,18.299 2.200,19.398 2.200,20.750 L2.200,24.892 L29.002,24.892 C29.610,24.892 30.103,25.384 30.103,25.990 C30.103,26.597 29.610,27.089 29.002,27.089 L2.200,27.089 L2.200,32.217 L29.002,32.217 Z\"\/>\n<\/svg>",
+            "header_service": "Security Payment",
+            "text_service": "We accept all major credit cards."
+          }
+        }
+      },
+      "block_order": [
+        "1641893186f6b9cd07-0",
+        "1641893186f6b9cd07-1",
+        "1641893186f6b9cd07-2"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "background-color": "#f4f4f4",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": "",
+        "icon-align": "top"
+      }
+    },
+    "1641893191899ad859": {
+      "type": "blog-post",
+      "settings": {
+        "fullwidth": false,
+        "background-color": "",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "Our Blog Socks",
+        "text_decoration": "Preorder now to receive exclusive deals & gifts",
+        "blog": "new-hot",
+        "show_view_all": true,
+        "show_date": true,
+        "show_author": true,
+        "show_description": false,
+        "tags_blog": false,
+        "show_link": false,
+        "text_link": "Read More",
+        "slidesToShow": 3,
+        "slidesToScroll": 1,
+        "rows": 1,
+        "autoplay": false,
+        "autoplaySpeed": 2000,
+        "speed": 500,
+        "pauseOnHover": false,
+        "arrows": false,
+        "dots": false,
+        "draggable": true,
+        "infinite": true,
+        "slidesToShow_992": 3,
+        "slidesToScroll_992": 1,
+        "arrows_992": false,
+        "dots_992": false,
+        "slidesToShow_767": 2,
+        "slidesToScroll_767": 1,
+        "arrows_767": false,
+        "dots_767": false,
+        "slidesToShow_450": 1,
+        "slidesToScroll_450": 1,
+        "arrows_450": false,
+        "dots_450": false
+      }
+    }
+  },
+  "order": [
+    "1636014571771b2284",
+    "1636016178b8875f9b",
+    "1636423293977393af",
+    "16418828319520d85f",
+    "1641889860fde5c8dd",
+    "164189257492617dfe",
+    "baebb1d5-0ce9-4133-8f03-e048e1423b21",
+    "1641893186a013e041",
+    "1641893191899ad859"
+  ]
+}

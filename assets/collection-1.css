@@ -1,0 +1,112 @@
+.collection-1-content{
+    position: relative;
+    margin: 0 15px;
+}
+
+.collection-content{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.title-collection-1{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #000;
+}
+.link-collection-1 .collection-image-hover{
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.link-collection-1:hover .collection-image-hover {
+    border: 1px solid #000;
+}
+
+.collection-image-hover{
+    position: relative;
+}
+
+.collection-image-hover img{
+    transition: all 0.5s ease-in-out;
+}
+.collection-image-hover:hover img{
+    transform: scale(1.1);
+}
+
+.collection-1 .image-collection__media--placeholder{
+    max-height: 297px;
+    width: 100%;
+}
+
+/* HOME 1 */
+.ho1-wp_collection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10% 15%;
+}
+h4.ho1-title_collection1 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: .014px;
+    font-family: "Moderat Extended";
+}
+h2.ho1-title_collection1 {
+    font-size: 52px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Moderat Extended';
+}
+.ho1_btn_collection1 {
+    margin-top: 30px;
+}
+.collection-content.collection-image.media {
+    min-height: 350px;
+    object-fit: cover;
+}
+
+/* HONE 4 */
+.collection-1 h2.section-header {
+    display: none;
+}
+.collection-1-content {
+    margin: 0;
+}
+.collection-content {
+    margin: 0;
+}
+.ho1-wp_collection {
+    top: inherit;
+    bottom: 0;
+    padding: 50px 15px 50px 75px;
+}
+h4.ho1-title_collection1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+}
+h2.ho1-title_collection1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+    letter-spacing: -.75px;
+}
+@media (min-width: 1200px) {
+    section#shopify-section-template--15392308396259__1637026033c816f855 {
+        padding: 0px 60px;
+    }
+}

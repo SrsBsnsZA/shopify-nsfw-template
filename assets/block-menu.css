@@ -1,0 +1,299 @@
+.nav-mega .site-nav .site-nav__link{
+  padding: 26px 20px;
+}
+
+.nav-mega .site-nav .site-nav__link:hover{
+    color: var(--color-menu_text_hover);
+}
+
+.site-nav__dropdown{
+  top: 100%;
+  left: 0;
+}
+
+.site-nav__item.site-nav__item-mega.site-nav__item-mega--custom{
+	position: relative;
+}
+
+.site-nav__item.site-nav__item-mega.site-nav__item-mega--custom:hover .site-nav__dropdown,
+.site-nav__item.site-nav__item-mega.site-nav__item-mega--custom:focus .site-nav__dropdown{
+	  opacity: 1;
+    display: block;
+    z-index: 99999;
+    animation: marginNav 0.5s;
+}
+
+.site-nav__dropdown .nav-links{
+  padding: 0;
+}
+.mega-col-inner .menu-title a{
+  color: #000;
+  display: inline-block;
+}
+
+.mega-col-inner .widget-inner a{
+  color: #888;
+  font-size: 15px;
+}
+.mega-col-inner .widget-inner a:hover{
+  color: var(--color-label_text_hover);
+}
+.mega-col-inner .widget-inner li{
+  transition: all ease .3s;
+}
+.mega-col-inner .widget-inner li:hover{
+  transform: translateX(10px);
+}
+
+.nav-mega .products_menu .card-wrapper {
+  width: 50%;
+}
+
+.site-nav__item-mega--custom .dropdown-toggle::after {
+  border: none; 
+  content: "\f107";
+  font-family: "Font Awesome 5 Pro";
+  display: inline-block;
+  vertical-align: initial;
+  font-size: 14px;
+  width: 0;
+  height: 0;
+  margin-left: 0.3em;
+}
+
+.block-html .image-box--placeholder.placeholder .placeholder-svg{
+  width: 100%;
+}
+
+/* CSS MENU DROPDOWN */
+.site__dropdown .row ,
+.mega-col .row {
+  margin: 0 -15px;
+}
+.meganav-2 .menu-title a ,
+.meganav-3 .menu-title a {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0;
+  line-height: 20px;
+}
+.site-nav__item .mega-col {
+  padding: 0 15px;
+}
+.mega-col .col-lg-3.order-4 {
+  margin-top: 0;
+}
+
+.mega-col .col-lg-4 ,
+.mega-col .col-lg-12 ,
+.mega-col .col-lg-6 {
+  padding: 0 15px;
+}
+
+/* CSS MENU VERTICAL */
+.mega-col.col-lg-4.order-4 {
+  margin-top: 0; 
+  padding: 0 15px;
+}
+
+@media(max-width: 991px){
+  .nav-mega{
+    position: fixed;
+    top: 0;
+    left: -234px;
+    bottom: 0;
+    z-index: 99999;
+    width: 234px;
+    background: #fff;
+    overflow-y: auto;
+    transition: all 0.5s ease-in;
+    visibility: hidden;
+  }
+
+  .site-nav__item-mega--custom .dropdown-toggle::after {
+    display: none;
+  }
+
+  .nav-mega.active{
+    left: 0;
+    visibility: visible;
+  }
+
+  .has-menu-mobile .nav-bkg{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-bkg{
+    display: block!important;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .site-nav{
+    flex-direction: column;
+  }
+
+  .site-nav .menu-title{
+    position: relative;
+  }
+
+  .nav-mega .site-nav__item.site-nav__item-mega{
+    position: relative;
+  }
+
+  .nav-mega .site-nav .site-nav__link{
+    padding: 17px 10px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-size: 15px;
+  }
+
+  .drawer__nav-toggle--open {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    top: 1.825rem;
+    margin: auto 0;
+    right: 0;
+    width: 30px;
+    height: 20px;
+  }
+
+  span.drawer__nav-toggle--open:before {
+    content: '';
+    position: absolute;
+    top: -13px;
+    left: -20px;
+    right: 0;
+    background-color: #ff000000;
+    width: 50px;
+    height: 50px;
+  }
+
+  nav.nav-bar.nav-mega.active .meganav-1 .mega-col-inner .menu-title>a {
+    color: #686868;
+  }
+
+  .mega-col-inner .drawer__nav-toggle--open{
+    padding: 13.5px 22.5px;
+  }
+
+  .site-nav .fa{
+    display: block;
+  }
+
+  .site-nav .mega-col-inner .drawer__nav-toggle--open{
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .site-nav__item{
+    border-bottom: 1px solid #ececec;
+  }
+
+  li.site-nav__item.site-nav__item-mega.site-nav__item-mega--custom.active .site-nav__dropdown{
+    display: block!important;
+  }
+
+  .site-nav__dropdown{
+    display: none!important;
+    width: 100%!important;
+    opacity: 1!important;
+    border-top: none;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+    padding: 0;
+  }
+
+  .site-nav__item.site-nav__item-mega.site-nav__item-mega--custom:hover .site-nav__dropdown,
+  .site-nav__item.site-nav__item-mega.site-nav__item-mega--custom:focus .site-nav__dropdown{
+      opacity: unset;
+      display: unset;
+      z-index: unset;
+      animation: unset;
+  }
+
+  .dots-negative{
+    flex-direction: column;
+  }
+
+  .products_menu .card-wrapper{
+    width: 100%;
+  }
+
+  .mega-col-inner .widget-inner{
+    animation: height 0.5s ease-in;
+  }
+
+  .mega-col-inner.active .widget-inner{
+    display: block;
+  }
+
+  .off-canvas-button-megamenu { 
+    color: #000;
+    margin: 15px 10px!important;
+    text-align: right;
+    font-size: 14px;
+    line-height: 17.5px;
+  }
+
+  @keyframes height {
+    to{
+      height: 0;
+    }
+    from{
+     height: 100%; 
+    }
+  }
+  
+  .nav-mega .site-nav .site-nav__link{
+    color: #000;
+  }
+  nav.nav-bar.nav-mega.active .meganav-2 .menu-title a, 
+  nav.nav-bar.nav-mega.active .meganav-3 .menu-title a {
+    margin-top: 10px
+  }
+  nav.nav-bar.nav-mega.active ul.nav-links li {
+    line-height: 27.6px;
+    padding: 0px 0;
+  }
+  nav.nav-bar.nav-mega.active .site__dropdown {
+    padding: 0 10px;
+  }
+  nav.nav-bar.nav-mega.active .site-nav__dropdown .nav-links {
+    padding: 0;
+    padding-left: 7px;
+    margin: 5px 0;
+  }
+  nav.nav-bar.nav-mega.active .site-nav .site-nav__link {
+    font-weight: 400;
+    text-transform: capitalize;
+  }  
+}
+@media (min-width: 992px) {
+  .site-nav__item:nth-child(1) .site-nav__link {
+    padding-left: 0!important;
+  } 
+  li.site-nav__item.site-nav__item-mega.site-nav__item-mega--custom:nth-child(2) {
+    position: unset;
+  }
+  /* CSS Update */
+  li.site-nav__item.site-nav__item-mega.site-nav__item-mega--custom:nth-child(2) .site-nav__dropdown {
+    left: -10%;
+  }
+}

@@ -1,0 +1,215 @@
+<!-- header-2.liquid -->
+{{ 'header-2.css' | asset_url | stylesheet_tag }}
+{% render 'section-style' %}
+
+<header class="header-2 color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
+  {%- if section.settings.header_announcement_bar -%}
+  <div class="header-announcement-bar">
+    <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+      <div class="row d-flex align-items-center">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 hidden-lg-down header-announcement-bar-left">
+            <p>      
+                <a class="number" href="tel:{{ section.settings.number_announcement_bar | default:'#' }}" title="{{ section.settings.number_announcement_bar }}">{{ section.settings.number_announcement_bar }}</a>
+            </p>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 hidden-lg-down ">
+          <div class="headerTop_center">
+            {{ section.settings.text_announcement_bar }}
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 header-announcement-bar-right">
+          {%- if section.settings.currencies -%}
+          {%- render 'block-currencies' -%}
+          {%- endif -%} 
+        </div>
+    </div>
+    </div>
+  </div>
+  {%- endif -%}
+  
+  <div class="header-bottom">
+    <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+        <div class="row align-items-center">
+            
+          <div class="col-xl-5 col-lg-7 col-md-4 col-sm-4 col-2 header-menubar">
+            <div class="header_mobi">
+              {%- render 'icon-megamenu-mobile' -%}
+              {%- render 'block-menu' -%}
+            </div>
+          </div>
+            
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-5 head-logo logo-padding logo-align-{%- if section.settings.logo_align == 'top' -%}top{%- else -%}bottom{%- endif -%}">
+            {%- if section.settings.header_logo -%}
+                {%- render 'header-logo' -%}
+            {%- endif -%}
+          </div>
+
+          <div class="col-xl-5 col-lg-3 col-md-4 col-sm-4 col-5 header-icon">        
+
+              {%- if section.settings.header_sign -%}
+                  {%- render 'header-sign' -%}
+              {%- endif -%}
+
+              {%- if section.settings.header_wishlist -%}
+                  {%- render 'wishlist-header' -%}
+              {%- endif -%}
+
+              {%- if section.settings.header_card -%}
+                  {%- render 'header-cart' -%}
+              {%- endif -%}    
+
+              {%- if section.settings.header_seach -%}
+              {%- render 'seach-header' -%}
+              {%- endif -%}
+          </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "t:sections.header-2.name",
+  "class": "spaced-header",
+  "tag": "section",
+  "settings": [
+      {
+        "type": "checkbox",
+        "id": "fullwidth",
+        "label": "t:sections.header-2.settings.fullwidth.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "header_announcement_bar",
+        "label": "t:sections.header-2.settings.header_announcement_bar.label",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text_announcement_bar",
+        "label": "t:sections.header-2.settings.text_announcement_bar.label",
+        "default": "Welcome to our store /"
+      },
+      {
+        "type": "text",
+        "id": "number_announcement_bar",
+        "label": "t:sections.header-2.settings.number_announcement_bar.label",
+        "default": "0992158748"
+      },
+      {
+        "type": "text",
+        "id": "text_link_announcement_bar",
+        "label": "t:sections.header-2.settings.text_link_announcement_bar.label",
+        "default": "SHOWROOMS"
+      },
+      {
+        "type": "url",
+        "id": "link_announcement_bar",
+        "label": "t:sections.header-2.settings.link_announcement_bar.label"
+      },
+      {
+        "type": "text",
+        "id": "text_link2_announcement_bar",
+        "label": "t:sections.header-2.settings.text_link2_announcement_bar.label",
+        "default": "HELP CENTRE"
+      },
+      {
+        "type": "url",
+        "id": "link2_announcement_bar",
+        "label": "t:sections.header-2.settings.link2_announcement_bar.label"
+      },
+      {
+        "id": "color_scheme",
+        "type": "select",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.header-2.settings.color_scheme.options__1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.header-2.settings.color_scheme.options__2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.header-2.settings.color_scheme.options__3.label"
+          },
+          {
+            "value": "accent-1",
+            "label": "t:sections.header-2.settings.color_scheme.options__4.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.header-2.settings.color_scheme.options__5.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.header-2.settings.color_scheme.label"
+      },
+
+      {
+        "type": "checkbox",
+        "id": "header_logo",
+        "label": "t:sections.header-2.settings.header_logo.label",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:sections.header-2.settings.logo.label"
+      },
+      {
+        "id": "logo_align",
+        "type": "select",
+        "options": [
+          {
+            "value": "top",
+            "label": "t:sections.header-2.settings.logo_align.options__1.label"
+          },
+          {
+            "value": "bottom",
+            "label": "t:sections.header-2.settings.logo_align.options__2.label"
+          }
+        ],
+        "default": "top",
+        "label": "t:sections.header-2.settings.logo_align.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_seach",
+        "label": "t:sections.header-2.settings.header_seach.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_sign",
+        "label": "t:sections.header-2.settings.header_sign.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_wishlist",
+        "label": "t:sections.header-2.settings.header_wishlist.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "currencies",
+        "label": "t:sections.header-2.settings.currencies.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_card",
+        "label": "t:sections.header-2.settings.header_card.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_transparent",
+        "label": "t:sections.header-2.settings.enable_transparent.label"
+      }
+      ]
+}
+{% endschema %}

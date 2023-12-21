@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "framework": {
+      "type": "framework",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "framework"
+  ]
+}

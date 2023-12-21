@@ -1,0 +1,103 @@
+.section-sp h2.section-header {
+    font-family: "Moderat Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 1;
+    color: #000;
+    display: block;
+    padding: 0;
+    margin-bottom: 80px;
+}
+h3.section-sp_text-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-family: 'Moderat Extended';
+}
+p.section-sp_text-content {
+    color: #888;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.btn-advanced {
+    margin-top: 30px;
+}
+.Ap_pd {
+    padding: 0 15px;
+}
+.advanced-image-media.media {
+    overflow: inherit;
+}
+img.advanced__image {
+    z-index: 1;
+}
+img.image_child1 {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 245px;
+    height: 316px;
+    top: -25%;
+    right: auto;
+    left: -9px;
+    transform: rotate( 
+28deg);
+}
+img.image_child2 {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    width: 320px;
+    height: 268px;
+    bottom: -12%;
+    right: -15px;
+    left: auto;
+}
+body.index .section-sp {
+    padding-top: 30px;
+}
+.section-sp {
+    padding: 50px 0;
+}
+.advanced-image-2-content {
+    margin-bottom: 65px;
+}
+@media(min-width: 768px){
+    .section-sp_text h3{
+        margin-top: 0;
+    }
+}
+@media (max-width:991px) {
+    .btn-advanced {
+        margin-top: 50px;
+    }
+    .section-sp h2.section-header {
+        font-size: 30px;
+    }
+}
+@media (min-width:992px) {
+    .section-sp {
+        padding: 100px 0;
+    }
+    body.index .section-sp {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+}
+@media(min-width: 1200px){
+    .advanced-image-blog img{
+        width: 100%;
+    }
+    .section-sp_text{
+        max-width: 700px;
+        padding: 50px 15% 15px 15%;
+    }
+}
+@media (max-width: 1199px){
+    .wp_section {
+        padding: 30px 15px;
+    }
+}

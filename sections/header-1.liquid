@@ -1,0 +1,151 @@
+<!-- header-1.liquid -->
+{{ 'header-1.css' | asset_url | stylesheet_tag }}
+
+<header class="header-1 color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
+  {%- if section.settings.header_announcement_bar -%}
+    <div class="header-announcement-bar">
+      <div class="container">
+          <div class="row d-flex align-items-center">
+              <div class="header-announcement-bar-left">
+                  <p>{{ section.settings.text_announcement_bar }}</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+    <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+        <div class="row">
+            <div class="col-4 col-lg-3 head-seach">
+              {%- if section.settings.header_seach -%}
+                {%- render 'seach-header' -%}
+              {%- endif -%}
+              {%- render 'icon-megamenu-mobile' -%}
+            </div>
+            
+            <div class="col-4 col-lg-6 header-center">
+              <div class="header-logo">
+                {%- render 'header-logo' -%}
+              </div>
+
+              <div class="header-menubar">
+                {%- render 'block-menu' -%}
+              </div>
+            </div>
+            
+            <div class="col-4 col-lg-3 header-icon">
+                {%- if section.settings.header_wishlist -%}
+                    {%- render 'wishlist-header' -%}
+                {%- endif -%}
+
+                {%- if section.settings.header_sign -%}
+                    {%- render 'header-sign' -%}
+                {%- endif -%}
+
+                {%- if section.settings.currencies -%}
+                  {%- render 'block-currencies' -%}
+                {%- endif -%}
+
+                {%- if section.settings.header_card -%}
+                    {%- render 'header-cart' -%}
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</header>
+
+{% schema %}
+{
+  "name": "t:sections.header-1.name",
+  "class": "spaced-header",
+  "tag": "section",
+  "settings": [
+      {
+        "type": "checkbox",
+        "id": "fullwidth",
+        "label": "t:sections.header-1.settings.fullwidth.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "header_announcement_bar",
+        "label": "t:sections.header-1.settings.header_announcement_bar.label",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "text_announcement_bar",
+        "label": "t:sections.header-1.settings.text_announcement_bar.label",
+        "default": "Welcome to our store"
+      },
+      {
+        "id": "color_scheme",
+        "type": "select",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.header-1.settings.color_scheme.options__1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.header-1.settings.color_scheme.options__2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.header-1.settings.color_scheme.options__3.label"
+          },
+          {
+            "value": "accent-1",
+            "label": "t:sections.header-1.settings.color_scheme.options__4.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.header-1.settings.color_scheme.options__5.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.header-1.settings.color_scheme.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:sections.header-1.settings.logo.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_seach",
+        "label": "t:sections.header-1.settings.header_seach.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_sign",
+        "label": "t:sections.header-1.settings.header_sign.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_wishlist",
+        "label": "t:sections.header-1.settings.header_wishlist.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "currencies",
+        "label": "t:sections.header-1.settings.currencies.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "header_card",
+        "label": "t:sections.header-1.settings.header_card.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_transparent",
+        "label": "t:sections.header-1.settings.enable_transparent.label"
+      }
+      ]
+}
+{% endschema %}
