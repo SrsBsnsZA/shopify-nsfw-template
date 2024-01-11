@@ -8,20 +8,8 @@
           "settings": {
             "image_slide": "shopify:\/\/shop_images\/Pink_blue_bg.jpg",
             "image_slide_child": "shopify:\/\/shop_images\/WishYouWereGay_B-2.png",
-            "sub_title": "",
-            "title": "",
-            "content": "Picture this, you’re home alone, it’s a Friday night and you’re <br>feeling fine. Imagine sliding into something a little more <br>comfortable, some silky socks? We know we would. Browse our <br>selection and we promise you this “local is lekker” brand will knock <br>your socks off.",
-            "link": "Shop Socks",
-            "btn_link": "",
-            "text_align": "left",
-            "item_align": "center"
-          }
-        },
-        "1636014571771b2284-1": {
-          "type": "slide",
-          "settings": {
-            "sub_title": "Fashion design 2022",
-            "title": "Come &  See <br>  Our Fabulous <br>  Feet!",
+            "sub_title": "Rude Socks will make heads turn, jaws drop, and cheeks blush. So, if you’re ready to spice up your sock game and show off your bawdy side, put your foot in it.",
+            "title": "Let’s get something straight, our socks are fucking sexy and downright rude.",
             "content": "",
             "link": "Shop Socks",
             "btn_link": "",
@@ -31,8 +19,7 @@
         }
       },
       "block_order": [
-        "1636014571771b2284-0",
-        "1636014571771b2284-1"
+        "1636014571771b2284-0"
       ],
       "settings": {
         "fullwidth": true,
@@ -67,37 +54,38 @@
         "dots_450": true
       }
     },
-    "1636016178b8875f9b": {
-      "type": "advanced-content",
+    "baebb1d5-0ce9-4133-8f03-e048e1423b21": {
+      "type": "section-sp",
       "blocks": {
-        "1636016178b8875f9b-1": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "Looksbook <br> Socks",
-            "header_top": "COLLECTION",
-            "text__content": "Making the world a more colourful place with our everyday essentials. Fun, Fresh & Eye Popping Designs.",
-            "big_text": "Sock",
-            "btn_text": "Shop Now",
-            "btn_link": "",
-            "text_align": "left"
-          }
-        },
-        "1636016178b8875f9b-0": {
+        "d8597568-8d71-4db8-9d56-5df6aa2786a3": {
           "type": "image",
           "settings": {
             "width": "50%",
-            "effects_image": false
+            "image": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
+            "effects_image": true
+          }
+        },
+        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "Our socks are gagging for you to slide right in.",
+            "header_top": "",
+            "text__content": "Are you tired of boring-old-vanilla socks? Then, it’s time to slip into something a little more... suggestive. We’re here to give your feet a thrill, a tickle, and maybe even a little slap. With Rude Socks, you can let your inner delinquent out—and get away with it (or not). Rude Socks are as bold, brash, and brazen as you. They’re for the ‘saucy pic’ senders, the ‘Netflix and chill’ enthusiasts and the ‘raucously rebellious’ fashionistas. ",
+            "big_text": "",
+            "btn_text": "Get a Quote",
+            "btn_link": "",
+            "text_align": "left"
           }
         }
       },
       "block_order": [
-        "1636016178b8875f9b-1",
-        "1636016178b8875f9b-0"
+        "d8597568-8d71-4db8-9d56-5df6aa2786a3",
+        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00"
       ],
       "settings": {
         "fullwidth": true,
-        "background-color": "rgba(0,0,0,0)",
+        "background-color": "#ffffff",
         "margin_desktop": "",
         "padding_desktop": "",
         "margin_mobile": "",
@@ -270,7 +258,7 @@
             "width": "50%",
             "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
             "header_top": "",
-            "text__content": "Socks designed by artists from various universes: graphic designers, street artists, designers and illustrators with overflowing imagination.",
+            "text__content": "Are you tired of boring-old-vanilla socks? Then, it’s time to slip into something a little more... suggestive. We’re here to give your feet a thrill, a tickle, and maybe even a little slap. With Rude Socks, you can let your inner delinquent out—and get away with it (or not). Rude Socks are as bold, brash, and brazen as you. They’re for the ‘saucy pic’ senders, the ‘Netflix and chill’ enthusiasts and the ‘raucously rebellious’ fashionistas.<br> <br>Our socks are gagging for you to slide right in.",
             "big_text": "",
             "btn_text": "Get a Quote",
             "btn_link": "",
@@ -290,58 +278,6 @@
         "margin_mobile": "",
         "padding_mobile": "",
         "heading": "Works of art\n<br>\nat the end of the feet",
-        "text_decoration": ""
-      }
-    },
-    "baebb1d5-0ce9-4133-8f03-e048e1423b21": {
-      "type": "section-sp",
-      "blocks": {
-        "d8597568-8d71-4db8-9d56-5df6aa2786a3": {
-          "type": "image",
-          "settings": {
-            "width": "50%",
-            "image": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
-            "image_child1": "shopify:\/\/shop_images\/Page_2.jpg",
-            "effects_image": true
-          }
-        },
-        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
-            "header_top": "",
-            "text__content": "Socks designed by artists from various universes: graphic designers, street artists, designers and illustrators with overflowing imagination.",
-            "big_text": "",
-            "btn_text": "Get a Quote",
-            "btn_link": "",
-            "text_align": "left"
-          }
-        },
-        "3905aca7-434e-44f8-a762-5ad1f3259629": {
-          "type": "image",
-          "settings": {
-            "width": "100%",
-            "image": "shopify:\/\/shop_images\/Page_2.jpg",
-            "image_child1": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
-            "image_child2": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
-            "effects_image": false
-          }
-        }
-      },
-      "block_order": [
-        "d8597568-8d71-4db8-9d56-5df6aa2786a3",
-        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00",
-        "3905aca7-434e-44f8-a762-5ad1f3259629"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "background-color": "#f4f4f4",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "",
         "text_decoration": ""
       }
     },
@@ -433,17 +369,57 @@
         "arrows_450": false,
         "dots_450": false
       }
+    },
+    "1636016178b8875f9b": {
+      "type": "advanced-content",
+      "blocks": {
+        "1636016178b8875f9b-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "Looksbook <br> Socks",
+            "header_top": "COLLECTION",
+            "text__content": "Making the world a more colourful place with our everyday essentials. Fun, Fresh & Eye Popping Designs.",
+            "big_text": "Sock",
+            "btn_text": "Shop Now",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        },
+        "1636016178b8875f9b-0": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "effects_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1636016178b8875f9b-1",
+        "1636016178b8875f9b-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "fullwidth": true,
+        "background-color": "rgba(0,0,0,0)",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "",
+        "text_decoration": ""
+      }
     }
   },
   "order": [
     "1636014571771b2284",
-    "1636016178b8875f9b",
+    "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1636423293977393af",
     "16418828319520d85f",
     "1641889860fde5c8dd",
     "164189257492617dfe",
-    "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1641893186a013e041",
-    "1641893191899ad859"
+    "1641893191899ad859",
+    "1636016178b8875f9b"
   ]
 }

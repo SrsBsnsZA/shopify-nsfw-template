@@ -128,14 +128,14 @@ h4.sub-title-slide {
     transition: .4s all;
 }
 h2.title-slide {
-    font-size: clamp(1.5rem, 3.5vw , 70px)!important;
+    font-size: clamp(1.5rem, 2.5vw , 60px)!important;
     color: black;
     position: absolute;
     top: 35%;
     left: 25%;
     font-weight: 600;
     text-transform: none;
-    line-height:  clamp(1.5rem, 4vw , 75px);
+    line-height:  clamp(1.5rem, 3.5vw , 65px);
     font-family: "Moderat Extended";
     /* opacity: 0; */
     transition: .4s all;
@@ -206,12 +206,19 @@ button.slick-prev.slick-arrow {
 
 /* Home 2 */
 h4.sub-title-slide {
-    top: 21%;
-    left: 60%;
+    /* top: 21%;
+    left: 60%; */
+    position: relative;
+    top: 0;
+    left: 0;
+    line-height: 25px;
 }
 h2.title-slide {
-    top: 28%;
-    left: 60%;
+    /* top: 28%;
+    left: 60%; */
+    top: 0;
+    left: 0;
+    position: relative;
 }
 a.link-base.link-left {
     left: 0; 
@@ -229,7 +236,7 @@ a.link-base.link-left {
     color: black;
 }
 a.link-base.link-left {
-    border-color: black;
+    border-color: #FFF;
 }
 a.link-base.link-left:hover {
     color: #13755c;

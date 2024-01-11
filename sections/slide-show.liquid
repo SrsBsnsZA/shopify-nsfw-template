@@ -38,23 +38,30 @@
               {%- endif -%}
             </div>
             <div class="text-white text-slider d-flex flex-column justify-content-{% if block.settings.item_align == 'top' %}start{% elsif block.settings.item_align == 'center' %}center{% elsif block.settings.item_align == 'bottom' %}end{% endif %} text-{%- if block.settings.text_align == 'left' -%}start{%- elsif block.settings.text_align == 'center' -%}center{%- elsif block.settings.text_align == 'right' -%}end{%- endif -%}">
-              <h4 class="sub-title-slide">{{ block.settings.sub_title }}</h4>
-              <h2 class="title-slide">{{ block.settings.title }}</h2>
-              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-5 head-logo logo-padding logo-align-top"><!-- header-logo.liquid -->
-              <a href="/" class="header__heading-link link link--text focus-inset">
-                <img src="https://cdn.shopify.com/s/files/1/0792/0792/4018/files/rude_logo_company_white_500w.png?v=1703157649" />
-              </a></div>
-              <p class="description-slide">
-                {{ block.settings.content }}
-                {%- if block.settings.link != blank -%}
-                  <br />
-                  <a class="link-base link-{%- if block.settings.text_align == 'left' -%}left{%- elsif block.settings.text_align == 'center' -%}center{%- elsif block.settings.text_align == 'right' -%}right{%- endif -%}" href="{{ block.settings.btn_link | default:'#' }}" title="{{ block.settings.link }}">
-                    {{ block.settings.link }}
-                    <i class="leofar leofa-arrow-right"></i>
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
+                  <h4 class="sub-title-slide text-white mb-sm-5">{{ block.settings.sub_title }}</h4>
+                  <h2 class="title-slide text-white">{{ block.settings.title }}</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-3 col-5 head-logo logo-padding logo-align-top "><!-- header-logo.liquid -->
+                  <a href="/" class="header__heading-link link link--text focus-inset">
+                    <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0792/0792/4018/files/rude_logo_company_white_500w.png?v=1703157649" />
                   </a>
-                  {%- endif -%}
-              </p>
-              
+                </div>
+              </div>
+              <div class="row">
+                <p class="text-white description-slide col-xs-12 col-md-6">
+                  {{ block.settings.content }}
+                  {%- if block.settings.link != blank -%}
+                    <a class="text-white link-base link-{%- if block.settings.text_align == 'left' -%}left{%- elsif block.settings.text_align == 'center' -%}center{%- elsif block.settings.text_align == 'right' -%}right{%- endif -%}" href="{{ block.settings.btn_link | default:'#' }}" title="{{ block.settings.link }}">
+                      {{ block.settings.link }}
+                      <i class="leofar leofa-arrow-right"></i>
+                    </a>
+                    {%- endif -%}
+                </p>
+              </div>
               <div class="slide-image_child">  
                 {%- if block.settings.image_slide_child != blank -%}
                 <img class="img-fluid"

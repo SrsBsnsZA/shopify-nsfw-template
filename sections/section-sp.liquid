@@ -31,7 +31,7 @@
               <div class="advanced-image">
                   <div class="advanced-image-2-content">
                   {%- if block.settings.image != blank -%}
-                    <div class="advanced-image-{% if block.settings.effects_image %}blog{% else %}media{% endif %} {% if block.settings.image != blank %}media{% else %}image-advanced__media--placeholder placeholder{% endif %}"
+                    <div class="no-bg advanced-image-{% if block.settings.effects_image %}blog{% else %}media{% endif %} {% if block.settings.image != blank %}media{% else %}image-advanced__media--placeholder placeholder{% endif %}"
                      style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
                     >
                       <img class="advanced__image"

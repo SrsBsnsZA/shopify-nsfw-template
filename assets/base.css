@@ -45,7 +45,12 @@
   --color-link: var(--color-base-outline-button-labels);
   --alpha-link: 0.85;
 }
-
+.no-bg{
+  background: none !important;
+}
+.be-an-animal-bg{
+  background-image: src("https://cdn.shopify.com/s/files/1/0581/9632/8641/files/Be_An_Animal_1.jpg?v=1625889169") !important;
+}
 .color-background-2,
 .color-inverse,
 .color-accent-1,
