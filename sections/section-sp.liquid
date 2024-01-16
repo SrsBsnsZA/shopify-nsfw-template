@@ -1,7 +1,7 @@
 {{ 'section-sp.css' | asset_url | stylesheet_tag }}
 {% render 'section-style' %}
 
-<div class="section-sp">
+<div class="section-sp" {%- if section.settings.section_id -%} id="{{ section.settings.section_id  }}"{%- endif -%} {%- if section.settings.section-background -%} style="background-image: url('{{  section.settings.section-background | img_url: 'master' }}') ; background-repeat: no-repeat; background-size: cover;" {%- endif -%}>
   <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
     {%- if section.settings.heading != blank -%}
     <h2 class="section-header">{{ section.settings.heading  }}</h2>
@@ -203,9 +203,20 @@
       "default": false
     },
     {
+      "type": "text",
+      "id": "section_id",
+      "label": "t:sections.section-sp.settings.section_id.label",
+      "info": "t:sections.section-sp.settings.section_id.info"
+    },
+    {
         "id": "background-color",
         "type": "color",
         "label": "t:sections.section-sp.settings.background-color.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "section-background",
+      "label": "t:sections.section-sp.settings.section-background.label"
     },
     {
       "type": "text",

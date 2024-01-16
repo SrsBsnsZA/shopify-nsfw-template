@@ -69,7 +69,7 @@
     "color_menu_text_hover": "#ff93c6",
     "menu_label_text": "#000000",
     "menu_label_text_hover": "#ff93c6",
-    "apmenuitem_title_1": "home",
+    "apmenuitem_title_1": "",
     "apmenuitem_width_1": 180,
     "apmenuitem_eblocklinks_1": true,
     "apmenuitem_mega_link_1": "",
@@ -87,7 +87,7 @@
     "apmenuitem_thtml_1": "HTML",
     "apmenuitem_eihtml_1": false,
     "apmenuitem_ihtml_1": "shopify:\/\/shop_images\/image3_cate.jpg",
-    "apmenuitem_title_2": "shop",
+    "apmenuitem_title_2": "",
     "apmenuitem_width_2": 980,
     "apmenuitem_eblocklinks_2": true,
     "apmenuitem_columns_blocklinks_2": "8",
@@ -273,7 +273,7 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "enber_popup": true,
+          "enber_popup": false,
           "title_popup": "Join our newletter and get 20% discount",
           "text_popup": "This website uses cookies to ensure you get the best experience on our website.",
           "email_popup": true,
@@ -292,7 +292,7 @@
           "text_link2_announcement_bar": "English",
           "link2_announcement_bar": "",
           "color_scheme": "inverse",
-          "header_logo": false,
+          "header_logo": true,
           "logo": "shopify:\/\/shop_images\/Rude_NSFW_Logo_White_300w.png",
           "logo_align": "top",
           "header_seach": true,
@@ -357,9 +357,9 @@
           "51a5d58b-bf54-4890-bc19-d5fd62a944ee": {
             "type": "logo",
             "settings": {
-              "logo_text": "National —\n<br>\n785 15h Street, Office 478\n<br>\nBerlin, De 81566",
+              "logo_text": "",
               "width": "16.67%",
-              "image": "shopify:\/\/shop_images\/Rude_Socks_Logo-small_bad9e9f0-bc9b-4410-b7df-be4448079692.png"
+              "image": "shopify:\/\/shop_images\/Rude_NSFW_Logo_White_300w.png"
             }
           },
           "86d77c51-dcbe-436a-af37-4ba4052ff00c": {
@@ -375,7 +375,7 @@
             "settings": {
               "width": "16.67%",
               "title_menu": "About us",
-              "menu": "footer"
+              "menu": "footer-about-us"
             }
           },
           "f5927971-8716-48ea-9600-7fc59553e27a": {
@@ -383,7 +383,7 @@
             "settings": {
               "width": "16.67%",
               "title_menu": "Support",
-              "menu": ""
+              "menu": "footer-support"
             }
           },
           "ca1be19b-89af-496e-bc9c-240362be9324": {
@@ -391,7 +391,7 @@
             "settings": {
               "width": "16.67%",
               "title_menu": "Quicklinks",
-              "menu": ""
+              "menu": "footer-quicklinks"
             }
           }
         },

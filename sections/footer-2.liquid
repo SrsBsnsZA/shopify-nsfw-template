@@ -97,7 +97,7 @@
         </div>
         
         <div class="bottom-footer">
-            <div class="row bottom-footer-coppy">
+            <div class="row bottom-footer-copy">
                 {%- if section.settings.show_copyright -%}
                     <div class="col-md-4">
                         {% render 'footer-copyright' %}
@@ -110,11 +110,11 @@
                 </div>
                 {%- endif -%}
 
-                {%- if section.settings.icon_card_footer -%}
-                    <div class="col-md-4 icon_card-footer">
-                        {% render 'icon-card-footer' %}
-                    </div>
-                {%- endif -%}
+                {% comment %}{%- if section.settings.icon_card_footer -%}{% endcomment %}
+                    {% comment %}<div class="col-md-4 icon_card-footer">{% endcomment %}
+                        {% comment %}{% render 'icon-card-footer' %}{% endcomment %}
+                    {% comment %}</div>{% endcomment %}
+                {% comment %}{%- endif -%}{% endcomment %}
             </div>
         </div>
     </div>

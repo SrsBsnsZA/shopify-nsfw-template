@@ -1,5 +1,6 @@
 .footer-2{
   background-color: #D9195F;
+  padding-top:20px;
 }
 
 .footer-2 .top-footer{
@@ -105,6 +106,12 @@ input#NewsletterForm--footer-2 {
 
 .logo-footer img {
   margin-bottom: 40px;
+  max-width: 150px;
+  height: auto;
+}
+
+.footer-2 .footer-link{
+  color: #fff;
 }
 
 .logo_text {
@@ -150,7 +157,7 @@ a.link--text.list-social__link {
   line-height: 22px;
   color: #fff;
   background: 0 0;
-  border: 1px solid rgba(255,225,255,.1);
+  border: 1px solid rgba(255,225,255,1);
   border-radius: 50%;
   transition: .4s;
 }
@@ -174,20 +181,20 @@ li.list-social__item:hover .link_Insta {
 
 small.copyright__content {
   font-size: 14px;
-  color: #888;
+  color: #fff;
 }
 
 small.copyright__content a {
   font-size: 14px;
-  color: #888;
+  color: #fff;
 }
 
-.bottom-footer-coppy {
+.bottom-footer-copy {
   display: flex;
   justify-content: space-between;
 }
 
-.bottom-footer-coppy .icon_card-footer {
+.bottom-footer-copy .icon_card-footer {
   text-align: right;
 }
 
@@ -221,6 +228,9 @@ small.copyright__content a {
 
 .footer-2 .title-footer{
   position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .footer-2 .drawer__nav-toggle--open{
@@ -249,6 +259,10 @@ small.copyright__content a {
 
 .footer-2 .footer__copyright{
   font-size: 16px;
+  color: #fff;
+}
+.footer-2 .footer__copyright .my_store,.footer-2 .footer__copyright .copyright__content{
+  color: #fff;
 }
 .footer-2 i.far.fa-arrow-up {
   margin-left: 0;
@@ -302,8 +316,11 @@ small.copyright__content a {
   .footer-2 .text-content, .footer-2 .logo-footer, .footer-2 .menu-footer{
     margin-bottom: 15px;
   }
+  .footer-2 .logo-footer{
+    text-align: center;
+  }
 
-  .bottom-footer-coppy{
+  .bottom-footer-copy{
     text-align: center;
   }
 
@@ -345,7 +362,7 @@ small.copyright__content a {
   .footer__copyright {
     padding-bottom: 20px;
   }
-  .bottom-footer-coppy .icon_card-footer {
+  .bottom-footer-copy .icon_card-footer {
     text-align: center;
     padding-bottom: 20px;
   }
@@ -357,6 +374,6 @@ small.copyright__content a {
   }
   .bottom-footer {
     padding: 36px 0 60px;
-    border-top: 1px solid rgba(255,225,255,.1);
+    border-top: 1px solid #fff;
   }
 }

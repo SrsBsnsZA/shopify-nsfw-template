@@ -5339,6 +5339,10 @@
         "fullwidth": {
           "label": "Fullwidth"
         },
+        "carousel_id" : {
+          "label": "Carousel ID",
+          "info": "Eg: product-carousel-1"
+        },
         "background-color": {
           "label": "Background color"
         },
@@ -5465,6 +5469,9 @@
         },
         "show_vendor": {
           "label": "Show vendor"
+        },
+        "show_type": {
+          "label" :  "Show type"
         }
       },
       "presets": {
@@ -8980,6 +8987,13 @@
         },
         "background-color": {
           "label": "Background color"
+        },
+        "section_id": {
+          "label": "Section ID",
+          "info": "Html ID property for section"
+        },
+        "section-background": {
+          "label": "Background image"
         },
         "margin_desktop": {
           "label": "Margin desktop",
