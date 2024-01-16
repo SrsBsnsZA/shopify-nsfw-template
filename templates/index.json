@@ -142,153 +142,45 @@
         "show_type": true
       }
     },
-    "16418828319520d85f": {
-      "type": "collection-1",
-      "blocks": {
-        "1641882831f0dad944-0": {
-          "type": "collection",
-          "settings": {
-            "width": "50%",
-            "collection": "",
-            "title_collection1": "COLLECTION",
-            "title_collection1_center": "Kids Socks",
-            "btn_collection1": "",
-            "btn_link": ""
-          }
-        },
-        "1641882831f0dad944-1": {
-          "type": "collection",
-          "settings": {
-            "width": "50%",
-            "collection": "",
-            "title_collection1": "COLLECTION",
-            "title_collection1_center": "Solids Socks",
-            "btn_collection1": "",
-            "btn_link": ""
-          }
-        },
-        "1641882831f0dad944-2": {
-          "type": "collection",
-          "settings": {
-            "width": "50%",
-            "collection": "",
-            "title_collection1": "COLLECTION",
-            "title_collection1_center": "Corporate socks",
-            "btn_collection1": "",
-            "btn_link": ""
-          }
-        },
-        "0edfe020-a7aa-4144-824a-7a44236a35b8": {
-          "type": "collection",
-          "settings": {
-            "width": "50%",
-            "collection": "",
-            "title_collection1": "COLLECTION",
-            "title_collection1_center": "Food Socks",
-            "btn_collection1": "",
-            "btn_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1641882831f0dad944-0",
-        "1641882831f0dad944-1",
-        "1641882831f0dad944-2",
-        "0edfe020-a7aa-4144-824a-7a44236a35b8"
-      ],
-      "settings": {
-        "fullwidth": true,
-        "background-color": "",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "",
-        "text_decoration": "",
-        "effects_image": false
-      }
-    },
-    "1641889860fde5c8dd": {
-      "type": "product-carousel",
-      "settings": {
-        "fullwidth": false,
-        "carousel_id": "",
-        "background-color": "",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "Best Selling Socks",
-        "text_decoration": "Preorder now to receive exclusive deals & gifts",
-        "collection": "product-best-selling",
-        "image_ratio": "adapt",
-        "slidesToShow": 4,
-        "slidesToScroll": 1,
-        "rows": 1,
-        "autoplay": false,
-        "autoplaySpeed": 2000,
-        "speed": 500,
-        "pauseOnHover": false,
-        "arrows": false,
-        "dots": false,
-        "draggable": true,
-        "infinite": true,
-        "slidesToShow_992": 3,
-        "slidesToScroll_992": 1,
-        "arrows_992": false,
-        "dots_992": false,
-        "slidesToShow_767": 2,
-        "slidesToScroll_767": 1,
-        "arrows_767": false,
-        "dots_767": false,
-        "slidesToShow_450": 1,
-        "slidesToScroll_450": 1,
-        "arrows_450": false,
-        "dots_450": false,
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_vendor": true,
-        "show_type": false
-      }
-    },
     "164189257492617dfe": {
       "type": "section-sp",
       "blocks": {
+        "1641892574a9acddb1-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "",
+            "header_top": "",
+            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
+            "big_text": "",
+            "btn_text": "Shop Socks",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        },
         "1641892574a9acddb1-0": {
           "type": "image",
           "settings": {
             "width": "50%",
             "effects_image": false
           }
-        },
-        "1641892574a9acddb1-1": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
-            "header_top": "",
-            "text__content": "Are you tired of boring-old-vanilla socks? Then, it’s time to slip into something a little more... suggestive. We’re here to give your feet a thrill, a tickle, and maybe even a little slap. With Rude Socks, you can let your inner delinquent out—and get away with it (or not). Rude Socks are as bold, brash, and brazen as you. They’re for the ‘saucy pic’ senders, the ‘Netflix and chill’ enthusiasts and the ‘raucously rebellious’ fashionistas.<br> <br>Our socks are gagging for you to slide right in.",
-            "big_text": "",
-            "btn_text": "Get a Quote",
-            "btn_link": "",
-            "text_align": "left"
-          }
         }
       },
       "block_order": [
-        "1641892574a9acddb1-0",
-        "1641892574a9acddb1-1"
+        "1641892574a9acddb1-1",
+        "1641892574a9acddb1-0"
       ],
       "settings": {
         "fullwidth": false,
         "section_id": "",
         "background-color": "#f4f4f4",
+        "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
         "margin_desktop": "",
         "padding_desktop": "",
         "margin_mobile": "",
         "padding_mobile": "",
-        "heading": "Works of art\n<br>\nat the end of the feet",
-        "text_decoration": ""
+        "heading": "Be bold. Be RUDE.",
+        "text_decoration": "We know you mean business so grab a pair of our socks (by the balls)."
       }
     },
     "1641893186a013e041": {
@@ -335,101 +227,13 @@
         "text_decoration": "",
         "icon-align": "top"
       }
-    },
-    "1641893191899ad859": {
-      "type": "blog-post",
-      "settings": {
-        "fullwidth": false,
-        "background-color": "",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "Our Blog Socks",
-        "text_decoration": "Preorder now to receive exclusive deals & gifts",
-        "blog": "new-hot",
-        "show_view_all": true,
-        "show_date": true,
-        "show_author": true,
-        "show_description": false,
-        "tags_blog": false,
-        "show_link": false,
-        "text_link": "Read More",
-        "slidesToShow": 3,
-        "slidesToScroll": 1,
-        "rows": 1,
-        "autoplay": false,
-        "autoplaySpeed": 2000,
-        "speed": 500,
-        "pauseOnHover": false,
-        "arrows": false,
-        "dots": false,
-        "draggable": true,
-        "infinite": true,
-        "slidesToShow_992": 3,
-        "slidesToScroll_992": 1,
-        "arrows_992": false,
-        "dots_992": false,
-        "slidesToShow_767": 2,
-        "slidesToScroll_767": 1,
-        "arrows_767": false,
-        "dots_767": false,
-        "slidesToShow_450": 1,
-        "slidesToScroll_450": 1,
-        "arrows_450": false,
-        "dots_450": false
-      }
-    },
-    "1636016178b8875f9b": {
-      "type": "advanced-content",
-      "blocks": {
-        "1636016178b8875f9b-1": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "Looksbook <br> Socks",
-            "header_top": "COLLECTION",
-            "text__content": "Making the world a more colourful place with our everyday essentials. Fun, Fresh & Eye Popping Designs.",
-            "big_text": "Sock",
-            "btn_text": "Shop Now",
-            "btn_link": "",
-            "text_align": "left"
-          }
-        },
-        "1636016178b8875f9b-0": {
-          "type": "image",
-          "settings": {
-            "width": "50%",
-            "effects_image": false
-          }
-        }
-      },
-      "block_order": [
-        "1636016178b8875f9b-1",
-        "1636016178b8875f9b-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "fullwidth": true,
-        "background-color": "rgba(0,0,0,0)",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "",
-        "text_decoration": ""
-      }
     }
   },
   "order": [
     "1636014571771b2284",
     "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1636423293977393af",
-    "16418828319520d85f",
-    "1641889860fde5c8dd",
     "164189257492617dfe",
-    "1641893186a013e041",
-    "1641893191899ad859",
-    "1636016178b8875f9b"
+    "1641893186a013e041"
   ]
 }
