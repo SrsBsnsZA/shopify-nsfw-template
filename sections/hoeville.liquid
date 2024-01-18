@@ -3,42 +3,93 @@
 {% render 'section-style' %}
 
 
-<div class="hoeville-section">
+<div id="hoeville" class="hoeville-section">
     <div class="container">
         <div id="scale-container">
             <div class="copy-container">
                 {%- if section.settings.heading != blank -%}
                     <div class="hoeville-header">{{ section.settings.heading }}</div>
                 {%- endif -%}
-                <div class="hoeville-text-wrapper" style="width: 100%; padding-left:40px">
-                  <div class="hoeville-text">
-                    <h1 style="color: #119a48">MILD=PG13</h1>
-                    <div class="">
-                      <h2>Getting warmer. <br>
-                        We feel like you are just waiting <br>
-                        in anticipation here. <br>
-                        We won’t disappoint.</h2>
+                <div class="hoeville-text-wrapper" style="width: 100%; padding-left:40px" data-hoeville="0">
+                    <div class="hoeville-text">
+                        <h1 style="color: #119a48">LE MOAN & ERB</h1>
+                        <div class="">
+                            <h2>The kind of hot you would want in a taco. <br>
+                                Not too wild but yummy. <br>
+                                These won’t make your mom blush</h2>
+                        </div>
+                        <a class="btn--main btn-advanced" href="" title="Shop Socks" style="color: #119a48">Shop Socks
+                            <i class="far fa-arrow-up"></i>
+                        </a>
                     </div>
-                    <a class="btn--main btn-advanced" href="" title="Shop Socks" style="color: #119a48">Shop Socks
-                      <i class="far fa-arrow-up"></i>
-                    </a>
-                  </div>
+                </div>
+                <div class="hoeville-text-wrapper" style="width: 100%; padding-left:40px" data-hoeville="1">
+                    <div class="hoeville-text">
+                        <h1 style="color: #fcee30">MILD=PG13</h1>
+                        <div class="">
+                            <h2>Getting warmer. <br>
+                                We feel like you are just waiting <br>
+                                in anticipation here. <br>
+                                We won’t disappoint.</h2>
+                        </div>
+                        <a class="btn--main btn-advanced" href="" title="Shop Socks" style="color: #fcee30">Shop Socks
+                            <i class="far fa-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hoeville-text-wrapper" style="width: 100%; padding-left:40px" data-hoeville="2">
+                    <div class="hoeville-text">
+                        <h1 style="color: #f47523">HOT</h1>
+                        <div class="">
+                            <h2>“Getting real steamy” socks. <br>
+                                We are starting to edge into <br>
+                                NSFW territory here.</h2>
+                        </div>
+                        <a class="btn--main btn-advanced" href="" title="Shop Socks" style="color: #f47523">Shop Socks
+                            <i class="far fa-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hoeville-text-wrapper" style="width: 100%; padding-left:40px" data-hoeville="3">
+                    <div class="hoeville-text">
+                        <h1 style="color: #ed2027">XXXTRA HOT</h1>
+                        <div class="">
+                            <h2>“I’m almost there” socks. <br>
+                                At this level we are getting sticky.</h2>
+                        </div>
+                        <a class="btn--main btn-advanced" href="" title="Shop Socks" style="color: #ed2027">Shop Socks
+                            <i class="far fa-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hoeville-text-wrapper" style="width: 100%; padding-left:40px" data-hoeville="4">
+                    <div class="hoeville-text">
+                        <h1 style="color: #ed2027">HARD CORE</h1>
+                        <div class="">
+                            <h2>“Don’t stop” kind of naughty. Definitely <br>
+                                not the socks you wear around granny.</h2>
+                        </div>
+                        <a class="btn--main btn-advanced" href="" title="Shop Socks" style="color: #ed2027">Shop Socks
+                            <i class="far fa-arrow-up"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div style="height: 500px">
-                <svg id="arch" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64.62" height="128.24"
-                     viewBox="0 0 64.62 128.24">
-                    <path d="M-1036.94,71.52a61.38,61.38,0,0,1,61.38,61.37,61.38,61.38,0,0,1-61.38,61.38"
-                          transform="translate(1039.68 -68.77)"
+                <svg id="arch" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 79.4 138.1" xml:space="preserve">
+                    <path class="st0" d="M6.3,7.8c33.9,0,61.4,27.5,61.4,61.4c0,33.9-27.5,61.4-61.4,61.4l0,0"
                           style="fill: none;stroke: #010101;stroke-miterlimit: 10"/>
-                    <circle id="cool-trigger" class="trigger" data-trigger-index="0" cx="2.74" cy="125.5" r="2.74"
-                            style="fill: #119a48"/>
-                    <circle id="warm-trigger" class="trigger" data-trigger-index="1" cx="53.19" cy="99.48" r="2.74"
-                            style="fill: #fcee30"/>
-                    <circle id="hot-trigger" class="trigger" data-trigger-index="2" cx="52.34" cy="28.06" r="2.74"
-                            style="fill: #f47523"/>
-                    <circle id="hottest-trigger" class="trigger" data-trigger-index="3" cx="2.74" cy="2.74" r="2.74"
-                            style="fill: #ed2027"/>
+                    <circle id="cool-trigger" class="trigger" style="fill: #119a48" data-trigger-index="0" cx="6.3" cy="130.6" r="2.7"/>
+                    <circle id="warm-trigger" class="trigger" style="fill: #fcee30" data-trigger-index="1" cx="48.4" cy="113.8"
+                            r="2.7"/>
+                    <circle id="hot-trigger" class="trigger" style="fill: #f47523" data-trigger-index="2" cx="67.7" cy="70.1" r="2.7"/>
+                    <circle id="hottest-trigger" class="trigger" style="fill: #ed2027" data-trigger-index="3" cx="48.4" cy="24" r="2.7"/>
+                    <circle id="x-hottest-trigger" class="trigger" style="fill: #ed2027" data-trigger-index="4" cx="6.3" cy="7.8"
+                            r="2.7"/>
+                    <circle id="outline_1" style="fill: none; stroke: #000000; stroke-width: 0.25; stroke-miterlimit: 10;" cx="6.3" cy="7.8" r="3.4"/>
+                    <circle id="outline_2" style="fill: none; stroke: #010101; stroke-miterlimit: 10;" cx="6.3" cy="130.6" r="3.4"/>
                 </svg>
             </div>
             <div style="height: 600px">
