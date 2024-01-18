@@ -101,7 +101,7 @@ input#NewsletterForm--footer-2 {
   padding: 0 20px; 
 } 
 .footer-2 button.button.button--secondary.newsletter-form__button:hover {
-  color: #13755c;
+  color: #aae8d7;
 } 
 
 .logo-footer img {
@@ -145,7 +145,7 @@ input#NewsletterForm--footer-2 {
 }
 
 .list-verticalmenu li a:hover {
-  color: #13755c;
+  color: #aae8d7;
 }
 
 a.link--text.list-social__link {
@@ -207,7 +207,7 @@ small.copyright__content a {
 }
 
 .footer-2 button#Subscribe:hover {
-  color: #13755c;
+  color: #aae8d7;
 }
 
 /* end */

@@ -33,7 +33,7 @@ ul.list-block li .blog-image {
 }
 h4.title_block {
   background: none;
-  color: #13755c;
+  color: #d9195f;
   text-transform: capitalize!important;
   text-align: left;
   font-family: "Moderat Extended";
@@ -58,7 +58,7 @@ ul.list-block li a {
   font-size: 14px;
   line-height: 22px;
   letter-spacing: .288px;
-  color: #13755c;
+  color: #d9195f;
   text-transform: capitalize;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -66,7 +66,9 @@ ul.list-block li a {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
+.blog-sidebar ul.list-block li a:hover {
+  color: #aae8d7;
+}
 .blog-sidebar {
   margin-bottom: 30px;
   background: #FFF;
@@ -114,7 +116,7 @@ ul.list-block {
 }
 
 .blog-sidebar #categories-blog ul li a:hover {
-  color: #13755c;
+  color: #aae8d7;
 }
 
 .spaced-section.section_blog {
@@ -138,7 +140,7 @@ ul.list-block {
   padding: 0 10px;
   color: #fff;
   font-size: 10px;
-  background: #72c08e;
+  background: #aae8d7;
   text-transform: uppercase;
   padding: 4px 10px;
   line-height: 14px;
@@ -146,7 +148,7 @@ ul.list-block {
 
 .section_blog .title--primary {
   font-size: 2em;
-  color: #13755c;
+  color: #d9195f;
   font-weight: 700;
   font-family: "Moderat Extended";
 }

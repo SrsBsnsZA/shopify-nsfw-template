@@ -606,13 +606,13 @@ span.price-item.price-item--sale {
   justify-content: space-between;
 }
 span.card-information__text.h5:hover {
-  color: #13755c;
+  color: #aae8d7;
 }
 .variants-item .variant:nth-child(2n+1) {
   background: #2d2d2d;
 }
 .variants-item .variant:nth-child(2n) {
-  background: #13755c;
+  background: #aae8d7;
 }
 .variants-item-size label {
   color: #fff;

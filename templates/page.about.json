@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -13,8 +14,6 @@
           "settings": {
             "width": "50%",
             "image": "shopify:\/\/shop_images\/Penis.webp",
-            "image_child1": "shopify:\/\/shop_images\/pattern02.png",
-            "image_child2": "shopify:\/\/shop_images\/pattern03.png",
             "effects_image": false
           }
         },
@@ -22,9 +21,9 @@
           "type": "text_list",
           "settings": {
             "width": "50%",
-            "header__text": "This journey started simply; drawing dicks is hilarious…  ",
+            "header__text": "This journey started simply; drawing dicks is hilarious…",
             "header_top": "",
-            "text__content": "<p class=\"section-sp_text-content\" >Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.</p><p class=\"section-sp_text-content\" > Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.</p><p class=\"section-sp_text-content\" > We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! </p><p class=\"section-sp_text-content\" > We are Rude.</p>",
+            "text__content": "<p class=\"section-sp_text-content\">Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.<\/p><p class=\"section-sp_text-content\"> Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.<\/p><p class=\"section-sp_text-content\"> We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! <\/p><p class=\"section-sp_text-content\"> We are Rude.<\/p>",
             "big_text": "",
             "btn_text": "Join the party",
             "btn_link": "",
@@ -38,6 +37,7 @@
       ],
       "settings": {
         "fullwidth": false,
+        "section_id": "",
         "background-color": "#f4f4f4",
         "margin_desktop": "",
         "padding_desktop": "",
@@ -99,7 +99,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/EngorgioSalami_About_us.webp",
+            "image": "shopify:\/\/shop_images\/EngorgioSalami_About_us_wide.webp",
             "effects_image": false
           }
         },
@@ -186,7 +186,6 @@
     },
     "team-work": {
       "type": "team-work",
-      "disabled": true,
       "blocks": {
         "db4c37ca-dae1-4ddc-92f1-215f14d672f7": {
           "type": "teamwork",
@@ -227,6 +226,7 @@
         "d96fc377-275a-4264-a700-3202520a3c47",
         "0d1eb48d-5f9f-4d77-a581-9f88f00384a5"
       ],
+      "disabled": true,
       "settings": {
         "team_title": "Meet our people",
         "team_fb": "#",

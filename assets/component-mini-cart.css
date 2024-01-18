@@ -102,14 +102,14 @@ mini-cart-remove-button {
     font-weight: 600;
     line-height: 15px;
     border: 1px solid transparent;
-    background-color: #13755c;
+    background-color: #aae8d7;
     transition: all 0.4s;
 }
 .goto-cart a:hover  {
     color: #F4C340;
 }
 .cart__ctas button:hover  {
-    color: #13755c;
+    color: #aae8d7;
     background-color: #F4C340;
 }
 

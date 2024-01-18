@@ -1054,7 +1054,7 @@ a.nav-item.nav-link {
 }
 a.nav-item.nav-link::before {
   content: "";
-  background: #13755c;
+  background: #aae8d7;
   width: 100%;
   height: 2px;
   position: absolute;
@@ -1076,7 +1076,7 @@ a.nav-item.nav-link.active:before {
 .wishlist-compare-detail .btn-product:hover ,
 .product__info-wrapper .open-sizeguide:hover {
   background-color: transparent;
-  color: #13755c;
+  color: #aae8d7;
 }
 .btn-product ,
 .product__info-wrapper .open-sizeguide{
@@ -1134,7 +1134,7 @@ span.item-product>img {
   height: 20px;
   margin: auto;
   color: #fff;
-  background: #13755c;
+  background: #aae8d7;
   line-height: 20px;
   padding: 0;
 }

@@ -3382,7 +3382,9 @@ svg.placeholder-svg{
 .slick-slide img
 {
     display: block;
-    width: 78px;
+}
+.recently-viewed-show .slick-slide img{
+  width: 78px;
 }
 .slick-slide.slick-loading img
 {
@@ -4013,7 +4015,7 @@ main#MainContent {
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #13755c;
+  color: #aae8d7;
 }
 a:hover i.far.fa-arrow-up {
   transform: rotate(90deg);
@@ -4149,8 +4151,8 @@ section.slideshow-left button.slick-arrow {
   color: #FFF;
   z-index: 999;
   overflow: hidden;
-  background: #13755c;
-  border: 1px solid #13755c;
+  background: #aae8d7;
+  border: 1px solid #aae8d7;
   border-radius: 50%;
   transition: all 0.4s;
 }
@@ -4163,7 +4165,7 @@ section.slideshow-left .slick-prev::before {
 }
 section.slideshow-left .slick-next:hover::before ,
 section.slideshow-left .slick-prev:hover::before {
-  color: #13755c;
+  color: #aae8d7;
 }
 /* SECTION FULL WIDTH */
 nav.nav-bar.nav-mega .site__dropdown .container {
@@ -4205,7 +4207,7 @@ p.rating-count.caption {
 }
 .cart__items .caption-with-letter-spacing {
   font-size: 1.5rem;
-  color: #13755c;
+  color: #aae8d7;
   font-weight: bold;
 }
 a.underlined-link {

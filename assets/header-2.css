@@ -215,7 +215,7 @@ a.site-nav-ver__link span {
     color: #000;
 }
 .col-lg-12 .menu-title a:hover {
-    color: #13755c!important;
+    color: #aae8d7!important;
 }
 .col-lg-6 .menu-title a:hover {
 	color: #000!important;
@@ -281,7 +281,7 @@ svg.svg-inline--fa.fa-bars.fa-w-14.fa-3x {
 }
 button.search__button.field__button.focus-inset:hover {
     color: #fff;
-    background: #13755c;
+    background: #aae8d7;
 }
 /* CSS MENU DROPDOWN */
 .mega-col-inner .menu-title>a {
@@ -330,7 +330,7 @@ ul.site-nav.d-flex {
     letter-spacing: 0.731px;
 }
 .block-languages .language-selector li.current {
-    color: #13755c;
+    color: #aae8d7;
 }
 .block-languages .language-selector a {
     color: #888;
@@ -338,7 +338,7 @@ ul.site-nav.d-flex {
     font-size: 13px;
 }
 .block-languages .language-selector a:hover {
-    color: #13755c;
+    color: #aae8d7;
 }
 .block-languages .language-selector img {
     display: inline-block;

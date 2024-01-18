@@ -72,7 +72,9 @@
 .article-content:hover img {
   transform: none;
 }
-
+.article-content .wp_author .d-flex:hover{
+  color:#d9195f;
+} 
 .article-card__image-wrapper > a {
   display: block;
 }
@@ -143,12 +145,12 @@ p.article-card__excerpt.rte-width {
   font-weight: 400;
   font-size: 30px;
   line-height: 32px;
-  color: #000;
+  color: #d9195f;
   font-family: 'Moderat Extended';
 }
 
 .article-content .article-card__title:hover {
-  color: #F4C340;
+  color: #aae8d7;
 }
 
 p.article-card__excerpt.rte-width {
@@ -169,7 +171,7 @@ p.article-card__excerpt.rte-width {
 }
 
 .article-card__footer {
-  background: #000!important;
+  background: #d9195f!important;
   text-transform: capitalize;
   font-weight: 400;
   font-size: 16px;
@@ -181,7 +183,9 @@ p.article-card__excerpt.rte-width {
   transition: all 0.3s ease;
   margin-bottom: 16px;
 }
-
+.article-card__footer:hover {
+  background: #aae8d7!important;
+}
 .main-blog.page-width {
   padding: 0;
 }
