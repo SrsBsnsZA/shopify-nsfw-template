@@ -1,0 +1,54 @@
+#scale-container{
+    display: flex;
+    align-items: center;
+}
+#arch{
+    height: 100%;
+    width: 100%;
+}
+#scale{
+    height: 100%;
+    width: 100%;
+}
+.trigger{
+    cursor: pointer;
+}
+.sections{
+    display: none;
+}
+#squirt{
+    transition: opacity 0.3s;
+}
+/*.hoeville-section .section-header{*/
+/*    transform: rotate(270deg) ;*/
+/*    transform-origin: left bottom;*/
+/*}*/
+.hoeville-section .copy-container{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.hoeville-section .copy-container .hoeville-header {
+    font-size: 60px;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    color: #D9175F;
+    width: 60px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.hoeville-section .copy-container .hoeville-text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hoeville-section .copy-container .hoeville-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Moderat Extended";
+}
+.hoeville-section .copy-container .hoeville-text h2{
+    font-family: "Moderat Extended";
+    font-size: 30px;
+}
