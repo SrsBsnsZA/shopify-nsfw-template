@@ -142,6 +142,11 @@
         "show_type": true
       }
     },
+    "hoeville_edB4GD": {
+      "type": "hoeville",
+      "settings": {
+      }
+    },
     "164189257492617dfe": {
       "type": "section-sp",
       "blocks": {
@@ -233,6 +238,7 @@
     "1636014571771b2284",
     "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1636423293977393af",
+    "hoeville_edB4GD",
     "164189257492617dfe",
     "1641893186a013e041"
   ]
