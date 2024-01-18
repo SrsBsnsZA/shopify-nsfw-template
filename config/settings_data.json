@@ -121,7 +121,7 @@
     "sale_label_bg": "#d9175f",
     "color_breadcrumbs": "#000000",
     "color_breadcrumbs_active": "#7b7b7b",
-    "bg_breadcrumb": "#f4f4f4",
+    "bg_breadcrumb": "rgba(255, 147, 198, 0.2)",
     "limit_ranger": 0,
     "show_title_breadcumbs": false,
     "align_bread": "end",
@@ -291,7 +291,7 @@
           "link_announcement_bar": "",
           "text_link2_announcement_bar": "English",
           "link2_announcement_bar": "",
-          "color_scheme": "inverse",
+          "color_scheme": "background-1",
           "header_logo": true,
           "logo": "shopify:\/\/shop_images\/Rude_NSFW_Logo_White_300w.png",
           "logo_align": "top",
@@ -300,7 +300,7 @@
           "header_wishlist": true,
           "currencies": false,
           "header_card": true,
-          "enable_transparent": true
+          "enable_transparent": false
         }
       },
       "footer-1": {

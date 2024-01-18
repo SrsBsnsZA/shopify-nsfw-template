@@ -12,9 +12,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify:\/\/shop_images\/35.jpg",
-            "image_child1": "shopify:\/\/shop_images\/pattern02.png",
-            "image_child2": "shopify:\/\/shop_images\/pattern03.png",
+            "image": "shopify:\/\/shop_images\/Penis.webp",
             "effects_image": false
           }
         },
@@ -38,6 +36,7 @@
       ],
       "settings": {
         "fullwidth": false,
+        "section_id": "",
         "background-color": "#f4f4f4",
         "margin_desktop": "",
         "padding_desktop": "",
@@ -99,7 +98,6 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/AB02.jpg",
             "effects_image": false
           }
         },
@@ -118,7 +116,6 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/AB01.jpg",
             "effects_image": false
           }
         }
@@ -186,7 +183,6 @@
     },
     "team-work": {
       "type": "team-work",
-      "disabled": true,
       "blocks": {
         "db4c37ca-dae1-4ddc-92f1-215f14d672f7": {
           "type": "teamwork",
@@ -227,6 +223,7 @@
         "d96fc377-275a-4264-a700-3202520a3c47",
         "0d1eb48d-5f9f-4d77-a581-9f88f00384a5"
       ],
+      "disabled": true,
       "settings": {
         "team_title": "Meet our people",
         "team_fb": "#",
