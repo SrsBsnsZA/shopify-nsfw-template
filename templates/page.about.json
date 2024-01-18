@@ -12,7 +12,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/Penis.webp?v=1705589719",
+            "image": "shopify:\/\/shop_images\/Penis.webp",
             "image_child1": "shopify:\/\/shop_images\/pattern02.png",
             "image_child2": "shopify:\/\/shop_images\/pattern03.png",
             "effects_image": false
@@ -24,12 +24,12 @@
             "width": "50%",
             "header__text": "This journey started simply; drawing dicks is hilarious…  ",
             "header_top": "",
-            "text__content": "Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more. ",
+            "text__content": "<p class=\"section-sp_text-content\" >Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.</p><p class=\"section-sp_text-content\" > Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.</p><p class=\"section-sp_text-content\" > We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! </p><p class=\"section-sp_text-content\" > We are Rude.</p>",
             "big_text": "",
             "btn_text": "Join the party",
             "btn_link": "",
             "text_align": "left"
-          }
+          } 
         }
       },
       "block_order": [
@@ -99,7 +99,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/AB02.jpg",
+            "image": "shopify:\/\/shop_images\/EngorgioSalami.webp",
             "effects_image": false
           }
         },
@@ -118,7 +118,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/AB01.jpg",
+            "image": "shopify:\/\/shop_images\/The_PussyCat.webp",
             "effects_image": false
           }
         }
@@ -146,24 +146,24 @@
           "type": "service",
           "settings": {
             "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
-            "header_service": "47,000+ Happy Customer",
-            "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "header_service": "Shipping Worldwide",
+            "text_service": ""
           }
         },
         "1641958291959f6b6d-1": {
           "type": "service",
           "settings": {
             "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
-            "header_service": "20 Awards Won",
-            "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "header_service": "14 Day Return Policy",
+            "text_service": ""
           }
         },
         "1641958291959f6b6d-2": {
           "type": "service",
           "settings": {
             "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
-            "header_service": "24 Years of Experiences",
-            "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "header_service": "Secure Payment",
+            "text_service": ""
           }
         }
       },
