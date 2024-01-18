@@ -3527,7 +3527,10 @@ leofa-times:before {
   display: block;
   position: absolute;
   height: 100%;
-  background: linear-gradient(to right, #000, #ccc);
+  background: linear-gradient(to right, rgba(217, 23, 95, 1), #fff);
+}
+.product__info-wrapper .progress{
+  background-color: rgba(217, 23, 95, 0.35);
 }
 .free-shipping-content{
   z-index: 1;
@@ -4116,6 +4119,13 @@ section.right-thumbnails .product-thumb-image .slick-slide ,
 section.slideshow-left .product-thumb-image .slick-slide {
   margin: 5px 10px;
 }
+.product .main-product-image-template2 .slick-prev, .product .main-product-image-template2 .slick-next{
+  background: rgb(var(--color-button));
+}
+.product .product__info-wrapper .product__title{
+  text-transform: uppercase;
+}
+
 .product__media-wrapper .slick-prev {
   left: 0px;
 }
