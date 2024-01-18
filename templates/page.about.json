@@ -12,7 +12,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify:\/\/shop_images\/35.jpg",
+            "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/Penis.webp?v=1705589719",
             "image_child1": "shopify:\/\/shop_images\/pattern02.png",
             "image_child2": "shopify:\/\/shop_images\/pattern03.png",
             "effects_image": false
@@ -22,11 +22,11 @@
           "type": "text_list",
           "settings": {
             "width": "50%",
-            "header__text": "Discover The Funisox &amp; ITS Collab' Of Artists",
+            "header__text": "This journey started simply; drawing dicks is hilarious…  ",
             "header_top": "",
-            "text__content": "Socks designed by artists from various universes: graphic designers, street artists, designers and illustrators with overflowing imagination.",
+            "text__content": "Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more. ",
             "big_text": "",
-            "btn_text": "Get a Quote",
+            "btn_text": "Join the party",
             "btn_link": "",
             "text_align": "left"
           }
@@ -145,7 +145,7 @@
         "1641958291959f6b6d-0": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/demo73leotheme.b-cdn.net\/prestashop\/leo_funisox_demo\/themes\/leo_funisox\/assets\/img\/modules\/appagebuilder\/images\/support.png\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "47,000+ Happy Customer",
             "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
@@ -153,7 +153,7 @@
         "1641958291959f6b6d-1": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/demo73leotheme.b-cdn.net\/prestashop\/leo_funisox_demo\/themes\/leo_funisox\/assets\/img\/modules\/appagebuilder\/images\/trophy.png\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "20 Awards Won",
             "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
@@ -161,7 +161,7 @@
         "1641958291959f6b6d-2": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/demo73leotheme.b-cdn.net\/prestashop\/leo_funisox_demo\/themes\/leo_funisox\/assets\/img\/modules\/appagebuilder\/images\/certificate.png\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "24 Years of Experiences",
             "text_service": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
