@@ -3382,6 +3382,7 @@ svg.placeholder-svg{
 .slick-slide img
 {
     display: block;
+    width: 78px;
 }
 .slick-slide.slick-loading img
 {

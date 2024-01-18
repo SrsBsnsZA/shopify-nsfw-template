@@ -54,16 +54,16 @@
           "type": "service",
           "settings": {
             "icon": "",
-            "header_service": "400 +",
-            "text_service": "Sale on first month"
+            "header_service": "40 +",
+            "text_service": "Designs & Growing"
           }
         },
         "bc848845-3f90-4355-b8a1-e9e8b09216d7": {
           "type": "service",
           "settings": {
             "icon": "",
-            "header_service": "1000000 +",
-            "text_service": "Web Pages Created by Users"
+            "header_service": "12000km",
+            "text_service": "Material Used"
           }
         },
         "bdb469a1-52c7-4b6b-81d4-a8bf56fd45fa": {
@@ -71,7 +71,7 @@
           "settings": {
             "icon": "",
             "header_service": "500000 +",
-            "text_service": "Customers Served Around The World"
+            "text_service": "Socks destined to be alone in the end"
           }
         }
       },
@@ -99,7 +99,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/EngorgioSalami.webp",
+            "image": "shopify:\/\/shop_images\/EngorgioSalami_About_us.webp",
             "effects_image": false
           }
         },
@@ -107,8 +107,8 @@
           "type": "text_list",
           "settings": {
             "width": "50%",
-            "header__text": "“<strong>Socks<\/strong> tends to consume everything else, it has become one's <strong>entire life<\/strong>.”",
-            "text__content": "FELIX DESIGNER",
+            "header__text": "“<strong>Not<\/strong> socks for <strong>work<\/strong>.”",
+            "text__content": "Rude Socks",
             "btn_text": "",
             "btn_link": "",
             "text_align": "left"
@@ -118,7 +118,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/The_PussyCat.webp",
+            "image": "shopify:\/\/shop_images\/The_PussyCat_About_us.webp",
             "effects_image": false
           }
         }
