@@ -26,7 +26,7 @@
             "text__content": "<p class=\"section-sp_text-content\">Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.<\/p><p class=\"section-sp_text-content\"> Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.<\/p><p class=\"section-sp_text-content\"> We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! <\/p><p class=\"section-sp_text-content\"> We are Rude.<\/p>",
             "big_text": "",
             "btn_text": "Join the party",
-            "btn_link": "",
+            "btn_link": "/collections/all",
             "text_align": "left"
           }
         }
@@ -54,7 +54,7 @@
           "type": "service",
           "settings": {
             "icon": "",
-            "header_service": "40 +",
+            "header_service": "25",
             "text_service": "Designs & Growing"
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "icon": "",
             "header_service": "12000km",
-            "text_service": "Material Used"
+            "text_service": "Socks Manufactured"
           }
         },
         "bdb469a1-52c7-4b6b-81d4-a8bf56fd45fa": {
@@ -99,7 +99,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/EngorgioSalami_About_us_wide.webp",
+            "image": "shopify:\/\/shop_images\/placeholder_1_590x450_b5e68acb-77d6-45fb-a71e-bbfc731b4d83.jpg",
             "effects_image": false
           }
         },
@@ -107,7 +107,7 @@
           "type": "text_list",
           "settings": {
             "width": "50%",
-            "header__text": "“<strong>Not<\/strong> socks for <strong>work<\/strong>.”",
+            "header__text": "Prepare to be <strong>seduced<\/strong> by our irresistible collection of socks that’ll make your toes <strong>curl.<\/strong>",
             "text__content": "Rude Socks",
             "btn_text": "",
             "btn_link": "",
@@ -118,7 +118,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/The_PussyCat_About_us.webp",
+            "image": "shopify:\/\/shop_images\/placeholder_2_590x450_b5a3c533-5fa5-4d74-b8b6-472599ddb249.jpg",
             "effects_image": false
           }
         }

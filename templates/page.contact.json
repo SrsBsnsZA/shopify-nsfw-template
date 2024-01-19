@@ -8,7 +8,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Penis_100x100_92bb332c-a738-4a7f-bbaf-b5f84bdf2f8f.webp",
             "title": "William W Anker",
-            "description": "<div class=\"media-body_text\">Human Resource<br>\nPhone: + 844 123 444 77 88<br>\nEmail: demo@demo.com<\/div>"
+            "description": "<div class=\"media-body_text\">Director<br>\nEmail: willy@rudesocks.co.za<\/div>"
           }
         },
         "f539326d-d01f-4428-9e2e-d899df3f06fc": {
@@ -16,7 +16,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Penis_100x100_92bb332c-a738-4a7f-bbaf-b5f84bdf2f8f.webp",
             "title": "Fin Gerbanger",
-            "description": "<div class=\"media-body_text\">Senior Marketing Manager<br>\nPhone: + 844 123 444 77 88<br>\nEmail: demo@demo.com<br>\n<\/div>"
+            "description": "<div class=\"media-body_text\">Senior Marketing Manager<br>\nEmail: fake_person@rudesocks.co.za<br>\n<\/div>"
           }
         },
         "98d8926f-d8d5-45da-8163-71d42eda460e": {
@@ -24,7 +24,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Penis_100x100_92bb332c-a738-4a7f-bbaf-b5f84bdf2f8f.webp",
             "title": "Mike Hunt",
-            "description": "<div class=\"media-body_text\">Recruiting Manager<br>\nPhone: + 844 123 444 77 88<br>\nEmail: demo@demo.com<\/div>"
+            "description": "<div class=\"media-body_text\">Recruiting Manager<br>\nEmail: fake_person@rudesocks.co.za<\/div>"
           }
         }
       },
@@ -35,11 +35,11 @@
       ],
       "settings": {
         "gmap": true,
-        "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=68%20nguyen%20co%20thach&t=&z=15&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe>Google Maps Generator by <a href=\"https:\/\/www.embedgooglemap.net\">embedgooglemap.net<\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>\n<\/div>",
+        "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=Green%20Point&t=&z=15&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe>Google Maps Generator by <a href=\"https:\/\/www.embedgooglemap.net\">embedgooglemap.net<\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>\n<\/div>",
         "contact_title": "Feel like talking dirty? Slide into our DMs!",
         "contact_des": "",
         "contact_addess": "Cape Town, South Africa",
-        "contact_phone": "+27 21 123 4567",
+        "contact_phone": "",
         "contact_mail": "willy@rudesocks.co.za",
         "contact_web": "https://notsocksforwork.com",
         "moreinfo_title": "Our staff"

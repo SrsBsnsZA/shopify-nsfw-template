@@ -3,6 +3,9 @@
     "main": {
       "type": "main-404",
       "settings": {
+        "subtext": "Being adventurous, huh? You’ve found a kinky link. Turn back now, and let’s make some real mischief. ",
+        "title": "Ooh la la, looks like someone’s up to no good!",
+        "cta": "START OVER"
       }
     }
   },

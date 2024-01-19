@@ -10,6 +10,9 @@
     padding: 40px 0;
     background-color: rgba(255, 147, 198, 0.2) !important;
 }
+.page-about .a-intro-about-template{
+    margin-top: 3rem;
+}
 /* end Rude Socks */
 
 .service-content{

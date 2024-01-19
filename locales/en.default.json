@@ -183,8 +183,9 @@
       }
     },
     "404": {
-      "title": "Page not found",
-      "subtext": "404"
+      "title": "Ooh la la, looks like someone’s up to no good!",
+      "subtext": "Being adventurous, huh? You’ve found a kinky link. Turn back now, and let’s make some real mischief. ",
+      "cta": "START OVER"
     }
   },
   "sections": {

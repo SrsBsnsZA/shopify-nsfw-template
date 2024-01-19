@@ -9,7 +9,12 @@
       </h1>
 
       {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
+        <div class="collection-hero__description rte">{%if collection.title != "Products"%}{{ collection.description }}{% else %}
+        <p class="mb-4">
+          Prepare to be seduced by our irresistible collection of socks that’ll make your toes curl. From cheeky patterns that’ll leave you flushed, to designs that will leave you speechless, our socks are the epitome of wicked fashion. Whether you’re feeling a little devilish or want to ignite a fire, our socks will make heads turn, jaws drop, and cheeks blush.
+        </p> 
+        <p>After all, our socks are gagging for you to slide right in. </p>
+      {% endif %}</div>
       {%- endif -%}
     </div>
 
