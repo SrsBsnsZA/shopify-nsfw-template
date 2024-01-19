@@ -5,7 +5,11 @@
 }
 @font-face {
   font-family: "Made Tommy";
-  src: url('MADE TOMMY Regular_PERSONAL USE.woff2');
+  src: url('MADE_TOMMY_Regular_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Made Tommy Light";
+  src: url('MADE_TOMMY_Light_PERSONAL_USE.woff2');
 }
 /* end Rude Socks */
 :root,

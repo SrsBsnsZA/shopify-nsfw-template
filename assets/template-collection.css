@@ -1032,7 +1032,7 @@ div#slider-range{
 
 p.facets__heading.caption-large {
   background: 0 0;
-  color: #aae8d7;
+  color: #d9175f;
   text-transform: capitalize;
   text-align: left;
   font-family: "Moderat Extended";
@@ -1044,7 +1044,7 @@ p.facets__heading.caption-large {
   border-radius: 0;
 }
 .facets__summary span {
-  color: #aae8d7;
+  color: #d9175f;
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;

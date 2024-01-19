@@ -2,6 +2,14 @@
 .shopify-section.service{
     background-color: rgba(255, 147, 198, 0.2) !important;
 }
+.page-about .shopify-section.service{
+    background-color: transparent !important;
+}
+.page-about #shopify-section-template--21974692757810__164195829130918a09
+{
+    padding: 40px 0;
+    background-color: rgba(255, 147, 198, 0.2) !important;
+}
 /* end Rude Socks */
 
 .service-content{
