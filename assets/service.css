@@ -1,3 +1,9 @@
+/* Rude Socks */
+.shopify-section.service{
+    background-color: rgba(255, 147, 198, 0.2) !important;
+}
+/* end Rude Socks */
+
 .service-content{
     display: flex;
     justify-content: center;
