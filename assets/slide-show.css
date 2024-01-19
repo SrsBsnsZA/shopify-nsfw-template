@@ -116,13 +116,12 @@ h4.sub-title-slide {
     position: absolute;
     top: 50%;
     left: 0;
-    font-size: clamp(1rem, 1vw , 11px)!important;
+    font-size: clamp(2rem, 1vw , 11px)!important;
     color: black;
     /* opacity: 0; */
     line-height: 32px;
-    letter-spacing: clamp(.1rem, 0.5vw , 8.4px)!important;
-    font-weight: 700;
-    text-transform: uppercase;
+    /* letter-spacing: clamp(.1rem, 0.5vw , 8.4px)!important; */
+    font-weight: 400;
     font-family: 'Moderat Extended';
     margin-bottom: 0;
     transition: .4s all;
@@ -135,9 +134,10 @@ h2.title-slide {
     left: 25%;
     font-weight: 600;
     text-transform: none;
-    line-height:  clamp(1.5rem, 3.5vw , 65px);
+    line-height:  clamp(1rem, 2.5vw , 60px);
     font-family: "Moderat Extended";
     /* opacity: 0; */
+    margin-bottom: 3rem;
     transition: .4s all;
 }
 h2.title-slide > span {

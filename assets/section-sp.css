@@ -5,6 +5,7 @@
 #home-be-bold p.section-sp_text-content, #animal-section p.section-sp_text-content{
     color: #000;
     font-size: 30px;
+    line-height: 36px;
 }
 #home-be-bold .section-sp_text, #animal-section .section-sp_text{
     padding-left:0px !important;
@@ -16,10 +17,16 @@
 body.index #animal-section{
     padding-bottom: 250px;
 }
+body.index #home-be-bold{
+    padding-bottom: 300px;
+}
 #animal-section .section-sp_text-content{
     margin-top:100px;
 }
-
+#animmal-section .wp_section .Ap_pd, #home-be-bold .wp_section div[class*="col-"]{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 /* end Rude Socks */
 
 

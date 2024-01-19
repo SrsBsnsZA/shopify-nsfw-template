@@ -8,13 +8,13 @@
           "settings": {
             "image_slide": "shopify:\/\/shop_images\/Pink_blue_bg.jpg",
             "image_slide_child": "shopify:\/\/shop_images\/WishYouWereGay_B-2.png",
-            "sub_title": "Rude Socks will make heads turn, jaws drop, and cheeks blush. So, if you’re ready to spice up your sock game and show off your bawdy side, put your foot in it.",
-            "title": "Let’s get something straight, our socks are fucking sexy and downright rude.",
+            "sub_title": "Rude Socks will make heads turn, jaws drop, and cheeks blush. <br/>So, if you’re ready to spice up your sock game and show off your bawdy side, <br/>put your foot in it.",
+            "title": "Let’s get something straight,<br/> our socks are fucking sexy <br/>and downright rude.",
             "content": "",
             "link": "Shop Socks",
             "btn_link": "",
             "text_align": "left",
-            "item_align": "center"
+            "item_align": "top"
           }
         }
       },
