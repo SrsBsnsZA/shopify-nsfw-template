@@ -145,6 +145,8 @@
     "hoeville_edB4GD": {
       "type": "hoeville",
       "settings": {
+        "heading": "Hoeville Scale",
+        "sub_text": "Multimedia section-sp"
       }
     },
     "164189257492617dfe": {
@@ -177,7 +179,7 @@
       ],
       "settings": {
         "fullwidth": false,
-        "section_id": "",
+        "section_id": "home-be-bold",
         "background-color": "#f4f4f4",
         "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
         "margin_desktop": "",
