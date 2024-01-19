@@ -1,3 +1,13 @@
+/* Rude Socks */
+@font-face {
+  font-family: "Lemon Milk";
+  src: url('LemonMilk.woff2');
+}
+@font-face {
+  font-family: "Made Tommy";
+  src: url('MADE TOMMY Regular_PERSONAL USE.woff2');
+}
+/* end Rude Socks */
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
