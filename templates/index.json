@@ -195,8 +195,8 @@
           "type": "service",
           "settings": {
             "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
-            "header_service": "Shipping Worldwide",
-            "text_service": "Special financing and earn rewards."
+            "header_service": "Shipping Nationwide",
+            "text_service": "Strutting our stuff exclusively in South Africa."
           }
         },
         "1641893186f6b9cd07-1": {
@@ -204,7 +204,7 @@
           "settings": {
             "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "14 Days Return",
-            "text_service": "14-days free return policy."
+            "text_service": "Getting cold feet?"
           }
         },
         "1641893186f6b9cd07-2": {
@@ -212,7 +212,7 @@
           "settings": {
             "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Secure Payments",
-            "text_service": "We accept all major credit cards."
+            "text_service": "Discression is our middle name."
           }
         }
       },

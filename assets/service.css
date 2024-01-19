@@ -113,7 +113,7 @@ body.index .service h2.section-header {
 /* SERVICE 2 */
 body.page-about main > section:nth-child(5)  .wp_service {
     padding: 30px 0;
-    background-color: #f4f4f4;
+    background-color: rgba(255, 147, 198, 0.2);
 }
 body.page-about main > section:nth-child(5) .service-content.icon-top {
     margin-bottom: 30px;
