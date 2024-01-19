@@ -78,9 +78,13 @@ h2.title {
   margin-bottom: 20px;
 }
 button.button {
-  background-color: #aae8d7;
+  background-color: #d9195f;
 }
-
+button.button:hover {
+  background-color: #aae8d7;
+  border-color: #aae8d7;
+  box-shadow: 0 0 0 0.2rem #aae8d7;
+}
 /* CSS */
 
 h2.my-3.mb-lg-4 {
