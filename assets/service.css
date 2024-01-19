@@ -171,5 +171,6 @@ body.page-about main > section:nth-child(5) p.service-text {
 @media (min-width: 768px) {
     body.index .service {
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 }

@@ -65,14 +65,14 @@
           {% endif %}
         </s>
       </dd>
-      <dt>
+      {% comment %} <dt>
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       </dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
         <span class="price-item price-item--sale">
           {{ money_price }}
         </span>
-      </dd>
+      </dd> {% endcomment %}
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <dt class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</dt>

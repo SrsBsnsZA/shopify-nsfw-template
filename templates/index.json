@@ -61,7 +61,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify:\/\/shop_images\/BalloonAnimals_L_1c2b3ae0-f0a4-4205-a954-a0923d5eb142.png",
+            "image": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
             "effects_image": true
           }
         },
@@ -87,7 +87,7 @@
 
       ],
       "settings": {
-        "fullwidth": true,
+        "fullwidth": false,
         "section_id": "animal-section",
         "background-color": "#ffffff",
         "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
@@ -155,7 +155,7 @@
         "1641892574a9acddb1-1": {
           "type": "text_list",
           "settings": {
-            "width": "50%",
+            "width": "66%",
             "header__text": "",
             "header_top": "",
             "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
@@ -168,7 +168,8 @@
         "1641892574a9acddb1-0": {
           "type": "image",
           "settings": {
-            "width": "50%",
+            "width": "33%",
+            "image": "shopify:\/\/shop_images\/WishYouWereGay_Be_Bold.png",
             "effects_image": false
           }
         }

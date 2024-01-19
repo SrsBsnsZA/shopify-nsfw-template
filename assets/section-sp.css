@@ -1,6 +1,28 @@
+/* rude socks */
+#home-be-bold .container h2{
+    margin-bottom: 40px !important;
+}
+#home-be-bold p.section-sp_text-content, #animal-section p.section-sp_text-content{
+    color: #000;
+    font-size: 30px;
+}
+#home-be-bold .section-sp_text, #animal-section .section-sp_text{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
 #animal-section .btn--main.btn-advanced{
     color: var(--color-base-link);
 }
+body.index #animal-section{
+    padding-bottom: 250px;
+}
+#animal-section .section-sp_text-content{
+    margin-top:100px;
+}
+
+/* end Rude Socks */
+
+
 /*theme styles*/
 .section-sp h2.section-header {
     font-family: "Moderat Extended";
