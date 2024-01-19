@@ -83,7 +83,7 @@ button.button {
 button.button:hover {
   background-color: #aae8d7;
   border-color: #aae8d7;
-  box-shadow: 0 0 0 0.2rem #aae8d7;
+  box-shadow: 0 0 0 0.2rem #aae8d7 !important;
 }
 /* CSS */
 
