@@ -1,3 +1,8 @@
+/* Rude Socks */
+.blog-sidebar ul.list-block li a:hover {
+  color: #aae8d7;
+}
+/* end Rude Socks */
 .article-template > *:first-child:not(.article-template__hero-container) {
   margin-top: 5rem;
 }
@@ -189,7 +194,7 @@ ul.list-block li .blog-image {
 }
 h4.title_block {
   background: none;
-  color: #aae8d7;
+  color: #d9195f;
   text-transform: capitalize!important;
   text-align: left;
   font-family: "Moderat Extended";
@@ -214,7 +219,7 @@ ul.list-block li a {
   font-size: 14px;
   line-height: 22px;
   letter-spacing: .288px;
-  color: #aae8d7;
+  color: #d9195f;
   text-transform: capitalize;
   overflow: hidden;
   text-overflow: ellipsis;
