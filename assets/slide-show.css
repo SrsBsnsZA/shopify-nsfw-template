@@ -281,7 +281,7 @@ a.link-base.link-left:hover {
 
 @media(min-width: 1700px){
     .text-slider{
-        padding: 10rem;
+        padding: 14rem 10rem 10rem 14rem;
     }
     .slide-show .slick-dots{
         left: 10rem;

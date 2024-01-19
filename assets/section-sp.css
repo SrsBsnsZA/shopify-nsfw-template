@@ -1,6 +1,6 @@
 /* rude socks */
 #home-be-bold .container h2{
-    margin-bottom: 40px !important;
+    margin-bottom: 20px !important;
 }
 #home-be-bold p.section-sp_text-content, #animal-section p.section-sp_text-content{
     color: #000;
@@ -15,11 +15,15 @@
 #animal-section .btn--main.btn-advanced{
     color: var(--color-base-link);
 }
+#animal-section .container{
+    margin-top: 150px;
+}
 body.index #animal-section{
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 body.index #home-be-bold{
-    padding-bottom: 300px;
+    padding-bottom: 160px;
+    padding-top: 20px;
 }
 #animal-section .section-sp_text-content{
     margin-top:100px;
@@ -28,15 +32,17 @@ body.index #home-be-bold{
     margin-top: auto;
     margin-bottom: auto;
 }
+
 /* end Rude Socks */
 
 
 /*theme styles*/
 .section-sp h2.section-header {
-    font-family: "Moderat Extended";
+    font-family: "Made Tommy Bold";
     font-style: normal;
     font-weight: 400;
-    font-size: 55px;
+    font-size: 65px;
+    text-transform: uppercase;
     line-height: 1;
     color: #000;
     display: block;

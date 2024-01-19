@@ -1,5 +1,7 @@
 .hoeville-section{
     padding: 0px 0px 60px 0px;
+    background-image: url('https://cdn.shopify.com/s/files/1/0792/0792/4018/files/repeatable_main.png?v=1705672239');
+    background-repeat: repeat;
 }
 #scale-container{
     display: flex;
@@ -39,6 +41,7 @@
     width: 60px;
     margin-left: 30px;
     font-weight: 700;
+    font-family: 'Made Tommy Bold';
 }
 .hoeville-section .copy-container .hoeville-text-wrapper{
     display: flex;

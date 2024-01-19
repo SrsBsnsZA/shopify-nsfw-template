@@ -4,6 +4,10 @@
   src: url('LemonMilk.woff2');
 }
 @font-face {
+  font-family: "Lemon Milk Bold";
+  src: url('LemonMilkbold.woff2');
+}
+@font-face {
   font-family: "Made Tommy";
   src: url('MADE_TOMMY_Regular_PERSONAL_USE.woff2');
 }
@@ -12,8 +16,20 @@
   src: url('MADE_TOMMY_Regular_PERSONAL_USE.woff2');
 }
 @font-face {
+  font-family: "Made Tommy Black";
+  src: url('MADE_TOMMY_Black_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Made Tommy Bold";
+  src: url('MADE_TOMMY_Bold_PERSONAL_USE.woff2');
+}
+@font-face {
   font-family: "Made Tommy Light";
   src: url('MADE_TOMMY_Light_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Freestyle";
+  src: url('FREESCPT.woff2');
 }
 /* end Rude Socks */
 :root,

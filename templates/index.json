@@ -155,7 +155,7 @@
         "1641892574a9acddb1-1": {
           "type": "text_list",
           "settings": {
-            "width": "66%",
+            "width": "50%",
             "header__text": "",
             "header_top": "",
             "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
@@ -168,7 +168,7 @@
         "1641892574a9acddb1-0": {
           "type": "image",
           "settings": {
-            "width": "33%",
+            "width": "50%",
             "image": "shopify:\/\/shop_images\/WishYouWereGay_Be_Bold.png",
             "effects_image": false
           }
@@ -242,7 +242,7 @@
     "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1636423293977393af",
     "hoeville_edB4GD",
-    "164189257492617dfe",
-    "1641893186a013e041"
+    "1641893186a013e041",
+    "164189257492617dfe"
   ]
 }
