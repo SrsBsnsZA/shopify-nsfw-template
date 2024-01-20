@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const animate = (index, triggerIndex) => {
     if (index > triggerIndex) return;
+
     if(index === 4){
       document.getElementById('squirt').style.opacity = '1'
       return
@@ -38,6 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var triggers = document.getElementsByClassName("trigger");
     animate(currentIndex, 0)
     handleTextBlock(0)
+    const outline = document.getElementById(`outline_0`)
+    outline.style.opacity = '1'
+
     for (const trigger of triggers) {
       trigger.addEventListener('mouseover', () => {
         const triggerIndex = parseInt(trigger.getAttribute('data-trigger-index'))
@@ -48,6 +52,12 @@ document.addEventListener("DOMContentLoaded", function () {
         for(const section of sections){
           section.style.display = 'none'
         }
+        const outlines = document.querySelectorAll(`.hover-indicator`)
+        for(const outline of outlines){
+          outline.style.opacity = '0'
+        }
+        const outline = document.getElementById(`outline_${triggerIndex}`)
+        outline.style.opacity = '1'
         handleTextBlock(triggerIndex)
         for (let index = 0; index < (triggerIndex +1); index++) {
           setTimeout(() => {

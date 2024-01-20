@@ -43,6 +43,10 @@
     font-weight: 700;
     font-family: 'Made Tommy Bold';
 }
+.hoeville-section .hover-indicator{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
 .hoeville-section .copy-container .hoeville-text-wrapper{
     display: flex;
     align-items: center;
