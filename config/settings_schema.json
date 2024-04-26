@@ -4566,5 +4566,40 @@
         "default": 10
       }
     ]
+  },
+  {
+    "name": "t:settings_schema.age-check.name",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "age_check_enable",
+        "default": true,
+        "label": "t:settings_schema.age-check.settings.age_check_enable.label"
+      },
+      {
+        "type": "text",
+        "id": "age_check_header",
+        "default": "Adults only (18+)",
+        "label": "t:settings_schema.age-check.settings.age_check_header.label"
+      },
+      {
+        "type": "textarea",
+        "id": "age_check_message",
+        "default": "This website contains adult material and is only suitable for those 18 years or older. Click Enter only if you are at least 18 years of age.",
+        "label": "t:settings_schema.age-check.settings.age_check_message.label"
+      },
+      {
+        "type": "text",
+        "id": "age_check_ok",
+        "default": "Enter!",
+        "label": "t:settings_schema.age-check.settings.age_check_ok.label"
+      },
+      {
+        "type": "text",
+        "id": "age_check_cancel",
+        "default": "Exit",
+        "label": "t:settings_schema.age-check.settings.age_check_ok.label"
+      }
+    ]
   }
 ]

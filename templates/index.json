@@ -6,10 +6,10 @@
         "1636014571771b2284-0": {
           "type": "slide",
           "settings": {
-            "image_slide": "shopify:\/\/shop_images\/Pink_blue_bg.jpg",
-            "image_slide_child": "shopify:\/\/shop_images\/WishYouWereGay_B-2.png",
-            "sub_title": "Rude Socks will make heads turn, jaws drop, and cheeks blush. <br/>So, if you’re ready to spice up your sock game and show off your bawdy side, <br/>put your foot in it.",
-            "title": "Let’s get something straight,<br/> our socks are fucking sexy <br/>and downright rude.",
+            "image_slide": "shopify://shop_images/Pink_blue_bg.jpg",
+            "image_slide_child": "shopify://shop_images/WishYouWereGay_B-2.png",
+            "sub_title": "Rude Socks will make heads turn, jaws drop, and cheeks blush. <br>So, if you’re ready to spice up your sock game and show off your bawdy side, <br>put your foot in it.",
+            "title": "Let’s get something straight,<br> our socks are fucking sexy <br>and downright rude.",
             "content": "",
             "link": "Shop Socks",
             "btn_link": "",
@@ -61,7 +61,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify:\/\/shop_images\/BalloonAnimals_L.png",
+            "image": "shopify://shop_images/BalloonAnimals_L.png",
             "effects_image": true
           }
         },
@@ -90,7 +90,7 @@
         "fullwidth": false,
         "section_id": "animal-section",
         "background-color": "#ffffff",
-        "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
+        "section-background": "shopify://shop_images/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
         "margin_desktop": "",
         "padding_desktop": "",
         "margin_mobile": "",
@@ -149,55 +149,13 @@
         "sub_text": "Multimedia section-sp"
       }
     },
-    "164189257492617dfe": {
-      "type": "section-sp",
-      "blocks": {
-        "1641892574a9acddb1-1": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "",
-            "header_top": "",
-            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
-            "big_text": "",
-            "btn_text": "Shop Socks",
-            "btn_link": "",
-            "text_align": "left"
-          }
-        },
-        "1641892574a9acddb1-0": {
-          "type": "image",
-          "settings": {
-            "width": "50%",
-            "image": "shopify:\/\/shop_images\/WishYouWereGay_Be_Bold.png",
-            "effects_image": false
-          }
-        }
-      },
-      "block_order": [
-        "1641892574a9acddb1-1",
-        "1641892574a9acddb1-0"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "section_id": "home-be-bold",
-        "background-color": "#f4f4f4",
-        "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "Be bold. Be RUDE.",
-        "text_decoration": "We know you mean business so grab a pair of our socks (by the balls)."
-      }
-    },
     "1641893186a013e041": {
       "type": "service",
       "blocks": {
         "1641893186f6b9cd07-0": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Shipping Nationwide",
             "text_service": "Strutting our stuff exclusively in South Africa."
           }
@@ -205,7 +163,7 @@
         "1641893186f6b9cd07-1": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "14 Days Return",
             "text_service": "Getting cold feet?"
           }
@@ -213,7 +171,7 @@
         "1641893186f6b9cd07-2": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Secure Payments",
             "text_service": "Discression is our middle name."
           }
@@ -234,6 +192,48 @@
         "heading": "",
         "text_decoration": "",
         "icon-align": "top"
+      }
+    },
+    "164189257492617dfe": {
+      "type": "section-sp",
+      "blocks": {
+        "1641892574a9acddb1-1": {
+          "type": "text_list",
+          "settings": {
+            "width": "50%",
+            "header__text": "",
+            "header_top": "",
+            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
+            "big_text": "",
+            "btn_text": "Shop Socks",
+            "btn_link": "",
+            "text_align": "left"
+          }
+        },
+        "1641892574a9acddb1-0": {
+          "type": "image",
+          "settings": {
+            "width": "50%",
+            "image": "shopify://shop_images/WishYouWereGay_Be_Bold.png",
+            "effects_image": false
+          }
+        }
+      },
+      "block_order": [
+        "1641892574a9acddb1-1",
+        "1641892574a9acddb1-0"
+      ],
+      "settings": {
+        "fullwidth": false,
+        "section_id": "home-be-bold",
+        "background-color": "#f4f4f4",
+        "section-background": "shopify://shop_images/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
+        "margin_desktop": "",
+        "padding_desktop": "",
+        "margin_mobile": "",
+        "padding_mobile": "",
+        "heading": "Be bold. Be RUDE.",
+        "text_decoration": "We know you mean business so grab a pair of our socks (by the balls)."
       }
     }
   },

@@ -153,7 +153,12 @@
 </script>
   </head>
 
-  <body class="gradient {{template | replace: ".", "-"}}">    
+  <body class="gradient {{template | replace: ".", "-"}}">
+
+    {% if settings.age_check_enable %}
+      {% render 'age-check' %}
+    {% endif %}
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>

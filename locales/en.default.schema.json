@@ -455,6 +455,26 @@
         }
       }
     },
+    "age-check": {
+      "name": "Age Check",
+      "settings": {
+        "age_check_enable": {
+          "label": "Enable"
+        },
+        "age_check_message": {
+          "label": "Message"
+        },
+        "age_check_header": {
+          "label": "Header"
+        },
+        "age_check_ok": {
+          "label": "Confirm Button Text"
+        },
+        "age_check_cancel": {
+          "label": "Exit Button Text"
+        }
+      }
+    },
     "cookie-policy": {
       "name": "Cookie policy",
       "settings": {
