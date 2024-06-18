@@ -38,6 +38,7 @@
               {%- endif -%}
             </div>
             <div class="text-white text-slider d-flex flex-column justify-content-{% if block.settings.item_align == 'top' %}start{% elsif block.settings.item_align == 'center' %}center{% elsif block.settings.item_align == 'bottom' %}end{% endif %} text-{%- if block.settings.text_align == 'left' -%}start{%- elsif block.settings.text_align == 'center' -%}center{%- elsif block.settings.text_align == 'right' -%}end{%- endif -%}">
+              {% if section.settings.enable_logo %}
               <div class="row">
                 <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-3 col-5 head-logo logo-padding logo-align-top "><!-- header-logo.liquid -->
                   <a href="/" class="header__heading-link link link--text focus-inset">
@@ -45,6 +46,7 @@
                   </a>
                 </div>
               </div>
+              {% endif %}
               <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
                   <h2 class="title-slide text-white">{{ block.settings.title }}</h2>
@@ -66,7 +68,7 @@
                     {%- endif -%}
                 </p>
               </div>
-              <div class="slide-image_child">  
+              <div class="slide-image_child">
                 {%- if block.settings.image_slide_child != blank -%}
                 <img class="img-fluid"
                       srcset="
@@ -78,9 +80,6 @@
                       width="{{ block.settings.image_slide_child.width }}"
                       height="{{ block.settings.image_slide_child.height }}"
                     >
-                {%- else -%}
-                {%- capture current -%}{%- cycle 1, 2 -%}{%- endcapture -%}
-                      {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
                 {%- endif -%}
               </div>
           </div> 
@@ -101,6 +100,12 @@
       "type": "checkbox",
       "id": "fullwidth",
       "label": "t:sections.slide-show.settings.fullwidth.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_logo",
+      "label": "t:sections.slide-show.settings.enableLogo.label",
       "default": true
     },
     {
@@ -358,6 +363,11 @@
           "type": "text",
           "label": "t:sections.slide-show.blocks.slide.settings.content.label",
           "default": "We are at the end of the ‘50s: an interesting series of armchairs and"
+        },
+        {
+          "id": "slide_link",
+          "type": "url",
+          "label": "t:sections.slide-show.blocks.slide.settings.slide_link.label"
         },
         {
           "id": "link",

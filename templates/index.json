@@ -1,28 +1,53 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1636014571771b2284": {
       "type": "slide-show",
       "blocks": {
-        "1636014571771b2284-0": {
+        "slide_XPrDy9": {
           "type": "slide",
           "settings": {
-            "image_slide": "shopify://shop_images/Pink_blue_bg.jpg",
-            "image_slide_child": "shopify://shop_images/WishYouWereGay_B-2.png",
-            "sub_title": "Rude Socks will make heads turn, jaws drop, and cheeks blush. <br>So, if you’re ready to spice up your sock game and show off your bawdy side, <br>put your foot in it.",
-            "title": "Let’s get something straight,<br> our socks are fucking sexy <br>and downright rude.",
+            "image_slide": "shopify:\/\/shop_images\/Front_Page_Banner_Design-003.jpg",
+            "sub_title": "",
+            "title": "",
             "content": "",
-            "link": "Shop Socks",
+            "slide_link": "shopify:\/\/collections\/all",
+            "link": "",
             "btn_link": "",
-            "text_align": "left",
-            "item_align": "top"
+            "text_align": "center",
+            "item_align": "center"
+          }
+        },
+        "slide_pVcMzL": {
+          "type": "slide",
+          "settings": {
+            "image_slide": "shopify:\/\/shop_images\/Running_Banner-01.jpg",
+            "sub_title": "",
+            "title": "",
+            "content": "",
+            "slide_link": "shopify:\/\/collections\/all",
+            "link": "",
+            "btn_link": "",
+            "text_align": "center",
+            "item_align": "center"
           }
         }
       },
       "block_order": [
-        "1636014571771b2284-0"
+        "slide_XPrDy9",
+        "slide_pVcMzL"
       ],
       "settings": {
         "fullwidth": true,
+        "enable_logo": false,
         "margin_desktop": "",
         "padding_desktop": "",
         "margin_mobile": "",
@@ -37,60 +62,90 @@
         "speed": 700,
         "pauseOnHover": false,
         "arrows": true,
-        "dots": true,
+        "dots": false,
         "draggable": true,
         "infinite": true,
         "slidesToShow_992": 1,
         "slidesToScroll_992": 1,
         "arrows_992": true,
-        "dots_992": true,
+        "dots_992": false,
         "slidesToShow_767": 1,
         "slidesToScroll_767": 1,
         "arrows_767": true,
-        "dots_767": true,
+        "dots_767": false,
         "slidesToShow_450": 1,
         "slidesToScroll_450": 1,
         "arrows_450": true,
-        "dots_450": true
+        "dots_450": false
+      }
+    },
+    "advert_banner_nXhNDG": {
+      "type": "advert-banner",
+      "blocks": {
+        "slide_3wgDiX": {
+          "type": "slide",
+          "settings": {
+            "advert_background": "shopify:\/\/shop_images\/Be-an-Animal-Banner-bg.jpg",
+            "advert_image": "shopify:\/\/shop_images\/legs_3cc3f382-e523-4fec-a2b3-dad24b09695e.png",
+            "advert_image_width": "80%",
+            "text_width": "50%",
+            "text_alignment": "left",
+            "text_vertical_alignment": "center",
+            "top_header": "get‘em while you’re hot!",
+            "top_header_font": "Freestyle Script",
+            "top_header_font_size": "42px",
+            "top_header_color": "#f393bd",
+            "top_header_style": "width:100%;  text-align: right; linehe",
+            "main_header": "BE AN ANIMAL",
+            "main_header_font": "Made Tommy Black",
+            "main_header_font_size": "78px",
+            "main_header_color": "#afddd2",
+            "main_header_style": "line-height: 70px;",
+            "main_text": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know. Ready to pop one off? Take a long, hard look at these socks.",
+            "main_text_font_size": "16px",
+            "main_text_style": "padding-bottom:40px",
+            "button_text": "SHOP SOCKS",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3wgDiX"
+      ],
+      "settings": {
+        "height_desktop": "645px",
+        "height_tablet": "",
+        "height_mobile": ""
       }
     },
     "baebb1d5-0ce9-4133-8f03-e048e1423b21": {
       "type": "section-sp",
       "blocks": {
-        "d8597568-8d71-4db8-9d56-5df6aa2786a3": {
-          "type": "image",
-          "settings": {
-            "width": "50%",
-            "image": "shopify://shop_images/BalloonAnimals_L.png",
-            "effects_image": true
-          }
-        },
         "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00": {
           "type": "text_list",
           "settings": {
             "width": "50%",
-            "header__text": "",
-            "header_top": "",
-            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
+            "header__text": "BE AN ANIMAL",
+            "header_top": "get‘em while you’re hot!",
+            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know. Ready to pop one off? Take a long, hard look at these socks.",
             "big_text": "",
             "btn_text": "Shop Socks",
             "btn_link": "",
-            "text_align": "left"
+            "text_align": "right"
           }
         }
       },
       "block_order": [
-        "d8597568-8d71-4db8-9d56-5df6aa2786a3",
         "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00"
       ],
       "custom_css": [
 
       ],
       "settings": {
-        "fullwidth": false,
-        "section_id": "animal-section",
+        "fullwidth": true,
+        "section_id": "animal-advert-banner",
         "background-color": "#ffffff",
-        "section-background": "shopify://shop_images/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
+        "section-background": "shopify:\/\/shop_images\/Be_an_Animal_Banner-01.jpg",
         "margin_desktop": "",
         "padding_desktop": "",
         "margin_mobile": "",
@@ -155,7 +210,7 @@
         "1641893186f6b9cd07-0": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Shipping Nationwide",
             "text_service": "Strutting our stuff exclusively in South Africa."
           }
@@ -163,7 +218,7 @@
         "1641893186f6b9cd07-1": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "14 Days Return",
             "text_service": "Getting cold feet?"
           }
@@ -171,7 +226,7 @@
         "1641893186f6b9cd07-2": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Secure Payments",
             "text_service": "Discression is our middle name."
           }
@@ -214,7 +269,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify://shop_images/WishYouWereGay_Be_Bold.png",
+            "image": "shopify:\/\/shop_images\/WishYouWereGay_Be_Bold.png",
             "effects_image": false
           }
         }
@@ -227,8 +282,8 @@
         "fullwidth": false,
         "section_id": "home-be-bold",
         "background-color": "#f4f4f4",
-        "section-background": "shopify://shop_images/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
-        "margin_desktop": "",
+        "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
+        "margin_desktop": "66px",
         "padding_desktop": "",
         "margin_mobile": "",
         "padding_mobile": "",
@@ -239,6 +294,7 @@
   },
   "order": [
     "1636014571771b2284",
+    "advert_banner_nXhNDG",
     "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1636423293977393af",
     "hoeville_edB4GD",

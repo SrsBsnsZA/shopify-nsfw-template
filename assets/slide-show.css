@@ -83,6 +83,13 @@
     transform: unset;
     bottom: 0;
 }
+
+.slick-prev::before, .slick-next::before{
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 100;
+    font-size: 16px;
+    color: #000;
+}
 .slide-show .slick-next{
     right: 25px;
 }
@@ -179,18 +186,28 @@ button.slick-next.slick-arrow,
 button.slick-prev.slick-arrow {
     text-align: center;
     border-radius: 100%;
-    background: #fff;
+    background: rgba(255,255,255,0.5);
     width: 40px;
-    line-height: 38px;
+    line-height: normal;
     height: 40px;
     transition: all 0.4s;
     opacity: 0;
     visibility: hidden;
 }
-.slide-show .slick-arrow {
-    top: 50%;
-    transform: translateY(-50%);
-} 
+.slide-show .slick-prev::before{
+    content: "\f053";
+}
+
+.slide-show .slick-next::before{
+    content: "\f054";
+}
+.slide-show .slick-prev::before, .slide-show .slick-next::before{
+    font-size: 16px;
+}
+/*.slide-show .slick-arrow {*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*} */
 .slide-show .slick-next {
     right: 10px;
 }
@@ -202,9 +219,12 @@ button.slick-prev.slick-arrow {
 .slide-show:hover .slick-prev.slick-arrow {
     opacity: 1;
     visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 /* Home 2 */
+
 h4.sub-title-slide {
     /* top: 21%;
     left: 60%; */
@@ -289,23 +309,15 @@ a.link-base.link-left:hover {
 }
 @media (min-width:992px) {
     /* HOME 4 */
-    .slide-show .slick-prev::before{
-        content: "\f177";
-    }
-    
-    .slide-show .slick-next::before{
-        content: "\f178";
-    }
-
     .slide-show .slick-prev.slick-arrow {
         left: 50px;
     }
     /* HOME 4 */
     .slide-show .slick-prev.slick-arrow::before ,
     .slide-show .slick-next.slick-arrow::before {
-        font-size: 80px;
+        font-size: 30px;
         font-weight: 300;
-    color: black;
+        color: #fff;
         line-height: 1;
     }
     /* HOME 4 */
@@ -316,9 +328,6 @@ a.link-base.link-left:hover {
     .slide-show button.slick-next.slick-arrow {
         right: 50px;
     }
-    button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
-        background-color: transparent;
-    } 
     button.slick-next.slick-arrow:hover, button.slick-prev.slick-arrow:hover {
         box-shadow: none;
         opacity: 1;

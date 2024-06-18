@@ -1,0 +1,19 @@
+.advert-child{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.advert__image-wrapper{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.advert__image-wrapper .advert__image{
+    width: 100%;
+    height: auto;
+    z-index: 5;
+}
+.advert__text{
+    position: relative;
+    z-index: 10;
+}

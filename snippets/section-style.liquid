@@ -1,4 +1,4 @@
-{% if section.settings.margin_desktop != blank or section.settings.padding_desktop != blank or section.settings.margin_mobile != blank or section.settings.padding_mobile != blank or section.settings.background-color != blank %}
+{% if section.settings.margin_desktop != blank or section.settings.height_desktop != blank or section.settings.padding_desktop != blank or section.settings.margin_mobile != blank or section.settings.padding_mobile != blank or section.settings.background-color != blank %}
 <style>
   {% if section.settings.margin_desktop != blank or section.settings.padding_desktop != blank or section.settings.background-color != blank %}
     #shopify-section-{{ section.id }} {
@@ -11,6 +11,9 @@
       {% if section.settings.background-color != blank %}
       background-color: {{ section.settings.background-color }};
       {% endif %}
+    {% if section.settings.height_desktop != blank %}
+      min-height: {{ section.settings.height_desktop }};
+    {% endif %}
     }
   {% endif %}
   {% if section.settings.margin_mobile != blank or section.settings.padding_mobile != blank %}

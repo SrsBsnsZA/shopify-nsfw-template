@@ -3710,6 +3710,9 @@
         "slide": {
           "name": "Slide",
           "settings": {
+            "slide_link": {
+              "label": "Add slide link"
+            },
             "image_slide": {
               "label": "Add image look-book"
             },
@@ -3728,6 +3731,9 @@
       "settings": {
         "fullwidth": {
           "label": "Fullwidth"
+        },
+        "enableLogo": {
+          "label": "Enable Logo"
         },
         "margin_desktop": {
           "label": "Margin desktop",
@@ -3834,6 +3840,9 @@
         "slide": {
           "name": "Slide",
           "settings": {
+            "slide_link": {
+              "label": "Add slide link"
+            },
             "image_slide": {
               "label": "Add image slide"
             },
@@ -5359,7 +5368,7 @@
         "fullwidth": {
           "label": "Fullwidth"
         },
-        "carousel_id" : {
+        "carousel_id": {
           "label": "Carousel ID",
           "info": "Eg: product-carousel-1"
         },
@@ -5491,7 +5500,7 @@
           "label": "Show vendor"
         },
         "show_type": {
-          "label" :  "Show type"
+          "label": "Show type"
         }
       },
       "presets": {
@@ -9538,6 +9547,370 @@
       },
       "presets": {
         "name": "Ap a-intro-about"
+      }
+    },
+    "advert-banner": {
+      "name": "Advert Banner",
+      "settings": {
+        "fullwidth": {
+          "label": "Fullwidth"
+        },
+        "background-color": {
+          "label": "Background color"
+        },
+        "section_id": {
+          "label": "Section ID",
+          "info": "Html ID property for section"
+        },
+        "section-background": {
+          "label": "Background image"
+        },
+        "margin_desktop": {
+          "label": "Margin desktop",
+          "info": "Eg: 20px 20px 20px 20px (corresponds to the positions 'Top' 'Right' 'Bottom' 'Left')"
+        },
+        "padding_desktop": {
+          "label": "Padding desktop",
+          "info": "Eg: 20px 20px 20px 20px"
+        },
+        "margin_mobile": {
+          "label": "Margin mobile",
+          "info": "Eg: 10px 10px 10px 10px"
+        },
+        "padding_mobile": {
+          "label": "Padding mobile",
+          "info": "Eg: 10px 10px 10px 10px"
+        },
+        "heading": {
+          "label": "Heading"
+        },
+        "text_decoration": {
+          "label": "Text decoration"
+        }
+      },
+      "blocks": {
+        "image": {
+          "name": "Image",
+          "settings": {
+            "width": {
+              "label": "Width image",
+              "options__1": {
+                "label": "25%"
+              },
+              "options__2": {
+                "label": "33%"
+              },
+              "options__3": {
+                "label": "50%"
+              },
+              "options__4": {
+                "label": "66%"
+              },
+              "options__5": {
+                "label": "75%"
+              },
+              "options__6": {
+                "label": "100%"
+              }
+            },
+            "image": {
+              "label": "Image"
+            },
+            "image_child1": {
+              "label": "Image child"
+            },
+            "image_child2": {
+              "label": "Image child"
+            },
+            "height": {
+              "options__1": {
+                "label": "Adapt to image"
+              },
+              "options__2": {
+                "label": "Small"
+              },
+              "options__3": {
+                "label": "Large"
+              },
+              "label": "Image ratio"
+            },
+            "effects_image": {
+              "label": "Effects image hover"
+            },
+            "header_img": {
+              "label": "Header image"
+            },
+            "content_img": {
+              "label": "content image"
+            },
+            "btn_text_img": {
+              "label": "Button text"
+            },
+            "btn_link_img": {
+              "label": "Button link"
+            },
+            "text_align": {
+              "label": "Text align",
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              }
+            }
+          }
+        },
+        "collection": {
+          "name": "Collection",
+          "settings": {
+            "width": {
+              "label": "Width Collection",
+              "options__1": {
+                "label": "25%"
+              },
+              "options__2": {
+                "label": "33%"
+              },
+              "options__3": {
+                "label": "50%"
+              },
+              "options__4": {
+                "label": "66%"
+              },
+              "options__5": {
+                "label": "75%"
+              },
+              "options__6": {
+                "label": "100%"
+              }
+            },
+            "collection": {
+              "label": "Collection"
+            },
+            "image_collection": {
+              "label": "Image collection"
+            }
+          }
+        },
+        "product": {
+          "name": "Product",
+          "settings": {
+            "width": {
+              "label": "Width Product",
+              "options__1": {
+                "label": "25%"
+              },
+              "options__2": {
+                "label": "33%"
+              },
+              "options__3": {
+                "label": "50%"
+              },
+              "options__4": {
+                "label": "66%"
+              },
+              "options__5": {
+                "label": "75%"
+              },
+              "options__6": {
+                "label": "100%"
+              }
+            },
+            "collection": {
+              "label": "Collection"
+            },
+            "image_ratio": {
+              "label": "Image ratio",
+              "options__1": {
+                "label": "Adapt to image"
+              },
+              "options__2": {
+                "label": "Portrait"
+              },
+              "options__3": {
+                "label": "Square"
+              }
+            },
+            "slidesToShow": {
+              "label": "Show slide"
+            },
+            "slidesToScroll": {
+              "label": "Scroll slide"
+            },
+            "rows": {
+              "label": "Rows"
+            },
+            "arrows": {
+              "label": "Arrows"
+            },
+            "draggable": {
+              "label": "Draggable"
+            },
+            "dots": {
+              "label": "Dots"
+            },
+            "autoplay": {
+              "label": "Autoplay"
+            },
+            "autoplaySpeed": {
+              "label": "autoplaySpeed"
+            },
+            "pauseOnHover": {
+              "label": "pauseOnHover"
+            },
+            "speed": {
+              "label": "Speed"
+            },
+            "infinite": {
+              "label": "Infinite"
+            },
+            "header": {
+              "content": "Display for horizontal ipad screen"
+            },
+            "slidesToShow_992": {
+              "label": "Show slide"
+            },
+            "slidesToScroll_992": {
+              "label": "Scroll slide"
+            },
+            "arrows_992": {
+              "label": "Arrows"
+            },
+            "dots_992": {
+              "label": "Dots"
+            },
+            "header_1": {
+              "content": "Display for vertical ipad screen"
+            },
+            "slidesToShow_767": {
+              "label": "Show slide"
+            },
+            "slidesToScroll_767": {
+              "label": "Scroll slide"
+            },
+            "arrows_767": {
+              "label": "Arrows"
+            },
+            "dots_767": {
+              "label": "Dots"
+            },
+            "header_2": {
+              "content": "Display for mobile phone screen"
+            },
+            "slidesToShow_450": {
+              "label": "Show slide"
+            },
+            "slidesToScroll_450": {
+              "label": "Scroll slide"
+            },
+            "arrows_450": {
+              "label": "Arrows"
+            },
+            "dots_450": {
+              "label": "Dots"
+            },
+            "add_image_padding": {
+              "label": "Add image padding"
+            },
+            "show_secondary_image": {
+              "label": "Show second image on hover"
+            },
+            "show_vendor": {
+              "label": "Show vendor"
+            }
+          }
+        },
+        "text_list": {
+          "name": "Text list",
+          "settings": {
+            "width": {
+              "label": "Width text",
+              "options__1": {
+                "label": "25%"
+              },
+              "options__2": {
+                "label": "33%"
+              },
+              "options__3": {
+                "label": "50%"
+              },
+              "options__4": {
+                "label": "66%"
+              },
+              "options__5": {
+                "label": "75%"
+              },
+              "options__6": {
+                "label": "100%"
+              }
+            },
+            "header__text": {
+              "label": "Header text"
+            },
+            "header_top": {
+              "label": "Header top"
+            },
+            "text__content": {
+              "label": "text content"
+            },
+            "big_text": {
+              "label": "Big Text"
+            },
+            "btn_text": {
+              "label": "Button text"
+            },
+            "btn_link": {
+              "label": "Button link"
+            },
+            "text_align": {
+              "label": "Text align",
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              }
+            }
+          }
+        },
+        "html": {
+          "name": "Html",
+          "settings": {
+            "width": {
+              "label": "Width text",
+              "options__1": {
+                "label": "25%"
+              },
+              "options__2": {
+                "label": "33%"
+              },
+              "options__3": {
+                "label": "50%"
+              },
+              "options__4": {
+                "label": "66%"
+              },
+              "options__5": {
+                "label": "75%"
+              },
+              "options__6": {
+                "label": "100%"
+              }
+            },
+            "html__text": {
+              "label": "Html"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Ap Section-sp"
       }
     }
   }

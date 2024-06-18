@@ -1,0 +1,233 @@
+<!-- Welcome section starts -->
+{{ 'advert-banner.css' | asset_url | stylesheet_tag }}
+<style>
+    {% if section.settings.height_desktop != blank %}
+    #shopify-section-{{ section.id }} .advert-banner-sp {
+        height: {{ section.settings.height_desktop }};
+    }
+
+    {% endif %}
+    {% if section.settings.height_table != blank %}
+    @media (max-width: 1024px) {
+        #shopify-section-{{ section.id }} .advert-banner-sp {
+            height: {{ section.settings.height_table }};
+        }
+    }
+
+    {% endif %}
+    {% if section.settings.height_mobile != blank %}
+    @media (max-width: 767px) {
+        #shopify-section-{{ section.id }} .advert-banner-sp {
+            height: {{ section.settings.height_mobile }};
+        }
+    }
+
+    {% endif %}
+    .advert-child {
+        height: 100%
+    }
+</style>
+
+<div class="advert-banner-sp" {%- if section.settings.section_id -%} id="{{ section.settings.section_id }}"{%- endif -%} {%- if section.settings.advert_background -%} style="background-image: url('{{ section.settings.advert_background | img_url: 'master' }}') ; background-repeat: no-repeat; background-size: cover;" {%- endif -%}>
+    {%- for block in section.blocks -%}
+        <div class="advert-child"
+             style="{%- if block.settings.advert_background -%}background-image: url('{{ block.settings.advert_background | img_url: 'master' }}') ; background-repeat: no-repeat; background-size: cover;{%- endif -%} display: flex; justify-content: right; align-items: flex-end">
+            <div class="advert__image-wrapper" {%- if block.settings.advert_image_width -%} style="width: {{ block.settings.advert_image_width }} "{%- endif -%}>
+                <img class="advert__image"
+                     srcset="{{ block.settings.advert_image | img_url: '165x' }} 165w,
+            {{ block.settings.advert_image | img_url: '360x' }} 360w,
+            {{ block.settings.advert_image | img_url: '535x' }} 535w,
+            {{ block.settings.advert_image | img_url: '850x' }} 850w,
+            {{ block.settings.advert_image | img_url: '1070x' }} 1070w,
+            {{ block.settings.advert_image | img_url: '1500x' }} 1500w,"
+                     src="{{ block.settings.advert_image | img_url: 'master' }}"
+                     sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                     alt="{{ block.settings.advert_image.alt | escape }}"
+                >
+            </div>
+
+            <div class="advert__text"
+                 style="text-align: {{ block.settings.text_alignment }}; width: {{ block.settings.text_width }}">
+              <div style="width: max-content">
+                <h3 style="font-family: {{ block.settings.top_header_font }}; font-size: {{ block.settings.top_header_font_size }}; color: {{ block.settings.top_header_color }}; {{ block.settings.top_header_style }}">{{ block.settings.top_header }}</h3>
+                <h2 style="font-family: {{ block.settings.main_header_font }}; font-size: {{ block.settings.main_header_font_size }}; color: {{ block.settings.main_header_color }}; {{ block.settings.main_header_style }}">{{ block.settings.main_header }}</h2>
+              </div>
+              <p style="font-size: {{ block.settings.main_text_font_size }};{{ block.settings.main_text_style }}">{{ block.settings.main_text }}</p>
+            </div>
+        </div>
+
+    {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Advert Banner",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "height_desktop",
+      "label": "Height Desktop"
+    },
+    {
+      "type": "text",
+      "id": "height_tablet",
+      "label": "Height tablet"
+    },
+    {
+      "type": "text",
+      "id": "height_mobile",
+      "label": "Height mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Advert",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "advert_background",
+          "label": "Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "advert_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "advert_image_width",
+          "label": "Image Width"
+        },
+        {
+          "type": "text",
+          "id": "text_width",
+          "label": "Text Width"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Align Text",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "text_vertical_alignment",
+          "label": "Align Text",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "top_header",
+          "label": "Top Header Text"
+        },
+        {
+          "type": "text",
+          "id": "top_header_font",
+          "label": "Top Header Font"
+        },
+        {
+          "type": "text",
+          "id": "top_header_font_size",
+          "label": "Top Header Font Size"
+        },
+        {
+          "type": "color",
+          "id": "top_header_color",
+          "label": "Top Header Colour",
+          "default": "#000000"
+        },
+        {
+          "type": "textarea",
+          "id": "top_header_style",
+          "label": "Top Header Styles"
+        },
+        {
+          "type": "text",
+          "id": "main_header",
+          "label": "Main Header"
+        },
+        {
+          "type": "text",
+          "id": "main_header_font",
+          "label": "Main Header Font"
+        },
+        {
+          "type": "text",
+          "id": "main_header_font_size",
+          "label": "Main Header Font Size"
+        },
+        {
+          "type": "color",
+          "id": "main_header_color",
+          "label": "Main Header Colour",
+          "default": "#000000"
+        },
+        {
+          "type": "textarea",
+          "id": "main_header_style",
+          "label": "Main Header Styles"
+        },
+        {
+          "type": "text",
+          "id": "main_text",
+          "label": "Main Text"
+        },
+        {
+          "type": "text",
+          "id": "main_text_font_size",
+          "label": "Main Text Font Size"
+        },
+        {
+          "type": "textarea",
+          "id": "main_text_style",
+          "label": "Main Text Styles"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        },
+        {
+          "id": "button_link",
+          "type": "url",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Advert Banner",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}
