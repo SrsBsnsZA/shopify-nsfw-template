@@ -1,7 +1,7 @@
 {% assign age = 18 %}
 
-<div id="prompt-background">
-  <div id="age-check-prompt" class="modal-prompt">
+<div id="age-check-prompt-background">
+  <div id="age-check-prompt" class="age-check-modal-prompt">
     <h2>
       {{ settings.age_check_header }}
     </h2>
@@ -17,7 +17,11 @@
 </div>
 
 <script>
+  function isDev() {
+    return window.location !== window.parent.location
+  }
  function ageCheck() {
+   if(isDev()) return;
        //Uncomment if you want and expiry, otherwise cookie expires at end of session
      // var days = 1; //number of days until they must go through the age checker again.
      // var date = new Date();
@@ -29,6 +33,7 @@
   };
 
   function readCookie(name) {
+    if(isDev()) return;
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
     for(var i=0;i < ca.length;i++) {
@@ -39,8 +44,8 @@
     return null;
   };
   var isAnAdult = readCookie('isAnAdult');
-  if (isAnAdult || window.location !== window.parent.location) {
-    document.write("<style> #prompt-background { display: none; }</style>");
+  if (isAnAdult || isDev()) {
+    document.write("<style> #age-check-prompt-background { display: none; }</style>");
   };
 
 </script>
@@ -52,7 +57,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.modal-prompt {
+.age-check-modal-prompt {
   background: #fff;
   border-radius: 2px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
@@ -66,11 +71,11 @@
   z-index: 1000000;
 }
 
-.modal-prompt p, .modal-prompt h1 {
+.age-check-modal-prompt p, .age-check-modal-prompt h1 {
   color: #555555;
 }
 
-#prompt-background {
+#age-check-prompt-background {
   background-color: rgba(85, 85, 85, 0.8);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -84,6 +89,6 @@
   z-index: 9999999;
 }
   
-.modal-prompt select { float: left; margin-right: 10px; }
+.age-check-modal-prompt select { float: left; margin-right: 10px; }
 
 </style>

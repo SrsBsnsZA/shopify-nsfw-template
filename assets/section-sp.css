@@ -38,7 +38,7 @@ body.index #home-be-bold{
 
 /*theme styles*/
 .section-sp h2.section-header {
-    font-family: "Made Tommy Bold";
+    font-family: "Made Tommy Black";
     font-style: normal;
     font-weight: 400;
     font-size: 65px;
@@ -54,7 +54,7 @@ h3.section-sp_text-title {
     font-weight: 400;
     line-height: 40px;
     text-transform: capitalize;
-    font-family: 'Moderat Extended';
+    font-family: 'Made Tommy Black';
 }
 p.section-sp_text-content {
     color: #888;

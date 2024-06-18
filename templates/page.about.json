@@ -13,7 +13,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify://shop_images/Penis.webp",
+            "image": "shopify:\/\/shop_images\/Penis.webp",
             "effects_image": false
           }
         },
@@ -23,10 +23,10 @@
             "width": "50%",
             "header__text": "This journey started simply; drawing dicks is hilarious…",
             "header_top": "",
-            "text__content": "<p class=\"section-sp_text-content\">Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.</p><p class=\"section-sp_text-content\"> Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.</p><p class=\"section-sp_text-content\"> We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! </p><p class=\"section-sp_text-content\"> We are Rude.</p>",
+            "text__content": "<p class=\"section-sp_text-content\">Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.<\/p><p class=\"section-sp_text-content\"> Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.<\/p><p class=\"section-sp_text-content\"> We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! <\/p><p class=\"section-sp_text-content\"> We are Rude.<\/p>",
             "big_text": "",
             "btn_text": "Join the party",
-            "btn_link": "/collections/all",
+            "btn_link": "\/collections\/all",
             "text_align": "left"
           }
         }
@@ -47,51 +47,6 @@
         "text_decoration": ""
       }
     },
-    "services": {
-      "type": "service",
-      "blocks": {
-        "cbe7e571-5b2f-440d-b524-9a41309dae3e": {
-          "type": "service",
-          "settings": {
-            "icon": "",
-            "header_service": "25",
-            "text_service": "Designs & Growing"
-          }
-        },
-        "bc848845-3f90-4355-b8a1-e9e8b09216d7": {
-          "type": "service",
-          "settings": {
-            "icon": "",
-            "header_service": "12000km",
-            "text_service": "Socks Manufactured"
-          }
-        },
-        "bdb469a1-52c7-4b6b-81d4-a8bf56fd45fa": {
-          "type": "service",
-          "settings": {
-            "icon": "",
-            "header_service": "500000 +",
-            "text_service": "Socks destined to be alone in the end"
-          }
-        }
-      },
-      "block_order": [
-        "cbe7e571-5b2f-440d-b524-9a41309dae3e",
-        "bc848845-3f90-4355-b8a1-e9e8b09216d7",
-        "bdb469a1-52c7-4b6b-81d4-a8bf56fd45fa"
-      ],
-      "settings": {
-        "fullwidth": false,
-        "background-color": "#ffffff",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "",
-        "text_decoration": "",
-        "icon-align": "top"
-      }
-    },
     "16419584729dca0081": {
       "type": "a-intro-about",
       "blocks": {
@@ -99,7 +54,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify://shop_images/placeholder_1_590x450_b5e68acb-77d6-45fb-a71e-bbfc731b4d83.jpg",
+            "image": "shopify:\/\/shop_images\/placeholder_1_590x450_b5e68acb-77d6-45fb-a71e-bbfc731b4d83.jpg",
             "effects_image": false
           }
         },
@@ -107,7 +62,7 @@
           "type": "text_list",
           "settings": {
             "width": "50%",
-            "header__text": "Prepare to be <strong>seduced</strong> by our irresistible collection of socks that’ll make your toes <strong>curl.</strong>",
+            "header__text": "Prepare to be <strong>seduced<\/strong> by our irresistible collection of socks that’ll make your toes <strong>curl.<\/strong>",
             "text__content": "Rude Socks",
             "btn_text": "",
             "btn_link": "",
@@ -118,7 +73,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify://shop_images/placeholder_2_590x450_b5a3c533-5fa5-4d74-b8b6-472599ddb249.jpg",
+            "image": "shopify:\/\/shop_images\/placeholder_2_590x450_b5a3c533-5fa5-4d74-b8b6-472599ddb249.jpg",
             "effects_image": false
           }
         }
@@ -145,7 +100,7 @@
         "1641958291959f6b6d-0": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Shipping Nationwide",
             "text_service": "Strutting our stuff exclusively in South Africa."
           }
@@ -153,7 +108,7 @@
         "1641958291959f6b6d-1": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/return-policy.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "14 Days Return",
             "text_service": "Getting cold feet?"
           }
@@ -161,7 +116,7 @@
         "1641958291959f6b6d-2": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https://cdn.shopify.com/s/files/1/0792/0792/4018/files/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
             "header_service": "Secure Payments",
             "text_service": "Discression is our middle name."
           }
@@ -191,7 +146,7 @@
           "type": "teamwork",
           "settings": {
             "title_person": "Emma Watson",
-            "subtitle_person": "CEO/FOUNDER",
+            "subtitle_person": "CEO\/FOUNDER",
             "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
           }
         },
@@ -199,7 +154,7 @@
           "type": "teamwork",
           "settings": {
             "title_person": "Emma Watson",
-            "subtitle_person": "CEO/FOUNDER",
+            "subtitle_person": "CEO\/FOUNDER",
             "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
           }
         },
@@ -207,7 +162,7 @@
           "type": "teamwork",
           "settings": {
             "title_person": "Emma Watson",
-            "subtitle_person": "CEO/FOUNDER",
+            "subtitle_person": "CEO\/FOUNDER",
             "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
           }
         },
@@ -215,7 +170,7 @@
           "type": "teamwork",
           "settings": {
             "title_person": "Emma Watson",
-            "subtitle_person": "CEO/FOUNDER",
+            "subtitle_person": "CEO\/FOUNDER",
             "team_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
           }
         }
@@ -238,7 +193,6 @@
   "order": [
     "main",
     "164195826489d26508",
-    "services",
     "16419584729dca0081",
     "164195829130918a09",
     "team-work"
