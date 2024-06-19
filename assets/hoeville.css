@@ -1,12 +1,10 @@
 .hoeville-section{
-    padding: 0px 0px 60px 0px;
-    background-image: url('https://cdn.shopify.com/s/files/1/0792/0792/4018/files/repeatable_main.png?v=1705672239');
-    background-repeat: repeat;
+    /*padding: 0px 0px 60px 0px;*/
+    /*background-image: url('https://cdn.shopify.com/s/files/1/0792/0792/4018/files/repeatable_main.png?v=1705672239');*/
+    /*background-repeat: repeat;*/
 }
-#scale-container{
-    display: flex;
-    align-items: center;
-}
+
+
 #arch{
     height: 100%;
     width: 100%;
