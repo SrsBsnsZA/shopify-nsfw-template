@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#d9175f",
     "gradient_accent_1": "linear-gradient(90deg, rgba(217, 23, 95, 1), rgba(255, 233, 244, 1) 100%)",
     "colors_accent_2": "#ff93c6",
-    "colors_background_1": "#ff93c6",
+    "colors_background_1": "#ffffff",
     "colors_background_2": "#f7f7f7",
     "colors_text": "#000000",
     "colors_title_content_labels": "#d9175f",
@@ -292,7 +301,7 @@
           "link_announcement_bar": "",
           "text_link2_announcement_bar": "English",
           "link2_announcement_bar": "",
-          "color_scheme": "background-1",
+          "color_scheme": "accent-2",
           "header_logo": true,
           "logo": "shopify:\/\/shop_images\/Rude_NSFW_Logo_White_300w.png",
           "logo_align": "top",

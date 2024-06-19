@@ -118,42 +118,6 @@
         "height_mobile": ""
       }
     },
-    "baebb1d5-0ce9-4133-8f03-e048e1423b21": {
-      "type": "section-sp",
-      "blocks": {
-        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "BE AN ANIMAL",
-            "header_top": "get‘em while you’re hot!",
-            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know. Ready to pop one off? Take a long, hard look at these socks.",
-            "big_text": "",
-            "btn_text": "Shop Socks",
-            "btn_link": "",
-            "text_align": "right"
-          }
-        }
-      },
-      "block_order": [
-        "7b28ee19-3c2b-4600-ba78-2aa0f6c39a00"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "fullwidth": true,
-        "section_id": "animal-advert-banner",
-        "background-color": "#ffffff",
-        "section-background": "shopify:\/\/shop_images\/Be_an_Animal_Banner-01.jpg",
-        "margin_desktop": "",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "",
-        "text_decoration": ""
-      }
-    },
     "1636423293977393af": {
       "type": "product-carousel",
       "settings": {
@@ -295,7 +259,6 @@
   "order": [
     "1636014571771b2284",
     "advert_banner_nXhNDG",
-    "baebb1d5-0ce9-4133-8f03-e048e1423b21",
     "1636423293977393af",
     "hoeville_edB4GD",
     "1641893186a013e041",
