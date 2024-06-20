@@ -1,5 +1,12 @@
 {
   "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
     "product_banner_ffgCxE": {
       "type": "product-banner",
       "blocks": {
@@ -109,14 +116,6 @@
         "show_view_all": false
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -138,9 +137,9 @@
     }
   },
   "order": [
+    "banner",
     "product_banner_ffgCxE",
     "rude_collections_ijrWGC",
-    "banner",
     "product-grid"
   ]
 }

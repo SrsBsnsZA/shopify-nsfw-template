@@ -4430,3 +4430,18 @@ iframe#preview-bar-iframe {
   font-size: 74px;
   letter-spacing: -3px;
 }
+
+.collection-hero__text-wrapper{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.collection-hero__text-wrapper .collection-hero__title{
+  font-family: 'Made Tommy Black', sans-serif;
+}
+#shopify-section-template--22871714431282__banner{
+  background-color: #fff4f8;
+}
