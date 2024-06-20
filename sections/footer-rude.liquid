@@ -80,10 +80,12 @@
                     </div>
 
                   {%- when 'show_social' -%}
-                    <h2 class="title-footer-content hidden-sm-down">{{ block.settings.title_social }}</h2>
+                <div class="menu-footer">
+                    <h2 class="title-footer hidden-sm-down">{{ block.settings.title_social }}</h2>
                     {%- if block.settings.show_social -%}
                       {% render 'social_footer' %}
                     {%- endif -%}
+                </div>
 
                 {%- endcase -%}
               </div>

@@ -557,14 +557,14 @@
             "type": "show_social",
             "settings": {
               "title_social": "SOCIALS",
-              "width": "25%",
+              "width": "33.33%",
               "show_social": true
             }
           },
           "footer-rude-3": {
             "type": "menu",
             "settings": {
-              "width": "25%",
+              "width": "33.33%",
               "title_menu": "SUPPORT",
               "menu": "footer-support"
             }
@@ -572,7 +572,7 @@
           "footer-rude-4": {
             "type": "menu",
             "settings": {
-              "width": "25%",
+              "width": "33.33%",
               "title_menu": "ABOUT US",
               "menu": "footer-about-us"
             }

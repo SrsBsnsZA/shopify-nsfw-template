@@ -124,6 +124,37 @@ input#NewsletterForm--rude-footer {
   color: #fff;
 }
 
+.rude-footer .menu-footer{
+  padding-top: 45px;
+}
+
+.rude-footer .menu-footer .title-footer {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 35px 0;
+  border-bottom: 0;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+  font-family: 'Made Tommy';
+  width: auto;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.rude-footer .menu-footer .title-footer:after{
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 .logo_text {
   font-size: 14px;
   font-weight: 300;
@@ -131,8 +162,8 @@ input#NewsletterForm--rude-footer {
   color: #888;
 }
 
-.rude-footer .title-footer,
-.rude-footer .title-footer-content {
+.rude-footer .title-footer
+ {
   font-size: 20px;
   font-weight: 500;
   margin: 0 0 35px 0;
