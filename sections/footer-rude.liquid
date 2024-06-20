@@ -5,26 +5,27 @@
 <footer class="footer-2 color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
     <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
       <div class="logo-footer">
-        {%- if block.settings.image != blank -%}
+
+        {%- if section.settings.logo_image != blank -%}
           <img
-                  srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | img_url: '165x' }} 165w,{%- endif -%}
-                  {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | img_url: '360x' }} 360w,{%- endif -%}
-                  {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | img_url: '535x' }} 535w,{%- endif -%}
-                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | img_url: '1070x' }} 1070w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}"
-                  src="{{ block.settings.image | img_url: '220x' }}"
+                  srcset="{%- if section.settings.logo_image.width >= 165 -%}{{ section.settings.logo_image | img_url: '165x' }} 165w,{%- endif -%}
+                  {%- if section.settings.logo_image.width >= 360 -%}{{ section.settings.logo_image | img_url: '360x' }} 360w,{%- endif -%}
+                  {%- if section.settings.logo_image.width >= 535 -%}{{ section.settings.logo_image | img_url: '535x' }} 535w,{%- endif -%}
+                  {%- if section.settings.logo_image.width >= 750 -%}{{ section.settings.logo_image | img_url: '750x' }} 750w,{%- endif -%}
+                  {%- if section.settings.logo_image.width >= 1070 -%}{{ section.settings.logo_image | img_url: '1070x' }} 1070w,{%- endif -%}
+                  {%- if section.settings.logo_image.width >= 1500 -%}{{ section.settings.logo_image | img_url: '1500x' }} 1500w,{%- endif -%}"
+                  src="{{ section.settings.logo_image | img_url: '220x' }}"
                   sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                  alt="{{ block.settings.image.alt | escape }}"
+                  alt="{{ section.settings.logo_image.alt | escape }}"
                   loading="lazy"
-                  width="{{ block.settings.image.width }}"
-                  height="{{ block.settings.image.height }}"
+                  width="{{ section.settings.logo_image.width }}"
+                  height="{{ section.settings.logo_image.height }}"
           >
         {%- else -%}
           <span class="h2">{{ shop.name }}</span>
         {%- endif -%}
 
-        <div class="logo_text">{{ block.settings.logo_text }}</div>
+        <div class="logo_text">{{ section.settings.logo_text }}</div>
       </div>
       <div class="row">
         {%- if section.settings.newsletter_enable -%}
@@ -60,8 +61,6 @@
               {%- endcase -%}
             <div class="{{block_width}}">
               {%- case block.type -%}
-
-
                 {%- when 'text-content' -%}
                 <div class="text-content">
                     <h2 class="title-footer-content">{{ block.settings.header_content_footer }}</h2>

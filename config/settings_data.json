@@ -214,13 +214,6 @@
           "payment_enable": true
         }
       },
-      "newslester": {
-        "type": "newslester",
-        "settings": {
-          "heading": "Subscribe to our newsletter",
-          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
-        }
-      },
       "product-suggest": {
         "type": "product-suggest",
         "blocks": {
@@ -560,14 +553,6 @@
       "footer-rude": {
         "type": "footer-rude",
         "blocks": {
-          "footer-rude-1": {
-            "type": "logo",
-            "settings": {
-              "logo_text": "",
-              "width": "25%",
-              "image": "shopify:\/\/shop_images\/logo-simple.png"
-            }
-          },
           "footer-rude-0": {
             "type": "show_social",
             "settings": {
@@ -594,7 +579,6 @@
           }
         },
         "block_order": [
-          "footer-rude-1",
           "footer-rude-0",
           "footer-rude-3",
           "footer-rude-4"
@@ -602,6 +586,9 @@
         "settings": {
           "fullwidth": false,
           "color_scheme": "accent-2",
+          "logo_text": "",
+          "logo_width": "25%",
+          "logo_image": "shopify:\/\/shop_images\/logo-simple.png",
           "newsletter_enable": true,
           "newsletter_heading": "JOIN THE PARTY",
           "newsletter_description": "Allow us to slide into your dms with all the juiciest gossip and sexy deals. Receive 20% off your first order when you sign up",
