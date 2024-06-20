@@ -1,0 +1,48 @@
+<!-- Welcome section starts -->
+{{ 'product-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="product-banner-sp" {%- if section.settings.section_id -%} id="{{ section.settings.section_id }}"{%- endif -%} {%- if section.settings.advert_background -%} style="background-image: url('{{ section.settings.advert_background | img_url: 'master' }}') ; background-repeat: no-repeat; background-size: cover;" {%- endif -%}>
+  {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+  {%- for block in section.blocks -%}
+    {% if url == block.settings.collection.url%}
+      <img class="advert__image"
+           src="{{ block.settings.advert_image | img_url: 'master' }}"
+           alt="{{ block.settings.advert_image.alt | escape }}"
+      >
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+{% schema %}
+{
+  "name": "Product Banner",
+  "tag": "section",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "t:sections.collection-list.blocks.featured_collection.name",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "advert_image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Banner",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}

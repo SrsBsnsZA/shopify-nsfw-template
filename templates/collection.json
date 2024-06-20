@@ -1,7 +1,117 @@
 {
   "sections": {
+    "product_banner_ffgCxE": {
+      "type": "product-banner",
+      "blocks": {
+        "featured_collection_WiV6ED": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "le-moan-erb",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-04.webp"
+          }
+        },
+        "featured_collection_kYKYPm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mild-pg13",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-03.webp"
+          }
+        },
+        "featured_collection_aXp4H9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hot",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-02.webp"
+          }
+        },
+        "featured_collection_YgXnWD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xxxtra-hot",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-01.webp"
+          }
+        },
+        "featured_collection_HFLnhq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hardcore",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-05.webp"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_WiV6ED",
+        "featured_collection_kYKYPm",
+        "featured_collection_aXp4H9",
+        "featured_collection_YgXnWD",
+        "featured_collection_HFLnhq"
+      ],
+      "settings": {
+      }
+    },
+    "rude_collections_ijrWGC": {
+      "type": "rude-collections",
+      "blocks": {
+        "featured_collection_a8DEwm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "le-moan-erb",
+            "advert_image": "shopify:\/\/shop_images\/LEMoan_Hover_Off.webp",
+            "hover_image": "shopify:\/\/shop_images\/LeMoan_HOVER_ON.webp"
+          }
+        },
+        "featured_collection_WdBmFp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mild-pg13",
+            "advert_image": "shopify:\/\/shop_images\/MILD_HOF.webp",
+            "hover_image": "shopify:\/\/shop_images\/MILD_HON_a69e56a3-2b6a-46e6-9d40-963c2262b3a9.webp"
+          }
+        },
+        "featured_collection_fWGWFR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hot",
+            "advert_image": "shopify:\/\/shop_images\/HOT_HOF.webp",
+            "hover_image": "shopify:\/\/shop_images\/HOT_HON.webp"
+          }
+        },
+        "featured_collection_VKdy34": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xxxtra-hot",
+            "advert_image": "shopify:\/\/shop_images\/XXX_HOF.webp",
+            "hover_image": "shopify:\/\/shop_images\/XXX_HON.webp"
+          }
+        },
+        "featured_collection_Y4i4k8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hardcore",
+            "advert_image": "shopify:\/\/shop_images\/HXC_HOF.webp",
+            "hover_image": "shopify:\/\/shop_images\/HXC_HON.webp"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_a8DEwm",
+        "featured_collection_WdBmFp",
+        "featured_collection_fWGWFR",
+        "featured_collection_VKdy34",
+        "featured_collection_Y4i4k8"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false
@@ -28,6 +138,8 @@
     }
   },
   "order": [
+    "product_banner_ffgCxE",
+    "rude_collections_ijrWGC",
     "banner",
     "product-grid"
   ]

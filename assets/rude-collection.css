@@ -1,0 +1,24 @@
+.rude-collection .rude-rail{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.rude-collection .rude-rail img{
+    width: 100%
+}
+.rude-collection .rude-link{
+    position: relative;
+}
+.rude-collection .rude-link:hover .hover-img, .rude-collection .rude-rail-item.active .rude-link .hover-img{
+    opacity: 1;
+}
+.rude-collection .rude-link .hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}

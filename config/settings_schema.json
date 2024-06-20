@@ -4334,6 +4334,12 @@
         "type": "image_picker",
         "id": "img_breadcrumb",
         "label": "t:settings_schema.Breadcrumb.settings.img_breadcrumb.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_breadcrumb",
+        "label": "Show Breadcrumbs",
+        "default": true
       }
     ]
   },
