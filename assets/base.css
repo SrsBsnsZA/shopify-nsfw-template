@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'PANTON';
+  font-family: 'PANTON', sans-serif;
   src: url('Panton-Regular.woff2') format('woff2'),
   url('Panton-Regular.woff') format('woff');
   font-weight: 500;

@@ -4,247 +4,260 @@
 
 <footer class="rude-footer color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
     <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="logo-footer">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="logo-footer">
 
-            {%- if section.settings.logo_image != blank -%}
-              <img
-                      srcset="{%- if section.settings.logo_image.width >= 165 -%}{{ section.settings.logo_image | img_url: '165x' }} 165w,{%- endif -%}
+                    {%- if section.settings.logo_image != blank -%}
+                        <img
+                                srcset="{%- if section.settings.logo_image.width >= 165 -%}{{ section.settings.logo_image | img_url: '165x' }} 165w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 360 -%}{{ section.settings.logo_image | img_url: '360x' }} 360w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 535 -%}{{ section.settings.logo_image | img_url: '535x' }} 535w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 750 -%}{{ section.settings.logo_image | img_url: '750x' }} 750w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 1070 -%}{{ section.settings.logo_image | img_url: '1070x' }} 1070w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 1500 -%}{{ section.settings.logo_image | img_url: '1500x' }} 1500w,{%- endif -%}"
-                      src="{{ section.settings.logo_image | img_url: '220x' }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ section.settings.logo_image.alt | escape }}"
-                      loading="lazy"
-              >
-            {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
-            {%- endif -%}
+                                src="{{ section.settings.logo_image | img_url: '220x' }}"
+                                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                                alt="{{ section.settings.logo_image.alt | escape }}"
+                                loading="lazy"
+                        >
+                    {%- else -%}
+                        <span class="h2">{{ shop.name }}</span>
+                    {%- endif -%}
 
-            <div class="logo_text">{{ section.settings.logo_text }}</div>
-          </div>
-          <div class="row">
-            {%- if section.settings.newsletter_enable -%}
-              <div class="newsletter-footer">
-                <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-                <p class="footer-block__description">{{ section.settings.newsletter_description }}</p>
-                {% render 'rude_newsletter' %}
-              </div>
-            {%- endif -%}
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="row">
-            {%- for block in section.blocks -%}
-              {%- case block.settings.width -%}
-                {%- when '16.67%' -%}
-                  {%- assign block_width = 'col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12' -%}
-                {%- when '25%' -%}
-                  {%- assign block_width = 'col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 second' -%}
-                {%- when '33.33%' -%}
-                  {%- assign block_width = 'col-xl-4 col-md-5' -%}
-                {%- when '50%' -%}
-                  {%- assign block_width = 'col-lg-6' -%}
-                {%- when '66.67%' -%}
-                  {%- assign block_width = 'col-xl-8 col-md-7' -%}
-                {%- when '75%' -%}
-                  {%- assign block_width = 'col-md-9' -%}
-                {%- when '83.33%' -%}
-                  {%- assign block_width = 'col-md-10' -%}
-                {%- when '100%' -%}
-                  {%- assign block_width = 'col-12' -%}
-              {%- endcase -%}
-              <div class="{{block_width}}">
-                {%- case block.type -%}
-                  {%- when 'text-content' -%}
-                    <div class="text-content">
-                      <h2 class="title-footer-content">{{ block.settings.header_content_footer }}</h2>
-                      <ul class="list-content-footer">
-                        {{ block.settings.text_content_footer }}
-                      </ul>
-                    </div>
-
-                  {%- when 'menu' -%}
-                    <div class="menu-footer">
-                      <h2 class="title-footer">{{ block.settings.title_menu }}
-                        <span class="drawer__nav-toggle--open">
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </span>
-                      </h2>
-
-                      {%- render 'vertical-menu-footer', block:block -%}
-                    </div>
-
-                  {%- when 'show_social' -%}
-                <div class="menu-footer">
-                    <h2 class="title-footer hidden-sm-down">{{ block.settings.title_social }}</h2>
-                    {%- if block.settings.show_social -%}
-                      {% render 'social_footer' %}
+                    <div class="logo_text">{{ section.settings.logo_text }}</div>
+                </div>
+                <div class="row">
+                    {%- if section.settings.newsletter_enable -%}
+                        <div class="newsletter-footer">
+                            <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
+                            <p class="footer-block__description">{{ section.settings.newsletter_description }}</p>
+                            {% render 'rude_newsletter' %}
+                        </div>
                     {%- endif -%}
                 </div>
-
-                {%- endcase -%}
-              </div>
-            {%- endfor -%}
-          </div>
-        </div>
-      </div>
-        <div class="bottom-footer">
-            <div class="row bottom-footer-copy">
-                {%- if section.settings.show_copyright -%}
-                    <div class="col-md-4">
-                        {% render 'footer-copyright' %}
+                <div class="row">
+                    <div class="menu-footer ">
+                        <h2 class="title-footer">CONTACT US
+                        </h2>
+                        <div class="contact">
+                            {{ section.settings.email_address }}
+                        </div>
+                        {%- render 'vertical-menu-footer', block: block -%}
                     </div>
-                {%- endif -%}
-
-                {%- if section.settings.show_social -%}
-                <div class="icon-top col-md-4">
-                    {% render 'social_footer' %}
                 </div>
-                {%- endif -%}
-
-                {% comment %}{%- if section.settings.icon_card_footer -%}{% endcomment %}
-                    {% comment %}<div class="col-md-4 icon_card-footer">{% endcomment %}
-                        {% comment %}{% render 'icon-card-footer' %}{% endcomment %}
-                    {% comment %}</div>{% endcomment %}
-                {% comment %}{%- endif -%}{% endcomment %}
             </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    {%- for block in section.blocks -%}
+                        {%- case block.settings.width -%}
+                            {%- when '16.67%' -%}
+                                {%- assign block_width = 'col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12' -%}
+                            {%- when '25%' -%}
+                                {%- assign block_width = 'col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 second' -%}
+                            {%- when '33.33%' -%}
+                                {%- assign block_width = 'col-xl-4 col-md-5' -%}
+                            {%- when '50%' -%}
+                                {%- assign block_width = 'col-lg-6' -%}
+                            {%- when '66.67%' -%}
+                                {%- assign block_width = 'col-xl-8 col-md-7' -%}
+                            {%- when '75%' -%}
+                                {%- assign block_width = 'col-md-9' -%}
+                            {%- when '83.33%' -%}
+                                {%- assign block_width = 'col-md-10' -%}
+                            {%- when '100%' -%}
+                                {%- assign block_width = 'col-12' -%}
+                        {%- endcase -%}
+                        <div class="{{ block_width }}">
+                            {%- case block.type -%}
+                                {%- when 'text-content' -%}
+                                    <div class="text-content">
+                                        <h2 class="title-footer-content">{{ block.settings.header_content_footer }}</h2>
+                                        <ul class="list-content-footer">
+                                            {{ block.settings.text_content_footer }}
+                                        </ul>
+                                    </div>
+
+                                {%- when 'menu' -%}
+                                    <div class="menu-footer">
+                                        <h2 class="title-footer">{{ block.settings.title_menu }}
+                                            <span class="drawer__nav-toggle--open">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                                        </h2>
+
+                                        {%- render 'vertical-menu-footer', block: block -%}
+                                    </div>
+
+                                {%- when 'show_social' -%}
+                                    <div class="menu-footer">
+                                        <h2 class="title-footer hidden-sm-down">{{ block.settings.title_social }}</h2>
+                                        {%- if block.settings.show_social -%}
+                                            {% render 'social_footer' %}
+                                        {%- endif -%}
+                                    </div>
+
+                            {%- endcase -%}
+                        </div>
+                    {%- endfor -%}
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+          <h2 class="title-footer">
+            {{ section.settings.bottom_title_menu }}
+          </h2>
+          {%- render 'bottom-menu-footer', menu: section.settings.bottom_menu -%}
         </div>
     </div>
 </footer>
 
 {% schema %}
-  {
-    "name": "Rude Footer",
-    "class": "section-footer",
-    "tag": "section",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "fullwidth",
-        "label": "t:sections.footer-2.settings.fullwidth.label",
-        "default": false
-      },
-      {
-        "id": "color_scheme",
-        "type": "select",
-        "options": [
-          {
-            "value": "background-1",
-            "label": "t:sections.header-2.settings.color_scheme.options__1.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.header-2.settings.color_scheme.options__2.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:sections.header-2.settings.color_scheme.options__3.label"
-          },
-          {
-            "value": "accent-1",
-            "label": "t:sections.header-2.settings.color_scheme.options__4.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.header-2.settings.color_scheme.options__5.label"
-          }
-        ],
-        "default": "background-1",
-        "label": "t:sections.header-2.settings.color_scheme.label"
-      },
-      {
-        "type": "html",
-        "id": "logo_text",
-        "label": "t:sections.footer-2.blocks.logo.settings.logo_text.label"
-      },
-      {
-        "type": "select",
-        "id": "logo_width",
-        "label": "t:sections.footer-2.blocks.logo.settings.width.label",
-        "default": "25%",
-        "options": [
-          {
-            "value": "16.67%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__1.label"
-          },
-          {
-            "value": "25%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__2.label"
-          },
-          {
-            "value": "33.33%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__3.label"
-          },
-          {
-            "value": "50%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__4.label"
-          },
-          {
-            "value": "66.67%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__5.label"
-          },
-          {
-            "value": "75%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__6.label"
-          },
-          {
-            "value": "83.33%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__7.label"
-          },
-          {
-            "value": "100%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__8.label"
-          }
-        ]
-      },
-      {
-        "type": "image_picker",
-        "id": "logo_image",
-        "label": "t:sections.footer-2.blocks.logo.settings.image.label"
-      },
-      {
-        "id": "newsletter_enable",
-        "type": "checkbox",
-        "default": true,
-        "label": "t:sections.footer-2.settings.newsletter_enable.label"
-      },
-      {
-        "id": "newsletter_heading",
-        "type": "text",
-        "default": "Sign up to our emails",
-        "label": "t:sections.footer-2.settings.newsletter_heading.label"
-      },
-      {
-        "id": "newsletter_description",
-        "type": "text",
-        "default": "Sign up with your email address to receive updates.",
-        "label": "t:sections.footer-2.settings.newsletter_description.label"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_copyright",
-        "label": "t:sections.footer-2.settings.show_copyright.label",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_social",
-        "label": "t:sections.footer-2.settings.show_social.label",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "icon_card_footer",
-        "label": "t:sections.footer-2.settings.icon_card_footer.label",
-        "default": true
-      }
-    ],
-    "blocks": [
+{
+  "name": "Rude Footer",
+  "class": "section-footer",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "fullwidth",
+      "label": "t:sections.footer-2.settings.fullwidth.label",
+      "default": false
+    },
+    {
+      "id": "color_scheme",
+      "type": "select",
+      "options": [
+        {
+          "value": "background-1",
+          "label": "t:sections.header-2.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.header-2.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.header-2.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "accent-1",
+          "label": "t:sections.header-2.settings.color_scheme.options__4.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.header-2.settings.color_scheme.options__5.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.header-2.settings.color_scheme.label"
+    },
+    {
+      "type": "html",
+      "id": "logo_text",
+      "label": "t:sections.footer-2.blocks.logo.settings.logo_text.label"
+    },
+    {
+      "type": "select",
+      "id": "logo_width",
+      "label": "t:sections.footer-2.blocks.logo.settings.width.label",
+      "default": "25%",
+      "options": [
+        {
+          "value": "16.67%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__1.label"
+        },
+        {
+          "value": "25%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__2.label"
+        },
+        {
+          "value": "33.33%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__3.label"
+        },
+        {
+          "value": "50%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__4.label"
+        },
+        {
+          "value": "66.67%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__5.label"
+        },
+        {
+          "value": "75%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__6.label"
+        },
+        {
+          "value": "83.33%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__7.label"
+        },
+        {
+          "value": "100%",
+          "label": "t:sections.footer-2.blocks.logo.settings.width.options__8.label"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "t:sections.footer-2.blocks.logo.settings.image.label"
+    },
+    {
+      "id": "newsletter_enable",
+      "type": "checkbox",
+      "default": true,
+      "label": "t:sections.footer-2.settings.newsletter_enable.label"
+    },
+    {
+      "id": "newsletter_heading",
+      "type": "text",
+      "default": "Sign up to our emails",
+      "label": "t:sections.footer-2.settings.newsletter_heading.label"
+    },
+    {
+      "id": "newsletter_description",
+      "type": "text",
+      "default": "Sign up with your email address to receive updates.",
+      "label": "t:sections.footer-2.settings.newsletter_description.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_copyright",
+      "label": "t:sections.footer-2.settings.show_copyright.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social",
+      "label": "t:sections.footer-2.settings.show_social.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "icon_card_footer",
+      "label": "t:sections.footer-2.settings.icon_card_footer.label",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "email_address",
+      "label": "Email Address",
+      "default": "willy@rudesocks.co.za"
+    },
+    {
+      "type": "text",
+      "id": "bottom_title_menu",
+      "label": "t:sections.footer-2.blocks.menu.settings.title_menu.label",
+      "default": "title menu"
+    },
+    {
+      "type": "link_list",
+      "id": "bottom_menu",
+      "label": "t:sections.footer-2.blocks.menu.settings.menu.label",
+      "default": "main-menu"
+    }
+  ],
+  "blocks": [
     {
       "type": "show_social",
       "name": "t:sections.footer-2.blocks.show_social.name",
@@ -307,46 +320,46 @@
       "type": "text-content",
       "name": "t:sections.footer-2.blocks.text-content.name",
       "settings": [
-      {
-        "type": "select",
-        "id": "width",
-        "label": "t:sections.footer-2.blocks.text-content.settings.width.label",
-        "default": "25%",
-        "options": [
-          {
-            "value": "16.67%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__1.label"
-          },
-          {
-            "value": "25%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__2.label"
-          },
-          {
-            "value": "33.33%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__3.label"
-          },
-          {
-            "value": "50%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__4.label"
-          },
-          {
-            "value": "66.67%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__5.label"
-          },
-          {
-            "value": "75%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__6.label"
-          },
-          {
-            "value": "83.33%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__7.label"
-          },
-          {
-            "value": "100%",
-            "label": "t:sections.footer-2.blocks.text-content.settings.width.options__8.label"
-          }
-        ]
-       },  
+        {
+          "type": "select",
+          "id": "width",
+          "label": "t:sections.footer-2.blocks.text-content.settings.width.label",
+          "default": "25%",
+          "options": [
+            {
+              "value": "16.67%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__1.label"
+            },
+            {
+              "value": "25%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__2.label"
+            },
+            {
+              "value": "33.33%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__3.label"
+            },
+            {
+              "value": "50%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__4.label"
+            },
+            {
+              "value": "66.67%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__5.label"
+            },
+            {
+              "value": "75%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__6.label"
+            },
+            {
+              "value": "83.33%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__7.label"
+            },
+            {
+              "value": "100%",
+              "label": "t:sections.footer-2.blocks.text-content.settings.width.options__8.label"
+            }
+          ]
+        },
         {
           "type": "text",
           "id": "header_content_footer",
@@ -406,35 +419,35 @@
           ]
         },
         {
-            "type": "text",
-            "id": "title_menu",
-            "label": "t:sections.footer-2.blocks.menu.settings.title_menu.label",
-            "default": "title menu"
+          "type": "text",
+          "id": "title_menu",
+          "label": "t:sections.footer-2.blocks.menu.settings.title_menu.label",
+          "default": "title menu"
         },
         {
-            "type": "link_list",
-            "id": "menu",
-            "label": "t:sections.footer-2.blocks.menu.settings.menu.label",
-            "default": "main-menu"
-          }
+          "type": "link_list",
+          "id": "menu",
+          "label": "t:sections.footer-2.blocks.menu.settings.menu.label",
+          "default": "main-menu"
+        }
       ]
     }
-    ],
-    "default": {
-        "blocks": [
-          {
-            "type": "show_social"
-          },
-          {
-            "type": "text-content"
-          },
-          {
-            "type": "menu"
-          },
-          {
-            "type": "menu"
-          }
-        ]
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "show_social"
+      },
+      {
+        "type": "text-content"
+      },
+      {
+        "type": "menu"
+      },
+      {
+        "type": "menu"
       }
+    ]
   }
+}
 {% endschema %}

@@ -594,7 +594,10 @@
           "newsletter_description": "Allow us to slide into your dms with all the juiciest gossip and sexy deals. Receive 20% off your first order when you sign up",
           "show_copyright": true,
           "show_social": false,
-          "icon_card_footer": true
+          "icon_card_footer": true,
+          "email_address": "willy@rudesocks.co.za",
+          "bottom_title_menu": "QUICKLINKS",
+          "bottom_menu": "footer-quicklinks"
         }
       }
     },
