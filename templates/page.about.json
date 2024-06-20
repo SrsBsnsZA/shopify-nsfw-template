@@ -102,7 +102,8 @@
         "1641958291959f6b6d-0": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "",
+            "icon_image": "shopify:\/\/shop_images\/Truck_f679b87f-8f10-4ad0-845e-e26c4003082d.png",
             "header_service": "Shipping Nationwide",
             "text_service": "Strutting our stuff exclusively in South Africa."
           }
@@ -118,7 +119,8 @@
         "1641958291959f6b6d-2": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "",
+            "icon_image": "shopify:\/\/shop_images\/Payment_1b8606eb-6028-4aa5-b810-170a6b7dc155.png",
             "header_service": "Secure Payments",
             "text_service": "Discression is our middle name."
           }

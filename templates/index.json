@@ -30,11 +30,41 @@
             "text_align": "center",
             "item_align": "center"
           }
+        },
+        "slide_JPYj8y": {
+          "type": "slide",
+          "settings": {
+            "image_slide": "shopify:\/\/shop_images\/Stefanie-2-01.jpg",
+            "sub_title": "",
+            "title": "",
+            "content": "",
+            "slide_link": "",
+            "link": "",
+            "btn_link": "",
+            "text_align": "center",
+            "item_align": "center"
+          }
+        },
+        "slide_Gmbjnb": {
+          "type": "slide",
+          "settings": {
+            "image_slide": "shopify:\/\/shop_images\/AMBASSADWHORE-Banner-01.jpg",
+            "sub_title": "",
+            "title": "",
+            "content": "",
+            "slide_link": "",
+            "link": "",
+            "btn_link": "",
+            "text_align": "center",
+            "item_align": "center"
+          }
         }
       },
       "block_order": [
         "slide_XPrDy9",
-        "slide_pVcMzL"
+        "slide_pVcMzL",
+        "slide_JPYj8y",
+        "slide_Gmbjnb"
       ],
       "settings": {
         "fullwidth": true,
@@ -183,7 +213,8 @@
         "1641893186f6b9cd07-0": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/shipping.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "",
+            "icon_image": "shopify:\/\/shop_images\/Truck_f679b87f-8f10-4ad0-845e-e26c4003082d.png",
             "header_service": "Shipping Nationwide",
             "text_service": "Strutting our stuff exclusively in South Africa."
           }
@@ -199,7 +230,8 @@
         "1641893186f6b9cd07-2": {
           "type": "service",
           "settings": {
-            "icon": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0792\/0792\/4018\/files\/secure-payment.png?v=1705588620\" class=\"\" title=\"\" alt=\"\" style=\" width:auto; \n\t\t\theight:auto\">",
+            "icon": "",
+            "icon_image": "shopify:\/\/shop_images\/Payment_1b8606eb-6028-4aa5-b810-170a6b7dc155.png",
             "header_service": "Secure Payments",
             "text_service": "Discression is our middle name."
           }
