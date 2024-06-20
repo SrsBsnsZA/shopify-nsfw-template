@@ -584,7 +584,7 @@
           "footer-rude-4"
         ],
         "settings": {
-          "fullwidth": false,
+          "fullwidth": true,
           "color_scheme": "accent-2",
           "logo_text": "",
           "logo_width": "25%",

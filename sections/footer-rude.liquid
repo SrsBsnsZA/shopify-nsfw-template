@@ -1,97 +1,96 @@
 <!-- footer-2.liquid -->
 
-{{ 'footer-2.css' | asset_url | stylesheet_tag }}
+{{ 'rude-footer.css' | asset_url | stylesheet_tag }}
 
-<footer class="footer-2 color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
+<footer class="rude-footer color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
     <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
-      <div class="logo-footer">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="logo-footer">
 
-        {%- if section.settings.logo_image != blank -%}
-          <img
-                  srcset="{%- if section.settings.logo_image.width >= 165 -%}{{ section.settings.logo_image | img_url: '165x' }} 165w,{%- endif -%}
+            {%- if section.settings.logo_image != blank -%}
+              <img
+                      srcset="{%- if section.settings.logo_image.width >= 165 -%}{{ section.settings.logo_image | img_url: '165x' }} 165w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 360 -%}{{ section.settings.logo_image | img_url: '360x' }} 360w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 535 -%}{{ section.settings.logo_image | img_url: '535x' }} 535w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 750 -%}{{ section.settings.logo_image | img_url: '750x' }} 750w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 1070 -%}{{ section.settings.logo_image | img_url: '1070x' }} 1070w,{%- endif -%}
                   {%- if section.settings.logo_image.width >= 1500 -%}{{ section.settings.logo_image | img_url: '1500x' }} 1500w,{%- endif -%}"
-                  src="{{ section.settings.logo_image | img_url: '220x' }}"
-                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                  alt="{{ section.settings.logo_image.alt | escape }}"
-                  loading="lazy"
-                  width="{{ section.settings.logo_image.width }}"
-                  height="{{ section.settings.logo_image.height }}"
-          >
-        {%- else -%}
-          <span class="h2">{{ shop.name }}</span>
-        {%- endif -%}
+                      src="{{ section.settings.logo_image | img_url: '220x' }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ section.settings.logo_image.alt | escape }}"
+                      loading="lazy"
+              >
+            {%- else -%}
+              <span class="h2">{{ shop.name }}</span>
+            {%- endif -%}
 
-        <div class="logo_text">{{ section.settings.logo_text }}</div>
-      </div>
-      <div class="row">
-        {%- if section.settings.newsletter_enable -%}
-          <div class="top-footer">
-            <div class="newlester-footer">
-              <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-              <p class="footer-block__description">{{ section.settings.newsletter_description }}</p>
-                  {% render 'newsletter' %}
-            </div>
+            <div class="logo_text">{{ section.settings.logo_text }}</div>
           </div>
-        {%- endif -%}
-     </div>
-        <div class="center-footer">
+          <div class="row">
+            {%- if section.settings.newsletter_enable -%}
+              <div class="newsletter-footer">
+                <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
+                <p class="footer-block__description">{{ section.settings.newsletter_description }}</p>
+                {% render 'rude_newsletter' %}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+        <div class="col-lg-6">
           <div class="row">
             {%- for block in section.blocks -%}
-            {%- case block.settings.width -%}
-              {%- when '16.67%' -%}
-              {%- assign block_width = 'col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12' -%}
-              {%- when '25%' -%}
-              {%- assign block_width = 'col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 second' -%}
-              {%- when '33.33%' -%}
-              {%- assign block_width = 'col-xl-4 col-md-5' -%}
-              {%- when '50%' -%}
-              {%- assign block_width = 'col-lg-6' -%}
-              {%- when '66.67%' -%}
-              {%- assign block_width = 'col-xl-8 col-md-7' -%}
-              {%- when '75%' -%} 
-              {%- assign block_width = 'col-md-9' -%}
-              {%- when '83.33%' -%}
-              {%- assign block_width = 'col-md-10' -%}
-              {%- when '100%' -%}
-              {%- assign block_width = 'col-12' -%}
+              {%- case block.settings.width -%}
+                {%- when '16.67%' -%}
+                  {%- assign block_width = 'col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12' -%}
+                {%- when '25%' -%}
+                  {%- assign block_width = 'col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 second' -%}
+                {%- when '33.33%' -%}
+                  {%- assign block_width = 'col-xl-4 col-md-5' -%}
+                {%- when '50%' -%}
+                  {%- assign block_width = 'col-lg-6' -%}
+                {%- when '66.67%' -%}
+                  {%- assign block_width = 'col-xl-8 col-md-7' -%}
+                {%- when '75%' -%}
+                  {%- assign block_width = 'col-md-9' -%}
+                {%- when '83.33%' -%}
+                  {%- assign block_width = 'col-md-10' -%}
+                {%- when '100%' -%}
+                  {%- assign block_width = 'col-12' -%}
               {%- endcase -%}
-            <div class="{{block_width}}">
-              {%- case block.type -%}
-                {%- when 'text-content' -%}
-                <div class="text-content">
-                    <h2 class="title-footer-content">{{ block.settings.header_content_footer }}</h2>
-                    <ul class="list-content-footer">
+              <div class="{{block_width}}">
+                {%- case block.type -%}
+                  {%- when 'text-content' -%}
+                    <div class="text-content">
+                      <h2 class="title-footer-content">{{ block.settings.header_content_footer }}</h2>
+                      <ul class="list-content-footer">
                         {{ block.settings.text_content_footer }}
-                    </ul>
-                </div>
+                      </ul>
+                    </div>
 
-                {%- when 'menu' -%}
-                <div class="menu-footer">
-                    <h2 class="title-footer">{{ block.settings.title_menu }}
+                  {%- when 'menu' -%}
+                    <div class="menu-footer">
+                      <h2 class="title-footer">{{ block.settings.title_menu }}
                         <span class="drawer__nav-toggle--open">
                             <i class="fa fa-angle-down" aria-hidden="true"></i>
                         </span>
-                    </h2>
-                    
-                    {%- render 'vertical-menu-footer', block:block -%}
-                </div>
+                      </h2>
 
-                {%- when 'show_social' -%}
-                <h2 class="title-footer-content hidden-sm-down">{{ block.settings.title_social }}</h2>
-                {%- if block.settings.show_social -%}
-                  {% render 'social_footer' %}
-                {%- endif -%}
-                
-              {%- endcase -%}
-            </div>
+                      {%- render 'vertical-menu-footer', block:block -%}
+                    </div>
+
+                  {%- when 'show_social' -%}
+                    <h2 class="title-footer-content hidden-sm-down">{{ block.settings.title_social }}</h2>
+                    {%- if block.settings.show_social -%}
+                      {% render 'social_footer' %}
+                    {%- endif -%}
+
+                {%- endcase -%}
+              </div>
             {%- endfor -%}
           </div>
         </div>
-        
+      </div>
         <div class="bottom-footer">
             <div class="row bottom-footer-copy">
                 {%- if section.settings.show_copyright -%}
