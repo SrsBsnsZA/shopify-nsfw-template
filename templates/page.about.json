@@ -13,7 +13,7 @@
           "type": "image",
           "settings": {
             "width": "50%",
-            "image": "shopify:\/\/shop_images\/Penis.webp",
+            "image": "shopify:\/\/shop_images\/20231026_181410_copy_6ab44047-69a6-4d1c-b29e-b7d54ea6729d.webp",
             "effects_image": false
           }
         },
@@ -23,10 +23,12 @@
             "width": "50%",
             "header__text": "This journey started simply; drawing dicks is hilarious…",
             "header_top": "",
-            "text__content": "<p class=\"section-sp_text-content\">Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more.<\/p><p class=\"section-sp_text-content\"> Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries.<\/p><p class=\"section-sp_text-content\"> We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off! <\/p><p class=\"section-sp_text-content\"> We are Rude.<\/p>",
+            "text__content": "Many of us have had a hand in a veiny number being scrawled across a school desk. Rude started as an extension of the desire to cover every possible surface in lewd, crude and naughty images. It quickly became more. Rude has, in the process, granted us the opportunity to challenge the stigmas surrounding sexuality and break through the mundane norms that box us in. For us, Rude has quickly become a way to question what is acceptable and not—a sexier way of expressing ourselves and pushing our boundaries. We must never forget that penises when drawn or seen in the right light, are still hilarious. Look, we love all genitalia, and so we cover our socks in their likeness… we find it funny and if you don’t…. Fuck off!  We are Rude.",
             "big_text": "",
-            "btn_text": "Join the party",
-            "btn_link": "\/collections\/all",
+            "btn_text": "SHOP NOW",
+            "btn_link": "shopify:\/\/collections",
+            "btn_text_2": "SIGN UP",
+            "btn_link_2": "shopify:\/\/pages\/contact",
             "text_align": "left"
           }
         }
@@ -54,7 +56,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/placeholder_1_590x450_b5e68acb-77d6-45fb-a71e-bbfc731b4d83.jpg",
+            "image": "shopify:\/\/shop_images\/20231026_181410_7f01e079-4f58-48b4-85fb-ca2e810ff5c9.jpg",
             "effects_image": false
           }
         },
@@ -73,7 +75,7 @@
           "type": "image",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/placeholder_2_590x450_b5a3c533-5fa5-4d74-b8b6-472599ddb249.jpg",
+            "image": "shopify:\/\/shop_images\/20231027_111301.jpg",
             "effects_image": false
           }
         }
@@ -129,9 +131,9 @@
       ],
       "settings": {
         "fullwidth": false,
-        "background-color": "",
+        "background-color": "#ff93c6",
         "margin_desktop": "",
-        "padding_desktop": "0px 0px 100px 0px",
+        "padding_desktop": "",
         "margin_mobile": "",
         "padding_mobile": "",
         "heading": "",

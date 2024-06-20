@@ -2,9 +2,7 @@
 .shopify-section.service{
     background-color: rgba(255, 147, 198, 0.2) !important;
 }
-.page-about .shopify-section.service{
-    background-color: transparent !important;
-}
+
 .page-about #shopify-section-template--21974692757810__164195829130918a09
 {
     padding: 40px 0;
@@ -106,50 +104,50 @@ body.index .service h2.section-header {
 }
 /* SERVICE ABOUT */
 /* SERVICE 1 */
- body.page-about main > section:nth-child(3) h3.service-title {
-    display: inline-block;
-    vertical-align: middle;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 400;
-    color: #000;
-    margin-bottom: 0;
-    line-height: 20px;
-    font-family: 'Moderat Extended';
-}
- body.page-about main > section:nth-child(3) p.service-text {
-    display: block; 
-    margin-top: 35px;
-    line-height: 20px;
-    font-size: 14px;
-    color: #888;
-}
- body.page-about main > section:nth-child(3) {
-    padding: 0;
-}
-/* SERVICE 2 */
-body.page-about main > section:nth-child(5)  .wp_service {
-    padding: 30px 0;
-    background-color: rgba(255, 147, 198, 0.2);
-}
-body.page-about main > section:nth-child(5) .service-content.icon-top {
-    margin-bottom: 30px;
-    padding: 0 15px;
-}
-body.page-about main > section:nth-child(5) h3.service-title {
-    color: #000;
-    margin-top: 35px;
-    font-weight: 400;
-    font-size: 22px;
-    font-family: 'Moderat Extended';
-}
-body.page-about main > section:nth-child(5) p.service-text {
-    color: #888;
-    font-size: 16px;
-    line-height: 30px;
-    margin-bottom: 0;
-    font-family: 'Moderat Extended';
-}
+/* body.page-about main > section:nth-child(3) h3.service-title {*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    text-transform: uppercase;*/
+/*    font-size: 40px;*/
+/*    font-weight: 400;*/
+/*    color: #000;*/
+/*    margin-bottom: 0;*/
+/*    line-height: 20px;*/
+/*    font-family: 'Moderat Extended';*/
+/*}*/
+/* body.page-about main > section:nth-child(3) p.service-text {*/
+/*    display: block; */
+/*    margin-top: 35px;*/
+/*    line-height: 20px;*/
+/*    font-size: 14px;*/
+/*    color: #888;*/
+/*}*/
+/* body.page-about main > section:nth-child(3) {*/
+/*    padding: 0;*/
+/*}*/
+/*!* SERVICE 2 *!*/
+/*body.page-about main > section:nth-child(5)  .wp_service {*/
+/*    padding: 30px 0;*/
+/*    background-color: rgba(255, 147, 198, 0.2);*/
+/*}*/
+/*body.page-about main > section:nth-child(5) .service-content.icon-top {*/
+/*    margin-bottom: 30px;*/
+/*    padding: 0 15px;*/
+/*}*/
+/*body.page-about main > section:nth-child(5) h3.service-title {*/
+/*    color: #000;*/
+/*    margin-top: 35px;*/
+/*    font-weight: 400;*/
+/*    font-size: 22px;*/
+/*    font-family: 'Moderat Extended';*/
+/*}*/
+/*body.page-about main > section:nth-child(5) p.service-text {*/
+/*    color: #888;*/
+/*    font-size: 16px;*/
+/*    line-height: 30px;*/
+/*    margin-bottom: 0;*/
+/*    font-family: 'Moderat Extended';*/
+/*}*/
 @media (max-width: 1199px) {
     .service {
         padding: 30px 15px;
