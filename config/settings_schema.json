@@ -360,6 +360,10 @@
           {
             "value": "footer-5",
             "label": "t:settings_schema.layout.settings.footer.options__5.label"
+          },
+          {
+            "value": "footer-rude",
+            "label": "Rude Footer"
           }
         ]
       },

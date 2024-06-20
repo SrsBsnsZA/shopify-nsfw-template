@@ -29,7 +29,7 @@
     "enable_rtl": true,
     "page_width": "1600",
     "header": "header-2",
-    "footer": "footer-2",
+    "footer": "footer-rude",
     "bloggrid": "blog-1",
     "productgrid": "product-3",
     "vmain_linklist": "vertical-menu",
@@ -363,14 +363,6 @@
               "image": "shopify:\/\/shop_images\/Rude_NSFW_Logo_White_300w.png"
             }
           },
-          "86d77c51-dcbe-436a-af37-4ba4052ff00c": {
-            "type": "show_social",
-            "settings": {
-              "title_social": "Get In Touch",
-              "width": "25%",
-              "show_social": true
-            }
-          },
           "8c393f36-1396-4377-9438-76bf413bd4d4": {
             "type": "menu",
             "settings": {
@@ -394,19 +386,27 @@
               "title_menu": "Quicklinks",
               "menu": "footer-quicklinks"
             }
+          },
+          "86d77c51-dcbe-436a-af37-4ba4052ff00c": {
+            "type": "show_social",
+            "settings": {
+              "title_social": "Get In Touch",
+              "width": "25%",
+              "show_social": true
+            }
           }
         },
         "block_order": [
           "51a5d58b-bf54-4890-bc19-d5fd62a944ee",
-          "86d77c51-dcbe-436a-af37-4ba4052ff00c",
           "8c393f36-1396-4377-9438-76bf413bd4d4",
           "f5927971-8716-48ea-9600-7fc59553e27a",
-          "ca1be19b-89af-496e-bc9c-240362be9324"
+          "ca1be19b-89af-496e-bc9c-240362be9324",
+          "86d77c51-dcbe-436a-af37-4ba4052ff00c"
         ],
         "settings": {
           "fullwidth": false,
           "color_scheme": "accent-2",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Sign Up For Our Newsletter",
           "newsletter_description": "You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.",
           "show_copyright": true,
@@ -555,6 +555,59 @@
           "header_wishlist": true,
           "currencies": true,
           "header_card": true
+        }
+      },
+      "footer-rude": {
+        "type": "footer-rude",
+        "blocks": {
+          "footer-rude-1": {
+            "type": "logo",
+            "settings": {
+              "logo_text": "",
+              "width": "25%",
+              "image": "shopify:\/\/shop_images\/logo-simple.png"
+            }
+          },
+          "footer-rude-0": {
+            "type": "show_social",
+            "settings": {
+              "title_social": "SOCIALS",
+              "width": "25%",
+              "show_social": true
+            }
+          },
+          "footer-rude-3": {
+            "type": "menu",
+            "settings": {
+              "width": "25%",
+              "title_menu": "SUPPORT",
+              "menu": "footer-support"
+            }
+          },
+          "footer-rude-4": {
+            "type": "menu",
+            "settings": {
+              "width": "25%",
+              "title_menu": "ABOUT US",
+              "menu": "footer-about-us"
+            }
+          }
+        },
+        "block_order": [
+          "footer-rude-1",
+          "footer-rude-0",
+          "footer-rude-3",
+          "footer-rude-4"
+        ],
+        "settings": {
+          "fullwidth": false,
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "JOIN THE PARTY",
+          "newsletter_description": "Allow us to slide into your dms with all the juiciest gossip and sexy deals. Receive 20% off your first order when you sign up",
+          "show_copyright": true,
+          "show_social": false,
+          "icon_card_footer": true
         }
       }
     },

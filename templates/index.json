@@ -76,7 +76,8 @@
         "slide_3wgDiX": {
           "type": "slide",
           "settings": {
-            "advert_background": "shopify:\/\/shop_images\/Be-an-Animal-Banner-bg.jpg",
+            "background_color_1": "#f390bc",
+            "background_color_2": "#fff4f8",
             "advert_image": "shopify:\/\/shop_images\/legs_3cc3f382-e523-4fec-a2b3-dad24b09695e.png",
             "advert_image_width": "80%",
             "text_width": "50%",
@@ -221,6 +222,26 @@
         "icon-align": "top"
       }
     },
+    "1718863000484d0272": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_yGAwwN": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_yGAwwN"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "164189257492617dfe": {
       "type": "section-sp",
       "blocks": {
@@ -270,6 +291,7 @@
     "1636423293977393af",
     "hoeville_edB4GD",
     "1641893186a013e041",
+    "1718863000484d0272",
     "164189257492617dfe"
   ]
 }
