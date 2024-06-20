@@ -31,7 +31,7 @@
 <div class="advert-banner-sp" {%- if section.settings.section_id -%} id="{{ section.settings.section_id }}"{%- endif -%} {%- if section.settings.advert_background -%} style="background-image: url('{{ section.settings.advert_background | img_url: 'master' }}') ; background-repeat: no-repeat; background-size: cover;" {%- endif -%}>
     {%- for block in section.blocks -%}
         <div class="advert-child"
-             style="{%- if block.settings.advert_background -%}background-image: url('{{ block.settings.advert_background | img_url: 'master' }}') ; background-repeat: no-repeat; background-size: cover;{%- endif -%} display: flex; justify-content: right; align-items: flex-end">
+             style="background-image: -webkit-linear-gradient(305deg, {{ block.settings.background_color_1 }} 45%, transparent 30%), -webkit-linear-gradient(45deg, {{ block.settings.background_color_1 }} 28%, transparent 0%); background-color:{{ block.settings.background_color_2 }} ; display: flex; justify-content: right; align-items: flex-end">
             <div class="advert__image-wrapper" {%- if block.settings.advert_image_width -%} style="width: {{ block.settings.advert_image_width }} "{%- endif -%}>
                 <img class="advert__image"
                      srcset="{{ block.settings.advert_image | img_url: '165x' }} 165w,
@@ -91,9 +91,16 @@
       "type": "slide",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "advert_background",
-          "label": "Background Image"
+          "type": "color",
+          "id": "background_color_1",
+          "label": "Background Colour 1",
+          "default": "#f390bc"
+        },
+        {
+          "type": "color",
+          "id": "background_color_2",
+          "label": "Background Colour 2",
+          "default": "#fff4f8"
         },
         {
           "type": "image_picker",

@@ -2,6 +2,8 @@
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
+    padding-bottom: 20px;
+    background-image: -webkit-linear-gradient(290deg, #afddd2 42%, transparent 30%), -webkit-linear-gradient(255deg, #6e3fc1 70%, transparent 30%);
 }
 .advert__image-wrapper{
     position: absolute;

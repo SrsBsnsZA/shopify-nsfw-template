@@ -94,9 +94,13 @@
             "main_header_style": "line-height: 70px;",
             "main_text": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know. Ready to pop one off? Take a long, hard look at these socks.",
             "main_text_font_size": "16px",
-            "main_text_style": "padding-bottom:40px",
+            "main_text_style": "padding-bottom:20px",
             "button_text": "SHOP SOCKS",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "",
+            "button_color": "#afddd2",
+            "button_text_color": "#ffffff",
+            "button_alignment": "right"
           }
         }
       },
