@@ -48,12 +48,16 @@
 
             <div class="advert__text"
                  style="text-align: {{ block.settings.text_alignment }}; width: {{ block.settings.text_width }}">
-              <div style="width: max-content">
-                <h3 style="font-family: {{ block.settings.top_header_font }}; font-size: {{ block.settings.top_header_font_size }}; color: {{ block.settings.top_header_color }}; {{ block.settings.top_header_style }}">{{ block.settings.top_header }}</h3>
-                <h2 style="font-family: {{ block.settings.main_header_font }}; font-size: {{ block.settings.main_header_font_size }}; color: {{ block.settings.main_header_color }}; {{ block.settings.main_header_style }}">{{ block.settings.main_header }}</h2>
-              </div>
+                <div style="width: max-content">
+                    <h3 style="font-family: {{ block.settings.top_header_font }}; font-size: {{ block.settings.top_header_font_size }}; color: {{ block.settings.top_header_color }}; {{ block.settings.top_header_style }}">{{ block.settings.top_header }}</h3>
+                    <h2 style="font-family: {{ block.settings.main_header_font }}; font-size: {{ block.settings.main_header_font_size }}; color: {{ block.settings.main_header_color }}; {{ block.settings.main_header_style }}">{{ block.settings.main_header }}</h2>
+                </div>
 
                 <p style="font-size: {{ block.settings.main_text_font_size }};{{ block.settings.main_text_style }}">{{ block.settings.main_text }}</p>
+                <div class="advert_button_container" style="text-align: {{ block.settings.button_alignment }}">
+                    <a class="custom-btn" href="{{ block.settings.button_link | default: '#' }}"
+                       style="{{ block.settings.button_style }}; background-color: {{ block.settings.button_color }}; color: {{ block.settings.button_text_color }}">{{ block.settings.button_text }}</a>
+                </div>
             </div>
         </div>
 
@@ -220,6 +224,42 @@
           "id": "button_link",
           "type": "url",
           "label": "Button Link"
+        },
+        {
+          "type": "textarea",
+          "id": "button_style",
+          "label": "Button Styles"
+        },
+        {
+          "type": "color",
+          "id": "button_color",
+          "label": "Button Colour",
+          "default": "#afddd2"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button Text Colour",
+          "default": "#afddd2"
+        },
+        {
+          "type": "select",
+          "id": "button_alignment",
+          "label": "Align Button",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
         }
       ]
     }
