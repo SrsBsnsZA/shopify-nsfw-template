@@ -4421,3 +4421,12 @@ iframe#preview-bar-iframe {
   display: flex;
   justify-content: space-between;
 }
+
+#insta-feed{
+  padding-bottom: 30px;
+}
+#insta-feed h2{
+  font-family: "Freestyle Script", sans-serif;
+  font-size: 74px;
+  letter-spacing: -3px;
+}
