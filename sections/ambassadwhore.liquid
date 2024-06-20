@@ -1,0 +1,88 @@
+<!-- Welcome section starts -->
+{{ 'ambassadwhore.css' | asset_url | stylesheet_tag }}
+
+
+<div class="ambassadwhore-banner-sp" {%- if section.settings.section_id -%} id="{{ section.settings.section_id }}"{%- endif -%}>
+    <div class="ambassadwhore-container" style="background-image: -webkit-linear-gradient(220deg, {{ section.settings.bg_color_1 }} 18%, transparent 10%), -webkit-linear-gradient(124deg, {{ section.settings.bg_color_1 }} 48%, transparent 0%); background-color:{{ section.settings.bg_color_2 }}">
+        <div class="copy">
+            <h1>
+                {{ section.settings.main_header }}
+            </h1>
+            <p>
+                {{ section.settings.copy }}
+            </p>
+            <div class="ambassadwhore_button_container">
+                <a class="custom-btn" href="{{ section.settings.button_link | default: '#' }}"
+                   style="background-color: #afddd2; color: #ffffff">{{ section.settings.button_text }}</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="ambassadwhore-container img">
+        <div class="advanced-image-media">
+            <img class="advanced__image"
+                 srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
+                        {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | img_url: '360x' }} 360w,{%- endif -%}
+                        {%- if section.settings.image.width >= 480 -%}{{ section.settings.image | img_url: '480x' }} 480w,{%- endif -%}
+                        {%- if section.settings.image.width >= 850 -%}{{ section.settings.image | img_url: '850x' }} 850w,{%- endif -%}
+                        {%- if section.settings.image.width >= 1200 -%}{{ section.settings.image | img_url: '1300x' }} 1300w,{%- endif -%}
+                        {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}"
+                 src="{{ section.settings.image | img_url: 'master' }}"
+                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                 alt="{{ section.settings.image.alt | escape }}"
+            >
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Ambassadwhore Section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_header",
+      "label": "Main Header"
+    },
+    {
+      "type": "textarea",
+      "id": "copy",
+      "label": "Copy"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "color",
+      "id": "bg_color_1",
+      "label": "BG Colour 1",
+      "default": "#afddd2"
+    },
+    {
+      "type": "color",
+      "id": "bg_color_2",
+      "label": "BG Colour 2",
+      "default": "#afddd2"
+    },
+    {
+      "id": "button_link",
+      "type": "url",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ambassadwhore",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}

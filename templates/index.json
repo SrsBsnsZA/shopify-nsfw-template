@@ -128,7 +128,7 @@
         "text_decoration": "Welcome to our steamy selection",
         "collection": "frontpage",
         "image_ratio": "adapt",
-        "slidesToShow": 3,
+        "slidesToShow": 4,
         "slidesToScroll": 1,
         "rows": 1,
         "autoplay": false,
@@ -242,46 +242,16 @@
         "include_margins": true
       }
     },
-    "164189257492617dfe": {
-      "type": "section-sp",
-      "blocks": {
-        "1641892574a9acddb1-1": {
-          "type": "text_list",
-          "settings": {
-            "width": "50%",
-            "header__text": "",
-            "header_top": "",
-            "text__content": "Bright and colourful for those who can perform under pressure. They are full of pun potential. You could get away with them in a study group or even on a first date, if they know they know.    Ready to pop one off? Take a LONG, HARD look at these socks.",
-            "big_text": "",
-            "btn_text": "Shop Socks",
-            "btn_link": "",
-            "text_align": "left"
-          }
-        },
-        "1641892574a9acddb1-0": {
-          "type": "image",
-          "settings": {
-            "width": "50%",
-            "image": "shopify:\/\/shop_images\/WishYouWereGay_Be_Bold.png",
-            "effects_image": false
-          }
-        }
-      },
-      "block_order": [
-        "1641892574a9acddb1-1",
-        "1641892574a9acddb1-0"
-      ],
+    "ambassadwhore_RriecC": {
+      "type": "ambassadwhore",
       "settings": {
-        "fullwidth": false,
-        "section_id": "home-be-bold",
-        "background-color": "#f4f4f4",
-        "section-background": "shopify:\/\/shop_images\/animal-bg_dfd4f542-e988-4ebe-a289-1fca4717390d.jpg",
-        "margin_desktop": "66px",
-        "padding_desktop": "",
-        "margin_mobile": "",
-        "padding_mobile": "",
-        "heading": "Be bold. Be RUDE.",
-        "text_decoration": "We know you mean business so grab a pair of our socks (by the balls)."
+        "main_header": "BECOME AN AMBASSADWORE",
+        "copy": "This is your one and only opportunity to become the best you ahve ever been in our socks. Apply today to do a blah blah and with that become a blah blah blah.",
+        "button_text": "APPLY NOW",
+        "bg_color_1": "#afddd2",
+        "bg_color_2": "#ffffff",
+        "button_link": "shopify:\/\/pages\/contact",
+        "image": "shopify:\/\/shop_images\/ambad.png"
       }
     }
   },
@@ -292,6 +262,6 @@
     "hoeville_edB4GD",
     "1641893186a013e041",
     "1718863000484d0272",
-    "164189257492617dfe"
+    "ambassadwhore_RriecC"
   ]
 }
