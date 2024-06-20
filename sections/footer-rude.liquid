@@ -4,19 +4,39 @@
 
 <footer class="footer-2 color-{%- if section.settings.enable_transparent -%}transparent{%- else -%}{{ section.settings.color_scheme }}{%- endif -%}">
     <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
+      <div class="logo-footer">
+        {%- if block.settings.image != blank -%}
+          <img
+                  srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | img_url: '165x' }} 165w,{%- endif -%}
+                  {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | img_url: '360x' }} 360w,{%- endif -%}
+                  {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | img_url: '535x' }} 535w,{%- endif -%}
+                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | img_url: '1070x' }} 1070w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}"
+                  src="{{ block.settings.image | img_url: '220x' }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ block.settings.image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ block.settings.image.width }}"
+                  height="{{ block.settings.image.height }}"
+          >
+        {%- else -%}
+          <span class="h2">{{ shop.name }}</span>
+        {%- endif -%}
 
+        <div class="logo_text">{{ block.settings.logo_text }}</div>
+      </div>
       <div class="row">
         {%- if section.settings.newsletter_enable -%}
           <div class="top-footer">
             <div class="newlester-footer">
               <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
               <p class="footer-block__description">{{ section.settings.newsletter_description }}</p>
-                  {% render 'newlester' %}
+                  {% render 'newsletter' %}
             </div>
           </div>
         {%- endif -%}
      </div>
-        
         <div class="center-footer">
           <div class="row">
             {%- for block in section.blocks -%}
@@ -41,29 +61,6 @@
             <div class="{{block_width}}">
               {%- case block.type -%}
 
-                {%- when 'logo' -%}
-                <div class="logo-footer">
-                  {%- if block.settings.image != blank -%}
-                  <img
-                  srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | img_url: '165x' }} 165w,{%- endif -%}
-                  {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | img_url: '360x' }} 360w,{%- endif -%}
-                  {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | img_url: '535x' }} 535w,{%- endif -%}
-                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | img_url: '1070x' }} 1070w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}"
-                  src="{{ block.settings.image | img_url: '220x' }}"
-                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                  alt="{{ block.settings.image.alt | escape }}"
-                  loading="lazy"
-                  width="{{ block.settings.image.width }}"
-                  height="{{ block.settings.image.height }}"
-                  >
-                  {%- else -%}
-                      <span class="h2">{{ shop.name }}</span>
-                  {%- endif -%}
-
-                  <div class="logo_text">{{ block.settings.logo_text }}</div>
-                </div>
 
                 {%- when 'text-content' -%}
                 <div class="text-content">
@@ -161,6 +158,56 @@
         "label": "t:sections.header-2.settings.color_scheme.label"
       },
       {
+        "type": "html",
+        "id": "logo_text",
+        "label": "t:sections.footer-2.blocks.logo.settings.logo_text.label"
+      },
+      {
+        "type": "select",
+        "id": "logo_width",
+        "label": "t:sections.footer-2.blocks.logo.settings.width.label",
+        "default": "25%",
+        "options": [
+          {
+            "value": "16.67%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__1.label"
+          },
+          {
+            "value": "25%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__2.label"
+          },
+          {
+            "value": "33.33%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__3.label"
+          },
+          {
+            "value": "50%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__4.label"
+          },
+          {
+            "value": "66.67%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__5.label"
+          },
+          {
+            "value": "75%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__6.label"
+          },
+          {
+            "value": "83.33%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__7.label"
+          },
+          {
+            "value": "100%",
+            "label": "t:sections.footer-2.blocks.logo.settings.width.options__8.label"
+          }
+        ]
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_image",
+        "label": "t:sections.footer-2.blocks.logo.settings.image.label"
+      },
+      {
         "id": "newsletter_enable",
         "type": "checkbox",
         "default": true,
@@ -253,62 +300,6 @@
           "id": "show_social",
           "label": "t:sections.footer-2.blocks.show_social.settings.show_social.label",
           "default": true
-        }
-      ]
-    },
-    {
-      "type": "logo",
-      "name": "t:sections.footer-2.blocks.logo.name",
-      "settings": [
-      {
-        "type": "html",
-        "id": "logo_text",
-        "label": "t:sections.footer-2.blocks.logo.settings.logo_text.label"
-      },
-      {
-        "type": "select",
-        "id": "width",
-        "label": "t:sections.footer-2.blocks.logo.settings.width.label",
-        "default": "25%",
-        "options": [
-          {
-            "value": "16.67%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__1.label"
-          },
-          {
-            "value": "25%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__2.label"
-          },
-          {
-            "value": "33.33%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__3.label"
-          },
-          {
-            "value": "50%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__4.label"
-          },
-          {
-            "value": "66.67%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__5.label"
-          },
-          {
-            "value": "75%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__6.label"
-          },
-          {
-            "value": "83.33%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__7.label"
-          },
-          {
-            "value": "100%",
-            "label": "t:sections.footer-2.blocks.logo.settings.width.options__8.label"
-          }
-        ]
-       },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.footer-2.blocks.logo.settings.image.label"
         }
       ]
     },
@@ -433,9 +424,6 @@
         "blocks": [
           {
             "type": "show_social"
-          },
-          {
-            "type": "logo"
           },
           {
             "type": "text-content"
