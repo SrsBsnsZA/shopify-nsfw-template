@@ -61,11 +61,15 @@
    display: none;
 }
 
+.hoeville-section .type-text span{
+    display: none;
+}
+
 .hoeville-section.lemoan {
     background-color: #afddd2;
     background-image: -webkit-linear-gradient(290deg, #afddd2 70%, #FFFFFF 30%);
 }
-.hoeville-section.lemoan .lemoan-content{
+.hoeville-section.lemoan .lemoan-content, .hoeville-section.lemoan .lemoan-text{
     display: block;
 }
 
@@ -74,7 +78,7 @@
     background-image: -webkit-linear-gradient(290deg, #fef4f8 70%, #f393bd 30%);
 }
 
-.hoeville-section.pg .pg-content{
+.hoeville-section.pg .pg-content, .hoeville-section.pg .pg-text{
     display: block;
 }
 
@@ -83,7 +87,7 @@
     background-image: -webkit-linear-gradient(290deg, #f394be 70%, #FFFFFF 30%);
 }
 
-.hoeville-section.amateur .amateur-content{
+.hoeville-section.amateur .amateur-content, .hoeville-section.amateur .amateur-text{
     display: block;
 }
 
@@ -92,7 +96,7 @@
     background-image: -webkit-linear-gradient(290deg, #d91a60 70%, #fef4f8 30%);
 }
 
-.hoeville-section.xtrahot .xtrahot-content{
+.hoeville-section.xtrahot .xtrahot-content, .hoeville-section.xtrahot .xtrahot-text{
     display: block;
 }
 
@@ -101,7 +105,7 @@
     background-image: -webkit-linear-gradient(290deg, #191919 70%, #FFFFFF 30%);
 }
 
-.hoeville-section.hardcore .hardcore-content{
+.hoeville-section.hardcore .hardcore-content, .hoeville-section.hardcore .hardcore-text{
     display: block;
 }
 
