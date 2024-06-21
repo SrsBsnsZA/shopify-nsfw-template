@@ -4417,6 +4417,16 @@ iframe#preview-bar-iframe {
   appearance: none;
 }
 
+.right-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-wrapper .right-price .price{
+  padding-bottom: 0;
+  margin-top: 0!important;
+}
+
 .wp_advanced-text .btn-container{
   display: flex;
   justify-content: space-between;
