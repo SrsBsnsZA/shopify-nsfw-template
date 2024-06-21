@@ -526,7 +526,12 @@
                 show_rating: section.settings.show_rating,
                 show_type: section.settings.show_type,
                 enable_background: section.settings.enable_product_background,
-                background: section.settings.product_background
+                background: section.settings.product_background,
+                lemoan_button: section.settings.lemoan_button,
+                mild_button : section.settings.mild_button,
+                hot_button : section.settings.hot_button,
+                xxx_button : section.settings.xxx_button,
+                hard_button : section.settings.hard_button
               %}
             </li>
           {%- endfor -%}
@@ -681,7 +686,33 @@
       "id": "product_background",
       "default": "#ebebeb",
       "label": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "lemoan_button",
+      "label": "Lemoan Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "mild_button",
+      "label": "Mild Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "hot_button",
+      "label": "Hot Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "xxx_button",
+      "label": "XXX-Hot Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "hard_button",
+      "label": "Hardcore Icon"
     }
-  ]
+  ],
+
 }
 {% endschema %}

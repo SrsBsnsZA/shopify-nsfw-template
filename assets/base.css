@@ -4455,3 +4455,20 @@ iframe#preview-bar-iframe {
 #shopify-section-template--22871714431282__banner{
   background-color: #fff4f8;
 }
+
+.hoeville-btn{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 0;
+  line-height: 48px;
+  margin-bottom: 5px;
+  background: #fff;
+}
+.hoeville-btn img{
+  max-width: 100%;
+}

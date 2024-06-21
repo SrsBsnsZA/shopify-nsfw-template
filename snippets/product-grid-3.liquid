@@ -107,12 +107,24 @@
       {%- if settings.enable_countdown_card -%}
         {% render 'product-countdown', product_card_product: product_card_product %}
       {%- endif -%}
-      
+
       <div class="servicer-product servicer-product-grid-3">
         <div class="product-card__overlay">
+            {%- assign hoeville = lemoan_button -%}
+            {% for collection in product_card_product.collections %}
+                {% if collection.title == 'Mild=PG13' %}
+                    {%- assign hoeville = mild_button -%}
+                {% elsif collection.title == 'XXXtra Hot' %}
+                    {%- assign hoeville = xxx_button -%}
+                {% elsif collection.title == 'Hot' %}
+                    {%- assign hoeville = hot_button -%}
+                {% elsif collection.title == 'Hardcore' %}
+                    {%- assign hoeville = hard_button -%}
+                {% endif %}
+            {% endfor %}
           {% render 'quickview-button', handle: product_card_product.handle %}
           {% render 'wishlist-button', handle: product_card_product.handle %}
-          {% render 'compare-button', handle: product_card_product.handle %}
+          {% render 'hoeville-button', hoeville: hoeville %}
           {% render 'addcart-button', product_card_product: product_card_product, product_form_id: product_form_id %}
         </div>
       </div>
