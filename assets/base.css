@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: 'PANTON', sans-serif;
+  font-family: 'PANTON';
   src: url('Panton-Regular.woff2') format('woff2'),
   url('Panton-Regular.woff') format('woff');
   font-weight: 500;
@@ -4561,4 +4561,13 @@ iframe#preview-bar-iframe {
 .bottom-minicart .goto-cart a:hover, .cart__checkout-button button:hover, .cart__ctas button:hover{
   color: #FFFFFF!important;
   background-color: #ff93c6!important;
+}
+.footer-cap{
+  padding-top: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer-cap img{
+  max-height: 100px;
 }

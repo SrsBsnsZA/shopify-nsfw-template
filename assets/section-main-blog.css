@@ -150,7 +150,8 @@ ul.list-block {
   font-size: 2em;
   color: #d9195f;
   font-weight: 700;
-  font-family: "Moderat Extended";
+  text-transform: uppercase;
+  /*font-family: "Moderat Extended";*/
 }
 
 @media (min-width: 1200px) {
