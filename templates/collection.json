@@ -63,40 +63,40 @@
           "type": "featured_collection",
           "settings": {
             "collection": "le-moan-erb",
-            "advert_image": "shopify:\/\/shop_images\/LEMoan_Hover_Off.webp",
-            "hover_image": "shopify:\/\/shop_images\/LeMoan_HOVER_ON.webp"
+            "advert_image": "shopify:\/\/shop_images\/lemoan-main.png",
+            "hover_image": "shopify:\/\/shop_images\/lemoan_756fd93b-cf90-4e20-99b3-1ec0b37a19e2.png"
           }
         },
         "featured_collection_WdBmFp": {
           "type": "featured_collection",
           "settings": {
             "collection": "mild-pg13",
-            "advert_image": "shopify:\/\/shop_images\/MILD_HOF.webp",
-            "hover_image": "shopify:\/\/shop_images\/MILD_HON_a69e56a3-2b6a-46e6-9d40-963c2262b3a9.webp"
+            "advert_image": "shopify:\/\/shop_images\/mild-main.png",
+            "hover_image": "shopify:\/\/shop_images\/mild_da5ea355-609f-4010-82a5-e984b61c137b.png"
           }
         },
         "featured_collection_fWGWFR": {
           "type": "featured_collection",
           "settings": {
             "collection": "hot",
-            "advert_image": "shopify:\/\/shop_images\/HOT_HOF.webp",
-            "hover_image": "shopify:\/\/shop_images\/HOT_HON.webp"
+            "advert_image": "shopify:\/\/shop_images\/hot-main.png",
+            "hover_image": "shopify:\/\/shop_images\/hot_4c659d68-25cd-47b4-9553-3f5c8f9943a7.png"
           }
         },
         "featured_collection_VKdy34": {
           "type": "featured_collection",
           "settings": {
             "collection": "xxxtra-hot",
-            "advert_image": "shopify:\/\/shop_images\/XXX_HOF.webp",
-            "hover_image": "shopify:\/\/shop_images\/XXX_HON.webp"
+            "advert_image": "shopify:\/\/shop_images\/xxx-main.png",
+            "hover_image": "shopify:\/\/shop_images\/xxx.png"
           }
         },
         "featured_collection_Y4i4k8": {
           "type": "featured_collection",
           "settings": {
             "collection": "hardcore",
-            "advert_image": "shopify:\/\/shop_images\/HXC_HOF.webp",
-            "hover_image": "shopify:\/\/shop_images\/HXC_HON.webp"
+            "advert_image": "shopify:\/\/shop_images\/hard-main.png",
+            "hover_image": "shopify:\/\/shop_images\/hard.png"
           }
         }
       },
