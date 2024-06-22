@@ -16,9 +16,12 @@
                    style="background-color: #afddd2; color: #ffffff">{{ section.settings.button_text }}</a>
             </div>
         </div>
+        <div class="ambassadwhore-img">
+          <img src="{{ section.settings.image | img_url: 'master' }}" >
+        </div>
 
     </div>
-    <div class="ambassadwhore-container img">
+    {% comment %} <div class="ambassadwhore-container img">
         <div class="advanced-image-media">
             <img class="advanced__image"
                  srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
@@ -32,7 +35,7 @@
                  alt="{{ section.settings.image.alt | escape }}"
             >
         </div>
-    </div>
+    </div> {% endcomment %}
 </div>
 
 {% schema %}

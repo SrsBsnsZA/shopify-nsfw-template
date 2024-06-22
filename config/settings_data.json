@@ -260,7 +260,7 @@
       "recently-viewed": {
         "type": "recently-viewed",
         "settings": {
-          "enable": true,
+          "enable": false,
           "title": "Recently viewed",
           "limit": 4
         }
