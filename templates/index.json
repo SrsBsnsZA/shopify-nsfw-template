@@ -299,7 +299,7 @@
         "fullwidth": false,
         "background-color": "",
         "margin_desktop": "",
-        "padding_desktop": "",
+        "padding_desktop": "40px 0 40px 0",
         "margin_mobile": "",
         "padding_mobile": "",
         "heading": "Upcoming Event",

@@ -4604,7 +4604,11 @@ iframe#preview-bar-iframe {
   justify-content: center;
   align-items: center;
 }
-.event-bar__action a{
+.event-bar__action a {
   background-color: #afddd2;
   color: #ffffff;
+}
+
+#shopify-section-template--22871714496818__advanced_content_Cgrrw7 .section-header{
+  color: #D9175F;
 }
