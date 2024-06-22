@@ -74,6 +74,7 @@
         },
         "48e8d95f-6f36-4cb1-94d4-f53d7708f76c": {
           "type": "html",
+          "disabled": true,
           "settings": {
             "title": "",
             "des": "<p>----<\/p>\n\n<p>And about those returns...<\/p>"
@@ -111,46 +112,19 @@
         "cl_mix_2": "#ffffff"
       }
     },
-    "fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "General Return Policy:",
-            "heading_size": "h1"
-          }
-        },
-        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-heading-1",
-        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-text-1",
-        "template--20225077281074__fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2-button-1"
-      ],
-      "disabled": true,
+    "image_with_text_BdaiHY": {
+      "type": "image-with-text",
       "settings": {
+        "image": "shopify:\/\/shop_images\/FAQ-Banner-01.jpg",
+        "height": "adapt",
         "color_scheme": "background-1",
-        "full_width": true
+        "layout": "image_first"
       }
     }
   },
   "order": [
     "main",
     "page-faqs",
-    "fe8eeaf5-67f8-4d0c-9394-c3ce5379a7a2"
+    "image_with_text_BdaiHY"
   ]
 }
