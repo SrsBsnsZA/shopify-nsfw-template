@@ -4512,3 +4512,19 @@ iframe#preview-bar-iframe {
   color: #aae8d7;
   background-color: transparent;
 }
+.product .main-product-image-template2{
+  max-height: 640px;
+}
+.product .product__media-wrapper .product-full-image{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product .product__media-wrapper .product-full-image-zoom{
+  max-height: 640px;
+}
+.product .product__media-wrapper .zoom-item, .product .product__media-wrapper .product-full-image, .product .product__media-wrapper .product-full-image > div{
+  height: 100%
+}

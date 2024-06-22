@@ -5,17 +5,28 @@
       {%- if media.media_type == 'image' -%}
     <div>
       <div class="zoom-item">
-    	<img id="product-full-image-zoom" class="product-full-image-zoom"
-         srcset="{% if media.preview_image.width >= 288 %}{{ media | img_url: '288x' }} 288w,{% endif %}
+          <img id="product-full-image-zoom" class="product-full-image-zoom"
+               srcset="{% if media.preview_image.width >= 288 %}{{ media | img_url: '288x' }} 288w,{% endif %}
                  {% if media.preview_image.width >= 576 %}{{ media | img_url: '576x' }} 576w,{% endif %}
                  {% if media.preview_image.width >= 550 %}{{ media | img_url: '550x' }} 550w,{% endif %}
                  {% if media.preview_image.width >= 1100 %}{{ media | img_url: '1100x' }} 1100w{% endif %}"
-         src="{{ media | img_url: '1100x' }}"
-         sizes="(min-width: 1200px) calc((1200px - 10rem)), (min-width: 750px) calc((100vw - 11.5rem)), calc(100vw - 4rem)"
-         loading="lazy"
-         alt="{{ media.preview_image.alt | escape }}"
-         data-zoom-image="{{ media | img_url: '2000x' }}"
-         >
+               src="{{ media | img_url: '1100x' }}"
+               sizes="(min-width: 1200px) calc((1200px - 10rem)), (min-width: 750px) calc((100vw - 11.5rem)), calc(100vw - 4rem)"
+               loading="lazy"
+               alt="{{ media.preview_image.alt | escape }}"
+               data-zoom-image="{{ media | img_url: '2000x' }}"
+          >
+    	{% comment %}<img id="product-full-image-zoom" class="product-full-image-zoom"{% endcomment %}
+         {% comment %}srcset="{% if media.preview_image.width >= 288 %}{{ media | img_url: '288x' }} 288w,{% endif %}{% endcomment %}
+                 {% comment %}{% if media.preview_image.width >= 576 %}{{ media | img_url: '576x' }} 576w,{% endif %}{% endcomment %}
+                 {% comment %}{% if media.preview_image.width >= 550 %}{{ media | img_url: '550x' }} 550w,{% endif %}{% endcomment %}
+                 {% comment %}{% if media.preview_image.width >= 1100 %}{{ media | img_url: '1100x' }} 1100w{% endif %}"{% endcomment %}
+         {% comment %}src="{{ media | img_url: '1100x' }}"{% endcomment %}
+         {% comment %}sizes="(min-width: 1200px) calc((1200px - 10rem)), (min-width: 750px) calc((100vw - 11.5rem)), calc(100vw - 4rem)"{% endcomment %}
+         {% comment %}loading="lazy"{% endcomment %}
+         {% comment %}alt="{{ media.preview_image.alt | escape }}"{% endcomment %}
+         {% comment %}data-zoom-image="{{ media | img_url: '2000x' }}"{% endcomment %}
+         {% comment %}>{% endcomment %}
       </div>
       </div>
       {% break %}
