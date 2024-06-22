@@ -125,13 +125,13 @@
         </div>
 
       </div>
-      {%- if section.settings.gmap and section.settings.gmap_iframe != blank -%}
-      <div class="col-12 col-md-8">
-        <div class="gmap-iframe">
-          {{section.settings.gmap_iframe}}
-        </div>
-      </div>
-      {%- endif -%}
+      {% comment %}{%- if section.settings.gmap and section.settings.gmap_iframe != blank -%}{% endcomment %}
+      {% comment %}<div class="col-12 col-md-8">{% endcomment %}
+        {% comment %}<div class="gmap-iframe">{% endcomment %}
+          {% comment %}{{section.settings.gmap_iframe}}{% endcomment %}
+        {% comment %}</div>{% endcomment %}
+      {% comment %}</div>{% endcomment %}
+      {% comment %}{%- endif -%}{% endcomment %}
     </div>
 
   </div>
