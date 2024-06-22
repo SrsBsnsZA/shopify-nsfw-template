@@ -16,9 +16,8 @@
   text-transform: uppercase;
   line-height: 60px;
   border-bottom: 1px solid #eaeaea;
-  font-family: "Moderat Extended";
   font-weight: 700;
-  color: #347758;
+  color: #000000;
 }
 .product-recommendations .grid__item {
   padding: 0 15px;

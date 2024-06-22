@@ -8,16 +8,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share:",
-            "share_facebook": true,
-            "share_twitter": true,
-            "share_instagram": true,
-            "share_pinterest": true
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -25,6 +15,7 @@
         },
         "ba9d02ac-858b-4a26-9a82-ee37a9958f5a": {
           "type": "low_stock",
+          "disabled": true,
           "settings": {
             "low_stock_title": "Hurrify, only a few left:"
           }
@@ -62,6 +53,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -75,9 +67,9 @@
         "922716b4-195b-483d-9692-0201d5539907": {
           "type": "tab_description",
           "settings": {
-            "tab_position_display": "bottom",
-            "tab_type": "tab",
-            "tab_title_align": "justify",
+            "tab_position_display": "right",
+            "tab_type": "accordion",
+            "tab_title_align": "left",
             "show_product_description": true,
             "show_product_review": true,
             "show_specific_tab": true,
@@ -87,11 +79,22 @@
             "specific_tab_title4": "Tab 4"
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share:",
+            "share_facebook": true,
+            "share_twitter": true,
+            "share_instagram": true,
+            "share_pinterest": true
+          }
+        },
         "159cbdf0-7d27-4065-a142-3b5f9ea9a02b": {
           "type": "wishlist_compare",
+          "disabled": true,
           "settings": {
             "enable_wishlist": true,
-            "enable_compare": true,
+            "enable_compare": false,
             "enable_guide": false,
             "sizeguide_collection_1": "frontpage",
             "sizeguide_collection_2": "men",
@@ -116,7 +119,6 @@
       },
       "block_order": [
         "title",
-        "share",
         "price",
         "ba9d02ac-858b-4a26-9a82-ee37a9958f5a",
         "variant_picker",
@@ -127,6 +129,7 @@
         "description",
         "217db909-cf3a-4659-90fb-417fd4c8a57e",
         "922716b4-195b-483d-9692-0201d5539907",
+        "share",
         "159cbdf0-7d27-4065-a142-3b5f9ea9a02b",
         "b6441186-3738-4ea8-9452-46a3c1245651"
       ],

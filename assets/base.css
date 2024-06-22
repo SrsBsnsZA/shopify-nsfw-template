@@ -2663,7 +2663,7 @@ details-disclosure > details {
   padding: 5px 30px;
 }
 
-.span-compnare, .span-wishlist{
+.span-compnare{
   display: none;
 }
 
@@ -4471,4 +4471,44 @@ iframe#preview-bar-iframe {
 }
 .hoeville-btn img{
   max-width: 100%;
+}
+.card .card-header .card-link{
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-header .card-link svg{
+  height: 16px;
+  width: 16px
+}
+.card .card-header .icon-minus{
+  display: none;
+}
+.card .card-header.active-acc .icon-minus{
+  display: block;
+}
+.card .card-header.active-acc .icon-plus{
+  display: none;
+}
+
+.product p{
+  font-family: "PANTON", sans-serif;
+}
+.product h1, .product h2, .product h3, .product h4, .product h5, .product h6{
+  font-family: "Made Tommy Black", sans-serif;
+}
+
+.custom-actions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product .custom-actions .btn-product{
+  color: #888;
+  line-height: 1.25em;
+  font-size: 1.4rem;
+}
+.product .btn-product:hover{
+  cursor: pointer;
+  color: #aae8d7;
+  background-color: transparent;
 }

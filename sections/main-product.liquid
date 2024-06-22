@@ -691,29 +691,30 @@
           
         {%- when 'share' -%}
         {% if section.settings.enable_share_product %}
-        <ul class="list-share-product d-flex">
-          <li class="items-share-product">{{ block.settings.share_label }}</li>
-          {% if block.settings.share_facebook %}
-            <li class="items-share-product">
-              <a target="_blank" class="link-share-product" href="https://www.facebook.com/sharer.php?u=https://{{shop.domain}}/products/{{product.handle}}">{%- render 'icon-facebook' -%}</a>
-            </li>
-          {%- endif -%}
-          {% if block.settings.share_twitter %}
-          <li class="items-share-product">
-            <a target="_blank" class="link-share-product" href="https://twitter.com/share?text={{product.title}}&url=https://{{shop.domain}}/products/{{product.handle}}">{%- render 'icon-twitter' -%}</a>
-          </li>
-          {%- endif -%}
-          {% if block.settings.share_pinterest %}
-          <li class="items-share-product">
-            <a target="_blank" class="link-share-product" href="https://pinterest.com/pin/create/button/?url={{shop.domain}}/products/{{product.handle}}&media={{ product.featured_media | img_url: '1066x' }}">{%- render 'icon-pinterest' -%}</a>
-          </li>
-          {%- endif -%}
-          {% if block.settings.share_instagram %}
-          <li class="items-share-product">
-            <a target="_blank" class="link-share-product" href="https://www.instagram.com/?url=https://{{shop.domain}}/products/{{product.handle}}">{%- render 'icon-instagram' -%}</a>
-          </li>
-          {%- endif -%}
-        </ul>
+         <div class="custom-actions"> <ul class="list-share-product d-flex">
+                 <li class="items-share-product">{{ block.settings.share_label }}</li>
+                 {% if block.settings.share_facebook %}
+                     <li class="items-share-product">
+                         <a target="_blank" class="link-share-product" href="https://www.facebook.com/sharer.php?u=https://{{shop.domain}}/products/{{product.handle}}">{%- render 'icon-facebook' -%}</a>
+                     </li>
+                 {%- endif -%}
+                 {% if block.settings.share_twitter %}
+                     <li class="items-share-product">
+                         <a target="_blank" class="link-share-product" href="https://twitter.com/share?text={{product.title}}&url=https://{{shop.domain}}/products/{{product.handle}}">{%- render 'icon-twitter' -%}</a>
+                     </li>
+                 {%- endif -%}
+                 {% if block.settings.share_pinterest %}
+                     <li class="items-share-product">
+                         <a target="_blank" class="link-share-product" href="https://pinterest.com/pin/create/button/?url={{shop.domain}}/products/{{product.handle}}&media={{ product.featured_media | img_url: '1066x' }}">{%- render 'icon-pinterest' -%}</a>
+                     </li>
+                 {%- endif -%}
+                 {% if block.settings.share_instagram %}
+                     <li class="items-share-product">
+                         <a target="_blank" class="link-share-product" href="https://www.instagram.com/?url=https://{{shop.domain}}/products/{{product.handle}}">{%- render 'icon-instagram' -%}</a>
+                     </li>
+                 {%- endif -%}
+             </ul> {% render 'wishlist-button', handle: product.handle %}</div>
+
 
         <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
 		    {%- endif -%}
