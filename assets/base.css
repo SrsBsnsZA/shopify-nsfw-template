@@ -4563,10 +4563,11 @@ iframe#preview-bar-iframe {
   background-color: #ff93c6!important;
 }
 .footer-cap{
-  padding-top: 16px;
+  padding: 16px;
   display: flex;
   justify-content: end;
   align-items: center;
+  padding-bottom: 0;
 }
 .footer-cap img{
   max-height: 100px;
