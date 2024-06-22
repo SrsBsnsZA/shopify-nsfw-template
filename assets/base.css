@@ -4542,3 +4542,23 @@ iframe#preview-bar-iframe {
   font-weight: bold;
   padding: 8px 4px;
 }
+.mini-actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini-actions mini-cart-remove-button{
+  margin-top: 5px;
+  margin-left: 10px;
+  position: relative;
+  top: unset;
+  transform: unset;
+  right: unset;
+}
+.bottom-minicart .goto-cart a, .cart__checkout-button button, .cart__ctas button{
+  color: #FFFFFF;
+}
+.bottom-minicart .goto-cart a:hover, .cart__checkout-button button:hover, .cart__ctas button:hover{
+  color: #FFFFFF!important;
+  background-color: #ff93c6!important;
+}
