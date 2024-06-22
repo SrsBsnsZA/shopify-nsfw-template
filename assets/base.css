@@ -1119,6 +1119,9 @@ summary::-webkit-details-marker {
 }
 
 @media screen and (min-width: 990px) {
+  .grid--quarter-max.grid--5-col-desktop .grid__item {
+    max-width: 20%;
+  }
   .grid--quarter-max.grid--4-col-desktop .grid__item {
     max-width: 25%;
   }
@@ -1191,6 +1194,11 @@ summary::-webkit-details-marker {
   .grid--4-col-desktop-collection .grid__item {
     width: calc(25% - 1rem * 3 / 4);
     max-width: 25%;
+  }
+
+  .grid--5-col-desktop-collection .grid__item {
+    width: calc(20% - 1rem * 3 / 4);
+    max-width: 20%;
   }
 
   .grid--3-col-desktop-collection .grid__item {
