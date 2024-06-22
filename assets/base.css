@@ -4528,3 +4528,9 @@ iframe#preview-bar-iframe {
 .product .product__media-wrapper .zoom-item, .product .product__media-wrapper .product-full-image, .product .product__media-wrapper .product-full-image > div{
   height: 100%
 }
+
+.product-cat{
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 4px;
+}

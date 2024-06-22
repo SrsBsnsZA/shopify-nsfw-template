@@ -595,7 +595,24 @@
         	{% render 'productStock', product: product %}
         
         {%- when 'fake_viewer' -%}
-        	{% render 'fake_viewer', product: product settings: block.settings %}
+        	{% render 'fake_viewer', product: product, settings: block.settings %}
+
+      {%- when 'productcat' -%}
+          {%- if block.settings.show_productcat -%}
+              {%- assign hoeville = 'Le` Moan & Erb' -%}
+              {% for collection in product.collections %}
+                  {% if collection.title == 'Mild=PG13' %}
+                      {%- assign hoeville = 'Mild=PG13' -%}
+                  {% elsif collection.title == 'XXXtra Hot' %}
+                      {%- assign hoeville = 'XXXtra Hot' -%}
+                  {% elsif collection.title == 'Hot' %}
+                      {%- assign hoeville = 'Hot' -%}
+                  {% elsif collection.title == 'Hardcore' %}
+                      {%- assign hoeville = 'Hardcore' -%}
+                  {% endif %}
+              {% endfor %}
+              {% render 'product-cat', handle: hoeville %}
+          {%- endif -%}
         
         
         {%- when 'wishlist_compare' -%}
@@ -844,7 +861,6 @@
             </div>
           {%- endform -%}
         </product-form>
-        
       </div>
     </div>
   </div>
@@ -1375,6 +1391,18 @@
           "label": "Time change duration"
         }
       ]
+    },
+    {
+      "type": "productcat",
+      "name": "Product Category",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_productcat",
+          "default": true,
+          "label": "Show Product Category"
+        }
+        ]
     },
 	{
       "type": "productstock",

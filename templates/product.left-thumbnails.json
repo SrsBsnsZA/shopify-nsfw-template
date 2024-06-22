@@ -115,6 +115,12 @@
             "will_not_ship_until": "",
             "will_be_in_stock_after": ""
           }
+        },
+        "productcat_qHBH8Y": {
+          "type": "productcat",
+          "settings": {
+            "show_productcat": true
+          }
         }
       },
       "block_order": [
@@ -131,7 +137,8 @@
         "922716b4-195b-483d-9692-0201d5539907",
         "share",
         "159cbdf0-7d27-4065-a142-3b5f9ea9a02b",
-        "b6441186-3738-4ea8-9452-46a3c1245651"
+        "b6441186-3738-4ea8-9452-46a3c1245651",
+        "productcat_qHBH8Y"
       ],
       "settings": {
         "gallery_product_image": "left-thumbnails",

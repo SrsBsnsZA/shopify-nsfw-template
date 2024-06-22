@@ -1,0 +1,15 @@
+{% if handle == 'Mild=PG13' %}
+    {%- assign color = '#faea34' -%}
+{% elsif handle == 'XXXtra Hot' %}
+    {%- assign color = '#ea242a' -%}
+{% elsif handle == 'Le` Moan & Erb' %}
+    {%- assign color = '#109949' -%}
+{% elsif color == 'Hot' %}
+    {%- assign color = '#f47523' -%}
+{% elsif handle == 'Hardcore' %}
+    {%- assign color = '#000' -%}
+{% endif %}
+
+<div class="product-cat" style="background-color: {{ color }}">
+    {{ handle }}
+</div>
