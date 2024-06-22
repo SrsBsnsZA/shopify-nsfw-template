@@ -4571,3 +4571,7 @@ iframe#preview-bar-iframe {
 .footer-cap img{
   max-height: 100px;
 }
+
+.contact  a.link--text.list-social__link{
+  color: #ff93c6
+}

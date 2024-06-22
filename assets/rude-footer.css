@@ -229,17 +229,20 @@ a.link--text.list-social__link {
 }
 
 li.list-social__item:hover .link_Fa {
-  background: #3c5a98;
+  background: #aae8d7;
 } 
 li.list-social__item:hover .link_Twi {
-  background: #55acee;
+  background: #aae8d7;
 } 
 li.list-social__item:hover .link_You {
-  background: #e84542;
+  background: #aae8d7;
 } 
 li.list-social__item:hover .link_Insta {
-  background: #4c61b0;
-} 
+  background: #aae8d7;
+}
+li.list-social__item:hover .list-social__link {
+  background: #aae8d7;
+}
 
 .rude-footer .list-social__item{
   margin: 0 2px;

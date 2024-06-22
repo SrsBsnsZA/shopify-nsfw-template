@@ -121,7 +121,9 @@
             </li>
             {%- endif -%}
           </ul>
+            {% render 'social_contact' %}
         </div>
+
       </div>
       {%- if section.settings.gmap and section.settings.gmap_iframe != blank -%}
       <div class="col-12 col-md-8">
@@ -131,10 +133,11 @@
       </div>
       {%- endif -%}
     </div>
+
   </div>
   <div class="contact-from-wrap">
       <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-12">
               {%- form 'contact', id: 'ContactForm' -%}
               {%- if form.posted_successfully? -%}
               <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
@@ -204,24 +207,24 @@
               </div>
           {%- endform -%}
           </div>
-          <div class="col-md-4 contact_our">
-              {%- if section.settings.moreinfo_title != blank -%}
-              <h2 class="mb-3 mb-lg-4 title-contact_our">
-                  {{section.settings.moreinfo_title}}
-              </h2>
-              {%- endif -%}
-              {%- for block in section.blocks -%}
-              <div class="our-staff">
-                  <img class="mr-3" src="{{ block.settings.icon | img_url:'90x' }}">
-                  <div class="media-body">
-                    <h5 class="our-staff-header">{{ block.settings.title }}</h5>
-                    <div>
-                        {{ block.settings.description }}
-                    </div>
-                  </div>
-              </div>
-              {%- endfor -%}
-          </div>
+          {% comment %}<div class="col-md-4 contact_our">{% endcomment %}
+              {% comment %}{%- if section.settings.moreinfo_title != blank -%}{% endcomment %}
+              {% comment %}<h2 class="mb-3 mb-lg-4 title-contact_our">{% endcomment %}
+                  {% comment %}{{section.settings.moreinfo_title}}{% endcomment %}
+              {% comment %}</h2>{% endcomment %}
+              {% comment %}{%- endif -%}{% endcomment %}
+              {% comment %}{%- for block in section.blocks -%}{% endcomment %}
+              {% comment %}<div class="our-staff">{% endcomment %}
+                  {% comment %}<img class="mr-3" src="{{ block.settings.icon | img_url:'90x' }}">{% endcomment %}
+                  {% comment %}<div class="media-body">{% endcomment %}
+                    {% comment %}<h5 class="our-staff-header">{{ block.settings.title }}</h5>{% endcomment %}
+                    {% comment %}<div>{% endcomment %}
+                        {% comment %}{{ block.settings.description }}{% endcomment %}
+                    {% comment %}</div>{% endcomment %}
+                  {% comment %}</div>{% endcomment %}
+              {% comment %}</div>{% endcomment %}
+              {% comment %}{%- endfor -%}{% endcomment %}
+          {% comment %}</div>{% endcomment %}
       </div>
   </div>
 </div>
