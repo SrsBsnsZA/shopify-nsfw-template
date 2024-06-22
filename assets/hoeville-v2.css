@@ -267,6 +267,7 @@
     align-items: center;
     font-family: 'Made Tommy';
     font-size: 16px;
+    margin-bottom:1px;
 }
 
 .scale li.trigger:before {
@@ -277,7 +278,18 @@
     height: 3px;
     background-color: #000;
 }
-
+.pg .scale #warm-trigger, .lemoan  .scale #cool-trigger, .amateur  .scale #hot-trigger, .hardcore  .scale #x-hottest-trigger{
+    color: #D9175F;
+}
+.xtrahot .scale #hottest-trigger{
+    color: #f393bd;
+}
+.xtrahot .scale .trigger{
+    color: #afddd2;
+}
+.amateur .scale .trigger{
+    color: #f4f4f4;
+}
 .scale li.notch {
     max-width: 16px;
     background-image: linear-gradient(to bottom, #000 2px, transparent 2px);
@@ -292,7 +304,8 @@
 
 .container-right .hoeville-header {
     font-size: 6em;
-    writing-mode: vertical-lr;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
     text-transform: uppercase;
     color: #D9175F;
     width: 60px;

@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 wrapper.classList.remove(prevClass)
                 wrapper.classList.add(wrapperClasses[triggerIndex])
                 prevClass = wrapperClasses[triggerIndex];
-
                 currentIndex = triggerIndex;
                 document.getElementById('squirt').style.opacity = '0';
                 const sections = document.querySelectorAll('.sections');
