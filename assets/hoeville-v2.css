@@ -57,6 +57,19 @@
     display: flex;
 }
 
+.hoeville-section h2{
+    color: #D9175F;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 4.5rem;
+
+}
+.hoeville-section .container-left .hoeville-title{
+    margin-top: 2.5rem;
+}
+.hoeville-section .container-left .type-text{
+    margin-bottom: 2.5rem;
+}
 .hoeville-section  .content-wrapper{
    display: none;
 }
@@ -156,6 +169,35 @@
     z-index: 3;
 }
 
+#hoeville .container-left .oval{
+    position: absolute;
+    height: 40%;
+    width: 95%;
+    border-radius: 50%;
+    display: block;
+    z-index: -99;
+    top: 29%;
+    left: 18%;
+}
+.lemoan .container-left .dick .oval{
+    background: #fff;
+}
+.pg .container-left .dick .oval{
+    background: #f393bd;
+}
+.amateur .container-left .dick .oval{
+    background: #D9175F;
+}
+.xtrahot .container-left .dick .oval{
+    background: #f393bd;
+}
+.hardcore .container-left .dick .oval{
+    background: #aae8d7;
+}
+.pg .container-right .hoeville-content .inner p {
+    color: #D9175F;
+}
+
 #scale-container {
     padding-left: 20px;
     padding-top: 20px;
@@ -167,6 +209,21 @@
     height: 100%;
     background-color: #000;
     position: relative;
+}
+.hardcore #scale-container .rail{
+    background-color: #FFF;
+}
+
+.hardcore .scale li.notch{
+    background-image: linear-gradient(to bottom, #FFF 2px, transparent 2px);
+}
+
+.hardcore .scale:before{
+    background-color: #fff;
+}
+
+.hardcore .scale li.trigger:before{
+    background-color: #fff;
 }
 
 #scale-container .scale svg {
