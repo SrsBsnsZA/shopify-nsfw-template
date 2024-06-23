@@ -44,4 +44,67 @@
      .ambassadwhore-banner-sp .ambassadwhore-img img{
         width: 100% !important;
      }
+     .advanced-image .img_child{
+        display: none !important;
+     }
+     .newsletter-form__field-wrapper .field{
+        margin-bottom: 10px;
+     }
+    #hoeville{
+        flex-wrap: wrap !important;
+    }
+    #hoeville.lemoan{
+        background-color: #afddd2 !important;
+        background-image: none !important;
+    }
+    #hoeville.pg{
+        background-color: #fef4f8 !important;
+        background-image: none !important;
+    }
+    #hoeville.amateur{
+        background-color: #f394be !important;
+        background-image: none !important;
+    }
+    #hoeville.xtrahot{
+        background-color: #d91a60 !important;
+        background-image: none !important;
+    }
+    #hoeville.hardcore{
+        background-color: #191919 !important;
+        background-image: none !important;
+    }
+    #hoeville .container-left{
+        width: 60% !important;
+    }
+    #hoeville .container-left h2{
+        font-size: 2.75em !important;
+    }
+    #hoeville .container-right{
+        width: 100% !important;
+    }
+    #hoeville #scale-container{
+        width: 30% !important;
+        padding-left:5px;
+        padding-right: 10px;
+    }
+    .shopify-section.service{
+        margin-top: 980px;
+    }
+    .advanced-content .event-bar__info{
+        width: 100% !important;
+    }
+    .advanced-content .event-bar__info .event-detail__venue{
+        margin-left:5px;
+    }
+    .advanced-content .event-bar__info .event-detail__date .event-detail__link .text-link span{
+        white-space: wrap !important;
+    }
+    .advanced-content .event-bar__action{
+        width: 100% !important;
+        margin-top: 5px;
+    }
+    .advanced-content .event-bar__wrapper{
+        flex-wrap: wrap;
+        padding: 16px 0px;
+    }
 }
