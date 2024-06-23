@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+    /* .slide-show{
+        height: auto;
+    } */
+     .advert-banner-sp .advert-child .advert__image-wrapper{
+        width: 100% !important;
+     }
+     .advert-banner-sp .advert-child .advert__text{
+        width: 100% !important;
+     }
+     .advert-banner-sp .advert-child .advert__text div{
+        width: 100% !important;
+     }
+     .advert-banner-sp .advert-child .advert__text div h3{
+        color: #afddd2 !important;
+        text-align: left !important;
+        width: 50% !important;
+        line-height: 40px;
+        margin-bottom: 50px;
+     }
+     .advert-banner-sp .advert-child{
+        background-image: -webkit-linear-gradient(285deg, #f390bc 45%, transparent 30%) !important;
+     }
+     .advert-banner-sp .advert-child .advert__text{
+        margin-bottom: 30px !important;
+     }
+     .ambassadwhore-banner-sp .copy{
+        padding: 0px 5px 0px 5px !important;
+     }
+     .ambassadwhore-banner-sp .copy h1{
+        font-size: 4rem !important;
+        letter-spacing: -2px;
+     }
+     .ambassadwhore-banner-sp .copy p{
+        font-size: 16px !important;
+        z-index: 1;
+     }
+     .ambassadwhore-banner-sp .ambassadwhore-img{
+        width: 60% !important;
+        z-index: 0;
+        
+        top:-110px;
+     }
+     .ambassadwhore-banner-sp .ambassadwhore-img img{
+        width: 100% !important;
+     }
+}
