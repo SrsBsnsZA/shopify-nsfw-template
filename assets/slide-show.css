@@ -359,8 +359,8 @@ a.link-base.link-left:hover {
 
 @media (max-width: 450px) {
     .slide-image.media{
-        padding-bottom: 100%!important;
-        padding-left: 233%;
+        /*padding-bottom: 100%!important;*/
+        /*padding-left: 233%;*/
     }
     .slide-image_child {
         display: none;
