@@ -378,6 +378,9 @@
     font-family: 'Made Tommy Bold';
     font-size: 7.5em;
 }
+.hardcore .container-right .hoeville-content .inner p{
+    color: #D9175F;
+}
 
 .container-right .hoeville-content .inner p {
     color: #fff;
@@ -394,4 +397,13 @@
 
 .container-right .hoeville-content .inner .socks img {
     height: 100%;
+}
+.container-right .hoeville-content .inner .sub-wrapper{
+    max-width: 70%;
+}
+.lemoan .container-right .hoeville-content .inner .sub-wrapper{
+    max-width: 90%;
+}
+.hardcore .container-right .hoeville-content .inner .sub-wrapper{
+    max-width: 100%;
 }

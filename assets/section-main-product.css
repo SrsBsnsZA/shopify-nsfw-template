@@ -1109,11 +1109,11 @@ span.item-product>img {
   width: 35px;
 }
 .left-thumbnails .slick-next::before, .right-thumbnails .slick-next::before {
-  content: "\f077";
+  content: "";
   color: #fff;
 }
 .left-thumbnails .slick-prev::before, .right-thumbnails .slick-prev::before {
-  content: "\f078";
+  content: "";
   color: #fff;
 }
 .left-thumbnails .slick-prev, .right-thumbnails .slick-prev {
@@ -1127,7 +1127,7 @@ span.item-product>img {
 }
 .left-thumbnails .slick-next, .left-thumbnails .slick-prev, .right-thumbnails .slick-next, .right-thumbnails .slick-prev {
   left: 0;
-  font-size: 0;
+  font-size: 16px;
   width: 100%;
   height: 20px;
   margin: auto;
