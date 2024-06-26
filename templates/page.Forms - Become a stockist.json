@@ -3,6 +3,8 @@
     "c7f6a48a-0035-4957-8062-e06c17647438": {
       "type": "main-page",
       "settings": {
+        "custom_class" : "cockist-title",
+        "show_title": false
       }
     },
     "forms": {
