@@ -3,6 +3,8 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "custom_class": "faqs mt-20",
+        "show_title" : false
       }
     },
     "page-faqs": {
@@ -118,7 +120,8 @@
         "image": "shopify:\/\/shop_images\/FAQ-Banner-01.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "image_first",
+        "custom_class": "faqs-socks-on"
       }
     }
   },

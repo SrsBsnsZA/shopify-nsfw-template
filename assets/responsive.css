@@ -1,6 +1,13 @@
 .ambassadwhore-img{
     width: 60% !important;
 }
+.faqs-socks-on{
+    width: 73% !important;
+}
+.section-faqs .section-title{
+    margin-top: 40px;
+    color: #D9175F;
+}
 @media only screen and (max-width: 768px) {
     /* .slide-show{
         height: auto;
@@ -9,7 +16,7 @@
         height: calc((100vw - 130px) / 2) !important;
         width: calc((100vw - 50px) / 2) !important;
      } */
-     .ambassadwhore-img{
+     .ambassadwhore-img, .faqs-socks-on{
         width: 100% !important;
     }
     .head-logo{
