@@ -151,6 +151,7 @@
     justify-content: space-between;
     position: relative;
     padding-left: 20px;
+    width: 28%;
 }
 
 #hoeville .container-left h2 {
@@ -337,6 +338,7 @@
     padding-left: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     transition: border-color 0.3s ease-in-out;
 }
 .xtrahot .container-right .hoeville-content .inner{
@@ -351,14 +353,15 @@
     right: 0;
     bottom: 0;
     top: 0;
+    max-width: 555px
 }
 
 .container-right .hoeville-content .inner .copy {
-    width: fit-content;
+    /*width: fit-content;*/
 }
 
 .container-right .hoeville-content .inner .copy .sub-wrapper {
-    padding-right: 100px;
+    /*padding-right: 100px;*/
     text-align: right;
 }
 
@@ -393,17 +396,19 @@
     flex-shrink: 1;
     flex-grow: 0;
     overflow: hidden;
+    max-height: 340px;
 }
 
 .container-right .hoeville-content .inner .socks img {
     height: 100%;
 }
 .container-right .hoeville-content .inner .sub-wrapper{
-    max-width: 70%;
+    width: 55%;
+    /*width: calc(100% - 28% - 555px)*/
 }
-.lemoan .container-right .hoeville-content .inner .sub-wrapper{
-    max-width: 90%;
-}
-.hardcore .container-right .hoeville-content .inner .sub-wrapper{
-    max-width: 100%;
-}
+/*.lemoan .container-right .hoeville-content .inner .sub-wrapper{*/
+/*    max-width: 70%;*/
+/*}*/
+/*.hardcore .container-right .hoeville-content .inner .sub-wrapper{*/
+/*    max-width: 100%;*/
+/*}*/
