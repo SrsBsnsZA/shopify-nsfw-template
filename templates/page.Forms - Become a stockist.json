@@ -7,6 +7,32 @@
         "show_title": false
       }
     },
+    "rich_text_rGH6jA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fcTkJU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a ‘Cockist’ of our scandalous socks",
+            "heading_size": "h1"
+          }
+        },
+        "text_B9kT7N": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Own a store? Feeling a little empty inside? Let’s fill that void. If you’ve got the space, we’ve got the spice. Have Rude Socks strut their saucy stuff on your shelves and watch the temperature rise. Are you daring enough to have us inside you? <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fcTkJU",
+        "text_B9kT7N"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "forms": {
       "type": "apps",
       "blocks": {
@@ -38,6 +64,7 @@
   },
   "order": [
     "c7f6a48a-0035-4957-8062-e06c17647438",
+    "rich_text_rGH6jA",
     "forms"
   ]
 }

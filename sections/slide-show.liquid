@@ -22,7 +22,8 @@
             <div class="slide-image {% if block.settings.image_slide != blank %}media{% else %}image-slide-show__media--placeholder placeholder{% endif %}" style="padding-bottom: {{ 1 | divided_by: block.settings.image_slide.aspect_ratio | times: 100 }}%;"
             >
               {%- if block.settings.image_slide != blank -%}
-              <img
+              
+                <img
                     srcset="
                     {%- if block.settings.image_slide.width >= 1920 -%}{{ block.settings.image_slide | img_url: '1920x' }} 1920w,{%- endif -%}"
                     src="{{ block.settings.image_slide | img_url: '1920x' }}"
@@ -31,6 +32,9 @@
                     loading="lazy"
                     width="{{ block.settings.image_slide.width }}"
                     height="{{ block.settings.image_slide.height }}"
+                    onclick="window.open('{{ block.settings.slide_link }}', '_self')"
+                    role="button"
+                    style="z-index: 100;"
                   >
               {%- else -%}
               {%- capture current -%}{%- cycle 1, 2 -%}{%- endcapture -%}

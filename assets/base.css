@@ -1,6 +1,6 @@
 /* Rude Socks */
 @font-face {
-  font-family: 'LEMON MILK';
+  font-family: 'LEMON MILK B';
   src: url('LEMONMILK-Bold.woff2') format('woff2'),
   url('LEMONMILK-Bold.woff') format('woff');
   font-weight: bold;
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family: 'LEMON MILK';
+  font-family: 'LEMON MILK M';
   src: url('LEMONMILK-Medium.woff2') format('woff2'),
   url('LEMONMILK-Medium.woff') format('woff');
   font-weight: 500;
@@ -37,8 +37,7 @@
 
 @font-face {
   font-family: 'PANTON';
-  src: url('Panton-Regular.woff2') format('woff2'),
-  url('Panton-Regular.woff') format('woff');
+  src: url('Panton-Regular.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -4066,7 +4065,7 @@ body {
   color: #888;
   line-height: 1.25em;
   background: #fff;
-  letter-spacing: 0px;
+  letter-spacing: normal;
 } 
 
 main#MainContent {
