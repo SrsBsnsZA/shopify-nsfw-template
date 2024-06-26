@@ -123,6 +123,7 @@
         "products_per_row": 4,
         "products_per_row_tablet": 3,
         "products_per_row_mobile": 1,
+        "resize_product_row": false,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "add_image_padding": false,

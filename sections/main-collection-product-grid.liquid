@@ -511,7 +511,7 @@
 
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col negative-margin product-grid
-          {% if collection.products_count < section.settings.products_per_row %} grid--{{ collection.products_count }}-col-tablet
+          {% if collection.products_count < section.settings.products_per_row and section.settings.resize_product_row == true %} grid--{{ collection.products_count }}-col-tablet
           {% else %} grid--{{section.settings.products_per_row}}-col-desktop-collection grid--{{section.settings.products_per_row_tablet}}-col-tablet-collection grid--{{section.settings.products_per_row_mobile}}-col-mobile-collection grid--one-third-max grid--quarter-max
           {% endif %}">
           {%- for product in collection.products -%}
@@ -573,6 +573,12 @@
       "default": 4,
       "label": "Desktop Products per row"
     },
+  {
+      "type": "checkbox",
+      "id": "resize_product_row",
+      "default": true,
+      "label": "Resize product row when count is lower than products per row"
+  },
 	{
       "type": "range",
       "id": "products_per_row_tablet",

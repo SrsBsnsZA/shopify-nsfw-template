@@ -37,12 +37,15 @@
           <div class="row js-wishlist-content">
             <ul class="grid grid--2-col grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max">
               {%- for product in collections.all.products limit: 1 -%}
+                <h1 style="margin-left: auto;margin-right: auto;">Wishlist</h1>
                 <li class="grid__item wishlist-template" style="display:none">
                   {% render 'product-grid-1',
                       product_card_product: product,
                       media_size: 'adapt'
                     %}
                 </li>
+                {% else %}
+                <h1>Wishlist is empty</h1>
               {%- endfor -%}
             </ul>
           </div>
