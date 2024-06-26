@@ -1,4 +1,4 @@
-.ambassadwhore-img{
+.ambassadwhore-page-img{
     width: 60% !important;
 }
 .faqs-socks-on{
@@ -16,7 +16,7 @@
         height: calc((100vw - 130px) / 2) !important;
         width: calc((100vw - 50px) / 2) !important;
      } */
-     .ambassadwhore-img, .faqs-socks-on{
+     .ambassadwhore-page-img, .faqs-socks-on{
         width: 100% !important;
     }
     .head-logo{

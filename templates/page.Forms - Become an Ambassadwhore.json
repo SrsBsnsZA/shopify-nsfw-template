@@ -64,7 +64,7 @@
     "image_with_text_tEcmEw": {
       "type": "image-with-text",
       "settings": {
-        "custom_class": "ambassadwhore-img",
+        "custom_class": "ambassadwhore-page-img",
         "image": "shopify:\/\/shop_images\/Couch.png",
         "height": "adapt",
         "color_scheme": "background-1",
