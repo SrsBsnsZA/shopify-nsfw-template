@@ -593,10 +593,10 @@
         
         {%- when 'productstock' -%}
         	{% render 'productStock', product: product %}
-        
+       
         {%- when 'fake_viewer' -%}
-        	{% render 'fake_viewer', product: product, settings: block.settings %}
-
+        	{% render 'fake_viewer', product: product, settings: block.settings %} 
+      
       {%- when 'productcat' -%}
           {%- if block.settings.show_productcat -%}
               {%- assign hoeville = 'Le` Moan & Erb' -%}
@@ -1367,6 +1367,12 @@
       "limit": 1,
       "settings": 
       [
+        {
+          "type": "checkbox",
+          "id": "fake_view_show",
+          "default": true,
+          "label": "Show Fake Viewer?"
+        },
         {
           "type": "text",
           "id": "fake_view_text_suffix",

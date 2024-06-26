@@ -34,16 +34,13 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "e8ecaeae-95c2-4218-a258-0132df2380b4": {
           "type": "fake_viewer",
           "settings": {
-            "fake_view_text_suffix": "Currently there are %c% peoples are currently looking at this product",
-            "fake_view_min": "10",
-            "fake_view_max": "25",
-            "fake_view_duration": "1500"
+            "fake_view_show": false,
           }
         },
         "2bef7c12-0481-424f-b6d4-ecf5cf448d05": {

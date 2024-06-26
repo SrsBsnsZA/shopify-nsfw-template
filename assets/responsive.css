@@ -9,6 +9,40 @@
     display: inline-block;
     transition: opacity 0.3s ease-in-out;
 }
+.btn.btn-secondary{
+    background-color:#afddd2 !important;
+    color: #fff !important;
+    border-color: #afddd2 !important;
+    font-size: 20px;
+    font-family: 'Made Tommy Black';
+    padding: 16px;
+    border-radius: 40px;
+    display: inline-block;
+    transition: opacity 0.3s ease-in-out;
+}
+.btn.btn-primary-dark{
+    background-color:#D9175F !important;
+    color: #fff !important;
+    border-color: #D9175F !important;
+    font-size: 20px;
+    font-family: 'Made Tommy Black';
+    padding: 16px;
+    border-radius: 40px;
+    display: inline-block;
+    transition: opacity 0.3s ease-in-out;
+}
+.btn.btn-secondary:hover{
+    background-color: #f390bc !important;
+    border-color: #f390bc !important;
+    box-shadow: 0 0 0 0.2rem #f390bc !important;
+
+}
+.btn.btn-primary-dark:hover, .btn.btn-primary:hover{
+    background-color: #aae8d7 !important;
+    border-color: #aae8d7 !important;
+    box-shadow: 0 0 0 0.2rem #aae8d7 !important;
+    
+}
 .ambassadwhore-page-img{
     width: 60% !important;
 }

@@ -13,9 +13,9 @@
                 {{ section.settings.copy }}
             </p>
             <div class="ambassadwhore_button_container">
-                <a class="custom-btn" href="{{ section.settings.button_link | default: '#' }}"
+                <a class="custom-btn {{ section.settings.button_class }}" href="{{ section.settings.button_link | default: '#' }}"
                    style="background-color: #afddd2; color: #ffffff">{{ section.settings.button_text }}</a>
-                <a class="custom-btn ml-10" href="{{ section.settings.button_2_link | default: '#' }}"
+                <a class="custom-btn {{ section.settings.button_2_class }} ml-10" href="{{ section.settings.button_2_link | default: '#' }}"
                   style="background-color: #afddd2; color: #ffffff">{{ section.settings.button_2_text }}</a>
             </div>
         </div>
@@ -123,7 +123,17 @@
       "type": "text",
       "id": "top_header_class",
       "label": "Top Header Class"
-    }
+    },
+    {
+      "type": "text",
+      "id": "button_class",
+      "label": "Button Class"
+    },
+    {
+      "type": "text",
+      "id": "button_2_class",
+      "label": "Button 2 Class"
+    },
   ],
   "presets": [
     {
