@@ -3,6 +3,8 @@
     "2dea019e-5454-4ddf-8dfd-37b10ebab042": {
       "type": "main-page",
       "settings": {
+        "custom_class": "ambassadwhore",
+        "show_title": false,
       }
     },
     "rich_text_rGH6jA": {
@@ -62,6 +64,7 @@
     "image_with_text_tEcmEw": {
       "type": "image-with-text",
       "settings": {
+        "custom_class": "ambassadwhore-img",
         "image": "shopify:\/\/shop_images\/Couch.png",
         "height": "adapt",
         "color_scheme": "background-1",

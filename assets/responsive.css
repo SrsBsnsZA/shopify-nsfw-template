@@ -1,3 +1,6 @@
+.ambassadwhore-img{
+    width: 60% !important;
+}
 @media only screen and (max-width: 768px) {
     /* .slide-show{
         height: auto;
@@ -6,6 +9,13 @@
         height: calc((100vw - 130px) / 2) !important;
         width: calc((100vw - 50px) / 2) !important;
      } */
+     .ambassadwhore-img{
+        width: 100% !important;
+    }
+    .head-logo{
+        margin-left:auto;
+        margin-right: auto;
+    }
      .advert-banner-sp .advert-child .advert__image-wrapper{
         width: 100% !important;
      }
