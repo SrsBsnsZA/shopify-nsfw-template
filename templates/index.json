@@ -38,7 +38,7 @@
             "sub_title": "",
             "title": "",
             "content": "",
-            "slide_link": "shopify:\/\/collections\/all",
+            "slide_link": "https://allmylinks.com/kajira",
             "link": "",
             "btn_link": "",
             "text_align": "center",
@@ -329,13 +329,21 @@
     "ambassadwhore_RriecC": {
       "type": "ambassadwhore",
       "settings": {
-        "main_header": "BECOME AN AMBASSADWORE",
-        "copy": "This is your one and only opportunity to become the best you ahve ever been in our socks. Apply today to become a raging ambassadwhore.",
-        "button_text": "APPLY NOW",
+        "main_header": "WEARING SOCKS DURING SEX INCREASES CHANCE OF ORGASM",
+        "copy": "<i>“When they gave couples socks to wear, about 80% of the couples were able to achieve orgasm compared with 50% previously in this staged environment”</i><br/>Professor Gert Holstege - The university of Groningen",
+        "button_text": "VIEW STUDY",
         "bg_color_1": "#afddd2",
-        "bg_color_2": "#ffffff",
-        "button_link": "shopify:\/\/pages\/ambassadwhore",
-        "image": "shopify:\/\/shop_images\/become_an_ambassadwhore.webp"
+        "bg_color_2": "#fff4f8",
+        "button_link": "http://news.bbc.co.uk/2/hi/health/4111360.stm",
+        "button_2_link": "shopify:\/\/collections\/all",
+        "button_2_text": "APPLY NOW",
+        "image": "shopify:\/\/shop_images\/become_an_ambassadwhore.webp",
+        "top_header": "Increase your chances of fireworks",
+        "top_header_font": "Freestyle Script",
+        "top_header_font_size": "42px",
+        "top_header_color": "#f393bd",
+        "top_header_style": "width:100%;  text-align: left;",
+        "top_header_class": "ml-10"
       }
     }
   },

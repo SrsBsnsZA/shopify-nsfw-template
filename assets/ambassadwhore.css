@@ -5,7 +5,7 @@
 .ambassadwhore-banner-sp h1{
     font-family: "Made Tommy Black";
     font-size: 4.5em;
-    color: rgb(255, 147, 198);
+    color: #afddd2;
     letter-spacing: -5px;
 }
 .ambassadwhore-banner-sp p{
@@ -13,7 +13,7 @@
     line-height: 1;
 }
 .ambassadwhore-banner-sp .copy{
-    max-width: 650px;
+    max-width: 65%;
     margin: auto 0;
     padding-left:70px;
     display: flex;
