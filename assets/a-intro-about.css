@@ -1,5 +1,9 @@
 .a-intro-about.color-background-1 {
     padding-bottom: 0;
+    background-color: #fff4f8 !important;
+}
+.a-intro-about-template {
+    background-color: #fff4f8 !important;
 }
 .intro_about img.advanced__image {
     width: 100%;
@@ -23,18 +27,18 @@
     margin: auto;
     font-size: 36px;
     line-height: 48px;
-    color: #000;
+    color: #fff4f8;
 }
 .a-intro-about_text.text-start {
-    background-color: white;
+    background-color: #f393bd ;
 }
 h3.a-intro-about_text-title {
     display: block;
     margin: auto;
-    background: #fff;
+    background: #f393bd;
     font-size: 36px;
     line-height: 48px;
-    color: #000;
+    color: #fff4f8;
     font-family: 'Made Tommy Black', sans-serif;
 }
 p.a-intro-about_text-content {
