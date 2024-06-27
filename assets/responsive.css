@@ -234,8 +234,14 @@
     #shopify-section-template--22895193719090__advanced_content_Cgrrw7{
         padding-bottom: 0px !important;
     }
-    .ambassadwhore_button_container .custom-btn{
-
+    .ambassadwhore_button_container .custom-btn.btn.btn-secondary{
+        background-color: #ffe9f4!important;
+        border-color: #ffe9f4!important;
+        margin-left: 0!important;
+        margin-bottom: 10px;
+    }
+    .rude-collection .rude-rail{
+        grid-gap: 0!important;
     }
 }
 
