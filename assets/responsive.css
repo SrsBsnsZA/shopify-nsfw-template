@@ -140,7 +140,7 @@
         background-image: none !important;
     }
     #hoeville .container-left{
-        width: 60% !important;
+        width: 55% !important;
     }
     #hoeville .container-left h2{
         font-size: 2.5em !important;
@@ -157,7 +157,12 @@
         font-size: 4em;
     }
     #hoeville .container-right .hoeville-content{
-        width: 75% !important;
+        padding-left:0;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     #hoeville .container-right .hoeville-content h1{
         font-size: 3.5em !important;
@@ -167,6 +172,7 @@
     }
     #hoeville .container-right .hoeville-content .inner .copy .sub-wrapper{
         padding-right: 3px !important;
+        width: 100%;
     }
     #hoeville .container-right .hoeville-content .pg-content .inner .copy h1, #hoeville .container-right .hoeville-content .pg-content .inner .copy p{
         color:#FFF !important;
@@ -188,6 +194,15 @@
     }
     .advanced-content .event-bar__info{
         width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        gap:16px
+    }
+    #shopify-section-template--22871714496818__advanced_content_Cgrrw7{
+        padding-bottom: 16px!important;
+    }
+    #shopify-section-template--22871714496818__1718863000484d0272{
+        margin-top: 16px!important;
     }
     .advanced-content .event-bar__info .event-detail__venue{
         margin-left:5px;
@@ -197,7 +212,7 @@
     }
     .advanced-content .event-bar__action{
         width: 100% !important;
-        margin-top: 5px;
+        margin-top: 16px;
     }
     .advanced-content .event-bar__wrapper{
         flex-wrap: wrap;
@@ -218,6 +233,9 @@
     }
     #shopify-section-template--22895193719090__advanced_content_Cgrrw7{
         padding-bottom: 0px !important;
+    }
+    .ambassadwhore_button_container .custom-btn{
+
     }
 }
 
