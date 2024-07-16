@@ -8,26 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'xtrahot',
             'hardcore'
     ];
-    //   //
-    //   // const handleTextBlock = (index) => {
-    //   //   const textBlock = wrapper.querySelector(`[data-hoeville="${index}"]`)
-    //   //   if(textBlock){
-    //   //     const textSections = document.querySelectorAll('.hoeville-text-wrapper')
-    //   //     for(const section of textSections){
-    //   //       if(parseInt(section.getAttribute('data-hoeville')) !== index) {
-    //   //         section.style.display = 'none'
-    //   //       }else{
-    //   //         if (section.style.removeProperty) {
-    //   //           section.style.removeProperty('display');
-    //   //         } else {
-    //   //           section.style.removeAttribute('display');
-    //   //         }
-    //   //       }
-    //   //     }
-    //   //   }
-    //   // }
-    //   //
-    const slideIndy = document.getElementById('indy');
+
+    // const slideIndy = document.getElementById('indy');
     var prevClass = 'lemoan'
     const animate = (index, triggerIndex) => {
         if (index > triggerIndex) return;
@@ -45,45 +27,66 @@ document.addEventListener('DOMContentLoaded', function() {
         const grad2 = document.getElementById(`${index}-grad-2`);
         grad2.beginElement();
 
-        const slidePos = [
-            'calc(0% - 15px)',
-            'calc(25% - 20px)',
-            'calc(50% - 25px)',
-            'calc(75% - 30px)',
-            'calc(100% - 35px)',
-        ];
-        slideIndy.style.bottom = `${slidePos[triggerIndex -1]}`;
+        // const slidePos = [
+        //     'calc(0% - 15px)',
+        //     'calc(25% - 20px)',
+        //     'calc(50% - 25px)',
+        //     'calc(75% - 30px)',
+        //     'calc(100% - 35px)',
+        // ];
+        // slideIndy.style.bottom = `${slidePos[triggerIndex -1]}`;
     };
 
     if (wrapper) {
-        var triggers = document.getElementsByClassName('trigger');
+        const slider = document.getElementById('range-slider');
+
+        slider.addEventListener('input', function(e) {
+            const triggerIndex = e.target.value / 25
+            if (currentIndex === triggerIndex) return;
+
+            wrapper.classList.remove(prevClass)
+            wrapper.classList.add(wrapperClasses[triggerIndex])
+            prevClass = wrapperClasses[triggerIndex];
+            currentIndex = triggerIndex;
+            document.getElementById('squirt').style.opacity = '0';
+            const sections = document.querySelectorAll('.sections');
+            for (const section of sections) {
+                section.style.display = 'none';
+            }
+            for (let index = 0; index < (triggerIndex + 1); index++) {
+                setTimeout(() => {
+                    animate(index, (triggerIndex + 1));
+                }, (200 * index));
+            }
+        }, false);
+        // var triggers = document.getElementsByClassName('trigger');
 
         animate(currentIndex, 0);
 
-        for (const trigger of triggers) {
-            trigger.addEventListener('click', () => {
-                const triggerIndex = parseInt(
-                        trigger.getAttribute('data-trigger-index'));
-
-
-                if (currentIndex === triggerIndex) return;
-
-                wrapper.classList.remove(prevClass)
-                wrapper.classList.add(wrapperClasses[triggerIndex])
-                prevClass = wrapperClasses[triggerIndex];
-                currentIndex = triggerIndex;
-                document.getElementById('squirt').style.opacity = '0';
-                const sections = document.querySelectorAll('.sections');
-                for (const section of sections) {
-                    section.style.display = 'none';
-                }
-                for (let index = 0; index < (triggerIndex + 1); index++) {
-                    setTimeout(() => {
-                        animate(index, (triggerIndex + 1));
-                    }, (200 * index));
-                }
-
-            });
-        }
+        // for (const trigger of triggers) {
+        //     trigger.addEventListener('click', () => {
+        //         const triggerIndex = parseInt(
+        //                 trigger.getAttribute('data-trigger-index'));
+        //
+        //
+        //         if (currentIndex === triggerIndex) return;
+        //
+        //         wrapper.classList.remove(prevClass)
+        //         wrapper.classList.add(wrapperClasses[triggerIndex])
+        //         prevClass = wrapperClasses[triggerIndex];
+        //         currentIndex = triggerIndex;
+        //         document.getElementById('squirt').style.opacity = '0';
+        //         const sections = document.querySelectorAll('.sections');
+        //         for (const section of sections) {
+        //             section.style.display = 'none';
+        //         }
+        //         for (let index = 0; index < (triggerIndex + 1); index++) {
+        //             setTimeout(() => {
+        //                 animate(index, (triggerIndex + 1));
+        //             }, (200 * index));
+        //         }
+        //
+        //     });
+        // }
     }
 });
