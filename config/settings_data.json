@@ -18,7 +18,7 @@
     "type_body_font": "sans-serif",
     "font_google": true,
     "font_header_google": "\"Made Tommy Black\", sans-serif",
-    "font_body_google": "\"PANTON\", sans-serif;",
+    "font_body_google": "\"ROBOTO\", sans-serif;",
     "font_user": true,
     "name_font_header_user": "\"Made Tommy Black\", sans-serif",
     "font_header_user": "",
@@ -106,6 +106,7 @@
     "apmenuitem_columns_blocklinks_3": "12",
     "apmenuitem_columns_3": "6",
     "apmenuitem_childlink_3": "child-page",
+    "free_shipping_value": 500,
     "spend_free_shipping_text": "Spend %% for <b>FREE SHIPPING<\/b>",
     "free_shipping_bar1": "#cccccc",
     "free_shipping_bar2": "#000000",
@@ -592,7 +593,7 @@
           "logo_image": "shopify:\/\/shop_images\/logo-simple.png",
           "newsletter_enable": true,
           "newsletter_heading": "JOIN THE PARTY",
-          "newsletter_description": "Allow us to slide into your dms with all the juiciest gossip and sexy deals. Receive 15% off your first order when you sign up",
+          "newsletter_description": "Allow us to slide into your dms with all the juiciest gossip and sexy deals. Receive 10% off your first order when you sign up",
           "show_copyright": true,
           "show_social": false,
           "icon_card_footer": true,
@@ -671,5 +672,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }

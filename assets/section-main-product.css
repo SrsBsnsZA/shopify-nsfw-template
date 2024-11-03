@@ -1145,4 +1145,7 @@ span.item-product>img {
   .product {
     margin: 40px 0 0;
   }
+  
+.product__media-toggle {display: none !important;}
+.product__modal-opener .product__media-icon {display: none !important;}
 }
