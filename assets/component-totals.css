@@ -17,6 +17,10 @@
   margin-left: 2rem;
 }
 
+.totals__subtotal {
+    text-transform: uppercase;
+}
+
 .totals__subtotal-value {
   font-size: 1.8rem;
 }

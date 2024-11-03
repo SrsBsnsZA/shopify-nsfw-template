@@ -1369,7 +1369,8 @@ deferred-media {
   border: 0;
   border-radius: 0;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
+   /* not sure of the purpose of the below, maybe needed somewhere but not great on buttons not this color  */
+  /* box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border)); */
   color: rgb(var(--color-button-text));
   min-width: 12rem;
   min-height: 4.5rem;
@@ -4324,6 +4325,12 @@ p.upsell-promotion {
 
 label.field__label {
   color: #000;
+}
+
+#wishlistEmpty {
+    font-family: 'Moderat Extended';
+    font-size: 3rem;
+    color: #888;
 }
 /* CSS MODAL UP */
 .modal-email input#NewsletterForm-- {

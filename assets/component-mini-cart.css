@@ -14,7 +14,7 @@ border: none;
 }
 .product-minincart{
     position: absolute;
-    border-top: 0.3rem solid #000;
+    /* border-top: 0.3rem solid #000; */
     top: 150%;
     right: -20px;
     text-align: center;
