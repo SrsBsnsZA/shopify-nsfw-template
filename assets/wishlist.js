@@ -51,11 +51,13 @@ class wishlistpage extends HTMLElement {
   }
   
   displayPage(evt) {
-    if (typeof($.cookie('wishlist')) != 'undefined') {
-      var wishlist = $.cookie('wishlist').split(",");
-      if (wishlist.length) {
-        document.querySelector('product-wishlistpage').addProductItem(wishlist, 0);
-      }
+    if (
+      typeof $.cookie("wishlist") != "undefined" &&
+      $.cookie("wishlist").length
+    ) {
+        document.querySelector("product-wishlistpage").addProductItem($.cookie("wishlist").split(","), 0);
+    } else {
+        $('#wishlistEmpty').show();
     }
   }
   
@@ -73,6 +75,10 @@ class wishlistpage extends HTMLElement {
 
           $.cookie('wishlist', wishlist.join(','), { expires: 60, path: '/' });
           $(this).closest('.grid__item').remove();
+
+          if (!wishlist.length) {
+            $("#wishlistEmpty").show();
+          }
           
         } else {
           $(".num-wishlisted").html(0);
