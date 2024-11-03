@@ -47,7 +47,7 @@
                         <h2 class="title-footer">CONTACT US
                         </h2>
                         <div class="contact">
-                            {{ section.settings.email_address }}
+                          <a href="mailto:{{ section.settings.email_address }}">{{ section.settings.email_address }}</a>
                         </div>
                         {%- render 'vertical-menu-footer', block: block -%}
                     </div>

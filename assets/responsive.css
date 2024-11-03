@@ -105,7 +105,7 @@
         width: 60% !important;
         z-index: 0;
         
-        top:-110px;
+        top:-99px;
      }
      .ambassadwhore-banner-sp .ambassadwhore-img img{
         width: 100% !important;
@@ -191,6 +191,12 @@
     }
     .shopify-section.service{
         margin-top: 740px;
+    }
+    #shopify-section-template--23031496900914__164195829130918a09.shopify-section.service{
+        margin-top: 0;
+    }
+    .a-intro-about .img-child:last-child{
+        margin-top:30px
     }
     .advanced-content .event-bar__info{
         width: 100% !important;

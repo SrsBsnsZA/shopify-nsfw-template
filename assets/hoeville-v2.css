@@ -204,6 +204,12 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.rail.new{
+    position: relative;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 #scale-container .rail {
     width: 10px;
@@ -412,3 +418,24 @@
 /*.hardcore .container-right .hoeville-content .inner .sub-wrapper{*/
 /*    max-width: 100%;*/
 /*}*/
+
+.hoeville-section input[type=range][orient=vertical] {
+    height: 100%;
+    writing-mode: vertical-lr;
+    direction: rtl;
+    appearance: slider-vertical;
+    width: 16px;
+    vertical-align: bottom;
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+.hoeville-section input[type=range][orient=vertical]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    background: url('hoveville-slide.svg');
+}
