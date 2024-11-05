@@ -4611,5 +4611,35 @@
         "label": "t:settings_schema.age-check.settings.age_check_ok.label"
       }
     ]
+  },
+  {
+    "name": "t:settings_schema.rating-icons.name",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "lemoan_button",
+        "label": "Lemoan Icon"
+      },
+      {
+        "type": "image_picker",
+        "id": "mild_button",
+        "label": "Mild Icon"
+      },
+      {
+        "type": "image_picker",
+        "id": "hot_button",
+        "label": "Hot Icon"
+      },
+      {
+        "type": "image_picker",
+        "id": "xxx_button",
+        "label": "XXX-Hot Icon"
+      },
+      {
+        "type": "image_picker",
+        "id": "hard_button",
+        "label": "Hardcore Icon"
+      }
+    ]
   }
 ]
