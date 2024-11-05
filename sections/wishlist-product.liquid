@@ -1,0 +1,31 @@
+<p>test</p>
+{% if request.query.product %}
+  {% assign product = all_products[request.query.product] %}
+  
+  {% if product %}
+
+    <li class="grid__item">
+        {% render 'product-card',
+            product_card_product: product,
+            media_size: 'adapt',
+            show_secondary_image: true,
+            add_image_padding: false,
+            show_vendor: false,
+            show_image_outline: true,
+            show_rating: true,
+            enable_background: true,
+            background: '#ebebeb',
+            lemoan_button: 'shopify:\/\/shop_images\/lemoan_c2c46608-8bf3-4a27-84e5-ad94fa24736d.png',
+            mild_button: 'shopify:\/\/shop_images\/mild_d9e5d0a6-91c9-48e3-be6a-4d97967f40c8.png',
+            hot_button: 'shopify:\/\/shop_images\/hot.png',
+            xxx_button: 'shopify:\/\/shop_images\/xxxhot.png',
+            hard_button: 'shopify:\/\/shop_images\/hardcore_419e3aba-695d-4514-8130-156675de8d6e.png'
+        %}
+        <button class="js-btn-remove-wishlist" data-handle="{{ product.handle }}">Remove item</button>
+    </li>
+
+  {% endif %}
+
+{% else %}
+<p>missing</p>
+{% endif %}
