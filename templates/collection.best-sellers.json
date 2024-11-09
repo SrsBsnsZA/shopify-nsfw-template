@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "product_banner_ffgCxE": {
+      "type": "product-banner",
+      "blocks": {
+        "featured_collection_WiV6ED": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "le-moan-erb",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-04.webp"
+          }
+        },
+        "featured_collection_kYKYPm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mild-pg13",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-03.webp"
+          }
+        },
+        "featured_collection_aXp4H9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hot",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-02.webp"
+          }
+        },
+        "featured_collection_YgXnWD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xxxtra-hot",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-01.webp"
+          }
+        },
+        "featured_collection_HFLnhq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hardcore",
+            "advert_image": "shopify:\/\/shop_images\/HOEVILLE_subsection_Banners_2-05.webp"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_WiV6ED",
+        "featured_collection_kYKYPm",
+        "featured_collection_aXp4H9",
+        "featured_collection_YgXnWD",
+        "featured_collection_HFLnhq"
+      ],
+      "settings": {}
+    },
+    "rude_collections_ijrWGC": {
+      "type": "rude-collections",
+      "blocks": {
+        "featured_collection_a8DEwm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "le-moan-erb",
+            "advert_image": "shopify:\/\/shop_images\/lemoan-main.png",
+            "hover_image": "shopify:\/\/shop_images\/lemoan_756fd93b-cf90-4e20-99b3-1ec0b37a19e2.png"
+          }
+        },
+        "featured_collection_WdBmFp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mild-pg13",
+            "advert_image": "shopify:\/\/shop_images\/mild-main.png",
+            "hover_image": "shopify:\/\/shop_images\/mild_da5ea355-609f-4010-82a5-e984b61c137b.png"
+          }
+        },
+        "featured_collection_fWGWFR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hot",
+            "advert_image": "shopify:\/\/shop_images\/hot-main.png",
+            "hover_image": "shopify:\/\/shop_images\/hot_4c659d68-25cd-47b4-9553-3f5c8f9943a7.png"
+          }
+        },
+        "featured_collection_VKdy34": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xxxtra-hot",
+            "advert_image": "shopify:\/\/shop_images\/xxx-main.png",
+            "hover_image": "shopify:\/\/shop_images\/xxx.png"
+          }
+        },
+        "featured_collection_Y4i4k8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hardcore",
+            "advert_image": "shopify:\/\/shop_images\/hard-main.png",
+            "hover_image": "shopify:\/\/shop_images\/hard.png"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_a8DEwm",
+        "featured_collection_WdBmFp",
+        "featured_collection_fWGWFR",
+        "featured_collection_VKdy34",
+        "featured_collection_Y4i4k8"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "custom_liquid_RzU97C": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"collection-hero container\"><div class=\"collection-hero__inner page-width\"><div class=\"collection-hero__text-wrapper\">\n<h1 class=\"collection-hero__title\">The Porn Stars</h1>\n<div class=\"collection-hero__description rte\">\n{{ collection.description }}\n</div></div></div></div>"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "products_per_row": 4,
+        "hide_pagination": true,
+        "resize_product_row": false,
+        "products_per_row_tablet": 3,
+        "products_per_row_mobile": 1,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_filtering": false,
+        "position_left_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false,
+        "enable_product_background": true,
+        "product_background": "#ebebeb",
+        "lemoan_button": "shopify:\/\/shop_images\/lemoan_c2c46608-8bf3-4a27-84e5-ad94fa24736d.png",
+        "mild_button": "shopify:\/\/shop_images\/mild_d9e5d0a6-91c9-48e3-be6a-4d97967f40c8.png",
+        "hot_button": "shopify:\/\/shop_images\/hot.png",
+        "xxx_button": "shopify:\/\/shop_images\/xxxhot.png",
+        "hard_button": "shopify:\/\/shop_images\/hardcore_419e3aba-695d-4514-8130-156675de8d6e.png"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product_banner_ffgCxE",
+    "rude_collections_ijrWGC",
+    "custom_liquid_RzU97C",
+    "product-grid"
+  ]
+}

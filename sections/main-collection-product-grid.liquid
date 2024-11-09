@@ -19,6 +19,11 @@
 <div class="ap-left-filter">
 {%- endif -%}
 
+{%- if section.settings.hide_pagination == blank or section.settings.hide_pagination == false -%}
+    {%- assign show_pagination = true -%}
+{%- endif -%}
+
+
 <div class="collection-filters {%- if section.settings.position_left_filtering != true -%}{{ 'container' | prepend: ' ' }}{%- endif -%}" id="main-collection-filters" data-id="{{ section.id }}">
   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
     {%- assign total_active_values = 0 -%}
@@ -514,30 +519,30 @@
           {% if collection.products_count < section.settings.products_per_row and section.settings.resize_product_row == true %} grid--{{ collection.products_count }}-col-tablet
           {% else %} grid--{{section.settings.products_per_row}}-col-desktop-collection grid--{{section.settings.products_per_row_tablet}}-col-tablet-collection grid--{{section.settings.products_per_row_mobile}}-col-mobile-collection grid--one-third-max grid--quarter-max
           {% endif %}">
-          {%- for product in collection.products -%}
-            <li class="grid__item grid__item-{{section.settings.products_per_row}}">
-              {% render 'product-card',
-                product_card_product: product,
-                media_size: section.settings.image_ratio,
-                show_secondary_image: section.settings.show_secondary_image,
-                add_image_padding: section.settings.add_image_padding,
-                show_vendor: section.settings.show_vendor,
-                show_image_outline: section.settings.show_image_outline,
-                show_rating: section.settings.show_rating,
-                show_type: section.settings.show_type,
-                enable_background: section.settings.enable_product_background,
-                background: section.settings.product_background,
-                lemoan_button: section.settings.lemoan_button,
-                mild_button : section.settings.mild_button,
-                hot_button : section.settings.hot_button,
-                xxx_button : section.settings.xxx_button,
-                hard_button : section.settings.hard_button
-              %}
-            </li>
-          {%- endfor -%}
+            {%- for product in collection.products -%}
+                <li class="grid__item grid__item-{{section.settings.products_per_row}}">
+                {% render 'product-card',
+                    product_card_product: product,
+                    media_size: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    add_image_padding: section.settings.add_image_padding,
+                    show_vendor: section.settings.show_vendor,
+                    show_image_outline: section.settings.show_image_outline,
+                    show_rating: section.settings.show_rating,
+                    show_type: section.settings.show_type,
+                    enable_background: section.settings.enable_product_background,
+                    background: section.settings.product_background,
+                    lemoan_button: section.settings.lemoan_button,
+                    mild_button : section.settings.mild_button,
+                    hot_button : section.settings.hot_button,
+                    xxx_button : section.settings.xxx_button,
+                    hard_button : section.settings.hard_button
+                %}
+                </li>
+            {%- endfor -%}
         </ul>
 
-        {%- if paginate.pages > 1 -%}
+        {%- if paginate.pages > 1 and show_pagination -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}
         {%- endif -%}
       </div>
@@ -596,6 +601,12 @@
       "step": 1,
       "default": 1,
       "label": "Mobile products per row"
+    },
+    {
+        "type": "checkbox",
+        "id": "hide_pagination",
+        "default": false,
+        "label": "Hide pagination (limit to 1 page)"
     },
     {
       "type": "header",
