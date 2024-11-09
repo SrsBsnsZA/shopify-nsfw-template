@@ -3506,7 +3506,8 @@ leofa-times:before {
 .js-btn-wishlist{
  cursor: pointer; 
 }
-.js-btn-wishlist.active i{
+.js-btn-wishlist.active i,
+.js-btn-remove-wishlist.active i {
   color:#ff0000;
 }
 .js-btn-compare{
@@ -4321,6 +4322,9 @@ p.upsell-promotion {
 /* CSS wishlist  */
 .content-block {
   margin: 30px 0; 
+}
+.content-block > h1 {
+    margin-bottom: 4rem;
 }
 
 label.field__label {

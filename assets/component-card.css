@@ -344,13 +344,16 @@
 .servicer-product .leofa-heart:before {
   content: "\f004";
 }
+.servicer-product .leofa-heart-broken:before {
+  content: "\f7a9";
+}
 .servicer-product .leofa-sync:before {
   content: '\f074';
 }
 .servicer-product .leofa-shopping-basket:before {
   content: '\f290';
 }
-.servicer-product .leofa-heart:before, .servicer-product .leofa-search:before, .servicer-product .leofa-shopping-basket:before, .servicer-product .leofa-sync:before {
+.servicer-product .leofa-heart:before, .servicer-product .leofa-heart-broken:before, .servicer-product .leofa-search:before, .servicer-product .leofa-shopping-basket:before, .servicer-product .leofa-sync:before {
   font-size: 18px;
   transition: all .1s;
   display: block;

@@ -1,5 +1,12 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-rating.css' | asset_url | stylesheet_tag }}
+{{ 'product-grid-3.css' | asset_url | stylesheet_tag }}
+
 <style>
+.product-grid .grid__item {
+    padding: 0 15px;
+}
 .container--wishlist .media img{
   position: relative;
   width: 100%;
@@ -33,25 +40,17 @@
 </style>
 <product-wishlistpage>
   <div class="page-width container--wishlist">
-        <div style="display: none"
-            data-lemoan="{{ theme.settings.lemoan_button | img_url: 'small' }}"
-            data-mild="{{ theme.settings.mild_button | img_url: 'small' }}"
-            data-hot="{{ theme.settings.hot_button | img_url: 'small' }}"
-            data-xxx="{{ theme.settings.xxx_button | img_url: 'small' }}"
-            data-hard="{{ theme.settings.hard_button | img_url: 'small' }}"
+        <div id="ratingIcons" style="display: none;"
+            data-lemoan="{{ settings.lemoan_button | img_url: 'small' }}"
+            data-mild="{{ settings.mild_button | img_url: 'small' }}"
+            data-hot="{{ settings.hot_button | img_url: 'small' }}"
+            data-xxx="{{ settings.xxx_button | img_url: 'small' }}"
+            data-hard="{{ settings.hard_button | img_url: 'small' }}"
         ></div>
       <div class="content-block">
           <h1 class="text-center">Wishlist</h1>
           <div class="row js-wishlist-content">
-                <ul class="grid grid--2-col grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max">
-                    {%- for product in collections.all.products limit: 1 -%}
-                        <li class="grid__item wishlist-template" style="display:none">
-                            {% render 'product-card',
-                                product_card_product: product,
-                                media_size: 'adapt'
-                            %}
-                        </li>
-                    {%- endfor -%}
+                <ul class="grid grid--2-col grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max product-grid">
                 </ul>
           </div>
           <h2 id="wishlistEmpty" class="text-center" style="display: none;">There is FUCK ALL in your wishlist, go shop!</h2>
