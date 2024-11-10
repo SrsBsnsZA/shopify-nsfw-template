@@ -59,7 +59,9 @@ if (typeof($(('#currencies')).html()) != 'undefined'){
     var arrows_450 = typeof(setting.arrows_450) == 'undefined' ? true : setting.arrows_450;
     var dots_450 = typeof(setting.dots_450) == 'undefined' ? true : setting.dots_450;
     var asNavFor = typeof(setting.asNavFor) == 'undefined' ? '' : setting.asNavFor;
-    var centerMode = typeof(setting.centerMode) == 'undefined' ? 'false' : setting.centerMode;
+    var centerMode = typeof(setting.centerMode) == 'undefined' ? false : setting.centerMode;
+
+    var focusOnSelect = typeof(setting.focusOnSelect) == 'undefined' ? true : setting.focusOnSelect;
         
     object.not('.slick-initialized').slick({
       accessibility: accessibility,
@@ -77,6 +79,7 @@ if (typeof($(('#currencies')).html()) != 'undefined'){
       pauseOnHover: pauseOnHover,
       rows: rows,
       centerMode: centerMode,
+      focusOnSelect: focusOnSelect,
       slidesPerRow: slidesPerRow,
       rtl: rtl,
       draggable: true,
@@ -473,7 +476,7 @@ if (typeof($(('#currencies')).html()) != 'undefined'){
         return false;
       });
   
-      $('.product-thumb-image li img').click(function(){
+      $('.product-thumb-image li img').on('click', function(){
          var slider = $('#product-gallery-image-zoom');
          slider[0].slick.slickGoTo(parseInt($(this).parent().data('slick-index')));
         if($(this).hasClass('video-product')) {
@@ -484,6 +487,9 @@ if (typeof($(('#currencies')).html()) != 'undefined'){
           $("img.product-full-image-zoom").attr('zoom-image', $(this).data('url'));
           $(".zoomWindowContainer .zoomWindow").css('background-image', 'url("' +$(this).data('url') + '")');
         }
+
+        $('#product-gallery-image-zoom li.slick-slide').removeClass('slick-current').addClass('slick-active');
+        $(this).parent().addClass('slick-current');
       });
     }
   }
