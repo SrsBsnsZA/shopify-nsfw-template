@@ -520,7 +520,7 @@ details.disclosure-has-popup.facets__disclosure.js-filter .list-unstyled {
 
 @media only screen and (min-width: 750px) {
   .h0 {
-    font-size: 5.2rem;
+    /* font-size: 5.2rem; */
   }
 }
 

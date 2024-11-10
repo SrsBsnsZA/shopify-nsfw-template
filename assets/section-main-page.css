@@ -1,3 +1,8 @@
+.content-for-layout h2,
+.content-for-layout h3 {
+    margin-top: 20px;
+}
+
 .page-title {
   margin-top: 0;
 }
@@ -7,9 +12,9 @@
 }
 
 h1.main-page-title.page-title.h0 {
-  font-size: 2em;
+  /* font-size: 2em; */
   margin: 40px 0 55px 0;
-  font-family: "Moderat Extended";
+  /* font-family: "Moderat Extended"; */
   font-weight: 700;
   line-height: 1.1;
   color: #D9175F;
