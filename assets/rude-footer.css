@@ -131,7 +131,7 @@ input#NewsletterForm--rude-footer {
 .rude-footer .menu-footer .title-footer {
   font-size: 20px;
   font-weight: 500;
-  margin: 0 0 35px 0;
+  margin: 0 0 20px 0;
   border-bottom: 0;
   line-height: 24px;
   color: #fff;
@@ -139,7 +139,8 @@ input#NewsletterForm--rude-footer {
   font-family: 'Made Tommy';
   width: auto;
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
   padding-bottom: 10px;
   position: relative;
 }
@@ -166,7 +167,7 @@ input#NewsletterForm--rude-footer {
  {
   font-size: 20px;
   font-weight: 500;
-  margin: 0 0 35px 0;
+  margin: 0 0 20px 0;
   border-bottom: 0;
   line-height: 24px;
   color: #fff;
@@ -215,7 +216,9 @@ input#NewsletterForm--rude-footer {
 }
 
 a.link--text.list-social__link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   white-space: nowrap;
   overflow: hidden;
   width: 44px;
@@ -436,7 +439,7 @@ small.copyright__content a {
     margin-top: 35px;
   }
   .bottom-footer {
-    padding: 36px 0 60px;
+    padding: 20px 0 60px;
     border-top: 1px solid #fff;
   }
 }

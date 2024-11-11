@@ -2792,10 +2792,6 @@ details-disclosure > details {
   width: 10px;
 }
 
-.list-social__item svg{
-  width: 20px;
-}
-
 .list-card__item{
   width: 25px;
   text-align: center;
@@ -4477,9 +4473,13 @@ iframe#preview-bar-iframe {
     white-space: nowrap;
 }
 
-.wp_advanced-text .btn-container{
+.wp_advanced-text .btn-container {
   display: flex;
-  justify-content: space-between;
+    /* hope I haven't messed something up somewhere else with this  */
+  justify-content: flex-start;
+}
+.wp_advanced-text .btn-container a:not(:last-child) {
+    margin-right: 16px;
 }
 
 #insta-feed{
@@ -4626,8 +4626,11 @@ iframe#preview-bar-iframe {
   padding: 16px 0;
 }
 .contact-link-wrapper a{
-  background-color: #afddd2;
+  background-color: #d9185f;
   color: #ffffff;
+}
+.contact-link-wrapper a:hover {
+  background-color: #afddd2;
 }
 #shopify-section-template--22897029480754__2dea019e-5454-4ddf-8dfd-37b10ebab042{
   display: none;

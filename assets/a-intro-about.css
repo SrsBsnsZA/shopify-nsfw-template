@@ -40,6 +40,7 @@ h3.a-intro-about_text-title {
     line-height: 48px;
     color: #fff4f8;
     font-family: 'Made Tommy Black', sans-serif;
+    text-transform: uppercase;
 }
 p.a-intro-about_text-content {
     font-family: 'PANTON', sans-serif;
