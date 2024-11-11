@@ -108,6 +108,7 @@
     "apmenuitem_childlink_3": "child-page",
     "free_shipping_value": 500,
     "spend_free_shipping_text": "Spend %% for <b>FREE SHIPPING<\/b>",
+    "free_shipping_text": "You are eligible for free shipping!",
     "free_shipping_bar1": "#cccccc",
     "free_shipping_bar2": "#000000",
     "enable_countdown_page": true,
@@ -171,8 +172,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header-1": {
         "type": "header-1",
@@ -608,9 +608,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -637,8 +635,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -658,13 +655,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -679,8 +674,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
