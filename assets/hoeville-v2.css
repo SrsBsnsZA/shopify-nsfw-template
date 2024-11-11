@@ -435,7 +435,22 @@
     appearance: none;
     width: 70px;
     height: 50px;
-    border: 0;
+    border: none;
     cursor: pointer;
     background: url('hoveville-slide.svg');
+    background-repeat: no-repeat;
+    outline: none;
+    box-shadow: none;
+}
+/* firefox */
+.hoeville-section input[type=range][orient=vertical]::-moz-range-thumb {
+    appearance: none;
+    width: 70px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background: url('hoveville-slide.svg');
+    background-repeat: no-repeat;
+    outline: none;
+    box-shadow: none;
 }

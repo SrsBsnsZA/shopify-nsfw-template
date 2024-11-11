@@ -154,7 +154,7 @@
             {% comment %}<input type="range" id="cowbell" orient="vertical" name="cowbell" min="0" max="100" value="0" step="25" />{% endcomment %}
         {% comment %}</div>{% endcomment %}
         <div class="rail new">
-            <input type="range" id="range-slider" orient="vertical"  min="0" max="100" value="0" step="25" />
+            <input type="range" id="range-slider" orient="vertical"  min="0" max="100" value="0" step="25" oninput="changeScale(this.value)" />
         </div>
 
         <ul class="scale">
@@ -177,7 +177,7 @@
                     <div class="copy">
                         <h1>LE’MOAN & ERB</h1>
                         <div class="sub-wrapper">
-                            <p style="text-align: right">“Naughty but Nice, just enough to whet <br>
+                            <p style="text-align: right">“Naughty but Nice, just enough to wet <br>
                                 the appetite”</p>
 
                             <a href="{{ section.settings.lemoan_button_link | default:'#' }}">SHOP LE’MOAN</a>
