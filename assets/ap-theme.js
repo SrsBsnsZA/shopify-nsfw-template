@@ -451,7 +451,11 @@ if (typeof($(('#currencies')).html()) != 'undefined'){
       $('.list-zoom-item .product-full-image-zoom').each(function(){
         $(this).elevateZoom({
           zoomType: "inner",
-          cursor: "crosshair" 
+          cursor: "crosshair",
+          zoomWindowFadeIn: 500,
+          zoomWindowFadeOut: 750,
+          zoomWindowAlwaysShow: false,
+          zoomWindowBgColour: "#fff"
         });
       });
       $(".list-zoom-item .product-full-image-zoom").bind("click", function(e) {
@@ -466,9 +470,13 @@ if (typeof($(('#currencies')).html()) != 'undefined'){
       initSlick($(".product-thumb-image-slick"));
     
       $("#product-full-image-zoom").elevateZoom({
-        gallery:'product-gallery-image-zoom',
+        gallery: "product-gallery-image-zoom",
         zoomType: "inner",
-        cursor: "crosshair" 
+        cursor: "crosshair",
+        zoomWindowFadeIn: 500,
+        zoomWindowFadeOut: 750,
+        zoomWindowAlwaysShow: false,
+        zoomWindowBgColour: '#fff'
       });
   
       $("#product-full-image-zoom").bind("click", function(e) {
