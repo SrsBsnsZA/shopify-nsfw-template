@@ -53,11 +53,44 @@
 
 
 
-
 @font-face {
   font-family: "Made Tommy";
+  font-weight: 100;
+  src: url('MADE_TOMMY_Thin_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: 300;
+  src: url('MADE_TOMMY_Light_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: 400;
   src: url('MADE_TOMMY_Regular_PERSONAL_USE.woff2');
 }
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: 500;
+  src: url("MADE_TOMMY_Medium_PERSONAL_USE.woff2");
+}
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: 700;
+  src: url('MADE_TOMMY_Bold_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: 800;
+  src: url('MADE_TOMMY_ExtraBold_PERSONAL_USE.woff2');
+}
+@font-face {
+  font-family: "Made Tommy";
+  font-weight: 900;
+  src: url('MADE_TOMMY_Black_PERSONAL_USE.woff2');
+}
+
+
+
 @font-face {
   font-family: "Made-Tommy";
   src: url('MADE_TOMMY_Regular_PERSONAL_USE.woff2');
@@ -515,7 +548,7 @@ details.disclosure-has-popup.facets__disclosure.js-filter .list-unstyled {
 
 
 .h0 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 @media only screen and (min-width: 750px) {
@@ -532,7 +565,7 @@ h1,
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 }
 
@@ -4143,7 +4176,7 @@ p {
   margin: 0;
 }
 .zoomContainer {
-  width: 0!important;
+  /* width: 0!important; */
 }
 button.btn-close {
   background-color: white;
@@ -4426,9 +4459,10 @@ iframe#preview-bar-iframe {
   }
 }
 
-.custom-btn{
+.custom-btn {
   font-size: 20px;
-  font-family: 'Made Tommy Black';
+  font-family: 'Made Tommy';
+  font-weight: 900; /* Made Tommy Black */
   padding: 16px;
   border-radius:40px;
   display: inline-block;
@@ -4660,4 +4694,20 @@ iframe#preview-bar-iframe {
 
 #shopify-section-template--22871714496818__advanced_content_Cgrrw7 .section-header{
   color: #D9175F;
+}
+
+.contact-content .custom-btn {
+    font-weight: 700;
+}
+
+.zoomContainer {
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+.zoomContainer:hover {
+    opacity: 1;
+}
+#gallery img {
+    background-color: #fff;
 }
