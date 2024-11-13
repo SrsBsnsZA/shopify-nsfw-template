@@ -110,16 +110,16 @@
 
       <div class="servicer-product servicer-product-grid-3">
         <div class="product-card__overlay">
-            {%- assign hoeville = lemoan_button -%}
+            {%- assign hoeville = settings.lemoan_button -%}
             {% for collection in product_card_product.collections %}
                 {% if collection.title == 'Mild=PG13' %}
-                    {%- assign hoeville = mild_button -%}
+                    {%- assign hoeville = settings.mild_button -%}
                 {% elsif collection.title == 'XXXtra Hot' %}
-                    {%- assign hoeville = xxx_button -%}
+                    {%- assign hoeville = settings.xxx_button -%}
                 {% elsif collection.title == 'Hot' %}
-                    {%- assign hoeville = hot_button -%}
+                    {%- assign hoeville = settings.hot_button -%}
                 {% elsif collection.title == 'Hardcore' %}
-                    {%- assign hoeville = hard_button -%}
+                    {%- assign hoeville = settings.hard_button -%}
                 {% endif %}
             {% endfor %}
           {% render 'quickview-button', handle: product_card_product.handle %}
