@@ -349,8 +349,8 @@
         "top_header_color": "#f393bd",
         "top_header_style": "width:100%;  text-align: left;",
         "top_header_class": "ml-10",
-        "button_class": "btn btn-secondary",
-        "button_2_class": "btn btn-secondary"
+        "button_class": "btn btn-primary",
+        "button_2_class": "btn btn-primary"
       }
     }
   },
