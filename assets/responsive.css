@@ -118,6 +118,8 @@
      }
     #hoeville{
         flex-wrap: wrap !important;
+        justify-content: space-between;
+        flex-direction: column;
     }
     #hoeville.lemoan{
         background-color: #afddd2 !important;
@@ -149,7 +151,7 @@
         font-size: 14px !important;
     }
     #hoeville .container-right{
-        width: 100% !important;
+        width: 72.3vw !important;
     }
     #hoeville .container-right .hoeville-header{
         width: 25% !important;
@@ -157,37 +159,93 @@
         font-size: 4em;
     }
     #hoeville .container-right .hoeville-content{
-        padding-left:0;
+        padding: 1.5vw;
         width: 100% !important;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
     #hoeville .container-right .hoeville-content h1{
         font-size: 3.5em !important;
     }
     #hoeville .container-right .hoeville-content .inner{
-        padding: 10px 3px !important;
+        /* padding: 10px 3px !important; */
     }
-    #hoeville .container-right .hoeville-content .inner .copy .sub-wrapper{
+    #hoeville .container-right .hoeville-content .inner .copy .sub-wrapper {
         padding-right: 3px !important;
-        width: 100%;
+        width: 43% !important;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
     }
-    #hoeville .container-right .hoeville-content .pg-content .inner .copy h1, #hoeville .container-right .hoeville-content .pg-content .inner .copy p{
+    /* #hoeville .container-right .hoeville-content .pg-content .inner .copy h1, #hoeville .container-right .hoeville-content .pg-content .inner .copy p{
         color:#FFF !important;
         text-shadow: 2px 2px #000;
-    }
+    } */
     #hoeville .container-right .hoeville-content .content-wrapper .inner .socks{
         display: none;
     }
     #hoeville .container-right .hoeville-content .content-wrapper{
-        height: auto !important;
+        /* height: auto !important; */
     }
     #hoeville #scale-container{
-        width: 30% !important;
+        /* width: 30% !important; 
         padding-left:5px;
-        padding-right: 10px;
+        padding-right: 10px; */
+    }
+    #hoeville #scale-container {
+        order: 1;
+        flex-basis: 100%;
+        max-height: 100%;
+    }
+    #hoeville .container-left {
+        order: 2;
+        flex-basis: 50%;
+        max-height: 50%;
+        padding-left: 0 !important;
+    }
+    #hoeville .container-right {
+        order: 3;
+        flex-basis: 50%;
+    }
+    #hoeville .hoeville-header {
+        order: 4;
+        position: absolute;
+        right: 15px;
+        height: 50vw;
+        font-size: calc(50vw / 8.8);
+        line-height: calc(50vw / 8.8);
+    }
+    #hoeville.hoeville-section {
+        height: 100vw;
+    }
+    #hoeville .type-text {
+        display: none;
+    }
+    #hoeville .container-left .dick #scale {
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    #hoeville .oval {
+        width: 60% !important;
+        left: 20% !important;
+    }
+    #hoeville .side-img {
+        opacity: 0.5;
+    }
+    #hoeville .scale {
+        min-width: 140px !important;
+    }
+    #hoeville .inner .copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+    }
+    .container-right .hoeville-content .inner p {
+        font-size: 3vw !important;
     }
     .shopify-section.service{
         margin-top: 740px;

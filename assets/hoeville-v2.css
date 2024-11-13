@@ -294,7 +294,7 @@
 }
 
 .scale {
-    min-width: 161px;
+    min-width: 171px;
 }
 
 .scale li.trigger {
@@ -317,7 +317,7 @@
 }
 .pg .scale #warm-trigger, .lemoan  .scale #cool-trigger, .amateur  .scale #hot-trigger, .hardcore  .scale #x-hottest-trigger{
     color: #D9175F;
-    font-weight: bold;
+    font-weight: 900;
 }
 .xtrahot .scale #hottest-trigger{
     color: #afddd2;
@@ -341,7 +341,7 @@
     width: 100%;
 }
 
-.container-right .hoeville-header {
+.hoeville-header {
     height: 100%;
     font-size: calc(40vw / 8.8);
     width: calc(40vw / 8.8);
@@ -427,7 +427,8 @@
 }
 
 .container-right .hoeville-content .inner h1 {
-    font-family: 'Made Tommy Bold';
+    font-family: 'Made Tommy';
+    font-weight: 900;
     font-size: calc(40vw / 7.5);
 }
 .hardcore .container-right .hoeville-content .inner p {
