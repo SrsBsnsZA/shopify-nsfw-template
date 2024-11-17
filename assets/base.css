@@ -4726,3 +4726,10 @@ iframe#preview-bar-iframe {
 #gallery img {
     background-color: #fff;
 }
+#MainContent .advert-banner-sp {
+    height: 41.6vw !important;
+    max-height: 645px !important;
+}
+.advert__text h2 {
+    line-height: 1 !important;
+}

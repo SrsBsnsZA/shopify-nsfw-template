@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-8">
                 <div class="row">
                     {%- for block in section.blocks -%}
                         {%- case block.settings.width -%}
@@ -66,7 +66,7 @@
                             {%- when '25%' -%}
                                 {%- assign block_width = 'col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 second' -%}
                             {%- when '33.33%' -%}
-                                {%- assign block_width = 'col-xl-4 col-md-5' -%}
+                                {%- assign block_width = 'col-xl-4 col-md-6' -%}
                             {%- when '50%' -%}
                                 {%- assign block_width = 'col-lg-6' -%}
                             {%- when '66.67%' -%}

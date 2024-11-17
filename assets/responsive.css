@@ -53,6 +53,60 @@
     margin-top: 40px;
     color: #D9175F;
 }
+@media only screen and (max-width: 1200px) {
+    .ambassadwhore-container {
+        padding-bottom: 6.5vw !important;
+    }
+    .ambassadwhore-banner-sp p {
+        font-size: 1.6em !important;
+        padding-top: 7px !important;
+        padding-right: 20vw !important;
+    }
+    .advert__text {
+        width: 61% !important;
+        padding-top: 22vw !important;
+    }
+    main#MainContent .advert-banner-sp {
+        height: unset !important;
+    }
+    .advert__text h2 {
+        font-size: 6.5vw !important;
+        /* line-height: 7vw !important; */
+    }
+    .slide-image.media {
+        padding-bottom: 56.645833% !important;
+    }
+    .rude-footer .container-fluid > .row > div:last-child > .row > div:first-child {
+        order: 3;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .rude-footer > .container-fluid > .row > div:first-child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .rude-footer > .container-fluid > .row > div:first-child > .row:last-child {
+        flex-basis: 100%;
+    }
+    .rude-footer > .container-fluid > .row > div:first-child > .row:last-child .menu-footer {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .rude-footer > .container-fluid > .row > div:last-child {
+        margin-left: auto;
+        top: -116.5px;
+        position: relative;
+    }
+    .rude-footer .container-fluid > .row > div:last-child > .row > div:first-child {
+        position: absolute;
+        left: -50%;
+        top: 116.5px;
+    }
+    .rude-footer .newsletter-footer {
+        margin-bottom: 25px;
+    }
+}
 @media only screen and (max-width: 768px) {
     /* .slide-show{
         height: auto;
@@ -80,15 +134,11 @@
      .advert-banner-sp .advert-child .advert__text div h3{
         color: #afddd2 !important;
         text-align: left !important;
-        width: 50% !important;
         line-height: 40px;
-        margin-bottom: 50px;
+        margin-top: 25px;
      }
      .advert-banner-sp .advert-child{
-        background-image: -webkit-linear-gradient(285deg, #f390bc 45%, transparent 30%) !important;
-     }
-     .advert-banner-sp .advert-child .advert__text{
-        margin-bottom: 30px !important;
+        background-image: -webkit-linear-gradient(285deg, #f390bc 47%, transparent 30%) !important;
      }
      .ambassadwhore-banner-sp .copy{
         padding: 0px 5px 0px 5px !important;
@@ -102,10 +152,7 @@
         z-index: 1;
      }
      .ambassadwhore-banner-sp .ambassadwhore-img{
-        width: 60% !important;
-        z-index: 0;
-        
-        top:-99px;
+        width: 88% !important;
      }
      .ambassadwhore-banner-sp .ambassadwhore-img img{
         width: 100% !important;
@@ -362,8 +409,61 @@
         margin-left: 0!important;
         margin-bottom: 10px;
     }
+    .ambassadwhore-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .ambassadwhore-banner-sp .copy {
+        max-width: 89% !important;
+    }
+    .ambassadwhore_button_container {
+        max-width: 200px;
+        margin-top: 0 !important;
+    }
+    .ambassadwhore_button_container .custom-btn {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
     .rude-collection .rude-rail{
         grid-gap: 0!important;
+    }
+    .advert__text h2 {
+        font-size: calc(3rem + 4vw) !important;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .ambassadwhore_button_container {
+        max-width: unset !important;
+    }
+    #MainContent .ambassadwhore-container {
+        padding-bottom: 29.5vw !important;
+    }
+    .ambassadwhore-banner-sp .ambassadwhore-container .copy p {
+        padding-right: 0 !important;
+    }
+    .ambassadwhore_button_container .custom-btn:nth-child(2) {
+        margin-left: 10px !important;
+    }
+    .ambassadwhore_button_container .custom-btn {
+        z-index: 4;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .ambassadwhore-banner-sp .copy {
+        max-width: unset !important;
+    }
+    #MainContent .ambassadwhore-container {
+        padding-bottom: 29.5vw !important;
+    }
+    .ambassadwhore-banner-sp .ambassadwhore-container .copy p {
+        padding-right: 0 !important;
+    }
+    .ambassadwhore-banner-sp .ambassadwhore-img {
+        width: 100% !important;
+    }
+    .ambassadwhore_button_container .custom-btn {
+        font-size: 4vw !important;
     }
 }
 

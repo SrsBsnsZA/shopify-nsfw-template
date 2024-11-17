@@ -4,7 +4,7 @@
 }
 .ambassadwhore-banner-sp h1{
     font-family: "Made Tommy Black";
-    font-size: 6.6em;
+    font-size: 4.67vw;
     color: #afddd2;
     letter-spacing: -4px;
     line-height: 100%;
@@ -14,6 +14,8 @@
     line-height: 1;
     padding-top: 20px;
     padding-right: 30vw;
+    position: relative;
+    z-index: 4;
 }
 .ambassadwhore-banner-sp .copy {
     max-width: 78%;
@@ -43,11 +45,15 @@
     position: absolute;
     bottom: 0;
     right: -10%;
-    min-width: 70%;
+    width: 70%;
 }
 .ambassadwhore-img img {
     width: 100%;
 }
 .ambassadwhore-container .copy h3 {
     line-height: 0.6;
+}
+.ambassadwhore_button_container .custom-btn {
+    z-index: 4;
+    position: relative;
 }

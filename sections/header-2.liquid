@@ -31,20 +31,20 @@
     <div class="{%- if section.settings.fullwidth -%}container-fluid{%- else -%}container{%- endif -%}">
         <div class="row align-items-center">
             
-          <div class="col-xl-5 col-lg-7 col-md-4 col-sm-4 col-2 header-menubar">
+          <div class="col-xl-5 col-lg-7 col-md-4 col-sm-4 col-4 header-menubar">
             <div class="header_mobi">
               {%- render 'icon-megamenu-mobile' -%}
               {%- render 'block-menu' -%}
             </div>
           </div>
             
-          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-5 head-logo logo-padding logo-align-{%- if section.settings.logo_align == 'top' -%}top{%- else -%}bottom{%- endif -%}">
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 head-logo logo-padding logo-align-{%- if section.settings.logo_align == 'top' -%}top{%- else -%}bottom{%- endif -%}">
             {%- if section.settings.header_logo -%}
                 {%- render 'header-logo' -%}
             {%- endif -%}
           </div>
 
-          <div class="col-xl-5 col-lg-3 col-md-4 col-sm-2 col-2 header-icon">        
+          <div class="col-xl-5 col-lg-3 col-md-4 col-sm-4 col-4 header-icon">        
 
               {%- if section.settings.header_sign -%}
                   {%- render 'header-sign' -%}
