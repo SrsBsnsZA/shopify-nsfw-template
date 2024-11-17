@@ -15,7 +15,7 @@
           {%- if block.settings.icon != blank -%}
           <div class="service-icon">
             <div class="service-icon-svg">
-              {{ block.settings.icon }}
+              <img src="{{ block.settings.icon | asset_url }}" />
             </div>
           </div>
           {% endif %}
