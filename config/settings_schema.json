@@ -4613,7 +4613,7 @@
     ]
   },
   {
-    "name": "t:settings_schema.rating-icons.name",
+    "name": "Hoeville Icons",
     "settings": [
       {
         "type": "image_picker",
