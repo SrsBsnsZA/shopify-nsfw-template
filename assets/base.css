@@ -3984,6 +3984,21 @@ transition: all ease .45s;
   white-space: nowrap;
   letter-spacing: 0;
 }
+@media (min-width: 992px) {
+    .site-nav .site-nav__item .site-nav__link > span {
+        display: inline-block;
+        border-bottom: 2px solid;
+        margin-bottom: -2px;
+        transition: border-color 0.2s linear;
+    }
+    .site-nav .site-nav__item.site-nav__item-mega .site-nav__link > span {
+        padding-right: 19px;
+        margin-right: -19px;
+    }
+    .site-nav .site-nav__link:not(:hover) > span {
+        border-color: transparent;
+    }
+}
 
 .menu-label {
   position: static;
