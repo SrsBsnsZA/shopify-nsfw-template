@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-8">
+            <div class="col-lg-6 col-md-6 col-sm-7">
                 <div class="row">
                     {%- for block in section.blocks -%}
                         {%- case block.settings.width -%}
@@ -66,7 +66,7 @@
                             {%- when '25%' -%}
                                 {%- assign block_width = 'col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 second' -%}
                             {%- when '33.33%' -%}
-                                {%- assign block_width = 'col-xl-4 col-md-6' -%}
+                                {%- assign block_width = 'col-xl-4 col-6' -%}
                             {%- when '50%' -%}
                                 {%- assign block_width = 'col-lg-6' -%}
                             {%- when '66.67%' -%}
@@ -101,7 +101,7 @@
 
                                 {%- when 'show_social' -%}
                                     <div class="menu-footer">
-                                        <h2 class="title-footer hidden-sm-down">{{ block.settings.title_social }}</h2>
+                                        <h2 class="title-footer hidden-md-down">{{ block.settings.title_social }}</h2>
                                         {%- if block.settings.show_social -%}
                                             {% render 'social_footer' %}
                                         {%- endif -%}

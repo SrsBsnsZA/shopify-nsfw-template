@@ -13,6 +13,7 @@
 .rude-footer .logo-footer img {
   margin-bottom: 40px;
   max-width: 120px;
+  width: 100%;
   height: auto;
 }
 
@@ -197,7 +198,7 @@ input#NewsletterForm--rude-footer {
 .bottom-footer .bottom-footer-menu ul{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .list-verticalmenu li a {
@@ -343,6 +344,10 @@ small.copyright__content a {
 .footer__copyright .my_store a {
   color: #fff;
 }
+.bottom-footer {
+    padding: 20px 0 60px;
+    border-top: 1px solid #fff;
+}
 
 @media (min-width: 992px) {
   .col-xl-3.col-lg-3.col-md-6.col-sm-12.col-12.second:nth-child(2) {
@@ -372,16 +377,9 @@ small.copyright__content a {
   .rude-footer .newsletter-footer{
     flex-direction: column;
   }
-
-  .rude-footer .newsletter-footer form#ContactFooter {
-    display: block;
-  }
 }
 
 @media(max-width: 767px){
-  .rude-footer .text-content, .rude-footer .logo-footer, .rude-footer .menu-footer{
-    margin-bottom: 15px;
-  }
   .rude-footer .logo-footer{
     text-align: center;
   }
@@ -400,19 +398,6 @@ small.copyright__content a {
     margin-bottom: 15px;
   }
 
-  .rude-footer .drawer__nav-toggle--open{
-    display: block;
-  }
-
-  .menu-footer .footer-menu{
-    overflow: hidden;
-    display: none;
-    animation: all 0.5s ease-in;
-  }
-
-  .menu-footer.active .footer-menu{
-    display: block;
-  }
   .hidden-sm-down {
     display: none!important;
   }
@@ -432,14 +417,20 @@ small.copyright__content a {
     text-align: center;
     padding-bottom: 20px;
   }
-}
-
-@media (min-width: 768px) {
   .rude-footer .center-footer {
     margin-top: 35px;
   }
-  .bottom-footer {
-    padding: 20px 0 60px;
-    border-top: 1px solid #fff;
+}
+@media (max-width: 575px) {
+  .menu-footer .footer-menu{
+    overflow: hidden;
+    display: none;
+    animation: all 0.5s ease-in;
+  }
+  .menu-footer.active .footer-menu {
+    display: block;
+  }
+  .rude-footer .drawer__nav-toggle--open{
+    display: block;
   }
 }
