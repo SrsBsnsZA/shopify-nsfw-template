@@ -555,7 +555,7 @@
         text-align: center;
     }
     .rude-footer .newsletter-footer form#ContactFooter {
-        display: block;
+        display: block !important;
     }
     .rude-footer .newsletter-form__field-wrapper {
         margin-bottom: 8px;
@@ -565,6 +565,12 @@
     }
     .rude-footer button.button.button--secondary.newsletter-form__button {
         width: 100%;
+    }
+    .rude-footer .newsletter-footer h2.footer-block__heading {
+        padding-right: 25% !important;
+    }
+    .rude-footer .logo-footer {
+        width: 76px;
     }
 }
 
