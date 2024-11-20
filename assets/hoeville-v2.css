@@ -410,6 +410,9 @@
     top: 0;
     /* max-width: 555px; */
 }
+.side-img > img {
+    height: 100%;
+}
 
 .container-right .hoeville-content .inner .copy {
     /*width: fit-content;*/

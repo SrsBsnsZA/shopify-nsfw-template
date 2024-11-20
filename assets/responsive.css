@@ -472,7 +472,7 @@
     .rude-footer .newsletter-footer {
         margin-bottom: 10px !important;
     }
-    
+
     #about-hero {
         padding-top: 0;
     }
@@ -610,6 +610,11 @@
     }
     .rude-footer .logo-footer {
         width: 76px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #hoeville .side-img {
+        clip-path: polygon(18% 100%, 100% 100%, 100% 0, 0 0);
     }
 }
 
