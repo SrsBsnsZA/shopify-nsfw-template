@@ -412,6 +412,8 @@
 }
 .side-img > img {
     height: 100%;
+    position: absolute;
+    right: 0;
 }
 
 .container-right .hoeville-content .inner .copy {

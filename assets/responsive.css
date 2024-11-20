@@ -353,10 +353,11 @@
         bottom: 25vw;
     }
     #hoeville .side-img {
-        height: unset;
+        height: 100%;
         top: unset;
         width: 100%;
         z-index: -1;
+        overflow: hidden;
     }
     #hoeville .scale {
         /* min-width: 140px !important; */
@@ -505,6 +506,24 @@
     #about-hero h3.section-sp_text-title {
         line-height: 1;
     }
+    #hoeville .side-img > img {
+        height: unset;
+        width: 100%;
+        bottom: 0;
+    }
+    #hoeville.hardcore .side-img > img {
+        width: 165%;
+        left: -33%;
+        bottom: -9%;
+    }
+    #hoeville.pg .side-img > img {
+        width: 116%;
+        left: 0;
+    }
+    #hoeville.amateur .side-img > img {
+        width: 135%;
+        left: -2%;
+    }
 }
 @media only screen and (max-width: 620px) {
     .ambassadwhore_button_container {
@@ -615,6 +634,7 @@
 @media only screen and (min-width: 768px) {
     #hoeville .side-img {
         clip-path: polygon(18% 100%, 100% 100%, 100% 0, 0 0);
+        aspect-ratio: 0.812;
     }
 }
 
