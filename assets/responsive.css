@@ -57,19 +57,22 @@
     .ambassadwhore-container {
         padding-bottom: 6.5vw !important;
     }
-    .ambassadwhore-banner-sp p {
+    .ambassadwhore-banner-sp p,
+    #MainContent .advert-banner-sp p {
         font-size: 1.6em !important;
+    }
+    .ambassadwhore-banner-sp p {
         padding-top: 7px !important;
         padding-right: 20vw !important;
     }
-    .advert__text {
+    .advert-banner-sp .advert__text {
         width: 61% !important;
         padding-top: 22vw !important;
     }
     main#MainContent .advert-banner-sp {
         height: unset !important;
     }
-    .advert__text h2 {
+    .advert-banner-sp .advert__text h2 {
         font-size: 6.5vw !important;
         /* line-height: 7vw !important; */
     }

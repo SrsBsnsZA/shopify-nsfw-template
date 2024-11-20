@@ -1,6 +1,6 @@
 .ambassadwhore-banner-sp{
     display: flex;
-
+    min-height: 36vw;
 }
 .ambassadwhore-banner-sp h1{
     font-family: "Made Tommy Black";
@@ -10,7 +10,7 @@
     line-height: 100%;
 }
 .ambassadwhore-banner-sp p{
-    font-size: 2em;
+    font-size: 1.42vw;
     line-height: 1;
     padding-top: 20px;
     padding-right: 30vw;
@@ -28,8 +28,8 @@
 .ambassadwhore-container{
     width: 100%;
     position: relative;
-    padding-top: 3vw;
-    padding-bottom: 10.5vw;
+    padding: 3vw 0;
+    /* padding-bottom: 10.5vw; */
 }
 
 .ambassadwhore-container.img{

@@ -37,8 +37,8 @@
 
 @font-face {
   font-family: 'PANTON';
-  src: url('Panton-Regular-2.woff2') format('woff2'),
-  url('Panton-Regular-2.woff') format('woff');
+  src: url('Panton-Regular.woff2') format('woff2'),
+  url('Panton-Regular.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -4727,9 +4727,13 @@ iframe#preview-bar-iframe {
     background-color: #fff;
 }
 #MainContent .advert-banner-sp {
-    height: 41.6vw !important;
-    max-height: 645px !important;
+    height: calc(30vw + 141px) !important
+}
+.advert-banner-sp p {
+    font-size: 1.42vw !important;
+    line-height: 1;
 }
 .advert__text h2 {
     line-height: 1 !important;
+    font-size: 4.67vw !important;
 }
