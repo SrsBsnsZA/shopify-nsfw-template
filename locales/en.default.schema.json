@@ -5,7 +5,7 @@
       "settings": {
         "colors_solid_button_labels": {
           "label": "Solid button label",
-          "info": "Used as foreground color on accent colors." 
+          "info": "Used as foreground color on accent colors."
         },
         "colors_accent_1": {
           "label": "Accent 1",

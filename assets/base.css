@@ -4661,8 +4661,7 @@ iframe#preview-bar-iframe {
   display: flex;
   justify-content: end;
   align-items: center;
-  /* setting this conditionally in footer-rude.liquid */
-  /* padding-bottom: 0; */
+  padding-bottom: 0;
 }
 .footer-cap img{
   max-height: 100px;

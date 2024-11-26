@@ -637,4 +637,28 @@
         aspect-ratio: 0.812;
     }
 }
-
+@media only screen and (min-width: 1200px) {
+    .rude-footer > .container-fluid > .row > div:first-child {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: baseline;
+        height: 491px;
+    }
+    .rude-footer > .container-fluid > .row > div:first-child > div:nth-child(1) {
+        flex-basis: 100%;
+    }
+    .rude-footer > .container-fluid > .row > div:first-child > div:nth-child(2) {
+        /* margin-right: auto;
+        margin-left: auto; */
+        padding-top: 35px;
+        max-width: calc(100% - 120px);
+    }
+    .rude-footer > .container-fluid > .row > div:first-child > div:nth-child(3) {
+        /* position: absolute;
+        left: 100%;
+        bottom: 65px;
+        padding-left: 15px; */
+    }
+}

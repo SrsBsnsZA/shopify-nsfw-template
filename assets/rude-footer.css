@@ -177,7 +177,7 @@ input#NewsletterForm--rude-footer {
 }
 
 .rude-footer .bottom-footer{
-  margin-top: 30px
+  margin-top: 40px
 }
 
 .rude-footer .menu-footer .contact{
@@ -201,15 +201,19 @@ input#NewsletterForm--rude-footer {
   gap: 10px;
 }
 
+.list-verticalmenu li {
+    padding-bottom: 10px;
+}
 .list-verticalmenu li a {
   color: #888;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 36px;
+  line-height: 16px;
   transition: .3s ease-in;
   text-transform: capitalize;
   text-decoration: none;
+  padding-bottom:
 }
 
 .list-verticalmenu li a:hover {

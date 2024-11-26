@@ -3,8 +3,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "164195826489d26508": {
       "type": "section-sp",

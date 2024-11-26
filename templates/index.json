@@ -190,19 +190,19 @@
     "hoeville_edB4GD": {
       "type": "hoeville",
       "settings": {
-        "lemoan_background": "shopify://shop_images/H_lemoan_771.png",
+        "lemoan_background": "shopify:\/\/shop_images\/H_lemoan_771.png",
         "lemoan_socks_background": "shopify:\/\/shop_images\/lemoan-socks.png",
         "lemoan_button_link": "\/collections\/le-moan-erb",
-        "pg_background": "shopify://shop_images/H_mild_771.png",
+        "pg_background": "shopify:\/\/shop_images\/H_mild_771.png",
         "pg_socks_background": "shopify:\/\/shop_images\/mild-socks.png",
         "pg_button_link": "\/collections\/mild-pg13",
-        "amateur_background": "shopify://shop_images/H_amateur_771.png",
+        "amateur_background": "shopify:\/\/shop_images\/H_amateur_771.png",
         "amateur_socks_background": "shopify:\/\/shop_images\/amateur-socks.png",
         "amateur_button_link": "shopify:\/\/collections\/hot",
-        "xtrahot_background": "shopify://shop_images/H_xxx_771.png",
+        "xtrahot_background": "shopify:\/\/shop_images\/H_xxx_771.png",
         "xtrahot_socks_background": "shopify:\/\/shop_images\/xtrahot-socks.png",
         "xtrahot_button_link": "shopify:\/\/collections\/xxxtra-hot",
-        "hardcore_background": "shopify://shop_images/H_hardcore_771.png",
+        "hardcore_background": "shopify:\/\/shop_images\/H_hardcore_771.png",
         "hardcore_socks_background": "shopify:\/\/shop_images\/hardcore-socks.png",
         "hardcore_button_link": "shopify:\/\/collections\/hardcore"
       }
@@ -322,9 +322,7 @@
       "block_order": [
         "instafeed_app_block_yGAwwN"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }

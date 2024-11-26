@@ -116,9 +116,12 @@
     },
     "image_with_text_BdaiHY": {
       "type": "image-with-text",
+      "custom_css": [
+        ".faqs-socks-on {max-width: 1500px;}"
+      ],
       "settings": {
         "custom_class": "faqs-socks-on",
-        "image": "shopify:\/\/shop_images\/FAQ-Banner-01.jpg",
+        "image": "shopify:\/\/shop_images\/FAQ_Banner-01_16435c58-27d8-4398-995d-1bbcd368a60b.webp",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
